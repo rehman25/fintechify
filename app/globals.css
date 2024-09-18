@@ -40,3 +40,12 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.footerMenu .dropdown-item:focus, .dropdown-item{
+  color: #1e94fc79;
+}
+.footerMenu .dropdown-item:focus, .dropdown-item:hover{
+  background-color: #0f80e2d2 !important;
+  color: white !important;
+}
