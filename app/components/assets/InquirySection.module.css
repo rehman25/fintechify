@@ -3,6 +3,19 @@
     padding: 40px;
     border-radius: 20px;
     color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  .inquirySection:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/images/halftone-subs-white@2x.png);
+    background-position: 20sspx 0px;
+    background-repeat: no-repeat;
+    opacity: 0.1;
   }
   
   .title {
