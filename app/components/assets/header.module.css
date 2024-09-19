@@ -5,6 +5,7 @@
     align-items: end;
     padding: 20px 40px;
     color: white;
+    background: #0b2f4b;
 }
 
 .logo img {
@@ -51,11 +52,12 @@
     list-style: none;
     padding: 20px 20px;
     top: 100px;
-    /* transition: all 1s; */
+    z-index: 9999;
 }
 .navLinks li > ul li a{
-    margin: 8px 0;
+    margin: 50px 0;
     font-size: 14px;
+    line-height: 20px;
     transition: all 1s;
 }
 .navLinks li > ul li a:hover{
@@ -85,7 +87,7 @@
 
 /* Dropdown Menu */
 .dropdownMenu {
-    background: black;
+    background: #151518;
     margin: auto;
 }
 
@@ -169,6 +171,9 @@ color: white;
     font-size: 25px;
     margin-right: 20px;
 }
+
+/* MOBILE MENU CSS ================================ */
+
 /* Media Queries */
 @media (max-width: 992px) {
     .navLinks {

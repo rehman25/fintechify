@@ -25,21 +25,21 @@ export default function Header({ bgColor }) {
     const [DropDownProdOpen, setDropDownProd] = useState(false);
 
     const toggleMenu = () => setMenuOpen(!menuOpen);
-    const toggleDropdown = () => {
-        setDropDownProd(false)
-        setDropdownOpen(!dropdownOpen)
-    };
-    const toggleDropdownProd = () => {
-        setDropdownOpen(false)
-        setDropDownProd(!DropDownProdOpen)
-    };
+    // const toggleDropdown = () => {
+    //     setDropDownProd(false)
+    //     setDropdownOpen(!dropdownOpen)
+    // };
+    // const toggleDropdownProd = () => {
+    //     setDropdownOpen(false)
+    //     setDropDownProd(!DropDownProdOpen)
+    // };
 
 
 
     return (
 
         <>
-            <header className={styles.header} style={{ backgroundColor: bgColor }}>
+            <header className={styles.header}>
                 <div className={styles.logo}>
                     <Link href="/">
                         <Image alt="" src={Brandlogo} />
@@ -51,10 +51,16 @@ export default function Header({ bgColor }) {
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/about">About</Link></li>
                         <li
-                            onMouseEnter={toggleDropdown}
+                            onMouseEnter={() => {
+                                setDropdownOpen(true)
+                                setDropDownProd(false)
+                            }}
 
                         ><Link href="/about">Services</Link> <IoIosArrowDown /></li>
-                        <li onMouseEnter={toggleDropdownProd}><Link href="/products">Products</Link> <IoIosArrowDown />
+                        <li onMouseEnter={() => {
+                            setDropDownProd(true)
+                            setDropdownOpen(false)
+                        }}><Link href="/products">Products</Link> <IoIosArrowDown />
 
                             {DropDownProdOpen && (
                                 <ul onMouseLeave={() => {setDropDownProd(false)}}>
@@ -71,7 +77,7 @@ export default function Header({ bgColor }) {
 
             {/* DROPDOWN MENU */}
             {dropdownOpen && (
-                <div onMouseLeave={toggleDropdown} className={`${styles.dropdownMenu} ${"container pt-2 pb-2"}`} style={dropdownOpen ? { display: "block" } : false}>
+                <div onMouseLeave={() => {setDropdownOpen(false)}} className={`${styles.dropdownMenu} ${"container pt-2 pb-2"}`} style={dropdownOpen ? { display: "block" } : false}>
                     <div className='row justify-content-around'>
                         <div className="col-lg-3" id={styles.menuBox}>
                             <GrMoney />
@@ -122,6 +128,7 @@ export default function Header({ bgColor }) {
                     </div>
                 </div>
             )}
+
         </>
 
     );
