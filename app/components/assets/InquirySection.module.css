@@ -30,6 +30,7 @@
     padding: 10px 20px;
     width: 330px;
     margin-right: 10px;
+    z-index: 9999;
   }
   
   .submitButton {
@@ -41,6 +42,7 @@
     font-weight: 600;
     cursor: pointer;
     font-family: var(--Montserrat_Thin), sans-serif;
+    z-index: 9999;
   }
   
   .submitButton:hover {
