@@ -1,0 +1,60 @@
+.inquirySection {
+    background: linear-gradient(to right, #184065, #00aaff);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: var(--Montserrat_Montserrat_Bold), sans-serif;
+  }
+  
+  .input {
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    width: 330px;
+    margin-right: 10px;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: var(--Montserrat_Thin), sans-serif;
+  }
+  
+  .submitButton:hover {
+    color: #0056b3;
+    background: white;
+  }
+  
+  @media (max-width: 768px) {
+    #centerInput{
+        display: block !important;
+    }
+    .title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+  
+    .input,
+    .submitButton {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .inquirySection form {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
