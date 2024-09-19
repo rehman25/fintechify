@@ -19,7 +19,7 @@ import { BsCurrencyExchange } from "react-icons/bs";
 import { SiSpringsecurity } from "react-icons/si";
 
 
-export default function Header() {
+export default function Header({ bgColor }) {
     const [menuOpen, setMenuOpen] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const [DropDownProdOpen, setDropDownProd] = useState(false);
@@ -39,7 +39,7 @@ export default function Header() {
     return (
 
         <>
-            <header className={styles.header}>
+            <header className={styles.header} style={{ backgroundColor: bgColor }}>
                 <div className={styles.logo}>
                     <Link href="/">
                         <Image alt="" src={Brandlogo} />

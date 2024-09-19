@@ -1,10 +1,9 @@
 /* General Header Styles */
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: end;
     padding: 20px 40px;
-    background-color: #0A0A0A;
     color: white;
 }
 
@@ -34,10 +33,15 @@
 
 .navLinks li a {
     color: white;
+    font-size: 14px;
     text-decoration: none;
     font-weight: bold;
-    font-family: var(--Montserrat_Black), Sans-serif;
+    font-family: var(--Montserrat_Thin), Sans-serif;
     /* display: inline-block; */
+}
+.navLinks li a:hover{
+    color: #1e94fcb6;
+    transition: all 1s;
 }
 .navLinks li > ul{
     position: absolute;

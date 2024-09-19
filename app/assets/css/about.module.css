@@ -1,0 +1,123 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #0a2e49;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    max-width: 1200px;
+    width: 100%;
+    color: white;
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: var(--Montserrat_Medium), Sans-serif;
+  }
+  
+  .text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: var(--Montserrat_Thin), Sans-serif;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .item .color{
+    background-color: #1e96fc;
+    margin-right: 15px;
+    height: 76px;
+    width: 171px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .item .color:hover{
+    scale: 1.1;
+    transition: all 0.1s;
+    cursor: pointer;
+  }
+  .item .color svg {
+    font-size: 33px;
+  }
+  
+  .item h4 {
+    margin: 0;
+    font-size: 18px;
+    font-family: var(--Montserrat_Medium), Sans-serif;
+  }
+  
+  .item p {
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: var(--Montserrat_Thin), Sans-serif;
+  }
+  
+  .imageContainer {
+    background-color: #1e96fc;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    height: 600px;
+    width: 70%;
+    float: right;
+    border-radius: 80px 20px 80px 20px;
+  }
+  
+  .image {
+    width: 90%;
+    border-radius: 20px;
+    height: 500px;
+    position: absolute;
+    left: -42px;
+    top: 60px;
+    border-radius: 80px 20px 80px 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+  
+    .text {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .imageWrapper {
+      width: 100%;
+    }
+  
+    .image {
+      max-width: 100%;
+    }
+  
+    .text h2 {
+      font-size: 28px;
+    }
+  }
+  

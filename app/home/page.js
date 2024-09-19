@@ -6,7 +6,7 @@ import TestimonialsSlider from "../components/Testimonials";
 export default function page() {
   return (
    <>
-   <Header />
+   <Header bgColor="#0A0A0A"/>
    <TestimonialsSlider />
    <InquirySection />
    <Footer />
