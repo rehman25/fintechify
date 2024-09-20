@@ -13,7 +13,6 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background: #151518 !important;
 }
 
 body {
@@ -45,13 +44,4 @@ a,span,div,h1,h2,h3,h4,h5,h6,strong,ul,li,p{
   html {
     color-scheme: dark;
   }
-}
-
-
-.footerMenu .dropdown-item:focus, .dropdown-item{
-  color: #1e94fc79;
-}
-.footerMenu .dropdown-item:focus, .dropdown-item:hover{
-  background-color: #0f80e2d2 !important;
-  color: white !important;
 }
