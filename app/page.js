@@ -1,15 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import 'bootstrap/dist/css/bootstrap.css';
-
-import OurService from '../app/components/ourService/services'
-
-export default function Home() {
+// import React from 'react'
+import Home from "./home/page"
+export default function page() {
   return (
-    <>
-    <div >
-      <OurService />
+    <div>
+      <Home />
     </div>
-    </>
-  );
+  )
 }

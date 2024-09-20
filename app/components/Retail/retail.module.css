@@ -1,0 +1,29 @@
+.backImage{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-image: url('../../assets/images/sp2.jpg');
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+.col2{
+    display: flex;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.Image{
+    /* width: 100px; */
+    height: vh;
+}
+.sp{
+    /* height: 100vh; */
+    /* bottom: 550px; */
+}

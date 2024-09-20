@@ -5,9 +5,9 @@
     background-size: cover;
     opacity: 1;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-    top: 0;
+    /* top: 0;
     left: 0;
-    position: absolute;
+    position: absolute; */
 }
 .mainContainer h2{
     font-size: 46px;
@@ -56,7 +56,7 @@
 
 
 .carddiv{
-    /* height: 50vh; */
+    height: 50vh;
    border-color: #8176FF00;
     border-radius: 20px 20px 20px 20px;
     padding: 15px;

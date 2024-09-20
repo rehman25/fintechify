@@ -42,8 +42,9 @@ const services = () => {
           <div
             key={index}
             className={`col-lg-4 col-md-6 col-sm-12   m-2 ${style.carddiv}`}
+            data-aos="fade-right"
           >
-            <div className={` ${style.serviceCard}`} data-aos="fade-right" >
+            <div className={` ${style.serviceCard}`}  >
               <Image src={item.img} className={style.cardimg} width={50} height={50} />
               <div className={style.carBody}>
                 <h5 className={style.cardtitle}>{item.title}</h5>
