@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "aos/dist/aos.css";
+
 
 // const Montserrat_Thin = localFont({
 //   src: "./fonts/Montserrat-Thin.ttf",

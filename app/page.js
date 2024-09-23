@@ -1,5 +1,5 @@
 
-import Home from './pages/Home/page'
+import Home from './Home/page'
 export default function page() {
   return (
     <>
