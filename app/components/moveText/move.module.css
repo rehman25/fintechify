@@ -1,0 +1,50 @@
+.left{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    transform: rotateZ(-7deg);
+  
+
+}
+.left span{
+    font-size: 90px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1em;
+    background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-shadow: none;
+    text-decoration: none
+}
+
+.right{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    transform: rotateZ(-7deg);
+  
+
+}
+.right span{
+    font-size: 90px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1em;
+    background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    color: #171717;
+}
+
+.container{
+    height: 50vh;
+}
+
