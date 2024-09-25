@@ -1,98 +1,179 @@
-.about{
-    padding: 8px 2px; 
+.about {
+    padding: 8px 2px;
     background-color: transparent;
     background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
     width: 11vw;
-
-}
-.about h4{
+  }
+  
+  .about h4 {
     margin: 0;
     padding: 0;
     font-weight: 500;
     color: white;
     font-size: 18px;
-}
-.settingIcon{
+  }
+  
+  .settingIcon {
     font-size: 22px;
-}
-
-.content{
-    margin: 10px 0px;
-}
-.content p{
+  }
+  
+  .content {
+    margin: 10px 0;
+  }
+  
+  .content p {
     font-weight: 300;
-}
-
-.LuSend{
+  }
+  
+  .LuSend {
     display: flex;
-    align-items: self-start;
+    align-items: flex-start;
     margin: 10px;
     border-bottom: 1px solid lightgray;
-    padding: 10px 0px;
-}
-.LuSend2{
+    padding: 10px 0;
+  }
+  
+  .LuSend2 {
     display: flex;
-    align-items: self-start;
+    align-items: flex-start;
     margin: 10px;
-    padding: 10px 0px;
-}
-.LuSend span{
+    padding: 10px 0;
+  }
+  
+  .LuSend span {
     margin-left: 10px;
-}
-
-.sendIcon{
+  }
+  
+  .sendIcon {
     font-size: 24px;
-}
-
-.LuSend2 button{
+  }
+  
+  .LuSend2 button {
     padding: 10px 15px;
     border-radius: 20px;
     color: black;
     font-weight: 500;
-    border:none,
-}
-
-
-.card{
-    border: 1px solid #00DCC7;
+    border: none;
+  }
+  
+  .card {
+    border: 1px solid #00dcc7;
     padding: 30px;
     width: 23vw;
     border-radius: 30px;
-    margin: 10px 0px;
-}
-.card:hover{
+    margin: 10px 0;
+  }
+  
+  .card:hover {
     border: 1px solid #ffffff;
-
-}
-
-
-.card span{
+  }
+  
+  .card span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.arrow{
+  }
+  
+  .arrow {
     font-size: 16px;
     border: 1px solid white;
     border-radius: 50%;
     width: 50px;
     padding: 10px;
     height: 50px;
-}
-
-.rightBoxes{
+  }
+  
+  .rightBoxes {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 20px 0px;
-    padding: 10px 0px;
+    margin: 20px 0;
+    padding: 10px 0;
     flex-wrap: wrap;
     flex-direction: row;
-    /* flex-wrap: wrapd; */
-}
+  }
+  
+  /* Responsive media queries */
+  
+  @media (max-width: 1024px) {
+    .about {
+      width: 15vw; /* Increase width for larger screens */
+    }
+  
+    .about h4 {
+      font-size: 16px; /* Slightly smaller font */
+    }
+  
+    .card {
+        width: 42vw;
+        height: 46vh; /* Adjust card width */
+      padding: 20px;
+    }
+  
+    
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      width: 20vw; /* Increase width for tablets */
+    }
+  
+    .about h4 {
+      font-size: 14px;
+    }
+  
+    .card {
+      width: 45vw; /* Larger card for tablets */
+    }
+  
+    .rightBoxes {
+      justify-content: space-between;
+    }
+  
+    .arrow {
+      width: 40px;
+      height: 40px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about {
+      width: 40vw; /* Adapt for mobile screens */
+    }
+  
+    .about h4 {
+      font-size: 12px; /* Smaller text on mobile */
+    }
+  
+    .card {
+      width: 90vw; /* Full width for small screens */
+      padding: 15px;
+    }
+  
+    .arrow {
+      width: 35px;
+      height: 35px;
+      font-size: 12px;
+    }
+  
+    .LuSend, .LuSend2 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .rightBoxes {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .LuSend2 button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

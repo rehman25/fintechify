@@ -61,8 +61,8 @@ export default function Header() {
                         }} className={styles.productsMenu}><Link href="#">Products <IoIosArrowDown /></Link>
                             {isProdMenu && (
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
-                                    <li><Link href="/">Rise App</Link></li>
-                                    <li><Link href="/">WeLab</Link></li>
+                                    <li><Link href="/riseApp">Rise App</Link></li>
+                                    <li><Link href="/welab">WeLab</Link></li>
                                 </ul>
                             )}
                         </li>

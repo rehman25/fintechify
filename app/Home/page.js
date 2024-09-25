@@ -7,6 +7,7 @@ import Services from '@/app/components/ourService/services'
 import Count from '@/app/components/count/count'
 import Payment from '@/app/components/payment/payment'
 import Move from '@/app/components/moveText/MovingText'
+import Testimonials from '../components/Testimonials/Testimonials'
 const page = () => {
   return (
     <>
@@ -17,7 +18,8 @@ const page = () => {
      <Count />
      <Payment />
      <Move />
-
+     <Testimonials />
+    <Footer />
     </>
   )
 }

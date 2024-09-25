@@ -16,7 +16,7 @@ const services = () => {
     <div className={`container-fluid my-5`}>
       <div className={`container mt-5`}>
         <div className={`row`}>
-          <div className={`col-md-5`}>
+          <div className={`col-lg-5`}>
             <span className={style.about}>
               <RiSettings2Line className={style.settingIcon} />
               <h4>our services</h4>
@@ -49,7 +49,7 @@ const services = () => {
               </button>
             </div>
           </div>
-          <div className={`col-md-7 ${style.rightBoxes}`}>
+          <div className={`col-lg-7 ${style.rightBoxes}`} >
             <div className={style.card}>
               <h2>Saving Account</h2>
               <p>
