@@ -1,0 +1,47 @@
+
+.contactSection{
+    margin: 50px 0;
+}
+.contactBox{
+    background-image: linear-gradient(180deg, #1E96FC 0%, #030304 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+.contactBox svg{
+    color: white;
+    font-size: 50px;
+    margin-right: 44px;
+    border-right: 1px solid #d3d3d340;
+    padding-right: 10px;
+}
+.contactBox div{
+    display: flex;
+    flex-direction: column;
+}
+.contactBox div span{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: white;
+}
+.contactBox div a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width:992px){
+    .contactBox{
+        margin: 20px 0;
+        flex-direction: column;
+        align-items: start;
+        padding: 25px 23px;
+    }
+    .contactBox svg{
+        border: none;
+    }
+}
