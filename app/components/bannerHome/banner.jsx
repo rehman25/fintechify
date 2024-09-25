@@ -40,7 +40,7 @@ const Banner = () => {
 
   return (
     <div className={`container-fluid ${style.containerFluid}`}>
-      <div className={`container-fluid ${style.container}`}>
+      <div className={`container ${style.container}`}>
         <div className={`row ${style.row}`}>
           {isOne && (
             <div className={`row ${style.slider1}`}>
