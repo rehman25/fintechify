@@ -7,10 +7,11 @@
     margin: 0;
     background-image: url('../components/assets/images/risebanner1.png');
     background-repeat: no-repeat;
-    background-color: #1d96fd;
+    background: linear-gradient(150deg, #16222F, #1B64A3);
     background-size: contain;
     border-bottom-right-radius: 70px;
     border-bottom-left-radius: 70px;
+    color: white;
   }
   
   .col12 {
