@@ -66,7 +66,7 @@ export default function Header() {
                                 </ul>
                             )}
                         </li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        <li><Link href="/contact-us">Contact</Link></li>
                     </ul>
                 </nav>
                 <div className={styles.actions}>
@@ -95,7 +95,7 @@ export default function Header() {
                                     <li>
                                         <CiWallet />
                                         <div>
-                                            <Link href="/">Digital Wallet Development <WiDirectionUpRight /></Link>
+                                            <Link href="/Banking-app-development">Digital Wallet Development <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
@@ -185,7 +185,7 @@ export default function Header() {
                         </button>
                         {isDropdownOpen && (
                             <ul className={styles.dropdown}>
-                                <li><Link href="/services/web-development">Banking App Development</Link></li>
+                                <li><Link href="/Banking-app-development">Banking App Development</Link></li>
                                 <li><Link href="/services/mobile-development">Digital Wallet Development</Link></li>
                                 <li><Link href="/services/seo">Insurance Software Development</Link></li>
                                 <li><Link href="/services/web-development">FinOps Services</Link></li>
@@ -209,7 +209,7 @@ export default function Header() {
                             </ul>
                         )}
                     </li>
-                    <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href="/contact-us">Contact</Link></li>
                 </ul>
             </div>
 
