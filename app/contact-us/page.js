@@ -5,6 +5,7 @@ import Footer from '../components/Footer/Footer'
 import Banner from '../components/Banner/Banner'
 import styles from '../components/assets/css/contact.module.css'
 import { MdOutlineAddIcCall } from "react-icons/md";
+import Map from '../components/map/map'
 
 
 function page() {
@@ -50,6 +51,7 @@ function page() {
                     </div>
                 </div>
             </section>
+            <Map />
             <Testimonials />
             <Footer />
         </>
