@@ -1,0 +1,98 @@
+.about{
+    padding: 8px 2px; 
+    background-color: transparent;
+    background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 11vw;
+
+}
+.about h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+}
+.settingIcon{
+    font-size: 22px;
+}
+
+.content{
+    margin: 10px 0px;
+}
+.content p{
+    font-weight: 300;
+}
+
+.LuSend{
+    display: flex;
+    align-items: self-start;
+    margin: 10px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+}
+.LuSend2{
+    display: flex;
+    align-items: self-start;
+    margin: 10px;
+    padding: 10px 0px;
+}
+.LuSend span{
+    margin-left: 10px;
+}
+
+.sendIcon{
+    font-size: 24px;
+}
+
+.LuSend2 button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: black;
+    font-weight: 500;
+    border:none,
+}
+
+
+.card{
+    border: 1px solid #00DCC7;
+    padding: 30px;
+    width: 23vw;
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+.card:hover{
+    border: 1px solid #ffffff;
+
+}
+
+
+.card span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow{
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px;
+    height: 50px;
+}
+
+.rightBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrapd; */
+}

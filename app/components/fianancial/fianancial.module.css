@@ -1,0 +1,189 @@
+/* General container styling */
+.container {
+    /* Add styles if needed */
+  }
+  
+  .financialText {
+    text-align: left;
+  }
+  
+  /* Right column background and phone image styling */
+  .backgroundCircle {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url('../assets/images/bgPhone.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .financialText .about{
+    padding: 8px 20px;
+    background-color: transparent;
+    background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .financialText h2{
+    margin-top: 20px;
+  }
+
+  .financialText p{
+  }
+
+  .percent1 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+  }
+  .percent1 h3{
+     margin-left: 5px;   
+     font-size: 34px;
+     font-weight: 600; 
+     margin-top: 0;
+     margin-bottom: 0;
+  }
+  .eletric{
+    background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+  }
+  .right {
+    /* background-color: #eaf1fe; */
+  }
+  
+  .phone1 {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: scaleX(1.5);
+
+  }
+  
+  .phone2 {
+    transform: translate(10px, 10px);
+  }
+  
+  /* Section background */
+  .section {
+    background-color: #00DCC7;
+    height: 28.5vh;
+
+  }
+  
+  /* Marquee section */
+  .containerFluid {
+    background-image: linear-gradient(93deg, #065EFE 58%, #00DCC7 94%);
+    transform: rotateZ(2deg);
+    padding: 15px;
+    /* width: 1%; */
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+  }
+  
+  .containerFluid h4 {
+    text-align: center;
+  }
+  
+  .marqueeWrapper {
+    overflow: hidden;
+  }
+  
+  .marquee {
+    display: flex;
+    flex-direction: row;
+    animation: scroll 15s linear infinite;
+  }
+
+  .marqueeContent{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .marqueeContent h1 {
+    margin-right: 100px;
+    white-space: nowrap;
+  }
+  
+  .brand{
+    margin: 0px 50px;
+  }
+  /* Animation for scrolling marquee */
+  @keyframes scroll {
+    100% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Add responsive behavior */
+  @media (max-width: 768px) {
+    .phone1,
+    .phone2 {
+      width: 150px;
+      height: 300px;
+      transform: none;
+      top: 200px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .backgroundCircle {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+      .arrow1, .arrow2,.OneApp,.TwoApp{
+        display: none;
+      }
+  }
+  
+
+  .OneApp{
+     background-color: white;
+     color: #414141;
+     padding: 15px;
+     border-radius: 30px;
+     position: absolute;
+     /* top: 15px; */
+     bottom: 200px;
+     left: 0;
+  }
+
+  .TwoApp{
+    background-color: white;
+    color: #414141;
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+ }
+  .arrow1{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    color: aliceblue;
+  }
+
+.arrow2{
+  position: absolute;
+  right: 37px;
+  top: 68px;
+  color: aliceblue;
+}

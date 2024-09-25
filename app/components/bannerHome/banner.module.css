@@ -1,0 +1,131 @@
+.containerFluid{
+    padding: 20px;
+    margin: 0;
+}
+
+.container{
+   /* border: 1px solid black; */
+   /* height: 100vh; */
+   border-radius: 30px;
+   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+   /* background-image:; */
+   background-image:  linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
+   /* opacity: 1; */
+   background-repeat: no-repeat;
+
+   background-size: cover;
+   overflow: clip;
+   padding: 30px;
+   padding-top: 0px;
+}
+
+.slider1{
+    padding: 35px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     z-index: 99;
+    /* animation: slide-in-bck-bottom 2s ease 0s 1 normal none; */
+}
+
+.colright{
+    padding: 20px;
+}
+
+.colright button{
+    background: linear-gradient(90deg, #006ff9 0%, #00DCC7 51%, #006ff9) 0 / 200%;
+    padding: 12px 25px;
+    border-radius: 20px;color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+
+}
+.colright button:hover{
+    background: linear-gradient(-90deg, #00DCC7, #006ff9 15%  51%, #00DCC7) 0 / 200%;
+    
+
+}
+.slider2{
+    animation: slide-in-bck-bottom 2s ease 0s 1 normal none;
+
+}
+@keyframes slide-in-bck-bottom {
+			
+    0% {
+        transform:translateZ(700px) translateY(300px);
+        opacity:0;
+    }
+    100% {
+        transform:translateZ(0) translateY(0);
+        opacity:1;
+    }
+}   
+
+.btmRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.btmRow .box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+}
+.btmRow .box2,.box3,.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 0;
+
+    
+}
+
+@keyframes scale-up-center {
+			
+    0% {
+        transform:scale(.2);
+    }
+    100% {
+        transform:scale(1);
+    }
+}
+
+
+.box1Images{
+    margin-top: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    animation: scale-up-center 1s linear 0s 1 normal none;
+
+
+
+
+}
+.box1Images2{
+    margin-bottom: 20px;
+    width: 100%;
+    /* height: 100%; */
+    /* height: 375px; */
+    border-radius: 20px;
+}
+
+.box1Images3{
+     margin-bottom: 20px;
+    width: 100%;
+    /* height: 100%; */
+    height: 375px;
+    transform: scaleX(2.3);
+    border-radius: 20px;
+}
+
+.colleft h1{
+    font-size: 70px;
+    font-weight:700;
+}

@@ -1,0 +1,45 @@
+.containerFluid{
+    margin: 20px 0px;
+}
+
+.container{
+    background-image: url('../assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.col12{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+}
+
+.card span{
+    margin-left: 15px;
+}
+
+.card span p{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.card span h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.Svg{
+    border: 15px solid white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}

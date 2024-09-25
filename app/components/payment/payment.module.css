@@ -1,0 +1,100 @@
+.containerFluid{
+    margin: 100px 0px ;
+}
+
+.about{
+    padding: 8px 2px; 
+    background-color: transparent;
+    background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 15vw;
+
+}
+.about h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+}
+.settingIcon{
+    font-size: 22px;
+}
+
+.heading{
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 25px;
+    border-radius: 30px;
+    margin: 30px 0px;
+}
+.spam{
+    margin-left: 15px;
+
+}
+
+.spamHover{
+    margin-left: 15px;
+    
+}
+
+.cardHover{
+    display: flex;
+    border: 1px solid  #006FF9 ;
+    padding: 25px;
+    border-radius: 30px;
+    margin: 30px 0px;
+
+}
+.numberHover{
+    background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+    border: none;
+    /* border: 1px solid #ccc; */
+    width: 70px;
+    height: 65px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 50%;
+}
+.number{
+    color: #065EFE;
+    border: 1px solid #ccc;
+    width: 70px;
+    height: 65px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.divbg{
+    height: auto;
+
+    
+}
+.bg1{
+    border-radius: 30px;
+    animation: focus-in-contract 1s ease 0s 1 normal none;
+}
+@keyframes focus-in-contract {
+			
+    0% {
+        letter-spacing:1em;
+        filter:blur(12px);
+        opacity:0;
+    }
+    100% {
+        filter:blur(0);
+        opacity:1;
+    }
+}
+
+
