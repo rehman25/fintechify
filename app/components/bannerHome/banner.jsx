@@ -19,24 +19,24 @@ import Card6 from '../assets/images/revslider_card-6.png'
 import Card7 from '../assets/images/revslider_card-7.png'
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(true);
-  const [isTwo, setIsTwo] = useState(false);
+  const [isOne, setIsOne] = useState(false);
+  const [isTwo, setIsTwo] = useState(true);
 
-  // useEffect(() => {
-  //   if (isOne) {
-  //     const timer = setTimeout(() => {
-  //       setIsOne(false);
-  //       setIsTwo(true);
-  //     }, 3000);
-  //     return () => clearTimeout(timer);
-  //   } else if (isTwo) {
-  //     const timer = setTimeout(() => {
-  //       setIsOne(true);
-  //       setIsTwo(false);
-  //     }, 3000);
-  //     return () => clearTimeout(timer);
-  //   }
-  // }, [isOne, isTwo]);
+  useEffect(() => {
+    if (isOne) {
+      const timer = setTimeout(() => {
+        setIsOne(false);
+        setIsTwo(true);
+      }, 3000);
+      return () => clearTimeout(timer);
+    } else if (isTwo) {
+      const timer = setTimeout(() => {
+        setIsOne(true);
+        setIsTwo(false);
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [isOne, isTwo]);
 
   return (
     <div className={`container-fluid ${style.containerFluid}`}>
@@ -78,16 +78,16 @@ const Banner = () => {
               </div>
               <div className={`row ${style.btmRow4}`}>
                 <div className={`col-md-3 ${style.box1}`}>
-                  <Image src={Image2} className={style.box1Images} />
+                  <Image src={Image2} className={style.box1Images1} />
                 </div>
                 <div className={`col-md-3 ${style.box1}`}>
                   {/* <Image src={Image3} className={style.box1Images2} /> */}
                 </div>
                 <div className={`col-md-3 ${style.box1}`}>
-                  <Image src={Image5} className={style.box1Images} />
+                  <Image src={Image5} className={style.box1Images1} />
                 </div>
                 <div className={`col-md-3 ${style.box1}`}>
-                  <Image src={Image7} className={style.box1Images} />
+                  <Image src={Image7} className={style.box1Images1} />
                 </div>
               </div>
             </div>
@@ -114,29 +114,28 @@ const Banner = () => {
               </div>
               <div className={`row ${style.btmRow}`}>
                 <div className={`col-md-3 ${style.box1}`}>
-                  <Image src={Card1} className={style.box1Images} />
+                  <Image src={Card1} className={style.box1ImagesB} />
                 </div>
                 <div className={`col-md-3 ${style.box2}`}>
                   <Image src={Card2} className={style.box1Images3} />
                 </div>
                 <div className={`col-md-3 ${style.box3}`}>
-                  <Image src={Card4} className={style.box1Images} />
+                  <Image src={Card4} className={style.box1ImagesB} />
                 </div>
                 <div className={`col-md-3 ${style.box4}`}>
-                  <Image src={Card6} className={style.box1Images} />
+                  <Image src={Card6} className={style.box1ImagesB} />
                 </div>
               </div>
               <div className={`row ${style.btmRow2}`}>
-                <div className={`col-md-3 ${style.box1}`}>
-                  <Image src={Card2} className={style.box1Images} />
+                <div className={`col-md-4 ${style.box1}`}>
+                  <Image src={Card2} className={style.box1ImagesC} />
                 </div>
-                <div className={`col-md-3 ${style.box2}`}>
+                
+                <div className={`col-md-4 ${style.box3}`}>
+                  <Image src={Card5} className={style.box1ImagesC} />
                 </div>
-                <div className={`col-md-3 ${style.box3}`}>
-                  <Image src={Card5} className={style.box1Images} />
-                </div>
-                <div className={`col-md-3 ${style.box4}`}>
-                  <Image src={Card7} className={style.box1Images} />
+                <div className={`col-md-4 ${style.box4}`}>
+                  <Image src={Card7} className={style.box1ImagesC} />
                 </div>
               </div>
             </div>
