@@ -11,15 +11,15 @@ import Testimonials from '../components/Testimonials/Testimonials'
 const page = () => {
   return (
     <>
-    <Header />
-    <Banner />
-    <Fianancial />
-     <Services />
-     <Count />
-     <Payment />
-     <Move />
-     <Testimonials />
-    <Footer />
+      <Header />
+      <Banner />
+      <Fianancial />
+      <Services />
+      <Count />
+      <Payment />
+      <Move />
+      <Testimonials />
+      <Footer />
     </>
   )
 }
