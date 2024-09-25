@@ -34,12 +34,16 @@
 .card span p {
     text-transform: uppercase;
     font-weight: 600;
+    color: white;
+
     padding: 0;
     margin: 0;
 }
 
 .card span h1 {
     font-weight: 700;
+    color: white;
+
     font-size: 54px;
 }
 

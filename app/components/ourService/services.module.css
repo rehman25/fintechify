@@ -18,15 +18,21 @@
   }
   
   .settingIcon {
+    color: white;
+
     font-size: 22px;
   }
   
   .content {
     margin: 10px 0;
+    color: white;
+
   }
   
   .content p {
     font-weight: 300;
+    color: white;
+
   }
   
   .LuSend {
@@ -42,23 +48,34 @@
     align-items: flex-start;
     margin: 10px;
     padding: 10px 0;
+    color: white;
+
   }
   
   .LuSend span {
+    color: white;
+
     margin-left: 10px;
   }
   
   .sendIcon {
     font-size: 24px;
+    color: white;
+
   }
   
   .LuSend2 button {
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     color: black;
     font-weight: 500;
     border: none;
+
   }
+  .LuSend2 button:hover{
+    color: white;
+    background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+  } 
   
   .card {
     border: 1px solid #00dcc7;
@@ -76,6 +93,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
+
   }
   
   .arrow {
@@ -94,6 +113,8 @@
     margin: 20px 0;
     padding: 10px 0;
     flex-wrap: wrap;
+    color: white;
+
     flex-direction: row;
   }
   

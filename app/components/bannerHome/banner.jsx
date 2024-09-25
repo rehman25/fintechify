@@ -22,21 +22,21 @@ const Banner = () => {
   const [isOne, setIsOne] = useState(true);
   const [isTwo, setIsTwo] = useState(false);
 
-  useEffect(() => {
-    if (isOne) {
-      const timer = setTimeout(() => {
-        setIsOne(false);
-        setIsTwo(true);
-      }, 3000);
-      return () => clearTimeout(timer);
-    } else if (isTwo) {
-      const timer = setTimeout(() => {
-        setIsOne(true);
-        setIsTwo(false);
-      }, 3000);
-      return () => clearTimeout(timer);
-    }
-  }, [isOne, isTwo]);
+  // useEffect(() => {
+  //   if (isOne) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(false);
+  //       setIsTwo(true);
+  //     }, 3000);
+  //     return () => clearTimeout(timer);
+  //   } else if (isTwo) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(true);
+  //       setIsTwo(false);
+  //     }, 3000);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [isOne, isTwo]);
 
   return (
     <div className={`container-fluid ${style.containerFluid}`}>

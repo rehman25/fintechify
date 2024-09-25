@@ -28,9 +28,11 @@
   }
   .financialText h2{
     margin-top: 20px;
+    color: white;
   }
 
   .financialText p{
+    color: white;
   }
 
   .percent1 {
@@ -39,6 +41,8 @@
     justify-content: center;
     border-bottom: 1px solid grey;
     padding: 10px;
+    color: white;
+
   }
   .percent1 h3{
      margin-left: 5px;   
@@ -46,6 +50,7 @@
      font-weight: 600; 
      margin-top: 0;
      margin-bottom: 0;
+     color: white;
   }
   .eletric{
     background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
@@ -95,6 +100,8 @@
   
   .containerFluid h4 {
     text-align: center;
+    color: white;
+
   }
   
   .marqueeWrapper {

@@ -22,10 +22,14 @@
 }
 
 .settingIcon {
+    color: white;
+
     font-size: 22px;
 }
 
 .heading {
+    color: white;
+
     font-weight: 700;
     margin-top: 10px;
 }
@@ -35,6 +39,8 @@
     border: 1px solid #ccc;
     padding: 25px;
     border-radius: 30px;
+    color: white;
+
     margin: 30px 0px;
 }
 
@@ -52,6 +58,8 @@
     padding: 25px;
     border-radius: 30px;
     margin: 30px 0px;
+    color: white;
+
 }
 
 .numberHover {
@@ -62,6 +70,8 @@
     margin: 0;
     padding: 10px;
     border-radius: 50%;
+     color: white;
+
 }
 
 .number {
@@ -72,6 +82,8 @@
     margin: 0;
     padding: 10px;
     border-radius: 50%;
+    color: white;
+
 }
 
 .divbg {
