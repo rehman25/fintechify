@@ -88,7 +88,7 @@ export default function Header() {
                                     <li>
                                         <AiFillAppstore />
                                         <div>
-                                            <Link href="/">Banking App Development <WiDirectionUpRight /></Link>
+                                            <Link href="/Banking-app-development">Banking App Development <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>

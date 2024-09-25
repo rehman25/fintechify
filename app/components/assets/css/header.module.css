@@ -11,8 +11,8 @@
 
 .logo {
   object-fit: contain;
-  height: 96px;
-  width: 20%;
+  height: 100px;
+  width: 200px;
 }
 
 .nav {
@@ -136,12 +136,14 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  background: #151518;
+  background: #2096F9;
   color: white;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
   z-index: 1001;
+  padding: 5px 15px;
+  border-radius: 5px;
 }
 
 /* Sidebar styling */
@@ -163,7 +165,8 @@
   left: 0;
   overflow-y: scroll;
 }
-.mobilelogo{
+
+.mobilelogo {
   object-fit: contain;
   height: 63px;
   width: 61%;
@@ -218,7 +221,8 @@
 .dropdown li a:hover {
   color: white;
 }
-.dropdown li{
+
+.dropdown li {
   border-bottom: 1px solid #80808040;
   padding: 5px 0 !important;
 }
@@ -258,5 +262,11 @@
 
   .nav ul li {
     margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .logo {
+    width: 140px;
   }
 }
