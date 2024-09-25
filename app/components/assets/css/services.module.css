@@ -1,66 +1,76 @@
-.everyoneSection{
+.everyoneSection {
     text-align: center;
     color: white;
     margin: 50px 0;
 }
-.everyoneSection h4{
+
+.everyoneSection h4 {
     font-weight: 800;
     font-size: 40px;
 }
-.everyoneSection p{}
-.everyoneInnerBox{
+
+.everyoneInnerBox {
     padding: 20px 20px;
     border-radius: 20px;
     border: 2px solid gray;
 }
-.everyoneInnerBox svg{
+
+.everyoneInnerBox svg {
     font-size: 70px;
     margin-bottom: 20px;
 }
-.everyoneInnerBox h5{
+
+.everyoneInnerBox h5 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.everyoneInnerBox span{
+
+.everyoneInnerBox span {
     display: block;
     font-size: 15px;
 }
 
-.everyoneInnerBox:hover{
+.everyoneInnerBox:hover {
     border-color: #1E8DF7;
-    transition:  all 1s;
+    transition: all 1s;
 }
 
-.InnovativeBox{
+.InnovativeBox {
     color: white;
 }
-.InnovativeBox h4{
+
+.InnovativeBox h4 {
     font-size: 40px;
     font-weight: 800;
 }
-.InnovativeBox p{
+
+.InnovativeBox p {
     font-size: 14px;
     padding-right: 50px;
 }
-.InnovativeBox img{
+
+.InnovativeBox img {
     border-radius: 50px;
 }
 
-.servicessection{
+.servicessection {
     text-align: center;
     color: white;
     margin: 80px 0;
 }
-.servicessection h5{
+
+.servicessection h5 {
     font-size: 40px;
     font-weight: 800;
 }
-.servicessection p{
+
+.servicessection p {
     font-size: 14px;
     margin-bottom: 30px;
 }
-.servicesBox{
+
+.servicesBox {
     color: white;
     padding: 20px 20px;
     border-radius: 20px;
@@ -68,7 +78,8 @@
     text-align: center;
     position: relative;
 }
-.servicesBox svg{
+
+.servicesBox svg {
     font-size: 50px;
     background: #1F8EF8;
     padding: 8px 8px;
@@ -76,15 +87,18 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.servicesBox h4{
+
+.servicesBox h4 {
     font-weight: 700;
 }
-.servicesBox span{
+
+.servicesBox span {
     font-size: 14px;
     display: block;
     padding-bottom: 25px;
 }
-.servicesBox .numberBox{
+
+.servicesBox .numberBox {
     position: absolute;
     bottom: -22%;
     left: 50%;
@@ -99,21 +113,230 @@
     align-items: center;
     justify-content: center;
 }
-.servicesBox .numberBox h6{
+
+.servicesBox .numberBox h6 {
     font-weight: 800;
     font-size: 20px;
 }
 
-@media screen and (max-width:565px){
-    .everyoneSection h4{
+/* BANKING APP DEV CSS ============================================== */
+.aboutFirst {
+    margin: 50px 0;
+    color: white;
+}
+
+.aboutFirstsection h2 {
+    font-size: 50px;
+}
+
+.aboutFirstsection p {
+    color: #e9e1e1;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.aboutFirstsection .iconFlexBox {
+    display: -webkit-inline-box;
+    margin: 15px 0;
+}
+
+.aboutFirstsection .iconFlexBox svg {
+    font-size: 37px;
+    margin-right: 15px;
+    color: #1E8EF7;
+}
+
+.aboutFirstsection .iconFlexBox h3 {
+    font-size: 27px;
+    font-weight: 500;
+    white-space: break-spaces;
+}
+
+.aboutFirstsection .iconFlexBox span {
+    font-weight: 200;
+    font-size: 14px;
+    white-space: break-spaces;
+}
+
+.aboutFirst img {
+    border-radius: 50px;
+    box-shadow: 3px 4px 0px #3f3739;
+}
+/* ================================================== */
+.processSection{
+    margin: 50px 0;
+    color: white;
+}
+.processSection h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.processSection span{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.processBox{ padding: 45px 20px;}
+.processBox ul{
+    margin: 0;
+    margin-top: 10px;
+}
+.processBox ul h5{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+.processBox ul p{
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.bgblightBlue{
+    background: #1E96FC;
+    border-radius: 20px 0 0 0;
+    color: white;
+    height: 450px;
+}
+.bgWhite{
+    background: white;
+    border-radius: 0 20px 0 0;
+    color: black;
+    height: 450px;
+}
+.bgWhite2{
+    background: white;
+    border-radius: 0 0 0 21px;
+    color: black;
+    height: 400px;
+}
+.bgblightBlue2{
+    background: #1E96FC;
+    border-radius: 0 0 20px 0;
+    color: white;
+    height: 400px;
+}
+
+/* GET STARTED SECTION CSS ================================== */
+.getStartedSection{
+    background-image: linear-gradient(180deg, #1E96FC 0%, #030304 100%);
+    color: white;
+    padding: 80px 0;
+    margin: 50px 0;
+}
+.getStartedSection .startedUpperBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.getStartedSection .startedUpperBox img{
+    height: 50px;
+    width: 50px;
+}
+.getStartedSection .startedUpperBox h4{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.getStartedSection .startedUpperBox p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.getStartedSection .startedBox{
+    color: #e3e3e3;
+    padding: 5px 60px;
+}
+.getStartedSection .startedBox ul{
+    list-style: none;
+    margin-top: 30px;
+}
+.getStartedSection .startedBox h5{
+    font-size: 13px;
+    white-space: break-spaces;
+}
+.getStartedSection .startedBox ul li{
+    font-size: 13px;
+    white-space: break-spaces;
+    margin: 5px 0;
+}
+.getStartedSection .startedBox ul li svg{
+    margin-right: 5px;
+}
+.startedLeft{
+    border-right: 1px solid #e3e3e3;
+}
+.startedBottomSection {
+    text-align: center;
+}
+.startedBottomSection p{
+    color: #e3e3e3;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+
+
+/* ========================================================================= */
+
+@media screen and (max-width:992px){
+    .aboutFirstsection h2 {
         font-size: 30px;
     }
-    .InnovativeBox h4{
+    .bgblightBlue,.bgWhite,.bgblightBlue2,.bgWhite2{
+        border-radius: 20px;
+        margin: 3px 0;
+        height: auto;
+    }
+    .processBox ul{
+        margin: 0;
+        padding: 0px;
+    }
+    .startedLeft{
+        border-right: none;
+    }
+    .getStartedSection .startedBox{
+        padding: 0;
+    }
+}
+@media screen and (max-width:768px){
+    .processSection h4{
+        font-size: 30px;
+    }
+    .processSection span{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:565px) {
+    .everyoneSection h4 {
+        font-size: 30px;
+    }
+    .InnovativeBox h4 {
         font-size: 30px;
         text-align: center;
     }
-    .InnovativeBox p{
+    .InnovativeBox p {
         padding-right: 0px;
         text-align: center;
+    }
+}
+@media screen and (max-width:480px){
+    .aboutFirstsection .iconFlexBox h3 {
+        font-size: 20px;
+    }
+    .processSection h4{
+        font-size: 25px;
+    }
+    .getStartedSection .startedUpperBox h4{
+        font-size: 25px;
+    }
+    .getStartedSection .startedUpperBox p{
+        font-size: 15px;
+    }
+    .startedBottomSection p{
+        font-size: 16px;
     }
 }
