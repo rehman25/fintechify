@@ -18,7 +18,7 @@ const FinancialComponent = () => {
       <section className={`container mt-5 ${styles.container}`}>
         <div className="row  align-items-center">
           {/* Left Column */}
-          <div className="col-md-6 p-4">
+          <div className="col-lg-6 p-4">
             <div className={styles.financialText}>
               <span className={styles.about}>
                 <RiBuilding3Fill />
@@ -50,7 +50,7 @@ const FinancialComponent = () => {
           </div>
 
           {/* Right Column */}
-          <div className={`col-md-6 text-center ${styles.right}`}>
+          <div className={`col-lg-6 text-center ${styles.right}`}>
             <div className={`position-relative ${styles.backgroundCircle}`}>
               <span>
                 <Image src={Arrow2} alt="Arrow 1" width={120} height={120} className={styles.arrow1} />
@@ -73,6 +73,8 @@ const FinancialComponent = () => {
                   width={180}
                   height={360}
                   className={styles.phone1}
+                  
+                  
                 />
               </div>
             </div>

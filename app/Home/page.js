@@ -1,3 +1,4 @@
+import Footer from '@/app/components/Footer/Footer'
 import Header from '@/app/components/Header/Header'
 import Banner from '@/app/components/bannerHome/banner'
 import React from 'react'
@@ -16,7 +17,7 @@ const page = () => {
      <Count />
      <Payment />
      <Move />
-
+    <Footer />
     </>
   )
 }

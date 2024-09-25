@@ -1,7 +1,5 @@
 
-import Home from './pages/Home/page'
-import Banner from './components/bannerHome/banner'
-
+import Home from './Home/page'
 export default function page() {
   return (
     <>

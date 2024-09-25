@@ -3,41 +3,216 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import styles from '../assets/css/header.module.css';
+import logo from '../assets/images/FINTECHIFY.png'
+import Image from 'next/image';
+import { IoIosArrowDown } from "react-icons/io";
+import { AiFillAppstore } from "react-icons/ai";
+import { WiDirectionUpRight } from "react-icons/wi";
+import { CiWallet } from "react-icons/ci";
+import { SiBmcsoftware } from "react-icons/si";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { GiFlatPlatform } from "react-icons/gi";
+import { GiPlatform } from "react-icons/gi";
+import { GrIntegration } from "react-icons/gr";
+import { GrResources } from "react-icons/gr";
+import { FaExchangeAlt } from "react-icons/fa";
+import { CiLock } from "react-icons/ci";
+import { IoIosArrowUp } from "react-icons/io";
+
+
+
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isProdMenu, setProdMenu] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [isDropdownOpentwo, setIsDropdownOpentwo] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    const toggleSidebar = () => {
+        setIsOpen(!isOpen);
+    };
+    const toggleDropdown = () => {
+        setIsDropdownOpen(!isDropdownOpen);
+    };
+    const toggleDropdowntwo = () => {
+        setIsDropdownOpentwo(!isDropdownOpentwo);
+    };
 
-  return (
-    <header className={styles.header}>
-      <div className={styles.logo}>
-        <img src="/logo.png" alt="FinPoan Logo" />
-        <h1>FinPoan</h1>
-      </div>
-      <nav className={`${styles.nav} ${isMenuOpen ? styles.active : ''}`}>
-        <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about-us">About Us</Link></li>
-          <li><Link href="/services">Services</Link></li>
-          <li><Link href="/news">News</Link></li>
-          <li><Link href="/pages">Pages</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
-        </ul>
-      </nav>
-      <div className={styles.actions}>
-        <div className={styles.search}>
-          <span>🔍</span> <span>Search</span>
-        </div>
-        <div className={styles.signin}>
-          <span>👤</span> <span>Sign In</span>
-        </div>
-        <button className={styles.menuToggle} onClick={toggleMenu}>
-          {isMenuOpen ? '✖' : '☰'}
-        </button>
-      </div>
-    </header>
-  );
+    // const cccz = () => {
+    //     setIsMenuOpen(!isMenuOpen);
+    // };
+
+    return (
+        <>
+            <header className={styles.header}>
+                <Image className={styles.logo} src={logo} alt="Logo" />
+                <nav className={`${styles.nav}`}>
+                    <ul>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/about">About Us</Link></li>
+                        <li onMouseEnter={() => {
+                            setIsMenuOpen(true)
+                            setProdMenu(false)
+                        }}><Link href="/service">Services <IoIosArrowDown /></Link></li>
+                        <li onMouseEnter={() => {
+                            setIsMenuOpen(false)
+                            setProdMenu(true)
+                        }} className={styles.productsMenu}><Link href="#">Products <IoIosArrowDown /></Link>
+                            {isProdMenu && (
+                                <ul onMouseLeave={() => { setProdMenu(false) }}>
+                                    <li><Link href="/riseApp">Rise App</Link></li>
+                                    <li><Link href="/welab">WeLab</Link></li>
+                                </ul>
+                            )}
+                        </li>
+                        <li><Link href="/contact">Contact</Link></li>
+                    </ul>
+                </nav>
+                <div className={styles.actions}>
+                    <button className={styles.btnStart}>Get Started</button>
+                    <button className={styles.menuButton} onClick={toggleSidebar}>
+                {isOpen ? 'Close' : '☰'}
+            </button>
+                </div>
+            </header>
+
+            {isMenuOpen && (
+                <section onMouseLeave={() => {
+                    setIsMenuOpen(false)
+                }} className={styles.menuBox} style={{ boxShadow: "10px 10px 10px gray" }}>
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className='col-lg-4 p-0 m-0'>
+                                <ul>
+                                    <li>
+                                        <AiFillAppstore />
+                                        <div>
+                                            <Link href="/">Banking App Development <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <CiWallet />
+                                        <div>
+                                            <Link href="/">Digital Wallet Development <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <SiBmcsoftware />
+                                        <div>
+                                            <Link href="/">Insurance Software Development <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className='col-lg-4 p-0 m-0'>
+                                <ul>
+                                    <li>
+                                        <MdOutlineDesignServices />
+                                        <div>
+                                            <Link href="/">FinOps Services <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <GiFlatPlatform />
+                                        <div>
+                                            <Link href="/">Crowdfunding Platform Development <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <GiPlatform />
+                                        <div>
+                                            <Link href="/">Decentralized Finance Platform <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className='col-lg-4 p-0 m-0'>
+                                <ul>
+                                    <li>
+                                        <GrIntegration />
+                                        <div>
+                                            <Link href="/">Integration Services <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <GrResources />
+                                        <div>
+                                            <Link href="/">Resource Augmentation <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <FaExchangeAlt />
+                                        <div>
+                                            <Link href="/">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className='col-lg-4 p-0 m-0'>
+                                <ul>
+                                    <li>
+                                        <CiLock />
+                                        <div>
+                                            <Link href="/">Cybersecurity <WiDirectionUpRight /></Link>
+                                            <span>The power of seamless banking</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            <div className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}>
+            <Image className={styles.mobilelogo} src={logo} alt="Logo" />
+                <ul>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About Us</Link></li>
+                    <li>
+                        <button className={styles.dropdownButton} onClick={toggleDropdown}>
+                            Services {isDropdownOpen ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                        </button>
+                        {isDropdownOpen && (
+                            <ul className={styles.dropdown}>
+                                <li><Link href="/services/web-development">Banking App Development</Link></li>
+                                <li><Link href="/services/mobile-development">Digital Wallet Development</Link></li>
+                                <li><Link href="/services/seo">Insurance Software Development</Link></li>
+                                <li><Link href="/services/web-development">FinOps Services</Link></li>
+                                <li><Link href="/services/mobile-development">Crowdfunding Platform Development</Link></li>
+                                <li><Link href="/services/seo">Decentralized Finance Platform</Link></li>
+                                <li><Link href="/services/web-development">Integration Services</Link></li>
+                                <li><Link href="/services/mobile-development">Resource Augmentation</Link></li>
+                                <li><Link href="/services/seo">Currency Exchange Platform Development</Link></li>
+                                <li><Link href="/services/seo">Cybersecurity</Link></li>
+                            </ul>
+                        )}
+                    </li>
+                    <li>
+                        <button className={styles.dropdownButton} onClick={toggleDropdowntwo}>
+                            Products {isDropdownOpentwo ?  <IoIosArrowDown /> : <IoIosArrowUp />}
+                        </button>
+                        {isDropdownOpentwo && (
+                            <ul className={styles.dropdown}>
+                                <li><Link href="/services/web-development">Rize App</Link></li>
+                                <li><Link href="/services/mobile-development">WeLab</Link></li>
+                            </ul>
+                        )}
+                    </li>
+                    <li><Link href="/contact">Contact</Link></li>
+                </ul>
+            </div>
+
+        </>
+    );
 }

@@ -34,7 +34,7 @@ const payment = () => {
     <div className={`container-fluid ${style.containerFluid}`}>
       <div className={`container ${style.container}`}>
         <div className={`row ${style.row}`}>
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <span className={style.about}>
               <RiSettings2Line className={style.settingIcon} />
               <h4>Payment Process</h4>
@@ -45,7 +45,7 @@ const payment = () => {
           </div>
         </div>
         <div className={`row ${style.row2}`}>
-          <div className={`col-md-6 mt-1`}>
+          <div className={`col-lg-6 mt-1`}>
             <div
               className={isHover ? style.cardHover : style.card}
               onMouseEnter={handleMouseOver}
@@ -93,7 +93,7 @@ const payment = () => {
               </span>
             </div>
           </div>
-          <div className={`col-md-6  ${style.col6}`}>
+          <div className={`col-lg-6  ${style.col6}`}>
             {isHover && (
               <div className={style.divbg}>
                 <Image src={bg1} className={style.bg1} />

@@ -1,0 +1,119 @@
+.everyoneSection{
+    text-align: center;
+    color: white;
+    margin: 50px 0;
+}
+.everyoneSection h4{
+    font-weight: 800;
+    font-size: 40px;
+}
+.everyoneSection p{}
+.everyoneInnerBox{
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+.everyoneInnerBox svg{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.everyoneInnerBox h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.everyoneInnerBox span{
+    display: block;
+    font-size: 15px;
+}
+
+.everyoneInnerBox:hover{
+    border-color: #1E8DF7;
+    transition:  all 1s;
+}
+
+.InnovativeBox{
+    color: white;
+}
+.InnovativeBox h4{
+    font-size: 40px;
+    font-weight: 800;
+}
+.InnovativeBox p{
+    font-size: 14px;
+    padding-right: 50px;
+}
+.InnovativeBox img{
+    border-radius: 50px;
+}
+
+.servicessection{
+    text-align: center;
+    color: white;
+    margin: 80px 0;
+}
+.servicessection h5{
+    font-size: 40px;
+    font-weight: 800;
+}
+.servicessection p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.servicesBox{
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    text-align: center;
+    position: relative;
+}
+.servicesBox svg{
+    font-size: 50px;
+    background: #1F8EF8;
+    padding: 8px 8px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.servicesBox h4{
+    font-weight: 700;
+}
+.servicesBox span{
+    font-size: 14px;
+    display: block;
+    padding-bottom: 25px;
+}
+.servicesBox .numberBox{
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 55px;
+    width: 56px;
+    background: white;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicesBox .numberBox h6{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+@media screen and (max-width:565px){
+    .everyoneSection h4{
+        font-size: 30px;
+    }
+    .InnovativeBox h4{
+        font-size: 30px;
+        text-align: center;
+    }
+    .InnovativeBox p{
+        padding-right: 0px;
+        text-align: center;
+    }
+}
