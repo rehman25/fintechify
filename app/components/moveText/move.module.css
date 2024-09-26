@@ -10,7 +10,7 @@
 
 }
 .left span{
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1em;
@@ -34,14 +34,14 @@
 
 }
 .right span{
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1em;
     background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
     -webkit-background-clip: text;
     -webkit-text-stroke: 3px transparent;
-    color: #171717;
+    color: #ffffff;
 }
 
 .container{

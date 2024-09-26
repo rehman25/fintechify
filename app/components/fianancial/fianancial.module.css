@@ -17,22 +17,20 @@
     background-repeat: no-repeat;
   }
 
-  .financialText .about{
+  .about{
     padding: 8px 20px;
     background-color: transparent;
     background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
     border-radius: 30px 30px 30px 30px;
-    color: white;
+    color: white !important;
     font-size: 16px;
     font-weight: 500;
   }
   .financialText h2{
     margin-top: 20px;
-    color: white;
   }
 
   .financialText p{
-    color: white;
   }
 
   .percent1 {
@@ -41,7 +39,6 @@
     justify-content: center;
     border-bottom: 1px solid grey;
     padding: 10px;
-    color: white;
 
   }
   .percent1 h3{
@@ -50,7 +47,6 @@
      font-weight: 600; 
      margin-top: 0;
      margin-bottom: 0;
-     color: white;
   }
   .eletric{
     background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
@@ -61,15 +57,18 @@
     padding: 10px;
     color: white;
   }
+
+  .rightPhone{
+    width: 100%;
+    height: 100%;
+  }
   .right {
     /* background-color: #eaf1fe; */
   }
   
-  .phone1 {
-    position: absolute;
-    top: 40%;
-    left: 65%;
-    transform: scaleX(1.5);
+  .phone1{
+   /* width: 100% !important; */
+   /* height: 500px ; */
 
   }
   
@@ -111,7 +110,7 @@
   .marquee {
     display: flex;
     flex-direction: row;
-    animation: scroll 15s linear infinite;
+    animation: scroll 60s linear infinite;
   }
 
   .marqueeContent{

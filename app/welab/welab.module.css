@@ -65,13 +65,15 @@
     width: 50vw; /* Use percentage to maintain responsiveness */
   }
   .collg6 h4{
-    color: white;
+    color: black;
+
     
   }
   .collg6 p{
     font-weight: 300;
     margin: 30px 0px;
-    color: white;
+    color: black;
+
 
   }
   
@@ -121,7 +123,8 @@
   
   .rclSection {
     background-color: #2271af;
-    color: white;
+    color: black;
+
   }
   
   .tdSection ul li {
@@ -141,7 +144,8 @@
     text-align: center;
     margin-bottom: 50px;
     font-size: 5vw; /* Responsive font size */
-    color: white;
+    color: black;
+
 
   }
   

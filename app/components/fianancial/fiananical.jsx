@@ -1,9 +1,6 @@
 import Image from "next/image";
 import styles from "./fianancial.module.css";
-import Phone1 from "../assets/images/phone1.png";
-import Phone2 from "../assets/images/phone2.png";
-import Arrow1 from "../assets/images/h1_vector1.svg";
-import Arrow2 from "../assets/images/h1_vector2.svg";
+import Phone1 from "../assets/images/finPhone.png";
 import { BsLightningCharge } from "react-icons/bs";
 import { RiBuilding3Fill } from "react-icons/ri";
 import Brand1 from '../assets/images/brand1.svg'
@@ -51,33 +48,7 @@ const FinancialComponent = () => {
 
           {/* Right Column */}
           <div className={`col-lg-6 text-center ${styles.right}`}>
-            <div className={`position-relative ${styles.backgroundCircle}`}>
-              <span>
-                <Image src={Arrow2} alt="Arrow 1" width={120} height={120} className={styles.arrow1} />
-                <span className={styles.OneApp}>One app for all</span>
-              </span>
-              <div className="position-absolute top-50 start-50 translate-middle">
-                <Image src={Phone2} alt="Phone 2" width={180} height={360} 
-                  className={styles.phone2}
-                 
-                 />
-              </div>
-              <div>
-              <span>
-                <Image src={Arrow1} alt="Arrow 2" width={120} height={120} className={styles.arrow2} />
-                <span className={styles.TwoApp}>One app for all</span>
-              </span>
-                <Image
-                  src={Phone1}
-                  alt="Phone 1"
-                  width={180}
-                  height={360}
-                  className={styles.phone1}
-                  
-                  
-                />
-              </div>
-            </div>
+                <Image src={Phone1} alt="Phone1" className={styles.rightPhone} />
           </div>
         </div>
       </section>

@@ -13,8 +13,8 @@
     margin: 0;
     padding: 0;
     font-weight: 500;
-    color: white;
     font-size: 18px;
+    color: white;
   }
   
   .settingIcon {
@@ -25,13 +25,11 @@
   
   .content {
     margin: 10px 0;
-    color: white;
 
   }
   
   .content p {
     font-weight: 300;
-    color: white;
 
   }
   
@@ -48,19 +46,17 @@
     align-items: flex-start;
     margin: 10px;
     padding: 10px 0;
-    color: white;
 
   }
   
   .LuSend span {
-    color: white;
 
     margin-left: 10px;
   }
   
   .sendIcon {
     font-size: 24px;
-    color: white;
+    color: black;
 
   }
   
@@ -86,20 +82,20 @@
   }
   
   .card:hover {
-    border: 1px solid #ffffff;
+    border: 1px solid black;
   }
   
   .card span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    /* color: white; */
 
   }
   
   .arrow {
     font-size: 16px;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 50%;
     width: 50px;
     padding: 10px;
@@ -113,7 +109,7 @@
     margin: 20px 0;
     padding: 10px 0;
     flex-wrap: wrap;
-    color: white;
+    /* color: white; */
 
     flex-direction: row;
   }
@@ -130,8 +126,8 @@
     }
   
     .card {
-        width: 42vw;
-        height: 46vh; /* Adjust card width */
+        width: 35vw;
+         /* Adjust card width */
       padding: 20px;
     }
   
@@ -142,14 +138,12 @@
     .about {
       width: 20vw; /* Increase width for tablets */
     }
-  
+     
     .about h4 {
       font-size: 14px;
     }
   
-    .card {
-      width: 45vw; /* Larger card for tablets */
-    }
+    
   
     .rightBoxes {
       justify-content: space-between;
