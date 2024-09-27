@@ -61,8 +61,8 @@ export default function Header() {
                         }} className={styles.productsMenu}><Link href="#">Products <IoIosArrowDown /></Link>
                             {isProdMenu && (
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
-                                    <li><Link href="/riseApp">Rise App</Link></li>
-                                    <li><Link href="/welab">WeLab</Link></li>
+                                    <li><Link href="/riseApp" className={styles.ol}>Rise App</Link></li>
+                                    <li><Link href="/welab" className={styles.ol}>WeLab</Link></li>
                                 </ul>
                             )}
                         </li>
@@ -178,7 +178,7 @@ export default function Header() {
             <Image className={styles.mobilelogo} src={logo} alt="Logo" />
                 <ul>
                     <li><Link href="/">Home</Link></li>
-                    <li><Link href="/about">About Us</Link></li>
+                    <li><Link href="/about">About</Link></li>
                     <li>
                         <button className={styles.dropdownButton} onClick={toggleDropdown}>
                             Services {isDropdownOpen ? <IoIosArrowDown /> : <IoIosArrowUp />}
@@ -204,8 +204,8 @@ export default function Header() {
                         </button>
                         {isDropdownOpentwo && (
                             <ul className={styles.dropdown}>
-                                <li><Link href="/services/web-development">Rize App</Link></li>
-                                <li><Link href="/services/mobile-development">WeLab</Link></li>
+                                <li><Link href="/riseApp">Rise App</Link></li>
+                                    <li><Link href="/welab">WeLab</Link></li>
                             </ul>
                         )}
                     </li>

@@ -64,12 +64,13 @@
     float: none;
   }
   .collg6 h1{
-    color: white;
+    color: black;
   }
   .collg6 p {
     font-weight: 300;
     margin: 30px 0px;
-    color: white;
+    color: black;
+
 
   }
   
@@ -111,7 +112,8 @@
   
   .rclSection {
     background-color: 2271af;
-    color: white;
+    color: black;
+
   }
   
   .tdSection ul li {
@@ -135,7 +137,8 @@
   
   .row2 h1 {
     text-align: center;
-    color: white;
+    color: black;
+
 
     margin-bottom: 50px;
     font-size: 5vw; /* Responsive font size */

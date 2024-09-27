@@ -27,28 +27,28 @@ const Banner = () => {
       const timer = setTimeout(() => {
         setIsOne(false);
         setIsTwo(true);
-      }, 3000);
+      }, 10000);
       return () => clearTimeout(timer);
     } else if (isTwo) {
       const timer = setTimeout(() => {
         setIsOne(true);
         setIsTwo(false);
-      }, 3000);
+      }, 10000);
       return () => clearTimeout(timer);
     }
   }, [isOne, isTwo]);
 
   return (
     <div className={`container-fluid ${style.containerFluid}`}>
-      <div className={`container-fluid ${style.container}`}>
+      <div className={`container ${style.container}`}>
         <div className={`row ${style.row}`}>
           {isOne && (
             <div className={`row ${style.slider1}`}>
-              <div className="row">
-                <div className={`col-md-6 ${style.colleft}`}>
+              <div className={style.rowContent}>
+                <div className={`col-lg-6 col-md-12 ${style.colleft}`}>
                   <h1>The For Digital Banking</h1>
                 </div>
-                <div className={`col-md-6 ${style.colright}`}>
+                <div className={`col-lg-6 col-md-12 ${style.colright}`}>
                   <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Nam reiciendis exercitationem cumque vero accusamus minima
@@ -62,31 +62,31 @@ const Banner = () => {
                   </button>
                 </div>
               </div>
-              <div className={`row ${style.btmRow3}`}>
-                <div className={`col-md-3 ${style.box1}`}>
+              <div className={`row m-0 ${style.btmRow3}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Image1} className={style.box1Images} />
                 </div>
-                <div className={`col-md-3 ${style.box1}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Image3} className={style.box1Images2} />
                 </div>
-                <div className={`col-md-3 ${style.box1}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Image4} className={style.box1Images} />
                 </div>
-                <div className={`col-md-3 ${style.box1}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Image6} className={style.box1Images} />
                 </div>
               </div>
-              <div className={`row ${style.btmRow4}`}>
-                <div className={`col-md-3 ${style.box1}`}>
+              <div className={`row m-0  ${style.btmRow4}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Image2} className={style.box1Images1} />
                 </div>
-                <div className={`col-md-3 ${style.box1}`}>
+                <div className={`col-3 ${style.box1}`}>
                   {/* <Image src={Image3} className={style.box1Images2} /> */}
                 </div>
-                <div className={`col-md-3 ${style.box1}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Image5} className={style.box1Images1} />
                 </div>
-                <div className={`col-md-3 ${style.box1}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Image7} className={style.box1Images1} />
                 </div>
               </div>
@@ -94,11 +94,11 @@ const Banner = () => {
           )}
           {isTwo && <div className={style.slider2}>
           <div className={`row ${style.slider1}`}>
-              <div className="row">
-                <div className={`col-md-6 ${style.colleft}`}>
+              <div className={style.rowContent}>
+                <div className={`col-lg-6 col-md-12 ${style.colleft}`}>
                   <h1>The For Digital Banking</h1>
                 </div>
-                <div className={`col-md-6 ${style.colright}`}>
+                <div className={`col-lg-6 col-md-12 ${style.colright}`}>
                   <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Nam reiciendis exercitationem cumque vero accusamus minima
@@ -113,28 +113,28 @@ const Banner = () => {
                 </div>
               </div>
               <div className={`row ${style.btmRow}`}>
-                <div className={`col-md-3 ${style.box1}`}>
+                <div className={`col-3 ${style.box1}`}>
                   <Image src={Card1} className={style.box1ImagesB} />
                 </div>
-                <div className={`col-md-3 ${style.box2}`}>
+                <div className={`col-3 ${style.box2}`}>
                   <Image src={Card2} className={style.box1Images3} />
                 </div>
-                <div className={`col-md-3 ${style.box3}`}>
+                <div className={`col-3 ${style.box3}`}>
                   <Image src={Card4} className={style.box1ImagesB} />
                 </div>
-                <div className={`col-md-3 ${style.box4}`}>
+                <div className={`col-3 ${style.box4}`}>
                   <Image src={Card6} className={style.box1ImagesB} />
                 </div>
               </div>
               <div className={`row ${style.btmRow2}`}>
-                <div className={`col-md-4 ${style.box1}`}>
+                <div className={`col-4 ${style.box1}`}>
                   <Image src={Card2} className={style.box1ImagesC} />
                 </div>
                 
-                <div className={`col-md-4 ${style.box3}`}>
+                <div className={`col-4 ${style.box3}`}>
                   <Image src={Card5} className={style.box1ImagesC} />
                 </div>
-                <div className={`col-md-4 ${style.box4}`}>
+                <div className={`col-4 ${style.box4}`}>
                   <Image src={Card7} className={style.box1ImagesC} />
                 </div>
               </div>

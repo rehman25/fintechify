@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
                 <div className={`${styles.footerMain} container p-0 m-0`}>
                     <div className="row p-0 m-0">
-                        <div className={`${styles.companyInfo} col-lg-4 p-0 m-0`}>
+                        <div className={`${styles.companyInfo} col-lg-3 p-0 m-0`}>
                             <Image src={logo} alt="Logo" className={styles.logo} />
                             <div className={styles.socialIcons}>
                                 <Link href="#"><FaFacebookSquare /></Link>
@@ -38,7 +38,7 @@ export default function Footer() {
                                 <Link href="#"><FaLinkedin /></Link>
                             </div>
                         </div>
-                        <div className={`${styles.linksSection} col-lg-8 p-0 m-0`}>
+                        <div className={`${styles.linksSection} col-lg-9 p-0 m-0`}>
                             <div>
                                 <h4>Services</h4>
                                 <ul>
@@ -57,11 +57,17 @@ export default function Footer() {
                             <div>
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><Link href="#">Home</Link></li>
-                                    <li><Link href="#">About</Link></li>
-                                    <li><Link href="#">Services</Link></li>
-                                    <li><Link href="#">Products</Link></li>
-                                    <li><Link href="#">Contact</Link></li>
+                                    <li><Link href="/">Home</Link></li>
+                                    <li><Link href="/about">About</Link></li>
+                                    <li><Link href="/service">Services</Link></li>
+                                    <li><Link href="/contact-us">Contact</Link></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Products</h4>
+                                <ul>
+                                    <li><Link href="/riseApp">Rise App</Link></li>
+                                    <li><Link href="/welab">WeLab</Link></li>
                                 </ul>
                             </div>
                             <div>

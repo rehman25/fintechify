@@ -7,6 +7,7 @@ import styles from '../components/assets/css/contact.module.css'
 import { MdOutlineAddIcCall } from "react-icons/md";
 import ContactImg from '../components/assets/images/contact-img.jpg'
 import Image from 'next/image'
+import Map from '../components/map/map'
 
 
 function page() {
@@ -52,6 +53,7 @@ function page() {
                     </div>
                 </div>
             </section>
+            <Map />
             <section className={styles.contactFormSection}>
                 <div className="container">
                     <div className="row">
