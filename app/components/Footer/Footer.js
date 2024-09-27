@@ -2,7 +2,7 @@
 import styles from '../assets/css/Footer.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '../assets/images/FINTECHIFY.png'
+import logo from '../assets/images/FINTECHIFY-white-removebg-preview.png'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
