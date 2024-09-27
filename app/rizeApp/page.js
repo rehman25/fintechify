@@ -59,10 +59,10 @@ const page = () => {
 
       <div className={`container ${style.Essential}`}>
         <div className={`row ${style.row2}`}>
-             <h1>
-                Essential Banking Services
-             </h1>
-           
+          <h1>
+            Essential Banking Services
+          </h1>
+
           <div className={`col-lg-6  m-0 ${style.boxleft}`}>
             <h2>READY CASHLINE (RCL)</h2>
             <div className={style.section}>

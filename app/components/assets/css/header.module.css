@@ -27,9 +27,11 @@
   margin: 0;
   padding: 0;
 }
-.ol{
+
+.ol {
   color: #111 !important;
 }
+
 .nav ul li {
   margin: 0 1rem;
 }
@@ -56,7 +58,7 @@
   background-image: linear-gradient(90deg, #0929C2, #2095FB);
   border-radius: 30px;
   color: white;
-  
+
 }
 
 .menuBox {
@@ -205,10 +207,11 @@
   text-align: left;
   width: 100%;
   cursor: pointer;
-  color: white;
- 
+  color: black;
+
 }
-.dropdownButton:hover{
+
+.dropdownButton:hover {
   color: #1E8BF6;
 }
 

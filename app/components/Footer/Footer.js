@@ -66,7 +66,7 @@ export default function Footer() {
                             <div>
                                 <h4>Products</h4>
                                 <ul>
-                                    <li><Link href="/riseApp">Rise App</Link></li>
+                                    <li><Link href="/rizeApp">Rize App</Link></li>
                                     <li><Link href="/welab">WeLab</Link></li>
                                 </ul>
                             </div>
