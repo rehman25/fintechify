@@ -17,17 +17,19 @@ import Card4 from '../assets/images/revslider_card-4.png'
 import Card5 from '../assets/images/revslider_card-5.png'
 import Card6 from '../assets/images/revslider_card-6.png'
 import Card7 from '../assets/images/revslider_card-7.png'
+import Phone from '../assets/images/bgPhone.png'
+import Phone1 from '../assets/images/bgPhone.png'
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(false);
-  const [isTwo, setIsTwo] = useState(true);
+  const [isOne, setIsOne] = useState(true);
+  const [isTwo, setIsTwo] = useState(false);
 
   useEffect(() => {
     if (isOne) {
       const timer = setTimeout(() => {
         setIsOne(false);
         setIsTwo(true);
-      }, 10000);
+      }, 3000);
       return () => clearTimeout(timer);
     } else if (isTwo) {
       const timer = setTimeout(() => {
@@ -39,9 +41,9 @@ const Banner = () => {
   }, [isOne, isTwo]);
 
   return (
-    <div className={`container-fluid ${style.containerFluid}`}>
-      <div className={`container ${style.container}`}>
-        <div className={`row ${style.row}`}>
+    <div className={`container-fluid m-0  ${style.containerFluid}`}>
+      <div className={`container-fluid ${style.container}`}>
+        {/* <div className={`row ${style.row}`}> */}
           {isOne && (
             <div className={`row ${style.slider1}`}>
               <div className={style.rowContent}>
@@ -49,6 +51,8 @@ const Banner = () => {
                   <h1>The For Digital Banking</h1>
                 </div>
                 <div className={`col-lg-6 col-md-12 ${style.colright}`}>
+                <Image src={Phone}  className={style.phoner} />
+
                   <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Nam reiciendis exercitationem cumque vero accusamus minima
@@ -62,6 +66,7 @@ const Banner = () => {
                   </button>
                 </div>
               </div>
+
               <div className={`row m-0 ${style.btmRow3}`}>
                 <div className={`col-3 ${style.box1}`}>
                   <Image src={Image1} className={style.box1Images} />
@@ -76,7 +81,8 @@ const Banner = () => {
                   <Image src={Image6} className={style.box1Images} />
                 </div>
               </div>
-              <div className={`row m-0  ${style.btmRow4}`}>
+                <Image src={Phone1} className={style.phoner1}/>
+                 <div className={`row m-0  ${style.btmRow4}`}>
                 <div className={`col-3 ${style.box1}`}>
                   <Image src={Image2} className={style.box1Images1} />
                 </div>
@@ -92,13 +98,14 @@ const Banner = () => {
               </div>
             </div>
           )}
-          {isTwo && <div className={style.slider2}>
+          {isTwo && <div className={style.slider1}>
           <div className={`row ${style.slider1}`}>
               <div className={style.rowContent}>
                 <div className={`col-lg-6 col-md-12 ${style.colleft}`}>
                   <h1>The For Digital Banking</h1>
                 </div>
                 <div className={`col-lg-6 col-md-12 ${style.colright}`}>
+                   <Image src={Phone}  className={style.phoner} />
                   <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Nam reiciendis exercitationem cumque vero accusamus minima
@@ -126,6 +133,7 @@ const Banner = () => {
                   <Image src={Card6} className={style.box1ImagesB} />
                 </div>
               </div>
+              <Image src={Phone1} className={style.phoner1}/>
               <div className={`row ${style.btmRow2}`}>
                 <div className={`col-4 ${style.box1}`}>
                   <Image src={Card2} className={style.box1ImagesC} />
@@ -141,7 +149,7 @@ const Banner = () => {
             </div>
             
             </div>}
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );
