@@ -72,8 +72,8 @@ export default function Header() {
                 <div className={styles.actions}>
                     <button className={styles.btnStart}>Get Started</button>
                     <button className={styles.menuButton} onClick={toggleSidebar}>
-                {isOpen ? 'Close' : '☰'}
-            </button>
+                        {isOpen ? 'Close' : '☰'}
+                    </button>
                 </div>
             </header>
 
@@ -95,14 +95,14 @@ export default function Header() {
                                     <li>
                                         <CiWallet />
                                         <div>
-                                            <Link href="/Banking-app-development">Digital Wallet Development <WiDirectionUpRight /></Link>
+                                            <Link href="/Digital-wallet-development">Digital Wallet Development <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <SiBmcsoftware />
                                         <div>
-                                            <Link href="/">Insurance Software Development <WiDirectionUpRight /></Link>
+                                            <Link href="/Insurance-software-development">Insurance Software Development <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
@@ -113,21 +113,21 @@ export default function Header() {
                                     <li>
                                         <MdOutlineDesignServices />
                                         <div>
-                                            <Link href="/">FinOps Services <WiDirectionUpRight /></Link>
+                                            <Link href="/finops-services">FinOps Services <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <GiFlatPlatform />
                                         <div>
-                                            <Link href="/">Crowdfunding Platform Development <WiDirectionUpRight /></Link>
+                                            <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <GiPlatform />
                                         <div>
-                                            <Link href="/">Decentralized Finance Platform <WiDirectionUpRight /></Link>
+                                            <Link href="/decentralized-finance-defi-platform">Decentralized Finance Platform <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
@@ -138,21 +138,21 @@ export default function Header() {
                                     <li>
                                         <GrIntegration />
                                         <div>
-                                            <Link href="/">Integration Services <WiDirectionUpRight /></Link>
+                                            <Link href="/integration-services">Integration Services <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <GrResources />
                                         <div>
-                                            <Link href="/">Resource Augmentation <WiDirectionUpRight /></Link>
+                                            <Link href="/resource-augmentation">Resource Augmentation <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <FaExchangeAlt />
                                         <div>
-                                            <Link href="/">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
+                                            <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
@@ -163,7 +163,7 @@ export default function Header() {
                                     <li>
                                         <CiLock />
                                         <div>
-                                            <Link href="/">Cybersecurity <WiDirectionUpRight /></Link>
+                                            <Link href="/cybersecurity">Cybersecurity <WiDirectionUpRight /></Link>
                                             <span>The power of seamless banking</span>
                                         </div>
                                     </li>
@@ -175,7 +175,7 @@ export default function Header() {
             )}
 
             <div className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}>
-            <Image className={styles.mobilelogo} src={logo} alt="Logo" />
+                <Image className={styles.mobilelogo} src={logo} alt="Logo" />
                 <ul>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/about">About</Link></li>
@@ -186,26 +186,26 @@ export default function Header() {
                         {isDropdownOpen && (
                             <ul className={styles.dropdown}>
                                 <li><Link href="/Banking-app-development">Banking App Development</Link></li>
-                                <li><Link href="/services/mobile-development">Digital Wallet Development</Link></li>
-                                <li><Link href="/services/seo">Insurance Software Development</Link></li>
-                                <li><Link href="/services/web-development">FinOps Services</Link></li>
-                                <li><Link href="/services/mobile-development">Crowdfunding Platform Development</Link></li>
-                                <li><Link href="/services/seo">Decentralized Finance Platform</Link></li>
-                                <li><Link href="/services/web-development">Integration Services</Link></li>
-                                <li><Link href="/services/mobile-development">Resource Augmentation</Link></li>
-                                <li><Link href="/services/seo">Currency Exchange Platform Development</Link></li>
-                                <li><Link href="/services/seo">Cybersecurity</Link></li>
+                                <li><Link href="/Digital-wallet-development">Digital Wallet Development</Link></li>
+                                <li><Link href="/Insurance-software-development">Insurance Software Development</Link></li>
+                                <li><Link href="/finops-services">FinOps Services</Link></li>
+                                <li><Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development</Link></li>
+                                <li><Link href="/decentralized-finance-defi-platform">Decentralized Finance Platform</Link></li>
+                                <li><Link href="/integration-services">Integration Services</Link></li>
+                                <li><Link href="/resource-augmentation">Resource Augmentation</Link></li>
+                                <li><Link href="/currency-exchange-platform-development">Currency Exchange Platform Development</Link></li>
+                                <li><Link href="/cybersecurity">Cybersecurity</Link></li>
                             </ul>
                         )}
                     </li>
                     <li>
                         <button className={styles.dropdownButton} onClick={toggleDropdowntwo}>
-                            Products {isDropdownOpentwo ?  <IoIosArrowDown /> : <IoIosArrowUp />}
+                            Products {isDropdownOpentwo ? <IoIosArrowDown /> : <IoIosArrowUp />}
                         </button>
                         {isDropdownOpentwo && (
                             <ul className={styles.dropdown}>
                                 <li><Link href="/riseApp">Rise App</Link></li>
-                                    <li><Link href="/welab">WeLab</Link></li>
+                                <li><Link href="/welab">WeLab</Link></li>
                             </ul>
                         )}
                     </li>
