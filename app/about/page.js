@@ -15,8 +15,8 @@ export default function page() {
     <>
       <Header />
       <Banner
-        showCase="About FinTechify"
-        // head="About Us"
+        showCase={false}
+        head="About FinTechify"
         tagLine="Our Journey to Reach the Best Solution for You"
         Des="Embark on a collaborative journey with us as we navigate through possibilities, challenges, and innovations to craft the optimal solution tailored specifically for your unique needs. our commitment is to guide you through this journey, ensuring that the path we tread together leads to the best financial outcomes for you."
       />

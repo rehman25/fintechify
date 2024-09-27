@@ -18,8 +18,8 @@ function page() {
         <>
             <Header />
             <Banner
-                showCase={"Banking App Development"}
-                head={false}
+                showCase={false}
+                head={"Banking App Development"}
                 tagLine={false}
                 Des="Banking that fits in Your Pocket"
             />
