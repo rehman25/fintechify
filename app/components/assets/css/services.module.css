@@ -8,6 +8,7 @@
 .everyoneSection h4 {
     font-weight: 800;
     font-size: 40px;
+    color: black;
 }
 
 .everyoneInnerBox {
@@ -177,7 +178,7 @@
 /* ================================================== */
 .processSection{
     margin: 50px 0;
-    color: white;
+    color: black;
 }
 .processSection h4{
     text-align: center;
@@ -463,5 +464,7 @@
     color: white;
     height: 600px;
 }
-
+.para{
+    color: black !important;
+}
 
