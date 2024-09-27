@@ -6,6 +6,7 @@ import Testimonials from '../components/Testimonials/Testimonials'
 import Footer from '../components/Footer/Footer'
 import styles from '../components/assets/css/services.module.css'
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
+import img from '../components/assets/images/cyberimg.jpeg'
 
 
 function page() {
@@ -36,12 +37,12 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
-                                <img className={styles.cybersecurityimg} decoding="async" width="1000" height="871" src="https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x.png" class="attachment-full size-full wp-image-1295" alt="" srcset="https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x.png 1000w, https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x-300x261.png 300w, https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x-768x669.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" />                            </div>
+                            <Image className="img-fluid" src={img} />
                         </div>
                     </div>
                 </div>
+                </div>
             </section>
-
 
 
             <section className={styles.processSection} data-aos="fade-up">

@@ -407,14 +407,7 @@
     color: #fff;
     transition: background-color 0.3s ease;
 }
-.finopsImg{
-    background-image: url("../images/finopsimg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
+
 
 .insuranceimg{
     background-image: url("../images/insuraceimg.jpg");
@@ -424,14 +417,7 @@
     height: 400px;
     width: 100%;
 }
-.crowdimg{
-    background-image: url("../images/crowdimg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
+
 .bgblightBluethree{
     background: #1E96FC;
     border-radius: 0 0 20px 0;
@@ -464,14 +450,7 @@
         height: auto;
     }
 }
-.financeimg{
-    background-image: url("../images/financeimg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
+
 .bgWhitedecetealize{
     background: #fff;
     border-radius: 20px 0 0 0;
@@ -485,28 +464,4 @@
     height: 600px;
 }
 
-.resourceimg{
-    background-image: url("../images/resourceimg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
 
-.cybersecurityimg{
-    background-image: url("../images/cyberimg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
-.currencyexchangeimg{
-    background-image: url("../images/currencyexchangeimg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}

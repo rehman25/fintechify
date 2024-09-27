@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
 import styles from '../components/assets/css/services.module.css'
 import img1 from '../components/assets/images/webp.net-resizeimage.jpg'
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import aboutFirstSectionImg from "../components/assets/images/smiling-arab-businessman-adult-happy-generate-ai-scaled-e1711735176898.jpg"
+import aboutFirstSectionImg from "../components/assets/images/crowdimg.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
 
@@ -41,8 +41,8 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
-                                <img className={styles.crowdimg} decoding="async" width="1000" height="871" src="https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x.png" class="attachment-full size-full wp-image-1295" alt="" srcset="https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x.png 1000w, https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x-300x261.png 300w, https://fintechify.ae/wp-content/uploads/2024/02/shape-img2@2x-768x669.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" />                            </div>
-                        </div>
+                            <Image className="img-fluid" src={aboutFirstSectionImg} />                        </div>
+                    </div>
                     </div>
                 </div>
             </section>
