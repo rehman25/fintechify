@@ -3,13 +3,15 @@
 .footer {
   background-image: url(../images/ft1-bg.jpg);
   color: white;
-  padding: 2rem 1.5rem;
+  padding: 6rem 1.5rem;
   font-family: Arial, sans-serif;
   width: 95%;
   margin: auto;
   border-radius: 50px;
   margin-bottom: 30px;
   position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .footer::after{
   content: "";
@@ -77,14 +79,23 @@
 }
 
 .subscribeButton {
-  background-color: #1E96FD;
+  background-image: linear-gradient(90deg, #0929C2, #2095FB);
   border: none;
   padding: 13px 30px;
   color: white;
-  border-radius: 20px;
+  border-radius: 36px;
   cursor: pointer;
   position: relative;
   right: 44px;
+  transition: all 1s;
+}
+
+.subscribeButton:hover{
+  transition: all 1s;
+  background-image: linear-gradient(90deg, #2095FB, #0929C2);
+}
+.subscribeButton svg{
+  font-size: 20px;
 }
 
 .footerMain {
@@ -107,18 +118,29 @@
 
 .socialIcons {
   margin-top: 30px;
+  position: relative;
+  z-index: 999999;
 }
 
 .socialIcons a {
-  margin-right: 30px;
+  margin-right: 10px;
   background: #80808087;
-  padding: 10px 8px;
+  padding: 10px 12px;
   border-radius: 50px;
+  display: inline-block;
+}
+
+.socialIcons a:hover{
+  transition: all 1s;
+  background: white;
+}
+.socialIcons a:hover svg{
+  color: #2095FB;
 }
 
 .socialIcons a svg {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .linksSection {
@@ -137,9 +159,13 @@
 }
 
 .linksSection p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
+.companyInfo ul p{
+  font-size: 15px;
+  margin: 10px 0;
+}
 .linksSection li {
   margin-bottom: 0.5rem;
 }

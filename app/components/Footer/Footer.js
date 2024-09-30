@@ -6,6 +6,10 @@ import logo from '../assets/images/FINTECHIFY-white-removebg-preview.png'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
+import { FaXTwitter } from "react-icons/fa6";
+
+
 
 
 
@@ -25,16 +29,23 @@ export default function Footer() {
                             placeholder="Email address"
                             className={styles.emailInput}
                         />
-                        <button className={styles.subscribeButton}>Subscribe</button>
+                        <button className={styles.subscribeButton}>Subscribe <GoArrowUpRight />
+                        </button>
                     </div>
                 </div>
                 <div className={`${styles.footerMain} container p-0 m-0`}>
                     <div className="row p-0 m-0">
                         <div className={`${styles.companyInfo} col-lg-3 p-0 m-0`}>
                             <Image src={logo} alt="Logo" className={styles.logo} />
+                                <ul className='p-0 m-0'>
+                                    <p>+971-54-5061985</p>
+                                    <p>talktous@fintechify.ae</p>
+                                    <p>Unit: IH0101-OF01, Level One, <br /> Innovation One, DIFC, Dubai, UAE</p>
+                                </ul>
                             <div className={styles.socialIcons}>
                                 <Link href="#"><FaFacebookSquare /></Link>
                                 <Link href="#"><FaInstagram /></Link>
+                                <Link href="#"><FaXTwitter /></Link>
                                 <Link href="#"><FaLinkedin /></Link>
                             </div>
                         </div>
