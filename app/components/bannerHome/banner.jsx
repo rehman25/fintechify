@@ -35,7 +35,7 @@ const Banner = () => {
       const timer = setTimeout(() => {
         setIsOne(true);
         setIsTwo(false);
-      }, 10000);
+      }, 3000);
       return () => clearTimeout(timer);
     }
   }, [isOne, isTwo]);
@@ -98,8 +98,8 @@ const Banner = () => {
               </div>
             </div>
           )}
-          {isTwo && <div className={style.slider1}>
-          <div className={`row ${style.slider1}`}>
+          {isTwo && 
+          <div className={`row  ${style.slider1}`}>
               <div className={style.rowContent}>
                 <div className={`col-lg-6 col-md-12 ${style.colleft}`}>
                   <h1>The For Digital Banking</h1>
@@ -119,7 +119,7 @@ const Banner = () => {
                   </button>
                 </div>
               </div>
-              <div className={`row ${style.btmRow}`}>
+              <div className={`row m-0 ${style.btmRow}`}>
                 <div className={`col-3 ${style.box1}`}>
                   <Image src={Card1} className={style.box1ImagesB} />
                 </div>
@@ -134,7 +134,7 @@ const Banner = () => {
                 </div>
               </div>
               <Image src={Phone1} className={style.phoner1}/>
-              <div className={`row ${style.btmRow2}`}>
+              <div className={`row m-0 ${style.btmRow2}`}>
                 <div className={`col-4 ${style.box1}`}>
                   <Image src={Card2} className={style.box1ImagesC} />
                 </div>
@@ -146,9 +146,9 @@ const Banner = () => {
                   <Image src={Card7} className={style.box1ImagesC} />
                 </div>
               </div>
-            </div>
+          </div>
             
-            </div>}
+            }
         {/* </div> */}
       </div>
     </div>

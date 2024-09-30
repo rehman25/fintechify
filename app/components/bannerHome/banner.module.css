@@ -16,7 +16,7 @@
    background-repeat: no-repeat;
     
    background-size: cover;
-   overflow: clip;
+   /* overflow: clip; */
    padding: 30px;
 }
 
@@ -260,7 +260,7 @@
 
     .slider1{
         border-radius: 0%;
-        overflow-x: clip;
+        /* overflow-x: clip; */
     }
     .slider2{
         border-radius: 0%;
@@ -307,9 +307,15 @@
 
 
 @media screen and (max-width:767px){
+    .rowContent{
+        padding: 0px;
+    }
+    .colright p{
+        padding: 0;
+    }
     .slider1{
         border-radius: 0%;
-        overflow-x: clip;
+        /* overflow-x: clip; */
     }
     .btmRow3{
         top: 110px;
@@ -332,6 +338,13 @@
         align-items: flex-start;
         padding: 0;
     }
+    .colleft{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .colleft h1{
+        font-size: 42px;
+    }
     
 }
 @media screen and (max-width:578px){
@@ -350,16 +363,26 @@
 }
 
 @media screen and (max-width:400px){
-    .btmRow{
-        top: -50px;
-    }
+    
     .btmRow2{
-        top: 0px;
+        top: 50px;
     }
     .btmRow{
-        top: 100px;
+        display: none;
     }
-    .btmRow2{
-        top: 80px;
+    .btmRow3{
+        top: 60px;
+    }
+    .btmRow4{
+        display: none;
+    }
+    .colright button{
+        width: 80vw;
+    }
+    .box1Images{
+        border-radius: 10px;
+    }
+    .box1Images2{
+        border-radius: 10px;
     }
 }

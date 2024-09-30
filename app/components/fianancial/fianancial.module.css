@@ -193,3 +193,20 @@
   top: 68px;
   color: aliceblue;
 }
+
+@media screen and (max-width:768px) {
+  .rightPhone{
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .rightPhone{
+    width: 70%;
+    height: 100%;
+  }
+  .percent1 h3{
+    font-size: 30px;
+ }
+}
