@@ -52,7 +52,7 @@ function page() {
                                 <h2>
                                     Why Fintechify is best for Integrations Services
                                 </h2>
-                                <p>So what are the plans about taking your business to the next level with Fintechify? Our expert team of Integration services can support you and your clients across the market. Solutions that are built to scale, effortlessly adapting as your business expands. And most importantly, security is our top priority. We implement robust measures to safeguard your valuable data throughout the entire integration process.</p>
+                                <p className={styles.para}>So what are the plans about taking your business to the next level with Fintechify? Our expert team of Integration services can support you and your clients across the market. Solutions that are built to scale, effortlessly adapting as your business expands. And most importantly, security is our top priority. We implement robust measures to safeguard your valuable data throughout the entire integration process.</p>
                                 <div className={styles.iconFlexBox}>
                                     <IoMdCheckmarkCircleOutline />
                                     <div>
@@ -98,7 +98,6 @@ function page() {
                                         <h3>Manufacturing
                                         </h3>
                                         <span>Integration Services can connect factory floor machines with production planning software and enterprise resource planning (ERP) systems. This allows for real-time monitoring of production lines, predictive maintenance, and optimized resource allocation, leading to increased productivity and reduced downtime.
-
                                         </span>
                                     </div>
                                 </div>
@@ -144,7 +143,7 @@ function page() {
                                     </h5>
                                     <p>Drowning in data silos? We set your information free.  Our data integration services create a smooth information highway across databases, applications, and analytics tools.  This gives you a unified view of your entire business, empowering you to make data-driven decisions with confidence.
                                     </p>
-                                </ul>
+                                    </ul>
                                 <ul>
                                     <h5>E-commerce on Autopilot
                                     </h5>

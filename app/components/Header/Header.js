@@ -61,7 +61,7 @@ export default function Header() {
                         }} className={styles.productsMenu}><Link href="#">Products <IoIosArrowDown /></Link>
                             {isProdMenu && (
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
-                                    <li><Link href="/riseApp" className={styles.ol}>Rise App</Link></li>
+                                    <li><Link href="/rizeApp" className={styles.ol}>Rize App</Link></li>
                                     <li><Link href="/welab" className={styles.ol}>WeLab</Link></li>
                                 </ul>
                             )}
@@ -204,7 +204,7 @@ export default function Header() {
                         </button>
                         {isDropdownOpentwo && (
                             <ul className={styles.dropdown}>
-                                <li><Link href="/riseApp">Rise App</Link></li>
+                                <li><Link href="/rizeApp">Rize App</Link></li>
                                 <li><Link href="/welab">WeLab</Link></li>
                             </ul>
                         )}
