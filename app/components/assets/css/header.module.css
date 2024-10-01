@@ -7,6 +7,8 @@
   padding: 0 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
+  z-index: 9999;
+  position: relative;
 }
 
 .logo {
@@ -172,6 +174,7 @@
 .sidebar.open {
   left: 0;
   overflow-y: scroll;
+  z-index: 9999;
 }
 
 .mobilelogo {
