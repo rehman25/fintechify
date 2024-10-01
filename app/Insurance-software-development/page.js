@@ -52,7 +52,7 @@ function page() {
                     <div className="row">
                         <h4>Key Features of Fintechify Insurance Software <br /> Development Services</h4>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlueins} `}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.InsuranceBlueUpperBox} `}>
                                 <ul>
                                     <h5>1. Policy Management Systems</h5>
                                     <p>Ditch the paperwork jungle! Our robust systems manage policies, <br /> premiums, claims, and more – all in one secure, digital platform.
@@ -91,7 +91,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhiteins}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.InsuranceWhiteBottomBox}`}>
                                 <ul>
                                     <h5>3. Agency Management Platforms</h5>
                                     <p>Empower your agency with an all-in-one solution:
@@ -102,14 +102,11 @@ function page() {
                                     <p>• Manage clients, policies, and commissions with ease. <br />
                                         • Automate routine tasks to free up your team. <br />
                                         • Gain valuable insights to drive strategic decisions.
-
                                     </p>
                                 </ul>
                                 <ul>
                                     <h5>4. Data Analytics and Reporting</h5>
-                                    <p>Unlock the power of your data:
-
-                                    </p>
+                                    <p>Unlock the power of your data:</p>
                                 </ul>
                                 <ul>
                                     <h5>• See beyond the spreadsheets</h5>

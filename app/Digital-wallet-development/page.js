@@ -52,7 +52,7 @@ const page = () => {
             <span>Here's how we turn your vision into reality:</span>
 
             <div className='col-lg-6 p-lg-0'>
-              <div className={`${styles.processBox} ${styles.bgblightBlue}`}>
+              <div className={`${styles.processBox}  ${styles.blueBg} ${styles.DigiBlueUpperBox}`}>
                 <ul>
                   <h5>1. Cracking the Code: Deep Dive Discovery</h5>
                   <p>We don’t just write code; we write the future of finance. We partner with you to understand your business goals, target audience, and the tech that makes it tick.</p>
@@ -65,7 +65,7 @@ const page = () => {
               </div>
             </div>
             <div className='col-lg-6 p-lg-0'>
-              <div className={`${styles.processBox} ${styles.bgWhite}`}>
+              <div className={`${styles.processBox}  ${styles.whiteBg} ${styles.DigiWhiteBottomBox}`}>
                 <ul>
                   <h5>3. Cashing in on Innovation: Development</h5>
                   <p>Our developers are coding ninjas, wielding cutting-edge tech to build a digital wallet that’s scalable, secure, and lightning-fast.  We use industry best practices to make sure your app is built to last.</p>
@@ -77,9 +77,6 @@ const page = () => {
                 </ul> 
               </div>
             </div>
-         
-           
-
           </div>
         </div>
       </section>

@@ -110,7 +110,7 @@ function page() {
                         <span>Before we blast off, we need a roadmap.</span>
 
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlue}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevBlueUpperBox} `}>
                                 <ul>
                                     <h5>Deep dive</h5>
                                     <p>We’ll analyze your goals, target audience, and tech needs to understand your vision perfectly.</p>
@@ -126,7 +126,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhite}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.bankDevWhiteUpperBox}`}>
                                 <ul>
                                     <h5>Crafting your dream app, one pixel at a time.
                                         Design masterminds and coding wizards join forces</h5>
@@ -158,7 +158,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhite2}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.bankDevWhiteBottomBox}`}>
                                 <ul>
                                     <h5>Putting your banking app through the ultimate test.</h5>
                                     <p>We don’t leave anything to chance. Our team conducts thorough examinations:</p>
@@ -181,7 +181,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlue2}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevBlueBottomBox}`}>
                                 <ul>
                                     <h5>Launch Day:</h5>
                                     <h5>Time to celebrate!</h5>

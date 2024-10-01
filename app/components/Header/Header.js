@@ -89,21 +89,19 @@ export default function Header() {
                                         <AiFillAppstore />
                                         <div>
                                             <Link href="/Banking-app-development">Banking App Development <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <CiWallet />
                                         <div>
                                             <Link href="/Digital-wallet-development">Digital Wallet Development <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
+                                            {/* <span>The power of seamless banking</span> */}
                                         </div>
                                     </li>
                                     <li>
                                         <SiBmcsoftware />
                                         <div>
                                             <Link href="/Insurance-software-development">Insurance Software Development <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -114,21 +112,18 @@ export default function Header() {
                                         <MdOutlineDesignServices />
                                         <div>
                                             <Link href="/finops-services">FinOps Services <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <GiFlatPlatform />
                                         <div>
                                             <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <GiPlatform />
                                         <div>
                                             <Link href="/decentralized-finance-defi-platform">Decentralized Finance Platform <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -139,21 +134,18 @@ export default function Header() {
                                         <GrIntegration />
                                         <div>
                                             <Link href="/integration-services">Integration Services <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <GrResources />
                                         <div>
                                             <Link href="/resource-augmentation">Resource Augmentation <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                     <li>
                                         <FaExchangeAlt />
                                         <div>
                                             <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -164,7 +156,6 @@ export default function Header() {
                                         <CiLock />
                                         <div>
                                             <Link href="/cybersecurity">Cybersecurity <WiDirectionUpRight /></Link>
-                                            <span>The power of seamless banking</span>
                                         </div>
                                     </li>
                                 </ul>

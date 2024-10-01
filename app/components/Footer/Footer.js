@@ -33,15 +33,13 @@ export default function Footer() {
                         </button>
                     </div>
                 </div>
-                <div className={`${styles.footerMain} container p-0 m-0`}>
+                <div className={`${styles.footerMain} p-0 m-0`}>
                     <div className="row p-0 m-0">
                         <div className={`${styles.companyInfo} col-lg-3 p-0 m-0`}>
                             <Image src={logo} alt="Logo" className={styles.logo} />
-                                <ul className='p-0 m-0'>
-                                    <p>+971-54-5061985</p>
-                                    <p>talktous@fintechify.ae</p>
-                                    <p>Unit: IH0101-OF01, Level One, <br /> Innovation One, DIFC, Dubai, UAE</p>
-                                </ul>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, atque obcaecati aut debitis natus esse totam molestias molestiae quo iure adipisci unde! Autem, suscipit iure tenetur amet voluptatibus inventore doloremque.
+                                    </p>
                             <div className={styles.socialIcons}>
                                 <Link href="#"><FaFacebookSquare /></Link>
                                 <Link href="#"><FaInstagram /></Link>
@@ -58,6 +56,11 @@ export default function Footer() {
                                     <li><Link href="#">Insurance Software Development</Link></li>
                                     <li><Link href="#">FinOps Services</Link></li>
                                     <li><Link href="#">Crowdfunding Platform Development</Link></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <h4></h4>
                                     <li><Link href="#">Decentralized Finance <br />(DeFi) Platform</Link></li>
                                     <li><Link href="#">Integration Services</Link></li>
                                     <li><Link href="#">Resource Augmentation</Link></li>
@@ -71,14 +74,9 @@ export default function Footer() {
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/about">About</Link></li>
                                     <li><Link href="/service">Services</Link></li>
-                                    <li><Link href="/contact-us">Contact</Link></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4>Products</h4>
-                                <ul>
                                     <li><Link href="/rizeApp">Rize App</Link></li>
                                     <li><Link href="/welab">WeLab</Link></li>
+                                    <li><Link href="/contact-us">Contact</Link></li>
                                 </ul>
                             </div>
                             <div>

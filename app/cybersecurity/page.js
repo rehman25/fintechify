@@ -43,16 +43,13 @@ function page() {
                 </div>
                 </div>
             </section>
-
-
             <section className={styles.processSection} data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <h4>Key Points for Implementing Cybersecurity in Business</h4>
                         <span>Implementing cybersecurity is not just a protective measure but it's a strategic advantage that sets your business apart in an increasingly digital world.</span>
-
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlue}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.cybersecurityBlueUpperBox}`}>
                                 <ul>
                                     <h5>1. Prevent Financial Loss
                                     </h5>
@@ -76,7 +73,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhite}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.cybersecurityWhiteBottomBox}`}>
                                 <ul>
                                     <h5>4. Defend Against Emerging Threats
                                     </h5>
@@ -101,8 +98,6 @@ function page() {
 
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>

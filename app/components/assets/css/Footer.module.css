@@ -12,6 +12,7 @@
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: clip;
 }
 .footer::after{
   content: "";
@@ -146,7 +147,7 @@
 .linksSection {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: space-between;
 }
 
 .linksSection div {
@@ -162,9 +163,10 @@
   font-size: 15px;
 }
 
-.companyInfo ul p{
+.companyInfo p{
   font-size: 15px;
   margin: 10px 0;
+  padding-right: 30px;
 }
 .linksSection li {
   margin-bottom: 0.5rem;

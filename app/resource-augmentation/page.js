@@ -36,22 +36,18 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
-                            <Image className="img-fluid" src={img} />
-                                </div>
+                                <Image className="img-fluid" src={img} />
                             </div>
+                        </div>
                     </div>
                 </div>
             </section>
-
-
-
             <section className={styles.processSection} data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <h4>Key Features</h4>
-
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlue}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.ResourceBlueUpperBox}`}>
                                 <ul>
                                     <h5>Your Fort Knox of Payment Security
                                     </h5>
@@ -65,7 +61,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhite}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.ResourceWhiteBottomBox}`}>
                                 <ul>
                                     <h5>Go Everywhere Your Customers Do.</h5>
                                     <p>Fintechify builds payment apps that work seamlessly on any device, from iPhones to Androids and desktops. Reach your entire audience, no matter their platform preference.</p>
@@ -74,14 +70,11 @@ function page() {
                                     <h5>Build Your Perfect Payment Flow.    </h5>
                                     <p>Flexibility is our middle name. Fintechify crafts payment apps that adapt to your vision.  Choose the features you need, personalize the design, and create the perfect payment experience for your business and customers.</p>
                                 </ul>
-                                    </div>
+                            </div>
                         </div>
-                       
-
                     </div>
                 </div>
             </section>
-
             <section className={styles.getStartedSection} data-aos="fade-up">
                 <div className="container">
                     <div className="row">
@@ -89,8 +82,7 @@ function page() {
                             <Image src={QoutesImg} alt='Qoutes' />
                             <h4>Ready to transform how your business manages payments?</h4>
                             <p>Reach out to us today to explore your project needs and initiate the journey towards developing an innovative payment application that propels your business towards growth and prosperity. Let's bring your vision to life!</p>
-                      </div>
-                    
+                        </div>
                     </div>
                 </div>
             </section>

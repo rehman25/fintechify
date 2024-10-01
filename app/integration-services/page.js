@@ -114,7 +114,7 @@ function page() {
                         <h4>Our Expertise in Integration Services</h4>
 
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlue}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.integBlueUpperBox}`}>
                                 <ul>
                                     <h5>API Powerhouse
                                     </h5>
@@ -136,7 +136,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhite}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.integWhiteBottomBox}`}>
 
                                 <ul>
                                     <h5>Data Unleashed
