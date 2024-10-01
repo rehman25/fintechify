@@ -29,7 +29,7 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
-                            <Image className="img-fluid" src={img1} />
+                                <Image className="img-fluid" src={img1} />
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ function page() {
                         <h4>See Where FinOps Service Works:</h4>
 
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlue}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.FinBlueUpperBox}`}>
                                 <ul>
                                     <h5>Financial Planning and Analysis</h5>
                                     <p>Tired of flying blind with your finances?  Our expert Financial Planning and Analysis (Fp&A) services are your key to financial clarity and empowered decision-making. <br />We’re not just number crunchers, we’re financial strategists.
@@ -68,7 +68,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhite}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.FinWhiteUpperBox}`}>
                                 <ul>
                                     <h5>Future-Proof Planning</h5>
                                     <p>We factor in market trends and potential risks, helping you navigate an uncertain world with confidence. <br />Stop wondering “what if?” and start knowing.</p>
@@ -87,7 +87,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhitetwo}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.FinWhiteBottomBox}`}>
                                 <ul>
                                     <h5>Efficiency Experts.</h5>
                                     <p>We streamline processes and optimize operations, ensuring you get the most out of every dollar you spend.</p>
@@ -119,7 +119,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBluetwo}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.FinBlueBottomBox}`}>
                                 <ul>
                                     <h5>Growth Roadmap</h5>
                                     <h5>Time to celebrate!</h5>
@@ -168,8 +168,8 @@ function page() {
                             <h4>Get Started Today</h4>
                             <p>Start your journey towards financial empowerment and business growth now! Reach out to us today to  <br /> discover how our FinOps services can propel your business to success. Don't wait, take the first step <br /> towards a brighter future!</p>
                         </div>
-                       
-                </div>
+
+                    </div>
                 </div>
             </section>
 

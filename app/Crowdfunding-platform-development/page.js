@@ -52,10 +52,9 @@ function page() {
             <section className={styles.processSection} data-aos="fade-up">
                 <div className="container">
                     <div className="row">
-                        <h4>Our Process</h4>
-
+                        <h4>Our Process</h4> 
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBluethree}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>
                                 <ul>
                                     <h5>Platform Development</h5>
                                     <p>Build a custom crowdfunding platform tailored to your specific <br /> needs.</p>
@@ -110,7 +109,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhitecrowd}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.CrowdWhiteBottomBox}`}>
                                 <ul>
                                     <h5>Craft Your Crowdfunding Dream: Fintechify Delivers
                                     </h5>
@@ -136,9 +135,6 @@ function page() {
                               
                             </div>
                         </div>
-                     
-                     
-
                     </div>
                 </div>
             </section>

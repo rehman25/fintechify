@@ -131,6 +131,9 @@
 .productsMenu ul li {
   padding: 7px 0;
 }
+.productsMenu ul li a{
+  color: white !important;
+}
 
 .menuButton {
   display: none;

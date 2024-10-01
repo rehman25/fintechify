@@ -206,61 +206,103 @@
     margin: 0;
     padding: 0;
 }
-.bgblightBlue{
-    background: #1E96FC;
-    border-radius: 20px 0 0 0;
-    color: white;
-    height: 450px;
-}
-.bgblightBlueins{
-    background: #1E96FC;
-    border-radius: 20px 0 0 0;
-    color: white;
-    height: 550px;
-}
-.bgWhite{
-    background: #F5F5F5;
-    border-radius: 0 20px 0 0;
-    color: black;
-    height: 450px;
-}
-.bgWhiteins{
-    background: white;
-    border-radius: 0 20px 0 0;
-    color: black;
-    height: 550px;
-}
 
-.bgWhite2{
+.blueBg{
+    background: #1E96FC;
+    color: white;
+}
+.whiteBg{
     background: #F5F5F5;
-    border-radius: 0 0 0 21px;
     color: black;
+}
+/* =============================== */
+.bankDevBlueUpperBox{
+    height: 450px;
+}
+.bankDevWhiteUpperBox{
+    height: 450px;
+}
+/* ================================ */
+.bankDevWhiteBottomBox{
     height: 400px;
 }
-.bgWhitetwo{
-    background: white;
-    border-radius: 0 0 0 21px;
-    color: black;
-    height: 600px;
-}
-.bgblightBluetwo{
-    background: #1E96FC;
-    border-radius: 0 0 20px 0;
-    color: white;
+.bankDevBlueBottomBox{
     height: 400px;
 }
 
-@media only screen and (max-width: 600px) {
-    .bgblightBluetwo{
-        height: auto;
-        border-radius: 25px;
-       
-    }
-    .bgWhitetwo{
-        height: auto;
-        border-radius: 25px;
-    }
-  }
+/* ==================================== */
+.FinBlueUpperBox{
+    height: 450px;
+}
+.FinWhiteUpperBox{
+    height: 450px;
+}
+/* ================================ */
+.FinBlueBottomBox{
+    height: 700px;
+}
+.FinWhiteBottomBox{
+    height: 700px;
+}
+/* ============================ */
+.integBlueUpperBox{
+    height: 450px;
+}
+.integWhiteBottomBox{
+    height: 450px;
+}
+/* ============================= */
+.DigiBlueUpperBox{
+    height: 450px;
+}
+.DigiWhiteBottomBox{
+    height: 450px;
+}
+/* ============================= */
+.CrowdBlueUpperBox{
+    height: 900px;
+}
+.CrowdWhiteBottomBox{
+    height: 900px;
+}
+/* ============================= */
+.ResourceBlueUpperBox{
+    height: 450px;
+}
+.ResourceWhiteBottomBox{
+    height: 450px;
+}
+/* ============================= */
+.InsuranceBlueUpperBox{
+    height: 650px;
+}
+.InsuranceWhiteBottomBox{
+    height: 650px;
+}
+/* ============================= */
+.decentralizedBlueUpperBox{
+    height: 650px;
+}
+.decentralizedWhiteBottomBox{
+    height: 650px;
+}
+/* ============================= */
+.currencyBlueUpperBox{
+    height: 500px;
+}
+.currencyWhiteBottomBox{
+    height: 500px;
+}
+/* ============================= */
+.cybersecurityBlueUpperBox{
+    height: 450px;
+}
+.cybersecurityWhiteBottomBox{
+    height: 450px;
+}
+/* ================================================================================================= */
+
+
 
 /* GET STARTED SECTION CSS ================================== */
 .getStartedSection{
@@ -323,17 +365,47 @@
 }
 
 
+.imgBox{
+    background-image: url("../images/digital\ banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+.elementskit_btn{
+    padding: 20px 32px 20px 32px ;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background-color: transparent;
+    background-image: linear-gradient(60deg, #6B5EFF 0%, #1D96FD 82%);
+    border-style: none;
+    border-radius: 50px 50px 50px 50px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.insuranceimg{
+    background-image: url("../images/insuraceimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+.para{
+    color: black !important;
+}
 
 /* ========================================================================= */
 
 @media screen and (max-width:992px){
     .aboutFirstsection h2 {
         font-size: 30px;
-    }
-    .bgblightBlue,.bgWhite,.bgblightBlue2,.bgWhite2{
-        border-radius: 20px;
-        margin: 3px 0;
-        height: auto;
     }
     .processBox ul{
         margin: 0;
@@ -344,6 +416,11 @@
     }
     .getStartedSection .startedBox{
         padding: 0;
+    }
+    .blueBg ,
+    .whiteBg{
+       height: auto;
+       margin: 10px auto;
     }
 }
 @media screen and (max-width:768px){
@@ -383,88 +460,5 @@
     .startedBottomSection p{
         font-size: 16px;
     }
-}
-.imgBox{
-    background-image: url("../images/digital\ banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
-
-.elementskit_btn{
-    padding: 20px 32px 20px 32px ;
-    font-family: "Work Sans", Sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    background-color: transparent;
-    background-image: linear-gradient(60deg, #6B5EFF 0%, #1D96FD 82%);
-    border-style: none;
-    border-radius: 50px 50px 50px 50px;
-    text-decoration: none;
-    color: #fff;
-    transition: background-color 0.3s ease;
-}
-
-
-.insuranceimg{
-    background-image: url("../images/insuraceimg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-}
-
-.bgblightBluethree{
-    background: #1E96FC;
-    border-radius: 0 0 20px 0;
-    color: white;
-    height: 850px;
-}
-.bgblightBlue2{
-    background: #1E96FC;
-    border-radius: 0 0 20px 0;
-    color: white;
-    height: 400px;
-}
-.bgWhitecrowd{
-    background: #fff;
-    border-radius: 20px 0 0 0;
-    color: black;
-    height: 850px;
-}
-@media only screen and (max-width:990px) {
-    .bgewhitecrowd{
-        height: auto;
-    }
-    .bgblightBluethree{
-        height: auto;
-    }
-    .bgbluedecetealize{
-        height: auto;
-    }
-    .bgWhitedecetealize{
-        height: auto;
-    }
-}
-
-.bgWhitedecetealize{
-    background: #fff;
-    border-radius: 20px 0 0 0;
-    color: black;
-    height: 600px;
-}
-.bgbluedecetealize{
-    background: #1E96FC;
-    border-radius: 20px 0 0 0;
-    color: white;
-    height: 600px;
-}
-.para{
-    color: black !important;
 }
 

@@ -58,7 +58,7 @@ const page = () => {
                         <h4>Our Services Of DeFi Platform Development</h4>
                         <h4>Tired of worrying about security and limited options?</h4>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgbluedecetealize}`}>
+                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}>
                                 <ul>
                                     <h5>Tired of worrying about security and limited options?
 
@@ -73,11 +73,8 @@ const page = () => {
                                 <li>Immutable: Once completed, transactions cannot be <br /> reversed, fostering trust.</li>
                             </div>
                         </div>
-
-
-
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhitedecetealize}`}>
+                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.decentralizedWhiteBottomBox}`}>
                                 <ul>
                                     <h5>Unleash a world of financial possibilities:
                                     </h5>
@@ -98,9 +95,6 @@ const page = () => {
                                 </ul>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </section>
@@ -140,7 +134,6 @@ const page = () => {
                     </div>
                 </div>
             </section>
-
             <Testimonials />
             <Footer />
         </>

@@ -36,15 +36,12 @@ function page() {
                 </div>
             </div>
             </section>
-
-
-
             <section className={styles.processSection} data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <h4>Key Features of Our Currency Exchange Platform Development Service:</h4>
                           <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgblightBlue}`}>
+                            <div className={`${styles.processBox}  ${styles.blueBg} ${styles.currencyBlueUpperBox}`}>
                                 <ul>
                                     <h5>Our Currency Exchange Platform Features
                                     </h5>
@@ -66,7 +63,7 @@ function page() {
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.bgWhite}`}>
+                            <div className={`${styles.processBox}  ${styles.whiteBg} ${styles.currencyWhiteBottomBox}`}>
                                 <ul>
                                     <h5>Effortless Connections
 
@@ -83,12 +80,9 @@ function page() {
                                 </ul>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>
-
             <section className={styles.getStartedSection} data-aos="fade-up">
                 <div className="container">
                     <div className="row">
@@ -97,15 +91,10 @@ function page() {
                             <h4>Strengthen Your Business with Fintechy Cybersecurity Solutions
                             </h4>
                             <h5>Ready to kickstart your currency exchange service or enhance your current platform? With our wealth of expertise and resources, we're poised to actualize your vision. Reach out today to delve deeper into our Currency Exchange Platform Development Service and discover how we can propel you towards your business objectives.</h5>
-
                         </div>
-
-
-
                     </div>
                 </div>
             </section>
-
             <Testimonials />
             <Footer />
         </>
