@@ -27,7 +27,7 @@ const FinancialComponent = () => {
                 app. Marks the outset of a journey into a boundless world, free
                 from constraints.
               </p>
-              <div className="d-flex mt-4">
+              <div className="d-flex  mt-4">
                 <div className={`me-5 text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     <BsLightningCharge className={styles.eletric} />

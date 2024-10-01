@@ -5,7 +5,7 @@ const MovingText = () => {
   return (
     <div className={`container-fluid ${style.container}`}>
          <div className="row">
-            <div className="col-12">
+            <div>
             <marquee direction="left"  className={style.left}>
                 <span>Simplify your digital product management with FinPoan</span>
             </marquee> 
