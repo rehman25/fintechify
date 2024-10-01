@@ -28,21 +28,21 @@ const Banner = () => {
   const [isOne, setIsOne] = useState(false);
   const [isTwo, setIsTwo] = useState(true);
 
-  // useEffect(() => {
-  //   if (isOne) {
-  //     const timer = setTimeout(() => {
-  //       setIsOne(false);
-  //       setIsTwo(true);
-  //     }, 3000);
-  //     return () => clearTimeout(timer);
-  //   } else if (isTwo) {
-  //     const timer = setTimeout(() => {
-  //       setIsOne(true);
-  //       setIsTwo(false);
-  //     }, 3000);
-  //     return () => clearTimeout(timer);
-  //   }
-  // }, [isOne, isTwo]);
+  useEffect(() => {
+    if (isOne) {
+      const timer = setTimeout(() => {
+        setIsOne(false);
+        setIsTwo(true);
+      }, 3000);
+      return () => clearTimeout(timer);
+    } else if (isTwo) {
+      const timer = setTimeout(() => {
+        setIsOne(true);
+        setIsTwo(false);
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [isOne, isTwo]);
 
   return (
     <div className={`container-fluid   ${style.containerFluid}`}>
@@ -104,6 +104,8 @@ const Banner = () => {
         )}
         {isTwo && (
           <div className={`row  ${style.slider1}`}>
+
+
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-12 ${style.colleft}`}>
                 <h1>The Platform For Digital Banking</h1>
@@ -142,6 +144,9 @@ const Banner = () => {
                 </button>
               </div>
             </div>
+
+
+
             <div className={`row m-0 ${style.btmRow}`}>
               <div className={`col-3 ${style.box1}`}>
                 <Image src={Card1} className={style.box1ImagesB} />
