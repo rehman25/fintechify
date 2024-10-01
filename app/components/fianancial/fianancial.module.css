@@ -104,7 +104,7 @@
   }
   
   .marqueeWrapper {
-    overflow: hidden;
+    overflow: clip;
   }
   
   .marquee {
@@ -114,6 +114,7 @@
   }
 
   .marqueeContent{
+    overflow-x: clip;
     display: flex;
     justify-content: space-between;
   }
@@ -136,6 +137,8 @@
     }
   }
   
+
+  .res{display: flex;}
   /* Add responsive behavior */
   @media (max-width: 768px) {
     /* .phone1,
@@ -209,4 +212,5 @@
   .percent1 h3{
     font-size: 30px;
  }
+
 }

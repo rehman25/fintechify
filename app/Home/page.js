@@ -9,19 +9,20 @@ import Payment from '@/app/components/payment/payment'
 import Move from '@/app/components/moveText/MovingText'
 import Testimonials from '../components/Testimonials/Testimonials'
 const page = () => {
-  return (
-    <>
+  return(
+       <> 
       <Header />
       <Banner />
-      <Fianancial />
+      <Fianancial   />
       <Services />
       <Count />
       <Payment />
       <Move />
       <Testimonials />
       <Footer />
-    </>
-  )
+      </>
+      )
+  
 }
 
 export default page

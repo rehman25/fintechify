@@ -36,6 +36,7 @@
     /* background-image: url('../assets/images/bgPhone.png'); */
     background-size: contain;
     background-repeat: no-repeat;
+    overflow: clip;
     }
 .colright p{
     padding: 20px;
@@ -66,9 +67,9 @@
 }
 
 .phoner{
-    width: 57%;
+    /* width: 57%; */
     /* height: 53%; */
-    right: -256px;
+    /* right: 0px; */
     position: absolute;
     animation: fade-in 5s ease 0s infinite normal forwards;
     animation: fade-out 5s linear 0s infinite normal forwards;
@@ -229,8 +230,9 @@
 
 .colleft{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .colright{
     display: flex;
@@ -246,6 +248,48 @@
     
 }
 
+
+.picture{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+.people{
+    display: flex;
+    margin: 5px 10px;
+
+}
+.people span {
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin-left: 15px;
+    
+}
+.star{
+    display: flex;
+    margin: 5px 10px;
+}
+.star span {
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin-left: 15px;
+
+}
+
+.head1{
+    position: relative;
+    left: 40px;
+}
+.head2{
+    position: relative;
+    left: 10px;
+}
+.head3{
+    position: relative;
+    left: -15px;
+}
 
 @media screen and (max-width: 1200px) {
     .btmRow3{
@@ -290,9 +334,10 @@
         color: white;
     }
     .phoner{
-        width: 57%;
-        height: 53%;
+        width: 50%;
+        height: 50%;
         right: 0px;
+        top: 20px;
   
     }
     .phoner1{
@@ -307,6 +352,9 @@
 
 
 @media screen and (max-width:767px){
+    .picture{
+        flex-direction: column;
+    }
     .rowContent{
         padding: 0px;
     }
@@ -345,6 +393,29 @@
     .colleft h1{
         font-size: 42px;
     }
+    .people{
+        position: relative;
+        left: -50px;
+        width: 100%;
+    }
+    .head1{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        /* right: 40px; */
+    }
+    .head2{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        right: 10px;
+    }
+    .head3{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        right: -15px;
+    }
     
 }
 @media screen and (max-width:578px){
@@ -360,26 +431,47 @@
     .btmRow2{
         top: 80px;
     }
+    .colleft h1{
+        font-size: 32px;
+    }
+    .colright p{
+        padding: 0;
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
 
 @media screen and (max-width:400px){
+    .people{
+        position: relative;
+        left:  -50px;
+        width: 100%;
+    }
+    .people span h4{
+        width: 100%;
+    }
     
     .btmRow2{
-        top: 50px;
-    }
-    .btmRow{
-        display: none;
-    }
-    .btmRow3{
         top: 60px;
     }
+    .btmRow{
+        /* display: none; */
+        top:64px;
+    }
+    .btmRow3{
+        top: 75px;
+    }
     .btmRow4{
-        display: none;
+        /* display: none; */
+        top: 40px;
     }
     .colright button{
         width: 80vw;
     }
     .box1Images{
+        border-radius: 10px;
+    }
+    .box1Images1{
         border-radius: 10px;
     }
     .box1Images2{
