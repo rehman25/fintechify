@@ -127,7 +127,8 @@
   flex-direction: column;
   width: 300px;
   border-radius: 0 0 25px 25px;
-  top: 15%;
+  /* top: 15%; */
+  margin-top: 30px;
 }
 
 .productsMenu ul li {
