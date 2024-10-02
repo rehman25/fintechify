@@ -39,7 +39,7 @@
     overflow: clip;
     }
 .colright p{
-    padding: 20px;
+    /* padding: 20px; */
     font-weight: 300;
     color: white;
 }
@@ -119,7 +119,7 @@
     justify-content: space-between;
     /* margin-top: 100px; */
      position: relative;
-     top: 150px;
+     top: 195px;
 }
 .btmRow2{
     display: flex;
@@ -128,7 +128,7 @@
     /* margin-top: 100px; */
      position: relative;
      bottom: 100px;
-     top: 100px;
+     top: 130px;
 }
 .box1ImagesC{
     width: 100%;
@@ -223,7 +223,8 @@
 }
 
 .colleft h1{
-    font-size: 70px;
+    font-size: 64px;
+    letter-spacing: 5px;
     font-weight:700;
     color: white;
 }
@@ -240,11 +241,18 @@
     justify-content: center;
     /* align-items: center; */
 }
+.colright p{
+    padding: 20px 0px;
+}
 
 .rowContent{
     display: flex;
-    padding: 15px;
+     padding-top: 100px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
     flex-direction: row;
+    align-items: center;
     
 }
 
@@ -279,26 +287,25 @@
 }
 
 .head1{
-    position: relative;
-    left: 40px;
+    position: absolute;
 }
 .head2{
     position: relative;
-    left: 10px;
+    left: 20px;
 }
 .head3{
     position: relative;
     left: -15px;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .btmRow3{
         top: 150px;
     }
     .btmRow4{
         top: 50px;
     }
-}
+} */
 
 @media screen and (max-width:992px){
 
@@ -393,13 +400,9 @@
     .colleft h1{
         font-size: 42px;
     }
-    .people{
-        position: relative;
-        left: -50px;
-        width: 100%;
-    }
+ 
     .head1{
-        position: relative;
+        /* position: relative; */
         width: 50px;
         height: 50px;
         /* right: 40px; */
@@ -408,13 +411,15 @@
         position: relative;
         width: 50px;
         height: 50px;
-        right: 10px;
+        right: 50px;
+
     }
     .head3{
         position: relative;
         width: 50px;
         height: 50px;
-        right: -15px;
+        left: 0px;
+        /* right: -15px; */
     }
     
 }
@@ -442,11 +447,7 @@
 }
 
 @media screen and (max-width:400px){
-    .people{
-        position: relative;
-        left:  -50px;
-        width: 100%;
-    }
+   
     .people span h4{
         width: 100%;
     }
