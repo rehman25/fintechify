@@ -60,7 +60,19 @@
   background-image: linear-gradient(90deg, #0929C2, #2095FB);
   border-radius: 30px;
   color: white;
-
+  transition: all 0.1s;
+  font-weight: 600;
+}
+.btnStart svg{
+  transform: rotate(-45deg);
+  transition: all 0.1s;
+}
+.btnStart:hover{
+  background-image: linear-gradient(90deg, #2095FB ,#0929C2);
+}
+.btnStart:hover svg{
+  transform: rotate(0deg);
+  transition: all 0.1s;
 }
 
 .menuBox {

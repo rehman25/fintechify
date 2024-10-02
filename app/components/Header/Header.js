@@ -18,6 +18,8 @@ import { GrResources } from "react-icons/gr";
 import { FaExchangeAlt } from "react-icons/fa";
 import { CiLock } from "react-icons/ci";
 import { IoIosArrowUp } from "react-icons/io";
+import { FaArrowRight } from "react-icons/fa6";
+
 
 
 
@@ -70,7 +72,8 @@ export default function Header() {
                     </ul>
                 </nav>
                 <div className={styles.actions}>
-                    <button className={styles.btnStart}>Get Started</button>
+                    <button className={styles.btnStart}>Get Started <FaArrowRight />
+                    </button>
                     <button className={styles.menuButton} onClick={toggleSidebar}>
                         {isOpen ? 'Close' : '☰'}
                     </button>
