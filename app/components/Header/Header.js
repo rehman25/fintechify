@@ -19,6 +19,10 @@ import { FaExchangeAlt } from "react-icons/fa";
 import { CiLock } from "react-icons/ci";
 import { IoIosArrowUp } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
+import { MdClose } from "react-icons/md";
+import { FaBars } from "react-icons/fa";
+
+
 
 
 
@@ -75,7 +79,7 @@ export default function Header() {
                     <button className={styles.btnStart}>Get Started <FaArrowRight />
                     </button>
                     <button className={styles.menuButton} onClick={toggleSidebar}>
-                        {isOpen ? 'Close' : '☰'}
+                        {isOpen ? <MdClose /> : <FaBars />}
                     </button>
                 </div>
             </header>
