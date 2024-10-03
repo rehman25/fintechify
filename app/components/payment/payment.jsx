@@ -6,6 +6,8 @@ import Image from "next/image";
 import bg1 from "../assets/images/h1_showcase1.jpg";
 import bg2 from "../assets/images/h1_showcase2.jpg";
 import bg3 from "../assets/images/h1_showcase3.jpg";
+import { MdOutlinePayment } from "react-icons/md";
+
 
 const payment = () => {
   const [isHover, setHover] = useState(true);
@@ -36,7 +38,7 @@ const payment = () => {
         <div className={`row ${style.row}`}>
           <div className="col-lg-6">
             <span className={style.about}>
-              <RiSettings2Line className={style.settingIcon} />
+              <MdOutlinePayment className={style.settingIcon} />
               <h4>Payment Process</h4>
             </span>
             <h1 className={style.heading}>
@@ -51,7 +53,7 @@ const payment = () => {
               onMouseEnter={handleMouseOver}
             >
               <h1 className={isHover ? style.numberHover : style.number}>01</h1>
-              <span className={isHover ? style.spamHover : style.spam}>
+              <span className={isHover ? style.spamHover : style.spam} id={style.spamHeadBox}>
                 <h1>Gateway processing</h1>
                 <p>
                   We provide online connectivity to Mastercard and Visa, as well
@@ -67,7 +69,7 @@ const payment = () => {
               <h1 className={isHover1 ? style.numberHover : style.number}>
                 02
               </h1>
-              <span className={isHover1 ? style.spamHover : style.spam}>
+              <span className={isHover1 ? style.spamHover : style.spam} id={style.spamHeadBox}>
                 <h1>Gateway processing</h1>
                 <p>
                   We provide online connectivity to Mastercard and Visa, as well
@@ -83,7 +85,7 @@ const payment = () => {
               <h1 className={isHover2 ? style.numberHover : style.number}>
                 03
               </h1>
-              <span className={isHover2 ? style.spamHover : style.spam}>
+              <span className={isHover2 ? style.spamHover : style.spam} id={style.spamHeadBox}>
                 <h1>Gateway processing</h1>
                 <p>
                   We provide online connectivity to Mastercard and Visa, as well

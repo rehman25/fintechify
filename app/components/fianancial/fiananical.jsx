@@ -15,7 +15,7 @@ const FinancialComponent = () => {
       <section className={`container mt-5 ${styles.container}`}>
         <div className="row  align-items-center">
           {/* Left Column */}
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 p-4" data-aos="fade-right" data-aos-duration="2000">
             <div className={styles.financialText}>
               <span className={styles.about}>
                 <RiBuilding3Fill />
@@ -33,21 +33,21 @@ const FinancialComponent = () => {
                     <BsLightningCharge className={styles.eletric} />
                     <h3>20x</h3>
                   </span>
-                  <p>Super fast instant transfers and payments.</p>
+                  <p>Super fast instant <br />transfers and payments.</p>
                 </div>
                 <div className={`me-5 text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     <BsLightningCharge className={styles.eletric} />
                     <h3>100%</h3>
                   </span>
-                  <p>Ultra-secure data protection.</p>
+                  <p>Ultra-secure data <br />protection.</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Right Column */}
-          <div className={`col-lg-6 text-center ${styles.right}`}>
+          <div className={`col-lg-6 text-center ${styles.right}`} data-aos="fade-left" data-aos-duration="2000">
                 <Image src={Phone1} alt="Phone1" className={styles.rightPhone} />
           </div>
         </div>

@@ -6,7 +6,7 @@
   --foreground: #171717;
 }
 h1,h2,h3,h4,h5,h6,span,button,p,div,section,a,ul,li{
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif !important;
 }
 section{
   overflow-x: clip;
