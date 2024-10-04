@@ -1,7 +1,6 @@
 .containerFluid {
     margin: 100px 0px;
 }
-
 .about {
     padding: 8px 2px;
     background-color: transparent;
@@ -12,7 +11,9 @@
     justify-content: center;
     width: 15vw;
 }
-
+.about svg{
+    margin-right: 5px;
+}
 .about h4 {
     margin: 0;
     padding: 0;
@@ -20,88 +21,78 @@
     color: white;
     font-size: 18px;
 }
-
 .settingIcon {
     color: white;
-
     font-size: 22px;
 }
-
 .heading {
-    /* color: white; */
-
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 10px;
 }
-
 .card {
     display: flex;
     border: 1px solid #ccc;
     padding: 25px;
-    border-radius: 30px;
-    /* color: white; */
-
+    border-radius: 15px;
     margin: 30px 0px;
 }
-
 .spam {
     margin-left: 15px;
     color: black;
 }
-
 .spamHover {
     margin-left: 15px;
 }
-
+#spamHeadBox h1{
+    font-weight: 600;
+    font-size: 23px;
+}
+#spamHeadBox p{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
 .cardHover {
     display: flex;
     border: 1px solid #006FF9;
     padding: 25px;
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 30px 0px;
-    /* color: white; */
-
 }
-
 .numberHover {
     background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
     border: none;
-    width: 70px;
-    height: 65px;
+    width: 129px;
+    height: 60px;
     margin: 0;
     padding: 10px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-     /* color: white; */
-
+    color: white;
+    font-size: 19px;
 }
-
 .number {
     color: #065EFE;
     border: 1px solid #ccc;
-    width: 70px;
-    height: 65px;
+    width: 129px;
+    height: 60px;
     margin: 0;
     padding: 10px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* color: white; */
-
+    font-size: 22px;
 }
-
 .divbg {
     height: auto;
 }
-
 .bg1 {
     border-radius: 30px;
     animation: focus-in-contract 1s ease 0s 1 normal none;
 }
-
 @keyframes focus-in-contract {
     0% {
         letter-spacing: 1em;
@@ -113,47 +104,34 @@
         opacity: 1;
     }
 }
-
-/* Responsive Styles */
 @media (max-width: 1200px) {
     .about {
         width: 20vw;
     }
-
     .card, .cardHover {
         padding: 20px;
     }
-
-    
 }
 
 @media (max-width: 992px) {
     .about {
         width: 25vw;
     }
-
     .card, .cardHover {
         padding: 15px;
     }
-
-   
-
     .about h4 {
         font-size: 16px;
     }
     .col6{display: none;}
 }
-
 @media (max-width: 768px) {
     .about {
         width: 35vw;
     }
-
     .card, .cardHover {
-        /* flex-direction: column; */
         padding: 10px;
     }
-
     .number, .numberHover {
         width: 50px;
         display: flex;
@@ -161,31 +139,25 @@
         align-items: center;
         height: 50px;
     }
-
     .about h4 {
         font-size: 14px;
     }
 }
-
 @media (max-width: 576px) {
     .about {
         width: 40vw;
     }
-
     .card, .cardHover {
         flex-direction: column;
         padding: 5px;
     }
-
     .number, .numberHover {
         width: 45px;
         height: 40px;
     }
-
     .about h4 {
         font-size: 12px;
     }
-
     .heading {
         margin-top: 5px;
     }

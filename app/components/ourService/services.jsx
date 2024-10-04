@@ -10,6 +10,8 @@ import Loan from "../assets/images/loan.svg";
 import HealthCare from "../assets/images/healthcare.svg";
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
+import { FaArrowRight } from "react-icons/fa6";
+
 
 const services = () => {
   return (
@@ -33,21 +35,19 @@ const services = () => {
               <LuSend className={style.sendIcon} />
               <span>
                 <p>General enquiries</p>
-                <h6>support@example.com</h6>
+                <h6>talktous@fintechify.ae</h6>
               </span>
             </div>
             <div className={style.LuSend}>
               <PiHeadphonesLight className={style.sendIcon} />
               <span>
-                <p>General enquiries</p>
-                <h6>support@example.com</h6>
+                <p>Customer sales enquiries</p>
+                <h6>+971-54-5061985</h6>
               </span>
             </div>
-            <div className={style.LuSend2}>
-              <button>
-                View All Services <FaLocationArrow size={24} />{" "}
-              </button>
-            </div>
+            <button className={style.LuSend2}>
+              View All Services <FaArrowRight />
+            </button>
           </div>
           <div className={`col-lg-7 ${style.rightBoxes}`} >
             <div className={style.card}>

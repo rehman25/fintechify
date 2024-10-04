@@ -6,8 +6,8 @@ import logo from '../assets/images/FINTECHIFY-white-removebg-preview.png'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { GoArrowUpRight } from "react-icons/go";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 
 
 
@@ -29,7 +29,7 @@ export default function Footer() {
                             placeholder="Email address"
                             className={styles.emailInput}
                         />
-                        <button className={styles.subscribeButton}>Subscribe <GoArrowUpRight />
+                        <button className={styles.subscribeButton}>Subscribe <FaArrowRight />
                         </button>
                     </div>
                 </div>

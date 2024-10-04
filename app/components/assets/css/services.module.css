@@ -1,96 +1,77 @@
 .everyoneSection {
     text-align: center;
     color: black;
-
     margin: 50px 0;
 }
-
 .everyoneSection h4 {
     font-weight: 800;
     font-size: 40px;
     color: black;
 }
-
 .everyoneInnerBox {
     padding: 20px 20px;
     border-radius: 20px;
-    border: 2px solid gray;
+    border: 2px solid #E2E4EF;
+    height: 350px;
 }
-
 .everyoneInnerBox svg {
     font-size: 70px;
     margin-bottom: 20px;
 }
-
 .everyoneInnerBox h5 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 30px;
     color: black;
-
 }
-
 .everyoneInnerBox span {
     display: block;
     font-size: 15px;
     margin-bottom: 0;
 }
-
 .everyoneInnerBox:hover {
     border-color: #1E8DF7;
     transition: all 1s;
 }
-
 .InnovativeBox {
     color: black;
-
 }
-
 .InnovativeBox h4 {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 500;
     color: black;
-
 }
-
 .InnovativeBox p {
     font-size: 14px;
     padding-right: 50px;
     color: black;
-
+    font-weight: 400;
 }
-
 .InnovativeBox img {
     border-radius: 50px;
 }
-
 .servicessection {
     text-align: center;
     color: black;
-
     margin: 80px 0;
 }
-
 .servicessection h5 {
     font-size: 40px;
     font-weight: 800;
 }
-
 .servicessection p {
     font-size: 14px;
     margin-bottom: 30px;
 }
-
 .servicesBox {
     color: black;
-
     padding: 20px 20px;
     border-radius: 20px;
-    border: 2px solid gray;
+    border: 2px solid #E2E4EF;
     text-align: center;
     position: relative;
+    height: 275px;
 }
-
 .servicesBox svg {
     font-size: 50px;
     background: #1F8EF8;
@@ -99,17 +80,14 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
-
 .servicesBox h4 {
     font-weight: 700;
 }
-
 .servicesBox span {
     font-size: 14px;
     display: block;
     padding-bottom: 25px;
 }
-
 .servicesBox .numberBox {
     position: absolute;
     bottom: -22%;
@@ -120,12 +98,12 @@
     width: 56px;
     background: white;
     border-radius: 50px;
-    color: black;
+    color: #1F8EF8;
     display: flex;
     align-items: center;
+    border: 2px solid #E2E4EF;
     justify-content: center;
 }
-
 .servicesBox .numberBox h6 {
     font-weight: 800;
     font-size: 20px;
@@ -135,237 +113,244 @@
 .aboutFirst {
     margin: 50px 0;
     color: black;
-
 }
-
 .aboutFirstsection h2 {
-    font-size: 50px;
+    font-size: 48px;
 }
-
 .aboutFirstsection p {
     color: #e9e1e1;
     font-size: 15px;
     padding-top: 15px;
 }
-
 .aboutFirstsection .iconFlexBox {
     display: -webkit-inline-box;
     margin: 15px 0;
 }
-
 .aboutFirstsection .iconFlexBox svg {
-    font-size: 37px;
+    font-size: 20px;
     margin-right: 15px;
     color: #1E8EF7;
 }
-
 .aboutFirstsection .iconFlexBox h3 {
-    font-size: 27px;
-    font-weight: 500;
-    white-space: break-spaces;
+    white-space: pre-wrap;
+    font-size: 20px;
+    font-weight: 600;
 }
-
 .aboutFirstsection .iconFlexBox span {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 14px;
     white-space: break-spaces;
+    color: #666666;
+    padding-right: 30px;
+    display: block;
 }
-
 .aboutFirst img {
     border-radius: 50px;
     box-shadow: 3px 4px 0px #3f3739;
 }
+
 /* ================================================== */
-.processSection{
+.processSection {
     margin: 50px 0;
     color: black;
 }
-.processSection h4{
+.processSection h4 {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
 }
-.processSection span{
+.processSection span {
     text-align: center;
     margin-bottom: 50px;
     font-size: 20px;
 }
-.processBox{ padding: 45px 20px;}
-.processBox ul{
+.processBox {
+    padding: 45px 20px;
+}
+.processBox ul {
     margin: 0;
     margin-top: 10px;
 }
-.processBox ul h5{
+.processBox ul h5 {
     font-size: 14px;
     font-weight: 700;
     margin: 0;
 }
-.processBox ul p{
+.processBox ul p {
     font-weight: 200;
     font-size: 14px;
     margin: 0;
     padding: 0;
 }
-
-.blueBg{
+.blueBg {
     background: #1E96FC;
     color: white;
 }
-.whiteBg{
+.whiteBg {
     background: #F5F5F5;
     color: black;
 }
+
 /* =============================== */
-.bankDevBlueUpperBox{
+.bankDevBlueUpperBox {
     height: 450px;
 }
-.bankDevWhiteUpperBox{
+.bankDevWhiteUpperBox {
     height: 450px;
 }
+
 /* ================================ */
-.bankDevWhiteBottomBox{
+.bankDevWhiteBottomBox {
     height: 400px;
 }
-.bankDevBlueBottomBox{
+.bankDevBlueBottomBox {
     height: 400px;
 }
 
 /* ==================================== */
-.FinBlueUpperBox{
+.FinBlueUpperBox {
     height: 450px;
 }
-.FinWhiteUpperBox{
+.FinWhiteUpperBox {
     height: 450px;
 }
+
 /* ================================ */
-.FinBlueBottomBox{
+.FinBlueBottomBox {
     height: 700px;
 }
-.FinWhiteBottomBox{
+.FinWhiteBottomBox {
     height: 700px;
 }
+
 /* ============================ */
-.integBlueUpperBox{
+.integBlueUpperBox {
     height: 450px;
 }
-.integWhiteBottomBox{
+.integWhiteBottomBox {
     height: 450px;
 }
+
 /* ============================= */
-.DigiBlueUpperBox{
+.DigiBlueUpperBox {
     height: 450px;
 }
-.DigiWhiteBottomBox{
+.DigiWhiteBottomBox {
     height: 450px;
 }
+
 /* ============================= */
-.CrowdBlueUpperBox{
+.CrowdBlueUpperBox {
     height: 900px;
 }
-.CrowdWhiteBottomBox{
+.CrowdWhiteBottomBox {
     height: 900px;
 }
+
 /* ============================= */
-.ResourceBlueUpperBox{
+.ResourceBlueUpperBox {
     height: 450px;
 }
-.ResourceWhiteBottomBox{
+.ResourceWhiteBottomBox {
     height: 450px;
 }
+
 /* ============================= */
-.InsuranceBlueUpperBox{
+.InsuranceBlueUpperBox {
     height: 650px;
 }
-.InsuranceWhiteBottomBox{
+.InsuranceWhiteBottomBox {
     height: 650px;
 }
+
 /* ============================= */
-.decentralizedBlueUpperBox{
+.decentralizedBlueUpperBox {
     height: 650px;
 }
-.decentralizedWhiteBottomBox{
+.decentralizedWhiteBottomBox {
     height: 650px;
 }
+
 /* ============================= */
-.currencyBlueUpperBox{
+.currencyBlueUpperBox {
     height: 500px;
 }
-.currencyWhiteBottomBox{
+.currencyWhiteBottomBox {
     height: 500px;
 }
+
 /* ============================= */
-.cybersecurityBlueUpperBox{
+.cybersecurityBlueUpperBox {
     height: 450px;
 }
-.cybersecurityWhiteBottomBox{
+.cybersecurityWhiteBottomBox {
     height: 450px;
 }
+
 /* ================================================================================================= */
 
 
 
 /* GET STARTED SECTION CSS ================================== */
-.getStartedSection{
+.getStartedSection {
     background-image: linear-gradient(180deg, #1E96FC 0%, #030304 100%);
     color: white;
     padding: 80px 0;
     margin: 50px 0;
 }
-.getStartedSection .startedUpperBox{
+.getStartedSection .startedUpperBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.getStartedSection .startedUpperBox img{
+.getStartedSection .startedUpperBox img {
     height: 50px;
     width: 50px;
 }
-.getStartedSection .startedUpperBox h4{
+.getStartedSection .startedUpperBox h4 {
     margin-top: 10px;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
 }
-.getStartedSection .startedUpperBox p{
+.getStartedSection .startedUpperBox p {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
 }
-.getStartedSection .startedBox{
+.getStartedSection .startedBox {
     color: #e3e3e3;
     padding: 5px 60px;
 }
-.getStartedSection .startedBox ul{
+.getStartedSection .startedBox ul {
     list-style: none;
     margin-top: 30px;
 }
-.getStartedSection .startedBox h5{
+.getStartedSection .startedBox h5 {
     font-size: 13px;
     white-space: break-spaces;
 }
-.getStartedSection .startedBox ul li{
+.getStartedSection .startedBox ul li {
     font-size: 13px;
     white-space: break-spaces;
     margin: 5px 0;
 }
-.getStartedSection .startedBox ul li svg{
+.getStartedSection .startedBox ul li svg {
     margin-right: 5px;
 }
-.startedLeft{
+.startedLeft {
     border-right: 1px solid #e3e3e3;
 }
 .startedBottomSection {
     text-align: center;
 }
-.startedBottomSection p{
+.startedBottomSection p {
     color: #e3e3e3;
     font-size: 18px;
     margin-top: 40px;
 }
-
-
-.imgBox{
+.imgBox {
     background-image: url("../images/digital\ banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -373,9 +358,8 @@
     height: 400px;
     width: 100%;
 }
-
-.elementskit_btn{
-    padding: 20px 32px 20px 32px ;
+.elementskit_btn {
+    padding: 20px 32px 20px 32px;
     font-family: "Work Sans", Sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -389,7 +373,7 @@
     color: #fff;
     transition: background-color 0.3s ease;
 }
-.insuranceimg{
+.insuranceimg {
     background-image: url("../images/insuraceimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -397,40 +381,52 @@
     height: 400px;
     width: 100%;
 }
-.para{
+.para {
     color: black !important;
 }
 
 /* ========================================================================= */
 
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) {
     .aboutFirstsection h2 {
         font-size: 30px;
     }
-    .processBox ul{
+    .processBox ul {
         margin: 0;
         padding: 0px;
     }
-    .startedLeft{
+    .startedLeft {
         border-right: none;
     }
-    .getStartedSection .startedBox{
+    .getStartedSection .startedBox {
         padding: 0;
     }
-    .blueBg ,
-    .whiteBg{
-       height: auto;
-       margin: 10px auto;
+    .blueBg,
+    .whiteBg {
+        height: auto;
+        margin: 10px auto;
+    }
+    .everyoneInnerBox {
+        margin: 10px auto;
+        height: auto;
+    }
+    .servicesBox {
+        height: auto;
+    }
+    .aboutFirstsection .iconFlexBox span {
+        padding-right: 0;
     }
 }
-@media screen and (max-width:768px){
-    .processSection h4{
+
+@media screen and (max-width:768px) {
+    .processSection h4 {
         font-size: 30px;
     }
-    .processSection span{
+    .processSection span {
         font-size: 15px;
     }
 }
+
 @media screen and (max-width:565px) {
     .everyoneSection h4 {
         font-size: 30px;
@@ -444,21 +440,21 @@
         text-align: center;
     }
 }
-@media screen and (max-width:480px){
+
+@media screen and (max-width:480px) {
     .aboutFirstsection .iconFlexBox h3 {
         font-size: 20px;
     }
-    .processSection h4{
+    .processSection h4 {
         font-size: 25px;
     }
-    .getStartedSection .startedUpperBox h4{
+    .getStartedSection .startedUpperBox h4 {
         font-size: 25px;
     }
-    .getStartedSection .startedUpperBox p{
+    .getStartedSection .startedUpperBox p {
         font-size: 15px;
     }
-    .startedBottomSection p{
+    .startedBottomSection p {
         font-size: 16px;
     }
 }
-

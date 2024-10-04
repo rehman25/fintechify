@@ -1,216 +1,229 @@
-/* General container styling */
-.container {
-    /* Add styles if needed */
-  }
-  
-  .financialText {
-    text-align: left;
-  }
-  
-  /* Right column background and phone image styling */
-  .backgroundCircle {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background-image: url('../assets/images/bgPhone.png');
-    background-position: top left;
-    background-repeat: no-repeat;
+.financialText {
+  text-align: left;
+}
+
+/* Right column background and phone image styling */
+.backgroundCircle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-image: url('../assets/images/bgPhone.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.about {
+  padding: 8px 20px;
+  background-color: transparent;
+  background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
+  border-radius: 30px;
+  color: white !important;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+}
+
+.about svg {
+  margin-right: 5px;
+}
+
+.financialText h2 {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.financialText p {
+  line-height: normal;
+  font-weight: 400;
+  color: gray;
+  font-size: 14px;
+}
+
+.percent1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E2E4EF;
+  padding-bottom: 10px;
+  padding-right: 100px;
+}
+
+.percent1 h3 {
+  margin-left: 10px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.percent p {
+  margin-top: 10px;
+  text-align: left;
+  font-weight: 600;
+  line-height: initial;
+}
+
+.eletric {
+  background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.rightPhone {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+
+.phone2 {
+  transform: translate(10px, 10px);
+}
+
+/* Section background */
+.section {
+  background-color: #00dcc766;
+  padding: 0px 0;
+}
+
+/* Marquee section */
+.containerFluid {
+  background-image: linear-gradient(93deg, #065EFE 58%, #00DCC7 94%);
+  transform: rotateZ(2deg);
+  overflow-x: hidden;
+  padding: 30px 0;
+  ;
+}
+
+.containerFluid h4 {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.marqueeWrapper {
+  overflow: clip;
+  margin-top: 35px;
+}
+
+.marquee {
+  display: flex;
+  flex-direction: row;
+  animation-name: infiniteScroll;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+.marquee:hover{
+  animation-play-state: paused;
+}
+
+/* Animation for scrolling marquee */
+@keyframes infiniteScroll {
+  from {
+    transform: translateX(0)
   }
 
-  .about{
-    padding: 8px 20px;
-    background-color: transparent;
-    background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
-    border-radius: 30px 30px 30px 30px;
-    color: white !important;
-    font-size: 16px;
-    font-weight: 500;
+  to {
+    transform: translateX(-50%)
   }
-  .financialText h2{
-    margin-top: 20px;
-  }
+}
 
-  .financialText p{
-  }
+.marqueeContent {
+  overflow-x: clip;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .percent1 {
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    border-bottom: 1px solid grey;
-    padding: 10px;
+.marqueeContent h1 {
+  margin-right: 100px;
+  white-space: nowrap;
+}
 
-  }
-  .percent1 h3{
-     margin-left: 5px;   
-     font-size: 34px;
-     font-weight: 600; 
-     margin-top: 0;
-     margin-bottom: 0;
-  }
-  .eletric{
-    background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
-    font-size: 24px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 10px;
-    color: white;
-  }
+.brand {
+  margin: 0px 25px;
+  height: 27px;
+}
 
-  .rightPhone{
-    width: 100%;
-    height: 100%;
-  }
-  .right {
-    /* background-color: #eaf1fe; */
-  }
-  
-  .phone1{
-   /* width: 100% !important; */
-   /* height: 500px ; */
+.OneApp {
+  background-color: white;
+  color: #414141;
+  padding: 15px;
+  border-radius: 30px;
+  position: absolute;
+  /* top: 15px; */
+  bottom: 200px;
+  left: 0;
+}
 
-  }
-  
-  .phone2 {
-    transform: translate(10px, 10px);
-  }
-  
-  /* Section background */
-  .section {
-    background-color: #00DCC7;
-    height: 28.5vh;
+.TwoApp {
+  background-color: white;
+  color: #414141;
+  padding: 15px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+}
 
-  }
-  
-  /* Marquee section */
-  .containerFluid {
-    background-image: linear-gradient(93deg, #065EFE 58%, #00DCC7 94%);
-    transform: rotateZ(2deg);
-    padding: 15px;
-    /* width: 1%; */
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 25vh;
-  }
-  
-  .containerFluid h4 {
-    text-align: center;
-    color: white;
+.arrow1 {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  color: aliceblue;
+}
 
-  }
-  
-  .marqueeWrapper {
-    overflow: clip;
-  }
-  
-  .marquee {
-    display: flex;
-    flex-direction: row;
-    animation: scroll 60s linear infinite;
-  }
-
-  .marqueeContent{
-    overflow-x: clip;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .marqueeContent h1 {
-    margin-right: 100px;
-    white-space: nowrap;
-  }
-  
-  .brand{
-    margin: 0px 50px;
-  }
-  /* Animation for scrolling marquee */
-  @keyframes scroll {
-    100% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
-
-  .res{display: flex;}
-  /* Add responsive behavior */
-  @media (max-width: 768px) {
-    /* .phone1,
-    .phone2 {
-      width: 150px;
-      height: 300px;
-      transform: none;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    } */
-  
-    .backgroundCircle {
-      width: 300px;
-      height: 300px;
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-      .arrow1, .arrow2,.OneApp,.TwoApp{
-        display: none;
-      }
-  }
-  
-
-  .OneApp{
-     background-color: white;
-     color: #414141;
-     padding: 15px;
-     border-radius: 30px;
-     position: absolute;
-     /* top: 15px; */
-     bottom: 200px;
-     left: 0;
-  }
-
-  .TwoApp{
-    background-color: white;
-    color: #414141;
-    padding: 15px;
-    border-radius: 20px;
-    position: absolute;
-    top: 0;
- }
-  .arrow1{
-    position: absolute;
-    left: 40px;
-    top: 100px;
-    color: aliceblue;
-  }
-
-.arrow2{
+.arrow2 {
   position: absolute;
   right: 37px;
   top: 68px;
   color: aliceblue;
 }
 
-@media screen and (max-width:768px) {
-  .rightPhone{
-    width: 70%;
-    height: 100%;
+
+
+
+.res {
+  display: flex;
+}
+
+@media screen and (max-width:992px) {
+  .financialText h2 {
+    font-size: 30px;
+  }
+
+  .rightPhone {
+    display: none;
   }
 }
 
-@media screen and (max-width:500px) {
-  .rightPhone{
-    width: 70%;
-    height: 100%;
-  }
-  .percent1 h3{
+@media screen and (max-width:565px) {
+  .financialText h2 {
     font-size: 30px;
- }
-
+  }
+  .rightPhone {
+    display: none;
+  }
+  .percent1 {
+    padding-right: 0px;
+  }
+  .percent1 h3 {
+    font-size: 25px;
+  }
+  .marquee {
+    animation-duration: 2s;
+  }
+}
+@media screen and (max-width:480px) {
+  .percent1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .percent p{
+    text-align: center;
+  }
+  
 }

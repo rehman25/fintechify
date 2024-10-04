@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,6 +9,8 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import styles from "../components/assets/css/about.module.css"
 import aboutFirstSectionImg from "../components/assets/images/smiling-arab-businessman-adult-happy-generate-ai-scaled-e1711735176898.jpg"
 import Testimonials from '../components/Testimonials/Testimonials'
+import CountUp from 'react-countup';
+
 
 
 export default function page() {
@@ -66,24 +69,24 @@ export default function page() {
           <div className="row">
             <div className="col-lg-12">
               <div className={styles.clientSeciton}>
-                <h5 data-aos="fade-up"data-aos-duration="2000" data-aos-anchor-placement="top-center">The Reason That You Must <br /> Be Choose Us for Your Financial Advisor</h5>
+                <h5 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">The Reason That You Must <br /> Be Choose Us for Your Financial Advisor</h5>
                 <p data-aos="fade-up"
                   data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000">We are defined by our core values—integrity, loyalty, and commitment. Our mission is to provide financial services that go beyond transactions, focusing on building trusted relationships. Upholding the highest ethical standards, we prioritize your financial well-being.</p>
                 <div className={styles.counterStyle}>
                   <div className={styles.innerCounter}>
-                    <h4>100K</h4>
+                    <h4><CountUp delay={1} style={{ color: "white", fontSize: "50px" }} start={0} end={100}></CountUp>K</h4>
                     <span>Active User</span>
                   </div>
                   <div className={styles.innerCounter}>
-                    <h4>400K</h4>
+                    <h4><CountUp delay={1} style={{ color: "white", fontSize: "50px" }} start={0} end={400}></CountUp>K</h4>
                     <span>Apps Download</span>
                   </div>
                   <div className={styles.innerCounter}>
-                    <h4>90%</h4>
+                    <h4><CountUp delay={1} style={{ color: "white", fontSize: "50px" }} start={0} end={99}></CountUp>%</h4>
                     <span>Satisfied User</span>
                   </div>
                   <div className={styles.innerCounter}>
-                    <h4>200+</h4>
+                    <h4><CountUp delay={1} style={{ color: "white", fontSize: "50px" }} start={0} end={200}></CountUp>+</h4>
                     <span>Partner Joined</span>
                   </div>
                 </div>

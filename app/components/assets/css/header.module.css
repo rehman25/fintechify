@@ -7,6 +7,8 @@
   padding: 0 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
+  z-index: 9999;
+  position: relative;
 }
 
 .logo {
@@ -58,7 +60,19 @@
   background-image: linear-gradient(90deg, #0929C2, #2095FB);
   border-radius: 30px;
   color: white;
-
+  transition: all 0.1s;
+  font-weight: 600;
+}
+.btnStart svg{
+  transform: rotate(-45deg);
+  transition: all 0.1s;
+}
+.btnStart:hover{
+  background-image: linear-gradient(90deg, #2095FB ,#0929C2);
+}
+.btnStart:hover svg{
+  transform: rotate(0deg);
+  transition: all 0.1s;
 }
 
 .menuBox {
@@ -125,7 +139,8 @@
   flex-direction: column;
   width: 300px;
   border-radius: 0 0 25px 25px;
-  top: 15%;
+  /* top: 15%; */
+  margin-top: 30px;
 }
 
 .productsMenu ul li {
@@ -149,8 +164,9 @@
   font-size: 1.5rem;
   cursor: pointer;
   z-index: 1001;
-  padding: 5px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
+  line-height: 0;
   color: white;
 }
 
@@ -172,6 +188,7 @@
 .sidebar.open {
   left: 0;
   overflow-y: scroll;
+  z-index: 9999;
 }
 
 .mobilelogo {

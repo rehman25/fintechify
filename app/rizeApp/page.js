@@ -28,7 +28,7 @@ const page = () => {
       </div>
       <div className={`container  ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 ${style.collg6}`}>
+          <div className={`col-lg-6 ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
             <Image src={RisImage} />
             <h1>
               TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
@@ -48,11 +48,10 @@ const page = () => {
               of digital banking with Rize and unlock a world of possibilities
               for effortless and efficient financial management.
             </p>
-
             <button className={style.btn}>Join Us</button>
           </div>
-          <div className={`col-lg-6 ${style.collg62}`}>
-            <Image src={RisMobile} className={style.RisMobile} data-aos="fade-left" />
+          <div className={`col-lg-6 ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+            <Image src={RisMobile} className={style.RisMobile}  />
           </div>
         </div>
       </div>
@@ -62,7 +61,6 @@ const page = () => {
           <h1>
             Essential Banking Services
           </h1>
-
           <div className={`col-lg-6  m-0 ${style.boxleft}`}>
             <h2>READY CASHLINE (RCL)</h2>
             <div className={style.section}>
