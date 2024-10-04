@@ -33,13 +33,13 @@ const Banner = () => {
       const timer = setTimeout(() => {
         setIsOne(false);
         setIsTwo(true);
-      }, 3000);
+      }, 5000);
       return () => clearTimeout(timer);
     } else if (isTwo) {
       const timer = setTimeout(() => {
         setIsOne(true);
         setIsTwo(false);
-      }, 3000);
+      }, 5000);
       return () => clearTimeout(timer);
     }
   }, [isOne, isTwo]);
