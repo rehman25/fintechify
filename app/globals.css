@@ -30,11 +30,6 @@ a {
   text-decoration: none;
 }
 
-a,span,div,h1,h2,h3,h4,h5,h6,strong,ul,li,p,button{
-  font-family: "Montserrat", system-ui;
-}
-
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
