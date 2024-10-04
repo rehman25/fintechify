@@ -52,7 +52,7 @@ const Banner = () => {
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
               <div className={`col-lg-7 col-md-12 ${style.colleft}`}>
-                <h1>A trusted source of fast , flexible financing</h1>
+                <h1>A trusted source of fast,flexible financing</h1>
               </div>
               <div className={`col-lg-5 col-md-12 ${style.colright}`}>
                 <Image src={Phone} className={style.phoner} />

@@ -747,11 +747,39 @@
 
   .colleft h1 {
     font-size: 32px;
+    line-height: 50px;
+
   }
   .colright p {
     padding: 0;
     font-size: 18px;
     line-height: 20px;
+  }
+  .head1 {
+    width: 40px;
+    height: 40px;
+  }
+  .head2 {
+    width: 40px;
+    height: 40px;
+  }
+  .head3 {
+    width: 40px;
+    height: 40px;
+  }
+  .people span h4{
+    font-size: 18px;
+  }
+  .people span h6{
+    font-size: 14px;
+  }
+  .head4{
+    width: 40px;
+    height: 40px;
+    
+  }
+  .star span h6{
+    font-size: 14px;
   }
 }
 
@@ -1123,3 +1151,733 @@
         right: -50px;
     }
 }
+
+
+
+@media screen and (max-width: 600px) {
+
+  .slider1 {
+      height: 700px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,  .box3, .box4, .box5, .box6, .box7 {
+    width: 165px;
+    height: 97px; /* Reduced sizes */
+  }
+  .box4{
+    width: 165px;
+    height: 130px; /* Adjusted height for box4 */
+  }
+  .box2 {
+    left: 116px;
+    width: 165px;
+    height: 210px; /* Adjusted height for box2 */
+  }
+
+  .box3, .box6 {
+      left: 300px;
+  }
+
+  .btmRow3 {
+      top: -25px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+      height: 60px; /* Adjusted height */
+      /* Adjust top if needed */
+  }
+
+  .btmRow {
+      top: -110px;
+  }
+
+  .btmRow2 {
+    top: -129px;
+
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 215px;
+    height: 126px; /* Reduced sizes to fit smaller screens */
+  }
+
+  .card1 {
+    left: -111px;
+    top: 161px;
+  }
+
+  .card2 {
+    left: 116px;
+        top: 148px;
+  }
+
+  .card3 {
+    left: 324px;
+    top: 147px;
+  }
+
+  .card4 {
+    left: 533px;
+    top: 147px;
+  }
+
+  .card5 {
+      left: -25px;
+  }
+
+  .card6 {
+      right: 200px;
+  }
+
+  .card7 {
+    left: 397px;
+
+
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .slider1 {
+      height: 650px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,  .box3, .box4, .box5, .box6, .box7 {
+    width: 150px;
+    height: 90px; /* Reduced sizes for smaller screen */
+  }
+
+  .box4 {
+    width: 150px;
+    height: 120px; /* Adjusted height for box4 */
+  }
+
+  .box2 {
+    left: 100px;
+    width: 150px;
+    height: 200px; /* Adjusted height for box2 */
+  }
+
+  .box3, .box6 {
+      left: 270px;
+  }
+
+  .btmRow3 {
+      top: -20px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+      height: 55px; /* Adjusted height */
+      /* Adjust top if needed */
+  }
+
+  .btmRow {
+      top: -100px;
+  }
+
+  .btmRow2 {
+    top: -120px;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 200px;
+    height: 120px; /* Reduced sizes to fit smaller screens */
+  }
+
+  .card1 {
+    left: -100px;
+    top: 150px;
+  }
+
+  .card2 {
+    left: 100px;
+    top: 140px;
+  }
+
+  .card3 {
+    left: 300px;
+    top: 140px;
+  }
+
+  .card4 {
+    left: 500px;
+    top: 140px;
+  }
+
+  .card5 {
+      left: -20px;
+  }
+
+  .card6 {
+      right: 180px;
+  }
+
+  .card7 {
+    left: 370px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .slider1 {
+      height: 600px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,  .box3, .box4, .box5, .box6, .box7 {
+    width: 140px;
+    height: 85px; /* Further reduced sizes */
+  }
+
+  .box4 {
+    width: 140px;
+    height: 110px; /* Adjusted height for box4 */
+  }
+
+  .box2 {
+    left: 90px;
+    width: 140px;
+    height: 190px; /* Adjusted height for box2 */
+  }
+
+  .box3, .box6 {
+      left: 250px;
+  }
+
+  .btmRow3 {
+      top: -15px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+      height: 50px; /* Adjusted height */
+      /* Adjust top if needed */
+  }
+
+  .btmRow {
+      top: -90px;
+  }
+
+  .btmRow2 {
+    top: -110px;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 180px;
+    height: 110px; /* Further reduced sizes */
+  }
+
+  .card1 {
+    left: -90px;
+    top: 140px;
+  }
+
+  .card2 {
+    left: 90px;
+    top: 130px;
+  }
+
+  .card3 {
+    left: 270px;
+    top: 130px;
+  }
+
+  .card4 {
+    left: 450px;
+    top: 130px;
+  }
+
+  .card5 {
+      left: -15px;
+  }
+
+  .card6 {
+      right: 160px;
+  }
+
+  .card7 {
+    left: 340px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+
+  .slider1 {
+      height: 550px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,  .box3, .box4, .box5, .box6, .box7 {
+    width: 120px;
+        height: 65px; /* Further reduced sizes */
+  }
+
+  .box4 {
+    width: 120px;
+    height: 100px; /* Adjusted height for box4 */
+  }
+
+  .box2 {
+    left: 80px;
+    width: 130px;
+    height: 160px; /* Adjusted height for box2 */
+  }
+
+  .box3, .box6 {
+      left: 225px;
+  }
+
+  .btmRow3 {
+      top: -20px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+      height: 50px; /* Adjusted height */
+      /* Adjust top if needed */
+  }
+
+  .btmRow {
+      top: -115px;
+  }
+
+  .btmRow2 {
+    top: -165px;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 151px;
+    height: 85px; /* Further reduced sizes */
+  }
+
+  .card1 {
+    left: -70px;
+    top: 148px;
+  }
+
+  .card2 {
+    left: 76px;
+    top: 144px;
+  }
+
+  .card3 {
+    left: 245px;
+    top: 145px; 
+  }
+
+  .card4 {
+    left: 407px;
+    top: 145px;
+  }
+
+  .card5 {
+      left: -15px;
+  }
+
+  .card6 {
+      right: 146px;
+  }
+
+  .card7 {
+    left: 318px;
+  }
+  .head1 {
+    width: 35px;
+    height: 35px;
+  }
+  .head2 {
+    width: 35px;
+    height: 35px;
+  }
+  .head3 {
+    width: 35px;
+    height: 35px;
+  }
+  .people span h4{
+    font-size: 16px;
+  }
+  .people span h6{
+    font-size: 12px;
+  }
+  .head4{
+    width: 35px;
+    height: 35px;
+    
+  }
+  .star span h6{
+    font-size: 12px;
+  }
+  .colright p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+
+
+  .slider1 {
+      height: 500px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,  .box3, .box4, .box5, .box6, .box7 {
+    width: 100px;
+        height: 45x; /* Further reduced sizes */
+  }
+
+  .box4 {
+    width: 100px;
+    height: 90px; /* Adjusted height for box4 */
+  }
+
+  .box2 {
+    left: 60px;
+    width: 130px;
+    height: 160px; /* Adjusted height for box2 */
+  }
+
+  .box3, .box6 {
+      left: 220px;
+  }
+
+  .btmRow3 {
+      top: -5px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+      height: 50px; /* Adjusted height */
+      /* Adjust top if needed */
+  }
+
+  .btmRow {
+      top: -115px;
+  }
+
+  .btmRow2 {
+    top: -165px;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 151px;
+    height: 85px; /* Further reduced sizes */
+  }
+
+  .card1 {
+    left: -70px;
+    top: 148px;
+  }
+
+  .card2 {
+    left: 76px;
+    top: 144px;
+  }
+
+  .card3 {
+    left: 245px;
+    top: 145px; 
+  }
+
+  .card4 {
+    left: 407px;
+    top: 145px;
+  }
+
+  .card5 {
+      left: -15px;
+  }
+
+  .card6 {
+      right: 146px;
+  }
+
+  .card7 {
+    left: 318px;
+  }
+  .head1 {
+    width: 30px;
+    height: 30px;
+  }
+  .head2 {
+    width: 30px;
+    height: 30px;
+  }
+  .head3 {
+    width: 30px;
+    height: 30px;
+  }
+  .people span h4{
+    font-size: 12px;
+  }
+  .people span h6{
+    font-size: 10px;
+  }
+  .head4{
+    width: 30px;
+    height: 30px;
+    
+  }
+  .star span h6{
+    font-size: 10px;
+  }
+  .colright p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .colleft h1{
+    font-style: 22px;
+     line-height: 32px;
+  }
+}
+@media screen and (max-width: 391px) {
+
+
+  .slider1 {
+      height: 450px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,  .box3, .box4, .box5, .box6, .box7 {
+    width: 100px;
+        height: 45x; /* Further reduced sizes */
+  }
+
+  .box4 {
+    width: 100px;
+    height: 90px; /* Adjusted height for box4 */
+  }
+
+  .box2 {
+    left: 60px;
+    width: 130px;
+    height: 160px; /* Adjusted height for box2 */
+  }
+
+  .box3, .box6 {
+      left: 220px;
+  }
+
+  .btmRow3 {
+      top: -5px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+      height: 50px; /* Adjusted height */
+      /* Adjust top if needed */
+  }
+
+  .btmRow {
+      top: -50px;
+  }
+
+  .btmRow2 {
+    top: -88px;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 132px;
+    height: 74px; /* Further reduced sizes */
+  }
+
+  .card1 {
+    left: -70px;
+    top: 170px;
+  }
+
+  .card2 {
+    left: 67px;
+    top: 162px;
+  }
+
+  .card3 {
+    left: 196px;
+    top: 160px;
+  }
+
+  .card4 {
+    left: 331px;
+        top: 159px;
+  }
+
+  .card5 {
+      left: -15px;
+  }
+
+  .card6 {
+      right: 146px;
+  }
+
+  .card7 {
+    left: 250px;
+
+  }
+  .head1 {
+    width: 30px;
+    height: 30px;
+  }
+  .head2 {
+    width: 30px;
+    height: 30px;
+  }
+  .head3 {
+    width: 30px;
+    height: 30px;
+  }
+  .people span h4{
+    font-size: 10px;
+  }
+  .people span h6{
+    font-size: 8px;
+  }
+  .head4{
+    width: 30px;
+    height: 30px;
+    
+  }
+  .star span h6{
+    font-size: 8px;
+  }
+  .colright p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .colleft h1{
+    font-size: 22px;
+     line-height: 32px;
+  }
+  .colleft{
+    padding: 0px 25px;
+    padding-top: 25px;
+  }
+  .colright{
+    padding: 0px 25px;
+  }
+}
+
+
+@media screen and (max-width: 361px) and (min-width: 300px) {
+
+
+  .slider1 {
+      height: 400px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,  .box3, .box4, .box5, .box6, .box7 {
+    width: 100px;
+        height: 45px; /* Further reduced sizes */
+  }
+
+  .box4 {
+    width: 100px;
+    height: 70px; /* Adjusted height for box4 */
+  }
+
+  .box2 {
+    left: 60px;
+    width: 130px;
+    height: 160px; /* Adjusted height for box2 */
+  }
+
+  .box3, .box6 {
+      left: 200px;
+  }
+
+  .btmRow3 {
+      top: 10px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+      height: 50px; /* Adjusted height */
+      /* Adjust top if needed */
+  }
+
+  .btmRow {
+      top: -140px;
+  }
+
+  .btmRow2 {
+    top: -176px;
+
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    width: 132px;
+    height: 74px; /* Further reduced sizes */
+  }
+
+  .card1 {
+    left: -70px;
+    top: 170px;
+  }
+
+  .card2 {
+    left: 67px;
+    top: 162px;
+  }
+
+  .card3 {
+    left: 196px;
+    top: 160px;
+  }
+
+  .card4 {
+    left: 331px;
+        top: 159px;
+  }
+
+  .card5 {
+      left: -15px;
+  }
+
+  .card6 {
+    right: 117px;
+
+  }
+
+  .card7 {
+    left: 250px;
+
+  }
+  .head1 {
+    width: 30px;
+    height: 30px;
+  }
+  .head2 {
+    width: 30px;
+    height: 30px;
+  }
+  .head3 {
+    width: 30px;
+    height: 30px;
+  }
+  .people span h4{
+    font-size: 10px;
+  }
+  .people span h6{
+    font-size: 8px;
+  }
+  .head4{
+    width: 30px;
+    height: 30px;
+    
+  }
+  .star span h6{
+    font-size: 8px;
+  }
+  .colright p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .colleft h1{
+    font-size: 22px;
+     line-height: 32px;
+  }
+  .colleft{
+    padding: 0px 25px;
+    padding-top: 25px;
+  }
+  .colright{
+    padding: 0px 25px;
+  }
+}
+
