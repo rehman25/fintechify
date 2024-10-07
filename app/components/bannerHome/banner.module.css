@@ -198,18 +198,22 @@
 }
 
 .colleft h1 {
-  font-size: 48px;
-  letter-spacing: 5px;
-  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 2px;
+  line-height: 65px;
+  font-weight: 600;
   color: white;
   animation: slide-in-bck-bottom 1s linear 0.5s 1 normal none;
+  
 }
 
 .colleft {
   display: flex;
   flex-direction: column;
+  /* padding-top: 25px; */
   justify-content: center;
-  padding: 100px;
+  padding: 50px 100px;
+  
   /* align-items: center; */
 }
 .colright {
@@ -220,6 +224,7 @@
 }
 .colright p {
   padding: 20px 0px;
+
 }
 
 .rowContent {
@@ -263,11 +268,11 @@
 }
 .head2 {
   position: relative;
-  left: 20px;
+  left: 30px;
 }
 .head3 {
   position: relative;
-  left: -15px;
+  left: 0px;
 }
 
 /* card css */
