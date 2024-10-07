@@ -1,9 +1,8 @@
-.containerFluid{
-    padding: 20px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-
+.containerFluid {
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .slider1 {
@@ -11,7 +10,7 @@
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   padding-top: 0px;
   background: linear-gradient(90deg, #0e0683 0%, #0a096c 51%, #1a2c65) 0 / 200%;
-  background-image: url('../assets/images/ft1-bg.jpg');
+  background-image: url("../assets/images/ft1-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,35 +26,34 @@
   padding: 20px;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 .colright p {
   font-size: 20px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    text-transform: none;
-    text-decoration: none;
-    letter-spacing: -1px;
-    line-height: 26px;
-    text-align: left;
-    white-space: normal;
-    overflow: visible;
-    margin: 0px 0px 52px;
-    padding: 0px;
-    width: auto;
-    height: auto;
-    float: none;
-    clear: none;
-    z-index: 8;
-    position: relative;
-    vertical-align: inherit;
-    transform-origin: 50% 50%;
-    transform: translate(0px, 0px);
-    display: block;
-    background: transparent;
-    visibility: inherit;
-    opacity: 1;
-    pointer-events: auto;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 26px;
+  text-align: left;
+  white-space: normal;
+  overflow: visible;
+  margin: 0px 0px 52px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  float: none;
+  clear: none;
+  z-index: 8;
+  position: relative;
+  vertical-align: inherit;
+  transform-origin: 50% 50%;
+  transform: translate(0px, 0px);
+  display: block;
+  background: transparent;
+  visibility: inherit;
+  opacity: 1;
+  pointer-events: auto;
   font-weight: 600;
   font-style: 18px;
   color: white;
@@ -63,14 +61,13 @@
 }
 
 @keyframes slide-in-bck-bottom {
-			
   0% {
-    transform:translateZ(700px) translateY(300px);
-    opacity:0;
+    transform: translateZ(700px) translateY(300px);
+    opacity: 0;
   }
   100% {
-    transform:translateZ(0) translateY(0);
-    opacity:1;
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
   }
 }
 
@@ -85,13 +82,11 @@
   width: 15vw;
   font-weight: 500;
   animation: slide-in-bck-bottom 1s linear 0.5s 1 normal none;
-
 }
 .colright button:hover {
   background: linear-gradient(-90deg, #00dcc7, #006ff9 15% 51%, #00dcc7) 0 /
     200%;
 }
-
 
 .phoner {
   /* width: 57%; */
@@ -99,7 +94,6 @@
   /* right: 0px; */
   position: absolute;
   animation: fadeInOut 3s ease-in-out infinite;
-  
 }
 .phoner1 {
   position: absolute;
@@ -108,17 +102,16 @@
   height: 70%;
   bottom: -200px;
   animation: fadeInOut 3s ease-in-out infinite;
-
 }
 @keyframes fadeInOut {
   0% {
-      opacity: 0.3;
+    opacity: 0.3;
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   100% {
-      opacity: 0.3;
+    opacity: 0.3;
   }
 }
 @keyframes slide-in-bck-bottom {
@@ -143,7 +136,7 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-  top:-170px;
+  top: -170px;
   pointer-events: none;
   background: transparent;
 }
@@ -163,7 +156,6 @@
   pointer-events: none;
   background: transparent;
 }
-
 
 .btmRow3 {
   line-height: 0px;
@@ -205,15 +197,12 @@
   }
 }
 
-
-
 .colleft h1 {
   font-size: 48px;
   letter-spacing: 5px;
   font-weight: 700;
   color: white;
   animation: slide-in-bck-bottom 1s linear 0.5s 1 normal none;
-
 }
 
 .colleft {
@@ -247,7 +236,6 @@
   flex-direction: row;
   padding: 50px 0px;
   animation: slide-in-bck-bottom 1s linear 0.5s 1 normal none;
-
 }
 .people {
   display: flex;
@@ -607,206 +595,6 @@
 
 
 
-@media screen and (max-width: 992px) {
-  .slider1 {
-    border-radius: 0%;
-    /* overflow-x: clip; */
-  }
-   .colleft{
-    padding: 50px;
-   }
-  .containerFluid {
-    padding: 0;
-    margin: 0;
-  }
-  .rowContent {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-  }
-
-  .colright button {
-    width: 25vw;
-  }
-  .colleft h1 {
-    font-size: 48px;
-    font-weight: 700;
-    /* text-align: center; */
-    color: white;
-  }
-  .phoner {
-    width: 50%;
-    height: 50%;
-    right: 0px;
-    top: 20px;
-  }
-  .phoner1 {
-    left: -50px;
-    width: 50%;
-    height: 53%;
-    bottom: -189px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .phoner1{
-    left: -50px;
-        width: 30%;
-        height: 33%;
-        bottom: -93px;
-  }
-  .picture {
-    flex-direction: row;
-    padding: 10px;
-  }
-  .rowContent {
-    padding: 0px;
-    flex-direction: column;
-  }
-  .colright p {
-    padding: 0;
-  }
-  .slider1 {
-    border-radius: 0%;
-    /* overflow-x: clip; */
-  }
-  
-  .colright button {
-    width: 40vw;
-  }
- 
-  .colright {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 25px;
-  }
-  .colleft {
-    display: flex;
-    justify-content: flex-start;
-    padding: 25px;
-  }
-  .colleft h1 {
-    font-size: 48px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    text-transform: none;
-    text-decoration: none;
-    letter-spacing: 0px;
-    line-height: 76px;
-    text-align: left;
-    white-space: normal;
-    overflow: visible;
-    margin: 0px;
-    width: auto;
-    height: auto;
-    float: none;
-    clear: none;
-    z-index: 7;
-    position: relative;
-    vertical-align: inherit;
-    transform-origin: 50% 50%;
-    transform: translate(0px, 0px);
-    display: block;
-    visibility: inherit;
-    opacity: 1;
-    pointer-events: auto;
-    background: transparent;
-  }
-
-  .head1 {
-    /* position: relative; */
-    width: 50px;
-    height: 50px;
-    /* right: 40px; */
-  }
-  .head2 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    right: 50px;
-  }
-  .head3 {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-    /* right: -15px; */
-  }
-}
-@media screen and (max-width: 578px) {
-  .btmRow {
-    top: 100px;
-  }
-  /* .btmRow2{
-        top: 80px;
-    } */
-  .btmRow {
-    top: 100px;
-  }
-
-  .colleft h1 {
-    font-size: 32px;
-    line-height: 50px;
-
-  }
-  .colright p {
-    padding: 0;
-    font-size: 18px;
-    line-height: 20px;
-  }
-  .head1 {
-    width: 40px;
-    height: 40px;
-  }
-  .head2 {
-    width: 40px;
-    height: 40px;
-  }
-  .head3 {
-    width: 40px;
-    height: 40px;
-  }
-  .people span h4{
-    font-size: 18px;
-  }
-  .people span h6{
-    font-size: 14px;
-  }
-  .head4{
-    width: 40px;
-    height: 40px;
-    
-  }
-  .star span h6{
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .people span h4 {
-    width: 100%;
-  }
-
-  /* .btmRow2{
-        top: 60px;
-    } */
-  .btmRow {
-    /* display: none; */
-    top: 64px;
-  }
-  .btmRow3 {
-    top: 75px;
-  }
-  .btmRow4 {
-    /* display: none; */
-    top: 40px;
-  }
-  .colright button {
-    width: 80vw;
-  }
-
-}
 /* 
 @media screen and (max-width: 1920px) {
   .box1 {
@@ -930,241 +718,827 @@
     }
   } */
 
-
-@media screen and (max-width: 1246px) {
-
+  @media screen and (max-width: 1400px)  {
     .box1 {
-      width: 300px;
-      height: 174px;
+      width: 311px;
+      height: 180px;
     }
     .box2 {
-        width: 300px;
-      height: 350px;
-      left: 270px;
+      width: 311px;
+      height: 368px;
+      left: 325px;
     }
     .box3 {
-      width: 300px;
-      height: 174px;
-      right: 280px;
-    }
-    .box4 {
-      width: 300px;
-      height: 174px;
-    }
-    .box5 {
-      width: 300px;
-      height: 174px;
-    }
-    .box6{
-      width: 300px;
-      height: 174px;
-      right: 280px;
+      width: 311px;
+      height: 180px;
+  
+      right: 325px;
 
     }
-    .box7{
-      width: 300px;
-      height: 174px;
+    .box4 {
+      width: 311px;
+      height: 180px;
+    }
+    .box5 {
+      width: 311px;
+      height: 180px;
+    }
+    .box6 {
+      width: 311px;
+      height: 180px;
+  
+      right: 325px;
+    }
+    .box7 {
+      width: 311px;
+      height: 180px;
     }
     .btmRow3 {
-      top: -100px;
+      top: -58px;
     }
-    
+  
     .btmRow4 {
       top: -330px;
     }
-    .btmRow{
+    .btmRow {
+      top: -160px;
+    }
+    .btmRow2 {
+      top: -90px;
+    }
+    .card4 {
+      right: -300px;
+    }
+    .card2 {
+      left: 249px;
+        top: 114px;
+    }
+    .card3 {
+      left: 736px;
+      top: 111px;
+    }
+    .card5{
+      left: -95px;
+
+    }
+    .card4 {
+      right: -400px;
+        top: 109px;
+    }
+    .card7 {
+      right: -63px;
+
+    }
+    .card1{
+      left: -299px;
+        top: 153px;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7 {
+      /* width: 655px; */
+      /* height: 200px; */
+      width: 550px;
+      height: 304px;
+    }
+  }
+
+  @media screen and (max-width: 1300px)  {
+    .box1 {
+      width: 288px;
+      height: 166px;
+    }
+    .box2 {
+      width: 263px;
+      height: 332px;
+      left: 290px;
+    }
+    .box3 {
+      width: 288px;
+      height: 166px;
+  
+      right: 295px;
+    }
+    .box4 {
+      width: 288px;
+      height: 166px;
+    }
+    .box5 {
+      width: 288px;
+      height: 166px;
+    }
+    .box6 {
+      width: 288px;
+      height: 166px;
+  
+      right: 295px;
+    }
+    .box7 {
+      width: 288px;
+      height: 166px;
+    }
+    .btmRow3 {
+      top: -58px;
+    }
+  
+    .btmRow4 {
+      top: -330px;
+    }
+    .btmRow {
       top: -125px;
     }
-    .btmRow2{
+    .btmRow2 {
       top: -105px;
     }
-    .card4{
+    .card4 {
       right: -300px;
-      
     }
-    .card2{
+    .card2 {
       left: 165px;
-    top: 81px;
-      
+      top: 81px;
     }
-    .card3{
+    .card3 {
       left: 608px;
       top: 84px;
-  
     }
-    .card4{
+    .card4 {
       right: -326px;
     }
-    .card7{
+    .card7 {
       right: -28px;
     }
-    .card1, .card2, .card3, .card4 , .card5, .card6, .card7{
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7 {
       /* width: 655px; */
       /* height: 200px; */
       width: 483px;
       height: 304px;
+    }
+  }
   
-    }
 
+@media screen and (max-width: 1246px)  {
+  .box1 {
+    width: 268px;
+    height: 146px;
+  }
+  .box2 {
+    width: 263px;
+    height: 332px;
+    left: 290px;
+  }
+  .box3 {
+    width: 288px;
+    height: 166px;
+
+    right: 295px;
+  }
+  .box4 {
+    width: 288px;
+    height: 166px;
+  }
+  .box5 {
+    width: 288px;
+    height: 166px;
+  }
+  .box6 {
+    width: 288px;
+    height: 166px;
+
+    right: 295px;
+  }
+  .box7 {
+    width: 288px;
+    height: 166px;
+  }
+  .btmRow3 {
+    top: -58px;
   }
 
-  @media screen and (max-width: 992px) {
-
-    .slider1{
-      height: 731.911px;
-
-    }
-    .box1,  .box3, .box4, .box5, .box6, .box7 {
-      width: 250px;
-      /* height: 164px; */
-      /* background-size: cover; */
-
-    }
-
-    .box2 {
-      left: 210px;
-      width: 250px;
-      height: 320px;
-    }
-
-    .box3, .box6 {
-      right: 240px;
-    }
-
-    .btmRow3 {
-      top: -0px;
-    }
-
-    .btmRow4 {
-      top: -280px;
-    }
-
-    .btmRow {
-      top: -60px;
-    }
-
-    .btmRow2 {
-      top: -40px;
-    }
-     
-    .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
-      width: 400px;
-      height: 248px;
-    }
-    .card1{
-        left: -239px;
-    }
-
-    .card2 {
-      left: 99px;
-      top: 121px;
-    }
-
-    .card3 {
-      left: 500px;
-        top: 125px;
-    }
-
-    .card4 {
-      right: -316px;
-      top: 125px;
-    }
-    .card6 {
-      right: 336px;
-    }
-    .card7 {
-      right: -66px;
-    }
+  .btmRow4 {
+    top: -330px;
+  }
+  .btmRow {
+    top: -125px;
+  }
+  .btmRow2 {
+    top: -105px;
+  }
+  .card4 {
+    right: -300px;
+  }
+  .card2 {
+    left: 165px;
+    top: 81px;
+  }
+  .card3 {
+    left: 608px;
+    top: 84px;
+  }
+  .card4 {
+    right: -326px;
+  }
+  .card7 {
+    right: -28px;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
+    /* width: 655px; */
+    /* height: 200px; */
+    width: 483px;
+    height: 304px;
+  }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 1100px)  {
+  .box1 {
+    width: 280px;
+    height: 164px;
+  }
+  .box2 {
+    width: 280px;
 
-    .slider1 {
-        height: 700px; 
-    }
+    height: 350px;
+    left: 230px;
+  }
+  .box3 {
+    width: 280px;
+    height: 164px;
+    right: 245px;
+  }
+  .box4 {
+    width: 280px;
+    height: 164px;
+  }
+  .box5 {
+    width: 280px;
+    height: 164px;
+  }
+  .box6 {
+    width: 280px;
+    height: 164px;
+    right: 245px;
+  }
+  .box7 {
+    width: 280px;
+    height: 164px;
+  }
+  .btmRow3 {
+    top: -100px;
+  }
 
-    .box1,  .box3, .box4, .box5, .box6, .box7 {
-        width: 210px ;
-        height: 130px; 
-    }
+  .btmRow4 {
+    top: -330px;
+  }
+  .btmRow {
+    top: -180px;
+  }
+  .btmRow2 {
+    top: -153px;
+  }
+  .card4 {
+    right: -300px;
+  }
+  .card2 {
+    left: 126px;
+    top: 115px;
+  }
+  .card3 {
+    left: 502px;
+    top: 117px;
+  }
+  .card4 {
+    top: 111px;
+    right: -298px;
+  }
+  .card6 {
+    right: 379px;
+  }
+  .card7 {
+    right: -28px;
+  }
+  .card1 {
+    left: -290px;
+    top: 149px;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
+    /* width: 655px; */
+    /* height: 200px; */
+    width: 450px;
+    height: 250px;
+  }
+}
 
-    .box2 {
-        left: 168px;
-        width: 200px;
-        height: 252px; /* Adjusted height for box2 */
-    }
+@media screen and (max-width: 1100px)  {
+  .box1 {
+    width: 280px;
+    height: 164px;
+  }
+  .box2 {
+    width: 280px;
 
-    .box3, .box6 {
-        right: 175px;
-    }
+    height: 350px;
+    left: 230px;
+  }
+  .box3 {
+    width: 280px;
+    height: 164px;
+    right: 245px;
+  }
+  .box4 {
+    width: 280px;
+    height: 164px;
+  }
+  .box5 {
+    width: 280px;
+    height: 164px;
+  }
+  .box6 {
+    width: 280px;
+    height: 164px;
+    right: 245px;
+  }
+  .box7 {
+    width: 280px;
+    height: 164px;
+  }
+  .btmRow3 {
+    top: -100px;
+  }
 
-    .btmRow3 {
-        top: -66px;
-    }
+  .btmRow4 {
+    top: -330px;
+  }
+  .btmRow {
+    top: -180px;
+  }
+  .btmRow2 {
+    top: -153px;
+  }
+  .card1{
+    left: -290px;
+    top: 166px;
+  }
+  .card4 {
+    right: -300px;
+  }
+  .card2 {
+    left: 164px;
+    top: 109px;
+  }
+  .card3 {
+    left: 541px;
+    top: 114px;
+  }
+  .card4 {
+    top: 111px;
+    right: -298px;
+  }
+  .card6 {
+    right: 342px;
 
-    .btmRow4 {
-      height: 70px;
-        /* top: px; */
-      
-    }
-
-    .btmRow {
-        top: -80px;
-    }
-
-    .btmRow2 {
-        top: -80px;
-    }
-
-    .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
-        width: 300px;
-        height: 180px; /* Reduced size to fit smaller screens */
-    }
-
-    .card1 {
-      left: -124px;
-      top: 146px;
-    }
-
-    .card2 {
-      left: 155px;
-      top: 141px
-    }
-
-    .card3 {
-               left: 432px;
-        top: 140px;
-    }
-
-    .card4 {
-      right: -226px;
-      top: 138px;
-    }
-    .card5{
-      left: -30px;
-    }
-    .card6 {
-        right: 220px;
-    }
-
-    .card7 {
-        right: -50px;
-    }
+  }
+  .card7 {
+    right: -28px;
+  }
+  .card1 {
+    left: -290px;
+    top: 149px;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
+    /* width: 655px; */
+    /* height: 200px; */
+    width: 450px;
+    height: 250px;
+  }
 }
 
 
-
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 992px)  {
   .slider1 {
-      height: 700px; /* Adjusted height for smaller screen */
+    height: 731.911px;
+  }
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    width: 250px;
+    height: 164px;
+    /* background-size: cover; */
   }
 
-  .box1,  .box3, .box4, .box5, .box6, .box7 {
-    width: 165px;
+  .box2 {
+    left: 210px;
+    width: 250px;
+    height: 320px;
+  }
+
+  .box3,
+  .box6 {
+    right: 240px;
+  }
+
+  .btmRow3 {
+    top: -0px;
+  }
+
+  .btmRow4 {
+    top: -280px;
+  }
+
+  .btmRow {
+    top: -60px;
+  }
+
+  .btmRow2 {
+    top: -40px;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
+    width: 400px;
+    height: 248px;
+  }
+  .card1 {
+    left: -239px;
+  }
+
+  .card2 {
+    left: 156px;
+
+    top: 121px;
+  }
+
+  .card3 {
+    left: 500px;
+    top: 125px;
+  }
+
+  .card4 {
+    right: -316px;
+    top: 125px;
+  }
+  .card6 {
+    right: 336px;
+  }
+  .card7 {
+    right: -66px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .slider1 {
+    border-radius: 0%;
+    /* overflow-x: clip; */
+  }
+  .colleft {
+    padding: 50px;
+  }
+  .containerFluid {
+    padding: 0;
+    margin: 0;
+  }
+  .rowContent {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+  }
+
+  .colright button {
+    width: 25vw;
+  }
+  .colleft h1 {
+    font-size: 48px;
+    font-weight: 700;
+    /* text-align: center; */
+    color: white;
+  }
+  .phoner {
+    width: 50%;
+    height: 50%;
+    right: 0px;
+    top: 20px;
+  }
+  .phoner1 {
+    left: -50px;
+    width: 50%;
+    height: 53%;
+    bottom: -189px;
+  }
+}
+
+/* @media screen and (max-width: 768px)  {
+  .slider1 {
+    height: 700px;
+  }
+
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    width: 210px !important;
+    height: 130px !important;
+  }
+
+  .box2 {
+    left: 168px !important;
+    width: 200px !important;
+    height: 252px !important; 
+  }
+
+  .box3,
+  .box6 {
+    right: 200px !important;
+  }
+
+  .btmRow3 {
+    top: -66px !important;
+  }
+
+  .btmRow4 {
+    height: 70px !important;
+  }
+
+  .btmRow {
+    top: -80px ;
+  }
+
+  .btmRow2 {
+    top: -80px;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
+    width: 300px;
+    height: 180px;
+  }
+
+  .card1 {
+    left: -124px;
+    top: 146px;
+  }
+
+  .card2 {
+    left: 155px;
+    top: 141px;
+  }
+
+  .card3 {
+    left: 432px;
+    top: 140px;
+  }
+
+  .card4 {
+    right: -226px;
+    top: 138px;
+  }
+  .card5 {
+    left: -30px;
+  }
+  .card6 {
+    right: 220px;
+  }
+
+  .card7 {
+    right: -50px;
+  }
+} */
+
+
+
+@media screen and (max-width: 768px) {
+  .slider1 {
+    height: 650px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    width: 190px;
+    height: 110px; /* Reduced sizes for smaller screen */
+  }
+
+  .box4 {
+    width: 190px;
+    height: 120px; /* Adjusted height for box4 */
+  }
+
+  .box2 {
+    left: 160px;
+    width: 190px;
+    height: 200px; /* Adjusted height for box2 */
+  }
+
+  .box3,
+  .box6 {
+    left: 400px;
+  }
+
+  .btmRow3 {
+    top: -50px; /* Adjusted top positioning */
+  }
+
+  .btmRow4 {
+    height: 55px; /* Adjusted height */
+    /* Adjust top if needed */
+  }
+
+  .btmRow {
+    top: -150px;
+  }
+
+  .btmRow2 {
+    top: -130px;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
+    width: 270px;
+    height: 150px; /* Reduced sizes to fit smaller screens */
+  }
+
+  .card1 {
+    left: -110px;
+    top: 195px;
+  }
+
+  .card2 {
+    left: 169px;
+    top: 172px;
+  }
+
+  .card3 {
+    left: 429px;
+    top: 171px;
+  }
+
+  .card4 {
+    left: 677px;
+    top: 163px;
+  }
+
+  .card5 {
+    left: -0px;
+  }
+
+  .card6 {
+    left: 265px;
+  }
+
+  .card7 {
+    left: 525px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .phoner1 {
+    left: -50px;
+    width: 30%;
+    height: 33%;
+    bottom: -93px;
+  }
+  .picture {
+    flex-direction: row;
+    padding: 10px;
+  }
+  .rowContent {
+    padding: 0px;
+    flex-direction: column;
+  }
+  .colright p {
+    padding: 0;
+  }
+  .slider1 {
+    border-radius: 0%;
+    /* overflow-x: clip; */
+  }
+
+  .colright button {
+    width: 40vw;
+  }
+
+  .colright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px;
+  }
+  .colleft {
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+  }
+  .colleft h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    line-height: 76px;
+    text-align: left;
+    white-space: normal;
+    overflow: visible;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    float: none;
+    clear: none;
+    z-index: 7;
+    position: relative;
+    vertical-align: inherit;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    display: block;
+    visibility: inherit;
+    opacity: 1;
+    pointer-events: auto;
+    background: transparent;
+  }
+
+  .head1 {
+    /* position: relative; */
+    width: 50px;
+    height: 50px;
+    /* right: 40px; */
+  }
+  .head2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+  }
+  .head3 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    /* right: -15px; */
+  }
+}
+@media screen and (max-width:600px)  {
+  .slider1 {
+    height: 650px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    width: 145px;
     height: 97px; /* Reduced sizes */
   }
-  .box4{
+  .box4 {
     width: 165px;
     height: 130px; /* Adjusted height for box4 */
   }
@@ -1174,29 +1548,35 @@
     height: 210px; /* Adjusted height for box2 */
   }
 
-  .box3, .box6 {
-      left: 300px;
+  .box3,
+  .box6 {
+    left: 300px;
   }
 
   .btmRow3 {
-      top: -25px; /* Adjusted top positioning */
+    top: -50px; /* Adjusted top positioning */
   }
 
   .btmRow4 {
-      height: 60px; /* Adjusted height */
-      /* Adjust top if needed */
+    height: 60px; /* Adjusted height */
+    /* Adjust top if needed */
   }
 
   .btmRow {
-      top: -110px;
+    top: -110px;
   }
 
   .btmRow2 {
     top: -129px;
-
   }
 
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
     width: 215px;
     height: 126px; /* Reduced sizes to fit smaller screens */
   }
@@ -1208,7 +1588,7 @@
 
   .card2 {
     left: 116px;
-        top: 148px;
+    top: 148px;
   }
 
   .card3 {
@@ -1222,111 +1602,68 @@
   }
 
   .card5 {
-      left: -25px;
+    left: -25px;
   }
 
   .card6 {
-      right: 200px;
+    left: 200px;
   }
 
   .card7 {
     left: 397px;
-
-
   }
 }
+@media screen and (max-width: 578px) {
+ 
 
-
-
-@media screen and (max-width: 768px) {
-
-  .slider1 {
-      height: 650px; /* Adjusted height for smaller screen */
+  .colleft h1 {
+    font-size: 32px;
+    line-height: 50px;
   }
-
-  .box1,  .box3, .box4, .box5, .box6, .box7 {
-    width: 150px;
-    height: 90px; /* Reduced sizes for smaller screen */
+  .colright p {
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
   }
-
-  .box4 {
-    width: 150px;
-    height: 120px; /* Adjusted height for box4 */
+  .head1 {
+    width: 40px;
+    height: 40px;
   }
-
-  .box2 {
-    left: 100px;
-    width: 150px;
-    height: 200px; /* Adjusted height for box2 */
+  .head2 {
+    width: 40px;
+    height: 40px;
   }
-
-  .box3, .box6 {
-      left: 270px;
+  .head3 {
+    width: 40px;
+    height: 40px;
   }
-
-  .btmRow3 {
-      top: -20px; /* Adjusted top positioning */
+  .people span h4 {
+    font-size: 18px;
   }
-
-  .btmRow4 {
-      height: 55px; /* Adjusted height */
-      /* Adjust top if needed */
+  .people span h6 {
+    font-size: 14px;
   }
-
-  .btmRow {
-      top: -100px;
+  .head4 {
+    width: 40px;
+    height: 40px;
   }
-
-  .btmRow2 {
-    top: -120px;
-  }
-
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
-    width: 200px;
-    height: 120px; /* Reduced sizes to fit smaller screens */
-  }
-
-  .card1 {
-    left: -100px;
-    top: 150px;
-  }
-
-  .card2 {
-    left: 100px;
-    top: 140px;
-  }
-
-  .card3 {
-    left: 300px;
-    top: 140px;
-  }
-
-  .card4 {
-    left: 500px;
-    top: 140px;
-  }
-
-  .card5 {
-      left: -20px;
-  }
-
-  .card6 {
-      right: 180px;
-  }
-
-  .card7 {
-    left: 370px;
+  .star span h6 {
+    font-size: 14px;
   }
 }
 
 
 @media screen and (max-width: 500px) {
-
   .slider1 {
-      height: 600px; /* Adjusted height for smaller screen */
+    height: 600px; /* Adjusted height for smaller screen */
   }
 
-  .box1,  .box3, .box4, .box5, .box6, .box7 {
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
     width: 140px;
     height: 85px; /* Further reduced sizes */
   }
@@ -1342,28 +1679,35 @@
     height: 190px; /* Adjusted height for box2 */
   }
 
-  .box3, .box6 {
-      left: 250px;
+  .box3,
+  .box6 {
+    left: 250px;
   }
 
   .btmRow3 {
-      top: -15px; /* Adjusted top positioning */
+    top: -15px; /* Adjusted top positioning */
   }
 
   .btmRow4 {
-      height: 50px; /* Adjusted height */
-      /* Adjust top if needed */
+    height: 50px; /* Adjusted height */
+    /* Adjust top if needed */
   }
 
   .btmRow {
-      top: -90px;
+    top: -90px;
   }
 
   .btmRow2 {
     top: -110px;
   }
 
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
     width: 180px;
     height: 110px; /* Further reduced sizes */
   }
@@ -1389,11 +1733,11 @@
   }
 
   .card5 {
-      left: -15px;
+    left: -15px;
   }
 
   .card6 {
-      right: 160px;
+    right: 160px;
   }
 
   .card7 {
@@ -1402,14 +1746,18 @@
 }
 
 @media screen and (max-width: 451px) {
-
   .slider1 {
-      height: 550px; /* Adjusted height for smaller screen */
+    height: 550px; /* Adjusted height for smaller screen */
   }
 
-  .box1,  .box3, .box4, .box5, .box6, .box7 {
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
     width: 120px;
-        height: 65px; /* Further reduced sizes */
+    height: 65px; /* Further reduced sizes */
   }
 
   .box4 {
@@ -1423,28 +1771,35 @@
     height: 160px; /* Adjusted height for box2 */
   }
 
-  .box3, .box6 {
-      left: 225px;
+  .box3,
+  .box6 {
+    left: 225px;
   }
 
   .btmRow3 {
-      top: -20px; /* Adjusted top positioning */
+    top: -20px; /* Adjusted top positioning */
   }
 
   .btmRow4 {
-      height: 50px; /* Adjusted height */
-      /* Adjust top if needed */
+    height: 50px; /* Adjusted height */
+    /* Adjust top if needed */
   }
 
   .btmRow {
-      top: -115px;
+    top: -115px;
   }
 
   .btmRow2 {
     top: -165px;
   }
 
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
     width: 151px;
     height: 85px; /* Further reduced sizes */
   }
@@ -1461,7 +1816,7 @@
 
   .card3 {
     left: 245px;
-    top: 145px; 
+    top: 145px;
   }
 
   .card4 {
@@ -1470,11 +1825,11 @@
   }
 
   .card5 {
-      left: -15px;
+    left: -15px;
   }
 
   .card6 {
-      right: 146px;
+    right: 146px;
   }
 
   .card7 {
@@ -1492,18 +1847,17 @@
     width: 35px;
     height: 35px;
   }
-  .people span h4{
+  .people span h4 {
     font-size: 16px;
   }
-  .people span h6{
+  .people span h6 {
     font-size: 12px;
   }
-  .head4{
+  .head4 {
     width: 35px;
     height: 35px;
-    
   }
-  .star span h6{
+  .star span h6 {
     font-size: 12px;
   }
   .colright p {
@@ -1512,19 +1866,30 @@
   }
 }
 
-
-
-
 @media screen and (max-width: 400px) {
-
-
-  .slider1 {
-      height: 500px; /* Adjusted height for smaller screen */
+  .people span h4 {
+    width: 100%;
   }
 
-  .box1,  .box3, .box4, .box5, .box6, .box7 {
+  
+  .colright button {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slider1 {
+    height: 500px; /* Adjusted height for smaller screen */
+  }
+
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
     width: 100px;
-        height: 45x; /* Further reduced sizes */
+    height: 45x; /* Further reduced sizes */
   }
 
   .box4 {
@@ -1538,28 +1903,35 @@
     height: 160px; /* Adjusted height for box2 */
   }
 
-  .box3, .box6 {
-      left: 220px;
+  .box3,
+  .box6 {
+    left: 220px;
   }
 
   .btmRow3 {
-      top: -5px; /* Adjusted top positioning */
+    top: -5px; /* Adjusted top positioning */
   }
 
   .btmRow4 {
-      height: 50px; /* Adjusted height */
-      /* Adjust top if needed */
+    height: 50px;
+    top: -10;
   }
 
   .btmRow {
-      top: -115px;
+    top: -115px;
   }
 
   .btmRow2 {
-    top: -165px;
+    top: -150px;
   }
 
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
     width: 151px;
     height: 85px; /* Further reduced sizes */
   }
@@ -1576,7 +1948,7 @@
 
   .card3 {
     left: 245px;
-    top: 145px; 
+    top: 145px;
   }
 
   .card4 {
@@ -1585,11 +1957,11 @@
   }
 
   .card5 {
-      left: -15px;
+    left: -15px;
   }
 
   .card6 {
-      right: 146px;
+    left: 146px;
   }
 
   .card7 {
@@ -1607,39 +1979,41 @@
     width: 30px;
     height: 30px;
   }
-  .people span h4{
+  .people span h4 {
     font-size: 12px;
   }
-  .people span h6{
+  .people span h6 {
     font-size: 10px;
   }
-  .head4{
+  .head4 {
     width: 30px;
     height: 30px;
-    
   }
-  .star span h6{
+  .star span h6 {
     font-size: 10px;
   }
   .colright p {
     font-size: 12px;
     margin-bottom: 15px;
   }
-  .colleft h1{
+  .colleft h1 {
     font-style: 22px;
-     line-height: 32px;
+    line-height: 32px;
   }
 }
 @media screen and (max-width: 391px) {
-
-
   .slider1 {
-      height: 450px; /* Adjusted height for smaller screen */
+    height: 450px; /* Adjusted height for smaller screen */
   }
 
-  .box1,  .box3, .box4, .box5, .box6, .box7 {
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
     width: 100px;
-        height: 45x; /* Further reduced sizes */
+    height: 45x; /* Further reduced sizes */
   }
 
   .box4 {
@@ -1653,28 +2027,35 @@
     height: 160px; /* Adjusted height for box2 */
   }
 
-  .box3, .box6 {
-      left: 220px;
+  .box3,
+  .box6 {
+    left: 220px;
   }
 
   .btmRow3 {
-      top: -5px; /* Adjusted top positioning */
+    top: -5px; /* Adjusted top positioning */
   }
 
   .btmRow4 {
-      height: 50px; /* Adjusted height */
-      /* Adjust top if needed */
+    height: 50px; /* Adjusted height */
+    /* Adjust top if needed */
   }
 
   .btmRow {
-      top: -50px;
+    top: -50px;
   }
 
   .btmRow2 {
     top: -88px;
   }
 
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
     width: 132px;
     height: 74px; /* Further reduced sizes */
   }
@@ -1696,20 +2077,19 @@
 
   .card4 {
     left: 331px;
-        top: 159px;
+    top: 159px;
   }
 
   .card5 {
-      left: -15px;
+    left: -15px;
   }
 
   .card6 {
-      right: 146px;
+    right: 146px;
   }
 
   .card7 {
     left: 250px;
-
   }
   .head1 {
     width: 30px;
@@ -1723,48 +2103,49 @@
     width: 30px;
     height: 30px;
   }
-  .people span h4{
+  .people span h4 {
     font-size: 10px;
   }
-  .people span h6{
+  .people span h6 {
     font-size: 8px;
   }
-  .head4{
+  .head4 {
     width: 30px;
     height: 30px;
-    
   }
-  .star span h6{
+  .star span h6 {
     font-size: 8px;
   }
   .colright p {
     font-size: 12px;
     margin-bottom: 15px;
   }
-  .colleft h1{
+  .colleft h1 {
     font-size: 22px;
-     line-height: 32px;
+    line-height: 32px;
   }
-  .colleft{
+  .colleft {
     padding: 0px 25px;
     padding-top: 25px;
   }
-  .colright{
+  .colright {
     padding: 0px 25px;
   }
 }
 
-
 @media screen and (max-width: 361px) and (min-width: 300px) {
-
-
   .slider1 {
-      height: 400px; /* Adjusted height for smaller screen */
+    height: 400px; /* Adjusted height for smaller screen */
   }
 
-  .box1,  .box3, .box4, .box5, .box6, .box7 {
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
     width: 100px;
-        height: 45px; /* Further reduced sizes */
+    height: 45px; /* Further reduced sizes */
   }
 
   .box4 {
@@ -1778,29 +2159,35 @@
     height: 160px; /* Adjusted height for box2 */
   }
 
-  .box3, .box6 {
-      left: 200px;
+  .box3,
+  .box6 {
+    left: 200px;
   }
 
   .btmRow3 {
-      top: 10px; /* Adjusted top positioning */
+    top: 10px; /* Adjusted top positioning */
   }
 
   .btmRow4 {
-      height: 50px; /* Adjusted height */
-      /* Adjust top if needed */
+    height: 50px; /* Adjusted height */
+    /* Adjust top if needed */
   }
 
   .btmRow {
-      top: -140px;
+    top: -140px;
   }
 
   .btmRow2 {
     top: -176px;
-
   }
 
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7 {
     width: 132px;
     height: 74px; /* Further reduced sizes */
   }
@@ -1822,21 +2209,19 @@
 
   .card4 {
     left: 331px;
-        top: 159px;
+    top: 159px;
   }
 
   .card5 {
-      left: -15px;
+    left: -15px;
   }
 
   .card6 {
-    right: 117px;
-
+    left: 117px;
   }
 
   .card7 {
     left: 250px;
-
   }
   .head1 {
     width: 30px;
@@ -1850,34 +2235,32 @@
     width: 30px;
     height: 30px;
   }
-  .people span h4{
+  .people span h4 {
     font-size: 10px;
   }
-  .people span h6{
+  .people span h6 {
     font-size: 8px;
   }
-  .head4{
+  .head4 {
     width: 30px;
     height: 30px;
-    
   }
-  .star span h6{
+  .star span h6 {
     font-size: 8px;
   }
   .colright p {
     font-size: 12px;
     margin-bottom: 15px;
   }
-  .colleft h1{
+  .colleft h1 {
     font-size: 22px;
-     line-height: 32px;
+    line-height: 32px;
   }
-  .colleft{
+  .colleft {
     padding: 0px 25px;
     padding-top: 25px;
   }
-  .colright{
+  .colright {
     padding: 0px 25px;
   }
 }
-

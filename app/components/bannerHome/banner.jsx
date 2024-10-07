@@ -25,24 +25,24 @@ import head3 from "../assets/images/head3.png";
 import head4 from "../assets/images/head4.svg";
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(false);
-  const [isTwo, setIsTwo] = useState(true);
+  const [isOne, setIsOne] = useState(true);
+  const [isTwo, setIsTwo] = useState(false);
 
-  useEffect(() => {
-    if (isOne) {
-      const timer = setTimeout(() => {
-        setIsOne(false);
-        setIsTwo(true);
-      }, 5000);
-      return () => clearTimeout(timer);
-    } else if (isTwo) {
-      const timer = setTimeout(() => {
-        setIsOne(true);
-        setIsTwo(false);
-      }, 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [isOne, isTwo]);
+  // useEffect(() => {
+  //   if (isOne) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(false);
+  //       setIsTwo(true);
+  //     }, 5000);
+  //     return () => clearTimeout(timer);
+  //   } else if (isTwo) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(true);
+  //       setIsTwo(false);
+  //     }, 5000);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [isOne, isTwo]);
 
   return (
     <div className={`container-fluid   ${style.containerFluid}`}>
@@ -94,7 +94,7 @@ const Banner = () => {
 
             <div className={style.rowContent}>
               <div className={`col-lg-7 col-md-12 ${style.colleft}`}>
-                <h1>The Platform For Digital Banking</h1>
+                <h1>The platform for digital banking</h1>
                 <div className={style.picture}>
                   <div className={style.people}>
                     <Image src={head1} className={style.head1} />
