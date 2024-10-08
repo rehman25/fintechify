@@ -25,24 +25,24 @@ import head3 from "../assets/images/head3.png";
 import head4 from "../assets/images/head4.svg";
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(false);
-  const [isTwo, setIsTwo] = useState(true);
+  const [isOne, setIsOne] = useState(true);
+  const [isTwo, setIsTwo] = useState(false);
 
-  useEffect(() => {
-    if (isOne) {
-      const timer = setTimeout(() => {
-        setIsOne(false);
-        setIsTwo(true);
-      }, 5000);
-      return () => clearTimeout(timer);
-    } else if (isTwo) {
-      const timer = setTimeout(() => {
-        setIsOne(true);
-        setIsTwo(false);
-      }, 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [isOne, isTwo]);
+  // useEffect(() => {
+  //   if (isOne) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(false);
+  //       setIsTwo(true);
+  //     }, 5000);
+  //     return () => clearTimeout(timer);
+  //   } else if (isTwo) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(true);
+  //       setIsTwo(false);
+  //     }, 5000);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [isOne, isTwo]);
 
   return (
     <div className={`container-fluid   ${style.containerFluid}`}>
@@ -51,10 +51,10 @@ const Banner = () => {
         {isOne && (
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
-              <div className={`col-lg-7 col-md-12 ${style.colleft}`}>
+              <div className={`col-lg-7 col-md-7 ${style.colleft}`}>
                 <h1>A trusted source of fast,flexible financing</h1>
               </div>
-              <div className={`col-lg-5 col-md-12 ${style.colright}`}>
+              <div className={`col-lg-5 col-md-5 ${style.colright}`}>
                 <Image src={Phone} className={style.phoner} />
 
                 <p>
@@ -93,7 +93,7 @@ const Banner = () => {
 
 
             <div className={style.rowContent}>
-              <div className={`col-lg-7 col-md-12 ${style.colleft}`}>
+              <div className={`col-lg-7 col-md-7 ${style.colleft}`}>
                 <h1>The platform for digital banking</h1>
                 <div className={style.picture}>
                   <div className={style.people}>
@@ -115,7 +115,7 @@ const Banner = () => {
                 </div>
                 
               </div>
-              <div className={`col-lg-5 col-md-12 ${style.colright}`}>
+              <div className={`col-lg-5 col-md-5 ${style.colright}`}>
                 <Image src={Phone} className={style.phoner} />
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
