@@ -136,7 +136,7 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-  top: -13%;
+  top: -20%;
   pointer-events: none;
   background: transparent;
 }
@@ -145,7 +145,6 @@
   overflow: visible;
   padding: 0px;
   display: flex;
-  height: 50vh;
   /* height: 350px; */
   z-index: 6;
   position: relative;
@@ -153,7 +152,7 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-  top: -7%;
+  top: -30%;
   pointer-events: none;
   background: transparent;
 }
@@ -169,7 +168,7 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-  top: -10%;
+  top: -11%;
   pointer-events: none;
   background: transparent;
 }
@@ -277,8 +276,9 @@
 .card1 {
   overflow: visible;
   padding: 0px;
-  width: 38vw;
-  height: 50vh;
+  width: 39vw;
+
+  height: 59vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -288,18 +288,27 @@
   display: block;
   background: url("../assets/images/revslider_card-1.png") left top / contain
     no-repeat transparent;
-  left: -25%;
-  top: 200px;
+    left: -20%;
+    top: 180px;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
-  animation: slide-in-blurred-bottom 1s ease 0.1s 1 normal none;
+  animation: scale-up-center 1s linear 1s 1 normal none;
 }
-@keyframes slide-in-blurred-bottom {
+@keyframes scale-up-center {
+			
   0% {
-    transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    transform:scale(.2);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+/* @keyframes slide-in-blurred-bottom {
+  0% {
+    transform: translateY(1000px) scaleY(2) scaleX(0.2);
     transform-origin: 50% 100%;
-    filter: blur(40px);
+    filter: blur(200px);
     opacity: 0;
   }
   100% {
@@ -308,12 +317,14 @@
     filter: blur(0);
     opacity: 1;
   }
-}
+} */
+
+
 .card2 {
   overflow: visible;
   padding: 0px;
-  width: 38vw;
-  height: 50vh;
+  width: 39vw;
+  height: 59vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -328,13 +339,15 @@
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
+  animation: scale-up-center 1s linear 0.2s 1 normal none;
+
 }
 .card3 {
   overflow: visible;
   padding: 0px;
-  width: 38vw;
+  width: 39vw;
 
-  height: 50vh;
+  height: 59vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -344,19 +357,20 @@
   display: block;
   background: url("../assets/images/revslider_card-3.png") left top / contain
     no-repeat transparent;
-  right: 7%;
-  top: 120px;
+    right: 6%;
+    top: 127px;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
-  animation: slide-in-blurred-bottom 1s ease 0.2s 1 normal none;
+  animation: scale-up-center 1s linear 0.4s 1 normal none;
+
 }
 .card4 {
   overflow: visible;
   padding: 0px;
-  width: 38vw;
+  width: 39vw;
 
-  height: 50vh;
+  height: 59vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -371,15 +385,16 @@
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
-  animation: slide-in-blurred-bottom 1s ease 0.3s 1 normal none;
+  animation: scale-up-center 1s linear 0.6s 1 normal none;
+
 }
 
 .card5 {
   overflow: visible;
   padding: 0px;
-  width: 38vw;
+  width: 39vw;
 
-  height: 50vh;
+  height: 59vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -395,14 +410,15 @@
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
-  animation: slide-in-blurred-bottom 1s ease 0.4s 1 normal none;
+  animation: scale-up-center 1s linear 0.8s 1 normal none;
+
 }
 .card6 {
   overflow: visible;
   padding: 0px;
-  width: 38vw;
+  width: 39vw;
 
-  height: 50vh;
+  height: 59vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -412,20 +428,21 @@
   display: block;
   background: url("../assets/images/revslider_card-6.png") left top / contain
     no-repeat transparent;
-  right: 30%;
+  right: 28.5%;
   top: 250px;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
-  animation: slide-in-blurred-bottom 1s ease 0.5s 1 normal none;
+  animation: scale-up-center 1s linear 1s 1 normal none;
+
 }
 
 .card7 {
   overflow: visible;
   padding: 0px;
-  width: 38vw;
+  width: 39vw;
 
-  height: 50vh;
+  height: 59vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -452,7 +469,7 @@
   overflow: visible;
   padding: 0px;
   width: 25vw;
-  height: 30vh;
+  height: 33vh;
   float: none;
   clear: none;
   border-radius: 20px;
@@ -473,7 +490,7 @@
   overflow: visible;
   padding: 0px;
   width: 25vw;
-  height: 70vh;
+  height: 75vh;
   background-size: contain;
   float: none;
   clear: none;
@@ -494,7 +511,7 @@
   overflow: visible;
   padding: 0px;
   width: 25vw;
-  height: 30vh;
+  height: 33vh;
   background-size: contain;
   float: none;
   clear: none;
@@ -516,7 +533,7 @@
   overflow: visible;
   padding: 0px;
   width: 25vw;
-  height: 30vh;
+  height: 33vh;
   float: none;
 
   clear: none;
@@ -539,7 +556,7 @@
   overflow: visible;
   padding: 0px;
   width: 25vw;
-  height: 30vh;
+  height: 33vh;
   background-size: contain;
   float: none;
   clear: none;
@@ -561,7 +578,7 @@
   overflow: visible;
   padding: 0px;
   width: 25vw;
-  height: 30vh;
+  height: 33vh;
   background-size: contain;
   float: none;
   clear: none;
@@ -583,7 +600,7 @@
   overflow: visible;
   padding: 0px;
   width: 25vw;
-  height: 30vh;
+  height: 33vh;
   background-size: contain;
   float: none;
   clear: none;
@@ -604,266 +621,154 @@
 /* box css */
 
 
- @media screen and (max-width:2400px)  {
-  .card1, .card2,.card3, .card4,.card5,.card6,.card7{
-    height: 43vh;
-    width: 38vw;
-  }
-  .box1, .box3, .box4, .box5 , .box6, .box7{
-    width: 26vw;
-    height: 26vh;
-  }
-  .box2{
-    width: 26vw;
-    height: 44vh;
-  }
-  .btmRow{
-    top: -22%;
-  }
-  .btmRow2{
-    top: -0%;
-  }
-  .card1{
-    left: -20%;
-  }
-  .btmRow3{
-    top: -16%;
-
-  }
-  .btmRow4{
-
-  }
-}   
 
 
-@media screen and (max-width:1920px)  {
-  .card1, .card2,.card3, .card4,.card5,.card6,.card7{
-    height: 43vh;
-    width: 38vw;
-  }
-  .btmRow{
-    top: -18%;
-  }
-  .btmRow2{
-    top: -4%;
-
-  }
-  .card1{
-    left: -19%;
-    top: 165px;
-  }
-  .btmRow3{
-    top: -16%;
-
-  }
-}  
 
 
-@media screen and (max-width:1600px)  {
-  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
-    width: 25vw;
-    height: 25vh;
-  }
-   .box2{
-    width: 25vw;
-    height: 65vh;
-   }
-  .btmRow3 {
-    top: 2%;
-  }
 
-  .btmRow4 {
-    top: -35%;
-  }
-  .card1, .card2,.card3, .card4,.card5,.card6,.card7{
-    height: 43vh;
-    width: 38vw;
-  }
+
+/* resposive */
+@media screen and (max-width:2483px)  {
+
+
   
   .btmRow{
-    top: -10%;
+    /* top: -10%; */
+    top: -38%;
+
   }
   .btmRow2{
-    top: 1%;
+    top: -32%;
 
   }
   .card1{
     left: -19%;
     top: 165px;
+  }
+  .card3{
+    right: 5%;
+  }
+  .card4{
+    right: -31%;
   }
 }
+@media screen and (max-width:1655px)  {
 
-@media screen and (max-width:1500px)  {
-  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
-    width: 25vw;
-    height: 25vh;
-  }
-   .box2{
-    width: 25vw;
-    height: 65vh;
-   }
-  .btmRow3 {
-    top: 2%;
-  }
 
-  .btmRow4 {
-    top: -35%;
-  }
-  .card1, .card2,.card3, .card4,.card5,.card6,.card7{
-    height: 43vh;
-    width: 38vw;
-  }
+  
   .btmRow{
-    top: -10%;
+    /* top: -10%; */
+    top: -26%;
+
   }
   .btmRow2{
-    top: 1%;
-
+      top: -32%;
   }
   .card1{
     left: -19%;
     top: 165px;
   }
-  
+  .card3{
+    right: 5%;
+  }
+  .card4{
+    right: -29%;
+  }
 }
 
 
 @media screen and (max-width:1400px)  {
   .card1, .card2,.card3, .card4,.card5,.card6,.card7{
-    height: 43vh;
-    width: 38vw;
+    height: 55vh;
+    width: 39vw;
   }
   .btmRow{
-    top: -5%;
+    top: -20%;
   }
   .btmRow2{
-    top: 1%;
+    /* top: 1%; */
 
   }
   .card1{
     left: -19%;
     top: 165px;
   }
-} 
-
-
- 
-
-@media screen and (max-width: 1300px)  {
-
-  .btmRow3 {
-    top: -12%;
-  }
-
-  .btmRow4 {
-    top: -35%;
-  }
-  .btmRow2{
-    top: -3%;
-  }
-  .btmRow{
-    top: -5%;
-  }
   
 }
 
-/* @media screen and (max-width: 1285.60px)  {
-  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
-    width: 25VW;
-  }
-  .box2 {
-      width: 25vw;
-      height: 50vh;
-  }
-
-  .btmRow3 {
-    top: -2%;
-  }
-
-  .btmRow4 {
-    top: -35%;
-  }
-  .btmRow2{
-    top: -3%;
-  }
-  .btmRow{
-    top: -5%;
-  }
-  
-} */
 @media screen and (max-width: 1245px)  {
   .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
     width: 25vw;
-    height: 25vh;
+    height: 30vh;
   }
    .box2{
     width: 25vw;
     height: 65vh;
    }
   .btmRow3 {
-    top: 2%;
+    top: -5%;
   }
 
   .btmRow4 {
     top: -35%;
   }
   .btmRow2{
-    top: 3%;
+    /* top: 3%; */
   }
   .btmRow{
-    top: -3%;
+    /* top: -3%; */
   }
   
 }
 
-@media screen and (max-width: 1100px)  {
-
-  .btmRow3{
-    top: -2%;
-  }
-  .btmRow4 {
-    top: -35%;
-  }
-  .card1, .card2, .card3, .card4, .card5, .card6, .card7{
-    width: 40vw;
-    height: 43vh;
-  }
-  .btmRow{
-    top: -8.5%;
-
-  }
-  .btmRow2{
-    top: -7%;
-  }
-
-
-}
 
 @media screen and (max-width:1080px)  {
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 25vw;
+    height: 25vh;
+  }
+   .box2{
+    width: 25vw;
+    height: 55vh;
+   }
+  .btmRow3 {
+    top: -5%;
+  }
   .card1, .card2,.card3, .card4,.card5,.card6,.card7{
-    height: 43vh;
-    width: 38vw;
+    /* height: 43vh;
+    width: 38vw; */
   }
   .btmRow{
-    top: -7%;
+    /* top: -7%; */
   }
   .btmRow2{
-    top: -3%;
+    /* top: -3%; */
 
   }
   .card1{
-    left: -19%;
+    left: -23%;
     top: 165px;
   }
 } 
-
 
 
 
 @media screen and (max-width: 992px)  {
   
 
-
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 23.88vw;
+    height: 21.5vh;
+    background-position: center;
+    background-size: cover;
+  }
+   .box2{
+    width: 23.88vw;
+    height: 48vh;
+   }
+  .btmRow3 {
+    top: -5%;
+  }
 
   .btmRow3 {
     top: 1%;
@@ -873,10 +778,10 @@
     top: -30%;
   }
   .btmRow{
-    top: -0%;
+    top: -16%;
   }
   .btmRow2{
-    top: 3%;
+    /* top: 3%; */
   }
 
   
@@ -928,9 +833,34 @@
   }
 }
 
+@media screen and (max-width:828px){
+  .btmRow{
+    top: -17%;
+  }
+  .btmRow2{
+    top: -30%;
+  }
+}
 
+@media screen and (max-width:769px){
+  .btmRow{
+    top: -25%;
+  }
+  .btmRow2{
+    top: -36%;
+  }
+}
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 25.88vw;
+        height: 18.5vh;
+
+  }
+   .box2{
+    width: 25.88vw;
+    height: 39vh;
+   }
   .phoner1 {
     left: -50px;
     width: 30%;
@@ -983,6 +913,7 @@
 
   }
 
+
   .head1 {
     /* position: relative; */
     width: 50px;
@@ -1003,46 +934,64 @@
     /* right: -15px; */
   }
 
-
-  .btmRow3{
-    top: -4%;
-  }
-  .btmRow4{
-    top: -30%;
+  .btmRow3 {
+    top: 3%;
   }
 
   .btmRow {
-    top: 11%;
+    top: -5%;
   }
 
   .btmRow2 {
-    top: 9%;
+    top: -21%;
   }
   .card1{
     left: -22%;
   }
 }
+@media screen and (max-width:621px){
+  .btmRow{
+    top: -1%;
+  }
+  .btmRow2{
+    top: -22%;
+  }
+}
+
 @media screen and (max-width:600px)  {
+
+
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 25vw;
+    height: 14vh;
+
+  }
+   .box2{
+    width: 25vw;
+
+    height: 31vh;
+   }
+  
   .slider1 {
-    height: 650px; /* Adjusted height for smaller screen */
+    height: 650px; 
+  }
+
+   .btmRow3{
+    top: -3%;
+   }
+   .btmRow4{
+    top: -24%;
+
   }
 
 
-
-  .btmRow3 {
-    top: -15%;
-  }
-
-  .btmRow4 {
-    top: -25%; 
-  }
 
   .btmRow {
-    top: -11%;
+    top: -27%;
   }
 
   .btmRow2 {
-    top: -18%;
+    top: -42%;
   }
   .card1{
     top: 153px;
@@ -1063,6 +1012,15 @@
 
 }
 @media screen and (max-width: 578px) {
+  
+  
+  .btmRow {
+    top: -12%;
+  }
+
+  .btmRow2 {
+    top: -33%;
+  }
  
 
   .colleft h1 {
@@ -1100,7 +1058,8 @@
     font-size: 14px;
   }
   .btmRow3{
-  }
+    top: 5%;
+   }
   .btmRow4{
 
   }
@@ -1112,48 +1071,46 @@
  
 
   .btmRow {
-    top: 3%;
+    top: -12%;
   }
 
   .btmRow2 {
-    top: -4%;
+    top: -33%;
   }
 
-  .btmRow3 {
-    top: -3%;
-  }
+
  
 
 }
 
 @media screen and (max-width: 550px) {
- 
-
-  .btmRow3 {
-    top: -7%;
+  .people span h6 {
+    font-size: 8px;
   }
- .btmRow {
-   top: 3%;
- }
+  .people span h4 {
+    font-size: 12px;
+  }
 
- .btmRow2 {
-   top: -4%;
- }
+
+  .star span h6 {
+    font-size: 8px;
+  }
+  .colright p{
+    font-size: 15px;
+  }
+
 
 }
 
 @media screen and (max-width: 515px) {
  
  
- 
-
-
  .btmRow {
-   top: -5%;
+   top: -13.5%;
  }
 
  .btmRow2 {
-   top: -13%;
+   top: -35%;
  }
 
 
@@ -1164,35 +1121,49 @@
 
 @media screen and (max-width: 500px) {
  
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 24vw;
+    height: 11vh;
 
+  }
+   .box2{
+    width: 24vw;
+
+    height: 24vh;
+   }
+
+   .btmRow3{
+    top: 7%;
+   }
 
   .btmRow {
-    top: -8%;
+    /* top: -8%; */
   }
   .btmRow2 {
-    top: -16.5%;
+    /* top: -16.5%; */
   }
 
  
  .colright button{
   width: 50vw ;
  }
+ .people span h4 {
+  font-size: 10px;
+}
 }
 
 
 
 @media screen and (max-width:450px) {
 
-    .btmRow3{
-      top: -0%;
-    }
+ 
 
   .btmRow {
-    top: -10%;
+    /* top: -10%; */
   }
 
   .btmRow2 {
-    top: -20%;
+    /* top: -20%; */
   }
   .card1{
     left: -22%;
@@ -1200,42 +1171,77 @@
   }
 
   .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
-    width: 25vw;
-    height: 15vh;
-  }
-  .box2{
-    width: 25vw;
-    height: 28vh;
-  } 
+    width: 24vw;
+    height: 11vh;
 
+  }
+   .box2{
+    width: 27vw;
+    height: 24vh;
+   }
+
+   .btmRow3{
+    top: -2%;
+   }
 
 }
 
 @media screen and (max-width:400px) {
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 23vw;
+        height: 8vh;
+
+  }
+   .box2{
+    width: 27vw;
+    height: 17vh;
+
+   }
   .slider1 {
     height: 614.911px; /* Adjusted height for smaller screen */
   }
   .colleft h1{
-    font-size: 20px;
+    /* font-size: 20px; */
+    /* line-height: 46px; */
   }
   .colright p{
     font-size: 14px;
   }
 
+  .btmRow3{
+    top: 3%;
 
+   }
 
 .btmRow {
-  top: -10%;
+  top: -16%;
 }
 
 .btmRow2 {
-  top: -20%;
+  top: -38%;
 }
 .card1{
   left: -22%;
   top: 140px;
 }
 
+
+.head1{
+  width: 25px;
+  height: 25px;
+}
+.head2{
+  width: 25px;
+  height: 25px;
+}
+.head3{
+  width: 25px;
+  height: 25px;
+}
+.head4{
+  width: 25px;
+  height: 25px;
+}
 
 }
 
@@ -1249,26 +1255,26 @@
     height: 614.911px; /* Adjusted height for smaller screen */
   }
   .colleft h1{
-    font-size: 20px;
+    /* font-size: 20px; */
   }
   .colright p{
     font-size: 14px;
   }
 
  .btmRow3{
-  top: -3%;
+  top: 1%;
  }
  /* .btmRow4{
   top: -35%;
  } */
 
 .btmRow {
-  top: -9.5%;
+  /* top: -9.5%; */
 
 }
 
 .btmRow2 {
-  top: -22.5%;
+  /* top: -22.5%; */
 
 }
 .card1{
