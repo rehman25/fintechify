@@ -131,6 +131,7 @@ const Banner = () => {
               </div>
             </div>
             <div className={`row m-0 ${style.btmRow}`}>
+
               <div className={` ${style.card1}`}></div>
               <div className={`${style.card2}`}></div>
               <div className={` ${style.card3}`}></div>
