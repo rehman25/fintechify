@@ -335,7 +335,7 @@
   background: url("../assets/images/revslider_card-2.png") left top / contain
     no-repeat transparent;
   left: 19%;
-  top: 120px;
+  top: 130px;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -358,7 +358,7 @@
   background: url("../assets/images/revslider_card-3.png") left top / contain
     no-repeat transparent;
     right: 6%;
-    top: 127px;
+    top: 130px;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -381,7 +381,7 @@
   background: url("../assets/images/revslider_card-4.png") left top / contain
     no-repeat transparent;
   right: -28%;
-  top: 120px;
+  top: 130px;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -506,6 +506,8 @@
   opacity: 1;
   z-index: 9999;
   pointer-events: none;
+  animation: scale-up-center 1s linear 0s 1 normal none;
+
 }
 .box3 {
   overflow: visible;
@@ -683,7 +685,7 @@
     width: 39vw;
   }
   .btmRow{
-    top: -20%;
+    top: -24%;
   }
   .btmRow2{
     /* top: 1%; */
@@ -694,6 +696,18 @@
     top: 165px;
   }
   
+}
+
+@media screen and (max-width:1281px) 
+{
+  .box1, .box3, .box4, .box5, .box6, .box7 {
+    height: 25.5vh;
+  }
+
+  .box2 {
+    width: 25vw;
+    height: 51vh;
+  } 
 }
 
 @media screen and (max-width: 1245px)  {
@@ -751,7 +765,21 @@
   }
 } 
 
+@media screen and (max-width: 1024px) {
+  .box1, .box3, .box4, .box5, .box6, .box7 {
+    height: 25.5vh;
+    transform: scale(1); /* 100% zoom */
+  }
 
+  .box2 {
+    width: 25vw;
+    height: 60vh;
+    transform: scale(1); /* 100% zoom */
+  }
+  
+ 
+  
+}
 
 @media screen and (max-width: 992px)  {
   
@@ -781,7 +809,7 @@
     top: -16%;
   }
   .btmRow2{
-    /* top: 3%; */
+    top: -29%;
   }
 
   
@@ -833,7 +861,25 @@
   }
 }
 
+@media screen and (max-width:913px) {
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    height: 11.5vh;
+  }
+  .box2{
+    width: 25vw;
+    height: 25vh;
+  }
+}
+
 @media screen and (max-width:828px){
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    height: 11.5vh;
+  }
+  .box2{
+    width: 25vw;
+    height: 25vh;
+  }
+ 
   .btmRow{
     top: -17%;
   }
@@ -843,6 +889,13 @@
 }
 
 @media screen and (max-width:769px){
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    height: 11.5vh;
+  }
+  .box2{
+    width: 25vw;
+    height: 25vh;
+  }
   .btmRow{
     top: -25%;
   }
@@ -939,11 +992,11 @@
   }
 
   .btmRow {
-    top: -5%;
+    top: -4%;
   }
 
   .btmRow2 {
-    top: -21%;
+    top: -22%;
   }
   .card1{
     left: -22%;
@@ -1186,6 +1239,52 @@
 
 }
 
+@media screen and (max-width:450px) {
+
+ 
+
+  .btmRow {
+    /* top: -10%; */
+  }
+
+  .btmRow2 {
+    /* top: -20%; */
+  }
+  .card1{
+    left: -22%;
+    top: 140px;
+  }
+
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 24vw;
+    height: 11vh;
+
+  }
+   .box2{
+    width: 27vw;
+    height: 18vh;
+   }
+
+   .btmRow3{
+    top: 2%;
+   }
+
+}
+
+@media screen and (max-width:415px) {
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    width: 24vw;
+    height: 8vh;
+      }
+  .box2{
+    height: 18vh;
+
+  }
+  .btmRow3{
+    top: 5%;
+  }
+}
+
 @media screen and (max-width:400px) {
   .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
     width: 23vw;
@@ -1247,6 +1346,54 @@
 
 
 
+
+
+
+
+
+
+
+
+@media screen and (max-width:376px) {
+  .colright button{
+    width: 80vw;
+  }
+  .slider1 {
+    height: 614.911px; /* Adjusted height for smaller screen */
+  }
+  .colleft h1{
+    /* font-size: 20px; */
+  }
+  .colright p{
+    font-size: 14px;
+  }
+
+ .btmRow3{
+  top: 3%;
+ }
+ .btmRow4{
+  top: -18%;
+ }
+
+.btmRow {
+  /* top: -9.5%; */
+
+}
+
+.btmRow2 {
+  /* top: -22.5%; */
+
+}
+.card1{
+  left: -22%;
+  top: 140px;
+}
+
+
+}
+
+
+
 @media screen and (max-width:350px) {
   .colright button{
     width: 80vw;
@@ -1283,4 +1430,14 @@
 }
 
 
+}
+
+@media screen and (max-width:345px) {
+  .box1 , .box3 , .box4 , .box5 , .box6 , .box7 {
+    height: 5.5vh;
+  }
+  .box2{
+    width: 25vw;
+    height: 13vh;
+  }
 }
