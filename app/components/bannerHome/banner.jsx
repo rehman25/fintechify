@@ -25,24 +25,24 @@ import head3 from "../assets/images/head3.png";
 import head4 from "../assets/images/head4.svg";
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(true);
-  const [isTwo, setIsTwo] = useState(false);
+  const [isOne, setIsOne] = useState(false);
+  const [isTwo, setIsTwo] = useState(true);
 
-  useEffect(() => {
-    if (isOne) {
-      const timer = setTimeout(() => {
-        setIsOne(false);
-        setIsTwo(true);
-      }, 5000);
-      return () => clearTimeout(timer);
-    } else if (isTwo) {
-      const timer = setTimeout(() => {
-        setIsOne(true);
-        setIsTwo(false);
-      }, 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [isOne, isTwo]);
+  // useEffect(() => {
+  //   if (isOne) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(false);
+  //       setIsTwo(true);
+  //     }, 5000);
+  //     return () => clearTimeout(timer);
+  //   } else if (isTwo) {
+  //     const timer = setTimeout(() => {
+  //       setIsOne(true);
+  //       setIsTwo(false);
+  //     }, 5000);
+  //     return () => clearTimeout(timer);
+  //   }
+  // }, [isOne, isTwo]);
 
   return (
     <div className={`container-fluid   ${style.containerFluid}`}>
