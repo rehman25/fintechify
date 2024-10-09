@@ -16,7 +16,7 @@ const page = () => {
             <div className={`col-md-12 ${style.col12}`}>
               <h1><Image src={RisImage} /></h1>
               <p>
-                FinPoan is a leading digital product management platform that
+                Fintechify is a leading digital product management platform that
                 empowers businesses to streamline their digital product
                 management processes. With its advanced features and expertise,
                 we help you achieve better productivity, increase customer
@@ -28,7 +28,7 @@ const page = () => {
       </div>
       <div className={`container  ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
+          <div className={`col-lg-6 ${style.collg6}`} data-aos="fade-right" data-aos-duration="500">
             <Image src={RisImage} />
             <h1>
               TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
@@ -50,13 +50,13 @@ const page = () => {
             </p>
             <button className={style.btn}>Join Us</button>
           </div>
-          <div className={`col-lg-6 ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+          <div className={`col-lg-6 ${style.collg62}`} data-aos="fade-left" data-aos-duration="500">
             <Image src={RisMobile} className={style.RisMobile}  />
           </div>
         </div>
       </div>
 
-      <div className={`container ${style.Essential}`}>
+      <div className={`container ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row ${style.row2}`}>
           <h1>
             Essential Banking Services

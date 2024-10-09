@@ -98,17 +98,17 @@ const payment = () => {
           <div className={`col-lg-6  ${style.col6}`}>
             {isHover && (
               <div className={style.divbg}>
-                <Image src={bg1} className={style.bg1} />
+                <Image src={bg1} className={`${style.bg1} img-fluid`} />
               </div>
             )}
              {isHover1 && (
               <div className={style.divbg}>
-                <Image src={bg2} className={style.bg1} />
+                <Image src={bg2} className={`${style.bg1} img-fluid`} />
               </div>
             )}
              {isHover2 && (
               <div className={style.divbg}>
-                <Image src={bg3} className={style.bg1} />
+                <Image src={bg3} className={`${style.bg1} img-fluid`} />
               </div>
             )}
           </div>

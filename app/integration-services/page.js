@@ -24,31 +24,30 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6" data-aos="fade-right" data-aos-offset="300">
+                        <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Experience Uninterrupted Operations for Optimal Performance with Fintechify Integration Services.</h4>
                                 <p>Fintechify knows in today’s digital world, seamless connections are the key to success. That’s why we offer Integration Services designed to demolish data silos and turbocharge your workflows.  Imagine your systems working together in perfect harmony, unlocking a new level of efficiency for your business.  Stop wrestling with outdated tech. Let Fintechify’s Integration Services be your secret weapon for achieving optimal performance.</p>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
                                 <Image src={img1} className='img-fluid' />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
             <section className={styles.aboutFirst}>
                 <div className="container">
                     <div className="row">
                     <div className="col-lg-6">
-                            <div data-aos="fade-up" data-aos-duration="2000" >
+                            <div data-aos="fade-up" data-aos-duration="500" >
                                 <Image className="img-fluid" src={img} />
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
+                            <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-duration="500">
                                 <h2>
                                     Why Fintechify is best for Integrations Services
                                 </h2>
@@ -107,8 +106,7 @@ function page() {
                     </div>
                 </div>
             </section>
-
-            <section className={styles.processSection} data-aos="fade-up">
+            <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <h4>Our Expertise in Integration Services</h4>
@@ -158,8 +156,7 @@ function page() {
                     </div>
                 </div>
             </section>
-
-            <section className={styles.getStartedSection} data-aos="fade-up">
+            <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
@@ -171,7 +168,6 @@ function page() {
                     </div>
                 </div>
             </section>
-
             <Testimonials />
             <Footer />
         </>

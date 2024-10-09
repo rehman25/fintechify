@@ -27,7 +27,7 @@ const services = () => {
               <h1 className={style.h1}>Our banking services and benefits</h1>
               <p>
                 Explore the our banking services and benefits at Bank of
-                FinPoan, tailored to provide a modern, secure banking
+                Fintechify, tailored to provide a modern, secure banking
                 experience.
               </p>
             </div>
