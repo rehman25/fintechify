@@ -329,23 +329,6 @@
   }
 }
 
-<<<<<<< HEAD
-/* @keyframes slide-in-blurred-bottom {
-  0% {
-    transform: translateY(1000px) scaleY(2) scaleX(0.2);
-    transform-origin: 50% 100%;
-    filter: blur(200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0) scaleY(1) scaleX(1);
-    transform-origin: 50% 50%;
-    filter: blur(0);
-    opacity: 1;
-  }
-} */
-=======
->>>>>>> f8eb8690e2afbb65e3e6e94ff1afc9ffeb2c2a99
 
 
 .card2 {
@@ -502,12 +485,8 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-<<<<<<< HEAD
-  background: url("../assets/images/revslider_1_img-1.jpg") center / cover no-repeat transparent;
-=======
   background: url("../assets/images/revslider_1_img-1.jpg") right top / cover
     no-repeat transparent;
->>>>>>> f8eb8690e2afbb65e3e6e94ff1afc9ffeb2c2a99
   left: -5%;
   top: 25%;
   opacity: 1;
@@ -552,12 +531,8 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-<<<<<<< HEAD
-  background: url("../assets/images/revslider_1_img-4.jpg") left top / cover no-repeat transparent;
-=======
   background: url("../assets/images/revslider_1_img-4.jpg") center / cover
     no-repeat transparent;
->>>>>>> f8eb8690e2afbb65e3e6e94ff1afc9ffeb2c2a99
   right: 23.5%;
   top: 25%;
   opacity: 1;
@@ -706,14 +681,8 @@
     height: 36vh;
 
   }
-<<<<<<< HEAD
-
-  .box2 {
-    height: 60vh;
-=======
   .box2{
     height: 64vh;
->>>>>>> f8eb8690e2afbb65e3e6e94ff1afc9ffeb2c2a99
   }
 
   .btmRow2 {
