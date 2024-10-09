@@ -49,7 +49,7 @@ const services = () => {
               View All Services <FaArrowRight />
             </button>
           </div>
-          <div className={`col-lg-7 ${style.rightBoxes}`} >
+          <div className={`col-lg-7 col-xlg-7 ${style.rightBoxes}`} >
             <div className={style.card}>
               <h2>Saving Account</h2>
               <p>
