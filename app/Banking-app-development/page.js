@@ -121,14 +121,14 @@ function page() {
                                     <li>What we’ll build the scope</li>
                                     <li>Timeline for liftoff</li>
                                     <li>What you’ll get at each stage deliverable</li>
-                                    <p>Based on our findings, we’ll craft a clear and concise project plan outlining:</p>
+                                    <p>This ensures we’re all on the same page and your app lands smoothly.</p>
                                 </ul>
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
                             <div className={`${styles.processBox} ${styles.whiteBg} ${styles.bankDevWhiteUpperBox}`}>
                                 <ul>
-                                    <h5>Crafting your dream app, one pixel at a time.
+                                    <h5>Crafting your dream app, one pixel at a time.<br />
                                         Design masterminds and coding wizards join forces</h5>
                                     <p>Our team collaborates to create</p>
                                 </ul>

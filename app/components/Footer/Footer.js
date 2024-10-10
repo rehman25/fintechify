@@ -84,7 +84,7 @@ export default function Footer() {
                                 <ul>
                                     <p>+971-54-5061985</p>
                                     <p>talktous@fintechify.ae</p>
-                                    <p>Unit: IH0101-OF01, Level One, <br /> Innovation One, DIFC, Dubai, UAE</p>
+                                    <p>Unit: IH0101-OF01, Level One, <br /> Innovation One, DIFC, Dubai,<br/> UAE</p>
                                 </ul>
                             </div>
                         </div>

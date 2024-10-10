@@ -55,16 +55,16 @@ export default function Header() {
                 <Image className={styles.logo} src={logo} alt="Logo" />
                 <nav className={`${styles.nav}`}>
                     <ul>
-                        <li><Link href="/">Home</Link></li>
-                        <li><Link href="/about">About Us</Link></li>
+                        <li><Link href="/">HOME</Link></li>
+                        <li><Link href="/about">ABOUT</Link></li>
                         <li onMouseEnter={() => {
                             setIsMenuOpen(true)
                             setProdMenu(false)
-                        }}><Link href="/service">Services <IoIosArrowDown /></Link></li>
+                        }}><Link href="/service">SERVICES <IoIosArrowDown /></Link></li>
                         <li onMouseEnter={() => {
                             setIsMenuOpen(false)
                             setProdMenu(true)
-                        }} className={styles.productsMenu}><Link href="#">Products <IoIosArrowDown /></Link>
+                        }} className={styles.productsMenu}><Link href="#">PRODUCTS <IoIosArrowDown /></Link>
                             {isProdMenu && (
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
                                     <li><Link href="/rizeApp" className={styles.ol}>Rize App</Link></li>
@@ -72,11 +72,11 @@ export default function Header() {
                                 </ul>
                             )}
                         </li>
-                        <li><Link href="/contact-us">Contact</Link></li>
+                        <li><Link href="/contact-us">CONTACT</Link></li>
                     </ul>
                 </nav>
                 <div className={styles.actions}>
-                    <button className={styles.btnStart}>Get Started <FaArrowRight />
+                    <button className={styles.btnStart}>GET STARTED <FaArrowRight />
                     </button>
                     <button className={styles.menuButton} onClick={toggleSidebar}>
                         {isOpen ? <MdClose /> : <FaBars />}
