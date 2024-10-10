@@ -15,11 +15,11 @@ const FinancialComponent = () => {
       <section className={`container mt-5 ${styles.container}`}>
         <div className="row  align-items-center">
           {/* Left Column */}
-          <div className="col-lg-6 p-4" data-aos="fade-right" data-aos-duration="2000">
+          <div className="col-lg-6 p-4" data-aos="fade-right" data-aos-duration="500">
             <div className={styles.financialText}>
               <span className={styles.about}>
                 <RiBuilding3Fill />
-                About finpoan
+                About Fintechify
               </span>
               <h2>Start expanding your financial frontier</h2>
               <p>
@@ -47,7 +47,7 @@ const FinancialComponent = () => {
           </div>
 
           {/* Right Column */}
-          <div className={`col-lg-6 text-center ${styles.right}`} data-aos="fade-left" data-aos-duration="2000">
+          <div className={`col-lg-6 text-center ${styles.right}`} data-aos="fade-left" data-aos-duration="500">
                 <Image src={Phone1} alt="Phone1" className={styles.rightPhone} />
           </div>
         </div>

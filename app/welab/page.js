@@ -24,7 +24,7 @@ const page = () => {
       </div>
       <div className={`container  ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
+          <div className={`col-lg-6 ${style.collg6}`} data-aos="fade-right" data-aos-duration="500">
             <Image src={RisImage} />
             <h1 className="mt-3">
             WE ARE PROUD TO PRESENT WELAB, A GROUNDBREAKING SOLUTION THAT BRINGS HEALTHCARE SERVICES TO YOUR DOORSTEP WITH SPEED AND CONVENIENCE.
@@ -36,11 +36,11 @@ const page = () => {
             <button className={style.btn}>Join Us</button>
           </div>
           <div className={`col-lg-6 ${style.collg62}`}>
-            <Image src={RisMobile} className={style.RisMobile2} data-aos="fade-left" data-aos-duration="2000"/>
+            <Image src={RisMobile} className={style.RisMobile2} data-aos="fade-left" data-aos-duration="500"/>
           </div>
         </div>
       </div>
-      <div className={`container  ${style.Essential}`}>
+      <div className={`container  ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row  ${style.row2}`}>
              <h1>
              Benefits for All Stakeholders

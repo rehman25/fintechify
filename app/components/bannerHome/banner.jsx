@@ -25,12 +25,12 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className={`container-fluid ${style.containerFluid}`}>
-      <div className={`container-fluid ${style.container}`}>
+    <div className={` ${style.containerFluid}`}>
+      <div className={`container-xlg  ${style.container}`}>
         {isOne && (
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
-              <div className={`col-lg-7 col-md-7 ${style.colleft}`}>
+              <div className={`col-lg-6 col-md-6 ${style.colleft}`}>
                 <h1 data-aos="fade-up" data-aos-duration="1000">A trusted source of fast, flexible financing</h1>
                 <div className={style.picture2}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
@@ -51,15 +51,13 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-              <div className={`col-lg-5 col-md-5 ${style.colright}`}>
+              <div className={`col-lg-4 col-md-4 ${style.colright}`}>
                 <Image src={Phone} alt="Phone" className={style.phoner} />
                 <p data-aos="fade-up" data-aos-duration="1000">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
-                  reiciendis exercitationem cumque vero accusamus minima saepe
-                  sed amet fugiat veniam pariatur recusandae sapiente.
+                Welcome to Fintechify, your gateway to cutting-edge financial solutions in the heart of the UAE. We revolutionize the way you bank, offering a seamless blend of technology and financial solutions to meet the unique needs of our customers.
                 </p>
                 <button data-aos="fade-up" data-aos-duration="1500">
-                  Discover Now
+                  Learn More
                   <span>
                     <MdArrowOutward />
                   </span>
@@ -87,9 +85,9 @@ const Banner = () => {
         {isTwo && (
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
-              <div className={`col-lg-7 col-md-7 ${style.colleft}`}>
+              <div className={`col-lg-6 col-md-6 ${style.colleft2}`}>
                 <h1 className={style.BannerText} data-aos="fade-up" data-aos-duration="1000">
-                  The platform for digital banking
+                Empowering Financial Futures
                 </h1>
                 <div className={style.picture}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
@@ -110,15 +108,13 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-              <div className={`col-lg-5 col-md-5 ${style.colright}`}>
+              <div className={`col-lg-4 col-md-4 ${style.colright2}`}>
                 <Image src={Phone} alt="Phone" className={style.phoner} />
                 <p data-aos="fade-up" data-aos-duration="1500">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
-                  reiciendis exercitationem cumque vero accusamus minima saepe
-                  sed amet fugiat veniam pariatur recusandae sapiente.
+                Welcome to Fintechify, your gateway to cutting-edge financial solutions in the heart of the UAE. We revolutionize the way you bank, offering a seamless blend of technology and financial solutions to meet the unique needs of our customers.
                 </p>
                 <button data-aos="fade-up" data-aos-duration="1500">
-                  Discover Now
+                  Learn More
                   <span>
                     <MdArrowOutward />
                   </span>

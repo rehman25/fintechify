@@ -22,7 +22,7 @@ const page = () => {
       <section className='mb-5 mt-5'>
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6" data-aos="fade-right" data-aos-offset="300">
+            <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
               <div className={styles.InnovativeBox}>
                 <h4>Why Digital Wallet <br />Development is <br />Booming.</h4>
                 <p>The world is witnessing a mobile payment revolution, and at the heart of it all lies digital wallet development.  Cash is becoming a relic, replaced by the sleek convenience of digital wallets. But this isn’t just about replacing plastic with pixels. Here’s why digital wallet development is a goldmine::</p>
@@ -35,7 +35,7 @@ const page = () => {
                     </div>
             </div>
             <div className="col-lg-6">
-              <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
+              <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
                 <Image src={img1} className='img-fluid' />
               </div>
             </div>
@@ -43,7 +43,7 @@ const page = () => {
         </div>
       </section>
      
-      <section className={styles.processSection} data-aos="fade-up">
+      <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
         <div className="container">
           <div className="row">
             <h4>Code, Craft, Cash! Unleash Your</h4>
@@ -81,7 +81,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className={styles.getStartedSection} data-aos="fade-up">
+      <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
         <div className="container">
           <div className="row">
             <div className={styles.startedUpperBox}>

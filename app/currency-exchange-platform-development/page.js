@@ -21,7 +21,7 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6" data-aos="fade-right" data-aos-offset="300">
+                        <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Optimize Your Currency Exchange Strategies</h4>
 
@@ -29,14 +29,14 @@ function page() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
                             <Image className="img-fluid" src={img} />
                         </div>
                     </div>
                 </div>
             </div>
             </section>
-            <section className={styles.processSection} data-aos="fade-up">
+            <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <h4>Key Features of Our Currency Exchange Platform Development Service:</h4>
@@ -83,7 +83,7 @@ function page() {
                     </div>
                 </div>
             </section>
-            <section className={styles.getStartedSection} data-aos="fade-up">
+            <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <div className={styles.startedUpperBox}>

@@ -21,14 +21,14 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6" data-aos="fade-right" data-aos-offset="300">
+                        <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Your one-stop shop <br /> for FinOps Services.</h4>
                                 <p>Struggling with financial chaos? Ditch the spreadsheets! Fintechify is your financial SWAT team, blasting complexity and optimizing your business health. Startups or enterprises, we craft a plan unique to you. Join the revolution and unlock streamlined operations, soaring business health, and freedom from financial busywork. Enlist today!</p>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
                                 <Image className="img-fluid" src={img1} />
                             </div>
                         </div>
@@ -38,7 +38,7 @@ function page() {
 
 
 
-            <section className={styles.processSection} data-aos="fade-up">
+            <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <h4>See Where FinOps Service Works:</h4>
@@ -160,7 +160,7 @@ function page() {
                 </div>
             </section>
 
-            <section className={styles.getStartedSection} data-aos="fade-up">
+            <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
