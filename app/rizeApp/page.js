@@ -15,20 +15,20 @@ const page = () => {
           <div className={`row ${style.row}`}>
             <div className={`col-md-12 ${style.col12}`}>
               <h1><Image src={RisImage} /></h1>
-              <p>
-                Fintechify is a leading digital product management platform that
+              {/* <p>
+                FinPoan is a leading digital product management platform that
                 empowers businesses to streamline their digital product
                 management processes. With its advanced features and expertise,
                 we help you achieve better productivity, increase customer
                 satisfaction, and drive growth.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
       </div>
       <div className={`container  ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 ${style.collg6}`} data-aos="fade-right" data-aos-duration="500">
+          <div className={`col-lg-6 flex_left ${style.collg6 }`} data-aos="fade-right" data-aos-duration="2000">
             <Image src={RisImage} />
             <h1>
               TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
@@ -48,9 +48,13 @@ const page = () => {
               of digital banking with Rize and unlock a world of possibilities
               for effortless and efficient financial management.
             </p>
-            <button className={style.btn}>Join Us</button>
+            <button className={style.btn}>Join Now</button>
           </div>
+<<<<<<< HEAD
           <div className={`col-lg-6 ${style.collg62}`} data-aos="fade-left" data-aos-duration="500">
+=======
+          <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+>>>>>>> 94f843db597f2c5f9f9063758d7082d289900200
             <Image src={RisMobile} className={style.RisMobile}  />
           </div>
         </div>
@@ -157,7 +161,99 @@ const page = () => {
           </div>
         </div>
       </div>
-
+      <div className={`container mt-5 ${style.Essential}`}>
+        <div className={`row ${style.row2}`}>
+          <h1>
+          Digital Lending
+          </h1>
+          <div className={`col-lg-6  m-0 ${style.boxleft}`}>
+            <h2>Personal Financing (PF)</h2>
+            <div className={style.section}>
+              <h5>Personal Credit:</h5>
+              <ul>
+                <li>
+                Amount approves depending on to customer’s financial profile and may have a fixed limit.
+                </li>
+                <li>Get funds to achieve your personal financial needs.</li>
+              </ul>
+            </div>
+            <div className={style.section}>
+              <h5>Encouraging Digital Lending:</h5>
+              <ul>
+                <li>Introducing fixed term financing</li>
+              </ul>
+            </div>
+            <div className={style.section}>
+              <h5>Flexibility and Adaptability:</h5>
+              <ul>
+                <li>
+                Financing that comes with an interest rate that is fixed.
+                </li>
+                <li>
+                Customer repay the loan in installments over a fixed period, with options for short or long-term loans.
+                </li>
+                <li>
+                With minimal documentation, approval for the loan can be obtained.
+                </li>
+              </ul>
+            </div>
+            <div className={style.section}>
+              <h5>Technology Integration:</h5>
+              <ul>
+                <li>PF origination facilitated via Digibank app.</li>
+                <li>
+                  Access to generated PF reports via portal for compliance and
+                  management.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={`col-lg-6  m-0 ${style.boxright}`}>
+            <div className={style.tdSection}>
+              <h2>Corporate Financing (CF)</h2>
+              <div className={style.section}>
+                <h5>SME Financing:
+                </h5>
+                <ul>
+                  <li>
+                  Specialized financing and credit options for your large-scale projects for business expansion
+                  </li>
+                  <li>Get funds to achieve your Business goals</li>
+                </ul>
+              </div>
+              <div className={style.section}>
+                <h5>Encouraging Digital Financing:</h5>
+                <ul>
+                  <li>Introducing Digital SME Financing</li>
+                </ul>
+              </div>
+              <div className={style.section}>
+                <h5>Flexibility and Adaptability:</h5>
+                <ul>
+                  <li>
+                  Financing that comes with fixed repayment terms.
+                  </li>
+                  <li>Customers repay the loan in installments over a fixed period, for long-term loans.</li>
+                  <li>
+                  Offer digital platforms for SMEs to manage their finances, make transactions, and access funding more efficiently.
+                  </li>
+                </ul>
+              </div>
+              <div className={style.section}>
+                <h5>Technology Integration:</h5>
+                <ul>
+                  <li>
+                  CF origination is facilitated through Digibank app.
+                  </li>
+                  <li>
+                  Access to generate CF reports via the portal for portfolio management and compliance.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Testimonials />
       <Footer />
     </>

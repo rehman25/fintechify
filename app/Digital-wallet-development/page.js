@@ -93,8 +93,8 @@ const page = () => {
             <div className="col-lg-12">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
-                  <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
-                  <li><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the <br /> forefront.</span></li>
+                  <li><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the forefront.</span></li>
+                  <li><IoCheckmarkSharp /><span>Security that's sharper than your new suit. Convenience that's smoother than a crypto transaction.</span></li>
                   <li><IoCheckmarkSharp /><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future.</span></li>
                   <li><IoCheckmarkSharp /><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen.</span></li>
                 </ul>
