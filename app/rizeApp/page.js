@@ -50,13 +50,17 @@ const page = () => {
             </p>
             <button className={style.btn}>Join Now</button>
           </div>
+<<<<<<< HEAD
+          <div className={`col-lg-6 ${style.collg62}`} data-aos="fade-left" data-aos-duration="500">
+=======
           <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+>>>>>>> 94f843db597f2c5f9f9063758d7082d289900200
             <Image src={RisMobile} className={style.RisMobile}  />
           </div>
         </div>
       </div>
 
-      <div className={`container ${style.Essential}`}>
+      <div className={`container ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row ${style.row2}`}>
           <h1>
             Essential Banking Services

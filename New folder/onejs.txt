@@ -1,0 +1,86 @@
+"use client";
+import { useEffect, useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import style from "./banner.module.css";
+import Image from "next/image";
+import { MdArrowOutward } from "react-icons/md";
+import Image1 from "../assets/images/revslider_1_img-1.jpg";
+import Image2 from "../assets/images/revslider_1_img-2.jpg";
+import Image3 from "../assets/images/revslider_1_img-3.jpg";
+import Image4 from "../assets/images/revslider_1_img-4.jpg";
+import Image5 from "../assets/images/revslider_1_img-5.jpg";
+import Image6 from "../assets/images/revslider_1_img-6.jpg";
+import Image7 from "../assets/images/revslider_1_img-7.jpg";
+import Card1 from "../assets/images/revslider_card-1.png";
+import Card2 from "../assets/images/revslider_card-2.png";
+import Card3 from "../assets/images/revslider_card-3.png";
+import Card4 from "../assets/images/revslider_card-4.png";
+import Card5 from "../assets/images/revslider_card-5.png";
+import Card6 from "../assets/images/revslider_card-6.png";
+import Card7 from "../assets/images/revslider_card-7.png";
+import Phone from "../assets/images/bgPhone.png";
+import Phone1 from "../assets/images/bgPhone.png";
+import head1 from "../assets/images/head1.png";
+import head2 from "../assets/images/head2.png";
+import head3 from "../assets/images/head3.png";
+import head4 from "../assets/images/head4.svg";
+import { FaArrowRight } from "react-icons/fa6";
+
+const Banner = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  return (
+    <>
+      <section className={style.bannerHighet}>
+          <Slider {...settings}>
+            <div className={style.slideFirst}>
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-6">
+                    <h4 className="d-md-block d-none">A trusted source <br />of fast, Flexible <br />financing </h4>
+                    <h4 className="d-md-none d-block">A trusted source of fast, Flexible financing </h4>
+                  </div>
+                  <div className="col-md-6">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, perspiciatis? Deleniti, dolorem rem sit reiciendis veritatis architecto numquam consequuntur tempora earum aperiam, fugiat sunt odio quo libero praesentium! Rem, culpa?</p>
+                    <button className={style.LuSend2}>
+                      Discover Now <FaArrowRight />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className={`${style.imagesBox} row`}>
+                <div className={`${style.firstSLideTwoPicture} col-3`}>
+                  <Image src={Image1} className="img-fluid" id={style.one} />
+                  <Image src={Image2} className="img-fluid" id={style.two} />
+                </div>
+                <div className={`${style.firstSLideOnePicture} col-3`}>
+                  <Image src={Image3} className="img-fluid" id={style.three} />
+                </div>
+                <div className={`${style.firstSLideTwoScdPicture} col-3`}>
+                  <Image src={Image4} className="img-fluid" id={style.four} />
+                  <Image src={Image5} className="img-fluid" id={style.five} />
+                </div>
+                <div className={`${style.firstSLideTwothirdPicture} col-3`}>
+                  <Image src={Image6} className="img-fluid" id={style.six} />
+                  <Image src={Image7} className="img-fluid" id={style.seven} />
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3>2</h3>
+            </div>
+          </Slider>
+      </section>
+    </>
+  );
+};
+
+export default Banner;

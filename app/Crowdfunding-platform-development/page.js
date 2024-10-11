@@ -26,7 +26,7 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6" data-aos="fade-right" data-aos-offset="300">
+                        <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Transforming Ideas into <br /> Funded Realities with <br /> Crowdfunding Platform <br /> Development</h4>
                                 <p>Crowdfund with confidence at Fintechify. Our expert team crafts <br /> secure, custom platforms to launch your <br /> vision and empower your fundraising goals. Let’s turn ideas into reality, together.</p>
@@ -40,16 +40,13 @@ function page() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="2000">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
                             <Image className="img-fluid" src={aboutFirstSectionImg} />                        </div>
                     </div>
                     </div>
                 </div>
             </section>
-
-
-
-            <section className={styles.processSection} data-aos="fade-up">
+            <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <h4>Our Process</h4> 
@@ -138,8 +135,7 @@ function page() {
                     </div>
                 </div>
             </section>
-
-            <section className={styles.getStartedSection} data-aos="fade-up">
+            <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
@@ -151,7 +147,6 @@ function page() {
                     </div>
                 </div>
             </section>
-
             <Testimonials />
             <Footer />
         </>

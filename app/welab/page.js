@@ -62,7 +62,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className={`container  ${style.Essential}`}>
+      <div className={`container  ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row  ${style.row2}`}>
           <h1>Benefits for All Stakeholders</h1>
 
