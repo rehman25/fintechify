@@ -21,11 +21,9 @@ const FinancialComponent = () => {
                 <RiBuilding3Fill />
                 About Fintechify
               </span>
-              <h2>Start expanding your financial frontier</h2>
+              <h2>Credit Card to E-Cash innovations is the Goal.</h2>
               <p>
-                Impeccable beauty and functionality converge in both card and
-                app. Marks the outset of a journey into a boundless world, free
-                from constraints.
+              Forget plastic, embrace the future. Fintechify unlocks next-level banking with a touch. Crafted experiences, not just solutions. We’re your gateway to dominate the digital finance game. Partner with Fintechify. Be the pioneer, not a follower.
               </p>
               <div className="d-flex  mt-4">
                 <div className={`me-5 text-center ${styles.percent}`}>

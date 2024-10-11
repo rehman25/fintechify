@@ -493,7 +493,7 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-  top: -13%;
+  top: -16%;
   pointer-events: none;
   background: transparent;
 }
@@ -703,7 +703,17 @@
     top: -2;
   }
 } */
-
+  @media screen and (max-width: 1920px)  {
+    .btmRow{
+      top: 4%;
+    }
+    .btmRow2{
+      top: -1%;
+    }
+    .btmRow3{
+      top: 1%;
+    }
+  }
 @media screen and (max-width: 1500px) {
   .btmRow{
     top: -5%;
