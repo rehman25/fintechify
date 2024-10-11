@@ -11,6 +11,7 @@ import HealthCare from "../assets/images/healthcare.svg";
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa6";
+import Link from 'next/link';
 
 
 const services = () => {
@@ -46,56 +47,48 @@ const services = () => {
               </span>
             </div>
             <button className={style.LuSend2}>
-              View All Services <FaArrowRight />
+              <Link href="/service" style={{textDecoration:"none",color: "white"}}>View All Services <FaArrowRight /></Link>
             </button>
           </div>
           <div className={`col-lg-7 col-xlg-7 ${style.rightBoxes}`} >
             <div className={style.card}>
-              <h2>Saving Account</h2>
+              <h2>Banking App</h2>
               <p>
-                Watch your money flourish with flexible options and competitive
-                rates. Earn interest while enjoying the easy access to your
-                funds.
+               At Fintechify, we specialize in creating cutting-edge banking apps tailored to the unique requirements of financial institutions.
               </p>
               <span>
                 <Image src={User} width={50} height={50} />
-                <MdArrowOutward className={style.arrow} />
+                <Link href="/Banking-app-development" style={{textDecoration:"none",color: "black"}}><MdArrowOutward className={style.arrow}  /></Link>
               </span>
             </div>
             <div className={style.card}>
-              <h2>Saving Account</h2>
+              <h2>Digital Wallet</h2>
               <p>
-                Watch your money flourish with flexible options and competitive
-                rates. Earn interest while enjoying the easy access to your
-                funds.
+              Welcome to our Digital Wallet Development Services! In today’s fast-paced digital landscape, convenience is paramount,
               </p>
               <span>
                 <Image src={Loan} width={50} height={50} />
-                <MdArrowOutward className={style.arrow} />
+                <Link href="/Digital-wallet-development" style={{textDecoration:"none",color: "black"}}><MdArrowOutward className={style.arrow} /></Link>
               </span>
             </div>
             <div className={style.card}>
-              <h2>Saving Account</h2>
+              <h2>Insurance Software</h2>
               <p>
-                Watch your money flourish with flexible options and competitive
-                rates. Earn interest while enjoying the easy access to your
-                funds.
+              At Fintechify, we understand the complexities of the insurance industry and the critical need for efficient, secure, and scalable software solutions.
               </p>
               <span>
                 <Image src={Card} width={50} height={50} />
-                <MdArrowOutward className={style.arrow} />
+                <Link href="/Insurance-software-development" style={{textDecoration:"none",color: "black"}}><MdArrowOutward className={style.arrow} /></Link>
               </span>
             </div>
             <div className={style.card}>
-              <h2>Saving Account</h2>
+              <h2> FinOps Services</h2>
               <p>
-                Watch your money flourish with flexible options and competitive
-                rates. Earn interest while enjoying the easy access to your
-                funds.
+              Welcome to Fintechify, where we offer comprehensive FinOps services designed to streamline your financial operations and optimize your business’s financial health.
               </p>
               <span>
                 <Image src={HealthCare} width={50} height={50} />
-                <MdArrowOutward className={style.arrow} />
+                <Link href="/finops-services" style={{textDecoration:"none",color: "black"}}><MdArrowOutward className={style.arrow} /></Link>
               </span>
             </div>
           </div>
