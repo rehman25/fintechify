@@ -102,41 +102,40 @@ const page = () => {
               <div
                 className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}
               >
+                <h5>Tired of worrying about security and limited options?</h5>
+                <p>
+                  Fintechify’s DeFi platform delivers a powerful combination of{" "}
+                  <br /> cutting-edge security and a diverse range of financial
+                  instruments, <br /> all accessible 24/7.
+                </p>
+                <h5>Built with rock-solid security:</h5>
                 <ul>
-                  <h5>Tired of worrying about security and limited options?</h5>
-                  <p>
-                    Fintechify’s DeFi platform delivers a powerful combination
-                    of <br /> cutting-edge security and a diverse range of
-                    financial instruments, <br /> all accessible 24/7.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Built with rock-solid security:</h5>
                   <li>
                     Blockchain Powered: We leverage the latest blockchain <br />{" "}
                     technology to ensure every transaction is:
                   </li>{" "}
+                  <li>
+                    Secure: Encrypted and tamper-proof, protecting your funds.{" "}
+                  </li>
+                  <li>
+                    Transparent: Every step is visible and verifiable on the
+                    blockchain.
+                  </li>
+                  <li>
+                    {" "}
+                    Immutable: Once completed, transactions cannot be reversed,
+                    fostering trust.
+                  </li>
                 </ul>
-                <li>
-                  Secure: Encrypted and tamper-proof, protecting your funds.{" "}
-                </li>
-                <li>
-                  Transparent: Every step is visible and verifiable on the{" "}
-                  <br />
-                  blockchain.{" "}
-                </li>
-                <li>
-                  Immutable: Once completed, transactions cannot be <br />{" "}
-                  reversed, fostering trust.
-                </li>
               </div>
             </div>
             <div className="col-lg-6 p-lg-0">
               <div
                 className={`${styles.processBox} ${styles.whiteBg} ${styles.decentralizedWhiteBottomBox}`}
               >
-                <ul>
+                
                   <h5>Unleash a world of financial possibilities:</h5>
+                  <ul>
                   <li>
                     Beyond Traditional Finance: Our platform offers a wider
                     range <br /> of tools than ever before:{" "}
@@ -154,8 +153,9 @@ const page = () => {
                     <br /> strategic crypto lending across DeFi protocols.
                   </li>
                 </ul>
-                <ul>
+                
                   <h5>Seamless Integration and Accessibility:</h5>
+                  <ul>
                   <li>
                     The DeFi Ecosystem at Your Fingertips: Our platform is{" "}
                     <br />
@@ -181,12 +181,11 @@ const page = () => {
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
               <h1 className={styles.heading}>
-                Ready to break free from traditional <br />
-                finance?
+                Ready to break free from traditional finance?
               </h1>
               <h3>Our cutting-edge DeFi platform empowers you</h3>
             </div>
-            <div className="col-lg-12">
+            <div className="col-lg-12 text-center">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
                   <li>
