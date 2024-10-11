@@ -5,10 +5,10 @@
   --background: #171717;
   --foreground: #171717;
 }
-h1,h2,h3,h4,h5,h6,span,div,section,a,ul,li{
-  font-family: "DM Sans", sans-serif !important;
+h1,h2,h3,h4,h5,h6,div,section,a,ul,li,button{
+  font-family: "Montserrat", sans-serif !important;
 }
-p,button{
+p,span{
   font-family: "Work Sans", sans-serif;
 }
 section{
