@@ -31,7 +31,7 @@ const Banner = () => {
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft}`}>
-                <h1 data-aos="fade-up" data-aos-duration="1000">A Trusted source of fast, flexible financing</h1>
+                <h1 data-aos="fade-up" data-aos-duration="1000">A Trusted source<br/>of fast, flexible financing</h1>
                 <div className={style.picture2}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
                     <Image src={head1} alt="Head 1" className={style.head1} />
@@ -86,7 +86,7 @@ const Banner = () => {
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft2}`}>
                 <h1 className={style.BannerText} data-aos="fade-up" data-aos-duration="1000">
-                Empowering Financial Futures
+                Empowering <br/> Financial<br/> Futures
                 </h1>
                 <div className={style.picture}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
