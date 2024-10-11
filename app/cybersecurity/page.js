@@ -193,74 +193,10 @@ function page() {
         </div>
       </section>
 
-<<<<<<< HEAD
       <Testimonials />
       <Footer />
     </>
   );
-=======
-                                    </p>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.cybersecurityWhiteBottomBox}`}>
-                                <ul>
-                                    <h5>4. Defend Against Emerging Threats
-                                    </h5>
-                                    <p>Cyber threats are constantly evolving. A strong cybersecurity strategy helps your business stay ahead of hackers and malicious actors, minimizing vulnerabilities.
-
-                                    </p>
-                                </ul>
-                                <ul>
-                                    <h5>5 .Secure Intellectual Property
-                                    </h5>
-                                    <p>Your business’s proprietary data and innovations are valuable. Cybersecurity ensures that your intellectual property stays in your hands, not in those of cybercriminals.
-
-                                    </p>
-                                </ul>
-                                <ul>
-                                    <h5>6 .Boost Business Continuity
-                                    </h5>
-                                    <p>A solid cybersecurity plan minimizes disruptions by preventing attacks that could lead to downtime or operational failures. This ensures your business runs smoothly, even in the face of cyber risks.
-
-                                    </p>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container">
-                    <div className="row">
-                        <div className={styles.startedUpperBox}>
-                            <Image src={QoutesImg} alt='Qoutes' />
-                            <h4>Strengthen Your Business with Fintechy Cybersecurity Solutions
-
-                            </h4>
-
-                        </div>
-                        <div className="col-lg-12">
-                            <div className={`${styles.startedBox} ${styles.startedLeft}`}>
-                                <ul>
-                                    <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
-                                    <li><p>Worried about your business being vulnerable to cyber threats? We create easy-to-understand, effective cybersecurity plans designed specifically for fintech companies. Protect your valuable data, secure your reputation, and stay safe from hackers with our trusted services.</p></li>
-                                    <li><p>Contact us today! Let’s talk about your security needs and show you how Fintechy.ae can make your business safer and stronger.</p></li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </section>
-            <Testimonials />
-            <Footer />
-        </>
-    )
->>>>>>> 6c7903bba74e652e11baac250803e8f293425a68
 }
 
 export default page;
