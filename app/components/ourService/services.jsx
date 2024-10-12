@@ -19,7 +19,7 @@ const services = () => {
     <div className={`container-fluid my-5`}>
       <div className={`container mt-5`}>
         <div className={`row`}>
-          <div className={`col-lg-5`}>
+          <div className={`col-lg-5 ${style.check}`}>
             <span className={style.about}>
               <RiSettings2Line className={style.settingIcon} />
               <h4>our services</h4>

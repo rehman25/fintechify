@@ -118,6 +118,11 @@
     }
 }
 
+@media screen and (max-width:568px){
+    .testimonialsBg {
+        border-radius: 0;
+    }
+}
 @media screen and (max-width:480px) {
     .testimonialsBg {
         padding: 50px 20px;

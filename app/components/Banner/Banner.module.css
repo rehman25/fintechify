@@ -59,6 +59,11 @@
     margin: 0;
 }
 
+@media screen and (max-width:568px){
+    .BannerBg {
+        border-radius: 0;
+    }
+}
 @media screen and (max-width:565px) {
     .BannerBg{
         padding: 100px 0;

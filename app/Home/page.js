@@ -8,16 +8,20 @@ import Count from '@/app/components/count/count'
 import Payment from '@/app/components/payment/payment'
 import Move from '@/app/components/moveText/MovingText'
 import Testimonials from '../components/Testimonials/Testimonials'
+import Banking from "../components/banking/banking"
+import Retail from "../components/retail/retail"
 const page = () => {
   return(
        <> 
       <Header />
       <Banner />
       <Fianancial   />
+      <Banking />
       <Services />
       <Count />
       <Payment />
       <Move />
+      <Retail />
       <Testimonials />
       <Footer />
       </>

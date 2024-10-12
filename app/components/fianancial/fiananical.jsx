@@ -27,10 +27,7 @@ const FinancialComponent = () => {
               </span>
               <h2>Credit Card to E-Cash innovations is the Goal.</h2>
               <p>
-                Forget plastic, embrace the future. Fintechify unlocks
-                next-level banking with a touch. Crafted experiences, not just
-                solutions. We’re your gateway to dominate the digital finance
-                game. Partner with Fintechify. Be the pioneer, not a follower.
+              Forget plastic, embrace the future. Fintechify unlocks next-level banking with a touch. Crafted experiences, not just solutions. We’re your gateway to dominate the digital finance game. Partner with Fintechify. Be the pioneer, not a follower.
               </p>
               <div className="d-flex  mt-4">
                 <div className={`me-5 text-center ${styles.percent}`}>

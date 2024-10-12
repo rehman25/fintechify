@@ -88,6 +88,11 @@
     }
 }
 
+@media screen and (max-width:568px){
+    .clientSeciton {
+        border-radius: 0;
+    }
+}
 @media screen and (max-width:565px){
     .clientSeciton h5 {
         font-size: 30px;
