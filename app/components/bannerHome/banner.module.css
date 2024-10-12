@@ -66,7 +66,7 @@
 }
 
 .colright button {
-  background: linear-gradient(90deg, #006ff9 0%, #00dcc7 51%, #006ff9) 0 / 200%;
+  background: linear-gradient(90deg, #082AC9 , #1F96FD);
   padding: 12px 25px;
   border-radius: 20px;
   color: white;
@@ -78,10 +78,10 @@
 }
 
 .colright button:hover {
-  background: linear-gradient(-90deg, #00dcc7, #006ff9 15% 51%, #00dcc7) 0 / 200%;
+  background: linear-gradient(90deg, #1F96FD , #082AC9 );
 }
 .colright2 button {
-  background: linear-gradient(90deg, #006ff9 0%, #00dcc7 51%, #006ff9) 0 / 200%;
+  background: linear-gradient(90deg, #082AC9 , #1F96FD);
   padding: 12px 25px;
   border-radius: 20px;
   color: white;
@@ -93,7 +93,7 @@
 }
 
 .colright2 button:hover {
-  background: linear-gradient(-90deg, #00dcc7, #006ff9 15% 51%, #00dcc7) 0 / 200%;
+  background: linear-gradient(90deg, #1F96FD , #082AC9 );
 }
 
 .phoner {

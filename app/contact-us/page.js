@@ -55,7 +55,7 @@ function page() {
                     </div>
                 </div>
             </section>
-            <Map />
+            {/* <Map /> */}
             <section className={styles.contactFormSection}>
                 <div className="container">
                     <div className="row">

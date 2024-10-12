@@ -27,7 +27,7 @@ const Banner = () => {
   return (
     <div className={` ${style.containerFluid}`}>
       <div className={`container-xlg  ${style.container}`}>
-        {/* {isOne && ( */}
+        {isOne && (
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft}`}>
@@ -79,9 +79,9 @@ const Banner = () => {
               <div className={`${style.box7}`}></div>
             </div>
           </div>
-        {/* )} */}
+        )}
 
-        {/* {isTwo && (
+        {isTwo && (
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft2}`}>
@@ -136,7 +136,7 @@ const Banner = () => {
               <div className={`${style.card7}`}></div>
             </div>
           </div>
-        )} */}
+        )}
       </div>
     </div>
   );

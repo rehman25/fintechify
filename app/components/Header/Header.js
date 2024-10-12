@@ -111,6 +111,12 @@ export default function Header() {
                                             <Link href="/Insurance-software-development">Insurance Software Development <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
+                                    <li>
+                                        <CiLock />
+                                        <div>
+                                            <Link href="/cybersecurity">Cybersecurity <WiDirectionUpRight /></Link>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
@@ -153,16 +159,6 @@ export default function Header() {
                                         <FaExchangeAlt />
                                         <div>
                                             <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className='col-lg-4 p-0 m-0'>
-                                <ul>
-                                    <li>
-                                        <CiLock />
-                                        <div>
-                                            <Link href="/cybersecurity">Cybersecurity <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                 </ul>
