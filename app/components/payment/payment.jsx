@@ -13,22 +13,46 @@ const payment = () => {
   const [isHover, setHover] = useState(true);
   const [isHover1, setHover1] = useState(false);
   const [isHover2, setHover2] = useState(false);
+  const [isHover3, setHover3] = useState(false);
+  const [isHover4, setHover4] = useState(false);
   const handleMouseOver = () => {
     setHover(true);
     setHover1(false);
     setHover2(false);
+    setHover3(false);
+    setHover4(false);
   };
 
   const handleMouseOver1 = () => {
     setHover1(true);
     setHover(false);
     setHover2(false);
+    setHover3(false);
+    setHover4(false);
   };
 
   const handleMouseOver2 = () => {
     setHover2(true);
     setHover1(false);
     setHover(false);
+    setHover3(false);
+    setHover4(false);
+
+  };
+  const handleMouseOver3 = () => {
+    setHover3(true);
+    setHover2(false);
+    setHover1(false);
+    setHover(false);
+    setHover4(false);
+
+  };
+  const handleMouseOver4 = () => {
+    setHover4(true);
+    setHover2(false);
+    setHover1(false);
+    setHover(false);
+    setHover3(false);
 
   };
 
@@ -94,6 +118,38 @@ const payment = () => {
                 </p>
               </span>
             </div>
+            <div
+              className={isHover3 ? style.cardHover : style.card}
+              onMouseEnter={handleMouseOver3}
+            >
+              <h1 className={isHover3 ? style.numberHover : style.number}>
+                04
+              </h1>
+              <span className={isHover3 ? style.spamHover : style.spam} id={style.spamHeadBox}>
+                <h1>Gateway processing</h1>
+                <p>
+                  We provide online connectivity to Mastercard and Visa, as well
+                  as the full range of card management tools while you hold the
+                  balance, perform authorisations, and address...
+                </p>
+              </span>
+            </div>
+            <div
+              className={isHover4 ? style.cardHover : style.card}
+              onMouseEnter={handleMouseOver4}
+            >
+              <h1 className={isHover4 ? style.numberHover : style.number}>
+                05
+              </h1>
+              <span className={isHover4 ? style.spamHover : style.spam} id={style.spamHeadBox}>
+                <h1>Gateway processing</h1>
+                <p>
+                  We provide online connectivity to Mastercard and Visa, as well
+                  as the full range of card management tools while you hold the
+                  balance, perform authorisations, and address...
+                </p>
+              </span>
+            </div>
           </div>
           <div className={`col-lg-6  ${style.col6}`}>
             {isHover && (
@@ -107,6 +163,16 @@ const payment = () => {
               </div>
             )}
              {isHover2 && (
+              <div className={style.divbg}>
+                <Image src={bg3} className={`${style.bg1} img-fluid`} />
+              </div>
+            )}
+             {isHover3 && (
+              <div className={style.divbg}>
+                <Image src={bg3} className={`${style.bg1} img-fluid`} />
+              </div>
+            )}
+             {isHover4 && (
               <div className={style.divbg}>
                 <Image src={bg3} className={`${style.bg1} img-fluid`} />
               </div>

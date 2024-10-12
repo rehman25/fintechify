@@ -31,7 +31,7 @@ const Banner = () => {
           <div className={`row ${style.slider1}`}>
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft}`}>
-                <h1 data-aos="fade-up" data-aos-duration="1000">A Trusted source of fast, flexible financing</h1>
+                <h1 data-aos="fade-up" data-aos-duration="1000" className="mt-lg-5 mt-md-5">A Trusted source of fast, flexible financing</h1>
                 <div className={style.picture2}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
                     <Image src={head1} alt="Head 1" className={style.head1} />

@@ -36,6 +36,10 @@
     border-radius: 15px;
     margin: 30px 0px;
 }
+.col6{
+    display: flex;
+    align-items: center;
+}
 .spam {
     margin-left: 15px;
     color: black;
@@ -45,10 +49,10 @@
 }
 #spamHeadBox h1{
     font-weight: 600;
-    font-size: 23px;
+    font-size: 18px;
 }
 #spamHeadBox p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     color: gray;
 }
@@ -62,8 +66,8 @@
 .numberHover {
     background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
     border: none;
-    width: 129px;
-    height: 60px;
+    width: 98px;
+    height: 50px;
     margin: 0;
     padding: 10px;
     border-radius: 50%;
@@ -71,20 +75,20 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 19px;
+    font-size: 18px;
 }
 .number {
     color: #065EFE;
     border: 1px solid #ccc;
-    width: 129px;
-    height: 60px;
+    width: 98px;
+    height: 50px;
     margin: 0;
     padding: 10px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 18px;
 }
 .divbg {
     height: auto;
