@@ -69,7 +69,7 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox}>
-                                <h4 className='mt-5'>Innovative Fintech <br /> Solutions for  <br />Modern Finance</h4>
+                                <h4 className='mt-4'>Innovative Fintech <br /> Solutions for  <br />Modern Finance</h4>
                                 <p>Discover modern finance through our innovative fintech solutions. From seamless payments to AI-powered insights, we offer a range of services designed to simplify and enhance your financial experience. Explore the future of finance with us.
                                 </p>
                             </div>
