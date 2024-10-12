@@ -432,13 +432,16 @@
     .everyoneSection h4 {
         font-size: 30px;
     }
+    .InnovativeBox img {
+        border-radius: 10px;
+    }
     .InnovativeBox h4 {
         font-size: 30px;
-        text-align: center;
+        text-align: left;
     }
     .InnovativeBox p {
         padding-right: 0px;
-        text-align: center;
+        text-align: left;
     }
 }
 
