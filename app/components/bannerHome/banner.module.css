@@ -10,8 +10,9 @@
   border-radius: 50px;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   padding-top: 0px;
-  background: linear-gradient(90deg, #0e0683 51%, #0a096c 0%, #1a2c65) 51% / 200%;
-  background-image: url("../assets/images/ft1-bg.jpg");
+  background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
+  /* background: linear-gradient(90deg, #0e0683 51%, #0a096c 0%, #1a2c65) 51% / 200%;
+  background-image: url("../assets/images/ft1-bg.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1068,7 +1069,9 @@
 }
 
 @media screen and (max-width: 568px) {
-
+  .slider1 {
+    border-radius: 0;
+  }
   .colleft{
     height: 20vh;
     padding-left: 20px;

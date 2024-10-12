@@ -1,7 +1,8 @@
 /* components/Footer.module.css */
 
 .footer {
-  background-image: url(../images/ft1-bg.jpg);
+  /* background-image: url(../images/ft1-bg.jpg); */
+  background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
   color: white;
   padding: 6rem 1.5rem;
   font-family: Arial, sans-serif;
@@ -247,6 +248,11 @@
   }
 }
 
+@media screen and (max-width:568px){
+  .footer{
+    border-radius: 0;
+  }
+}
 @media screen and (max-width:480px) {
   .newsletterText h2 {
     font-size: 20px;
