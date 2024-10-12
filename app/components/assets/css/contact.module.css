@@ -9,6 +9,7 @@
     justify-content: center;
     padding: 40px 0;
     border-radius: 10px;
+    height: 200px;
 }
 
 .contactBox svg {
@@ -42,7 +43,8 @@
 }
 
 .contactFormBox {
-    background-image: radial-gradient(at bottom right, #1C1B1B 0%, #1E96FC47 70%);
+    /* background-image: radial-gradient(at bottom right, #1C1B1B 0%, #1E96FC47 70%); */
+    background-image: radial-gradient(at bottom right, #082ac969 0%, #1f96fd4d 100%);
     padding: 60px 30px;
     border-radius: 20px;
     color: black;
