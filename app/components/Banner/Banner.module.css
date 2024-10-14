@@ -22,7 +22,8 @@
 .bannerBox h2 {
     font-size: 30px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: 800;
 }
 
 .bannerBox span {

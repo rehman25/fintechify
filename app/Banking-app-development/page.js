@@ -11,6 +11,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import aboutFirstSectionImg from "../components/assets/images/smiling-arab-businessman-adult-happy-generate-ai-scaled-e1711735176898.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { FaArrowRight } from "react-icons/fa6";
 
 
 function page() {
@@ -39,6 +40,13 @@ function page() {
                                     Fintechify crafts sleek, secure mobile banking that blasts past the     competition.  Our team of designers, developers, and strategists build  features that empower users and fuel growth.
                                 </p>
                             </div>
+                            <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">

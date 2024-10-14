@@ -7,6 +7,8 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img2 from "../components/assets/images/Graphic-Option-1.jpg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
   return (
@@ -61,6 +63,13 @@ function page() {
                   Let’s <br /> talk!
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div

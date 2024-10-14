@@ -108,6 +108,43 @@
     font-weight: 800;
     font-size: 20px;
 }
+.LuSend2 {
+    border: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+    border-radius: 30px;
+    color: white;
+    transition: all 0.1s;
+    font-weight: 600;
+  }
+  .LuSend2 svg {
+    transform: rotate(-45deg);
+    transition: all 0.1s;
+  }
+  .LuSend2:hover {
+    background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+  }
+  .LuSend2:hover svg {
+    transform: rotate(0deg);
+    transition: all 0.1s;
+  }
+  
+  .sendIcon {
+    font-size: 24px;
+    color: #065efe;
+  }
+  .LuSend2 button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 500;
+    border: none;
+  }
+  .LuSend2 button:hover {
+    color: white;
+    background: linear-gradient(90deg, #006ff9 0%, #00dcc7 51%, #006ff9 100%) 0 /
+      200%;
+  }
 
 /* BANKING APP DEV CSS ============================================== */
 .aboutFirst {
