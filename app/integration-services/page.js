@@ -21,7 +21,7 @@ function page() {
         Des="The Ultimate Connector."
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -59,7 +59,7 @@ function page() {
       </section>
 
       <section className={styles.aboutFirst}>
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-duration="2000">
@@ -157,7 +157,7 @@ function page() {
       </section>
 
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>Our Expertise in Integration Services</h4>
 
@@ -229,7 +229,7 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

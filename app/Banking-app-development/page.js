@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
 import styles from '../components/assets/css/services.module.css'
 import img1 from '../components/assets/images/webp.net-resizeimage.jpg'
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import aboutFirstSectionImg from "../components/assets/images/smiling-arab-businessman-adult-happy-generate-ai-scaled-e1711735176898.jpg"
+import aboutFirstSectionImg from "../components/assets/images/3d-internet-secuirty-badge.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
 
@@ -24,7 +24,7 @@ function page() {
                 Des="Banking that fits in Your Pocket"
             />
             <section className='mb-5 mt-5'>
-                <div className="container">
+                <div className="container-fluid px-5">
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
                             <div className={styles.InnovativeBox}>
@@ -50,8 +50,13 @@ function page() {
             </section>
 
             <section className={styles.aboutFirst}>
-                <div className="container">
+                <div className="container-fluid px-5">
                     <div className="row">
+                        <div className="col-lg-6">
+                            <div data-aos="fade-up" data-aos-duration="500" >
+                                <Image className="img-fluid" src={aboutFirstSectionImg} />
+                            </div>
+                        </div>
                         <div className="col-lg-6">
                             <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
                                 <h2>
@@ -61,7 +66,7 @@ function page() {
                                     <IoMdCheckmarkCircleOutline />
                                     <div>
                                         <h3>Reduced Costs:</h3>
-                                        <span>Lower operational expenses by encouraging the use of mobile banking over physical branches.</span>
+                                        <span>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</span>
                                     </div>
                                 </div>
                                 <div className={styles.iconFlexBox}>
@@ -94,17 +99,12 @@ function page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div data-aos="fade-up" data-aos-duration="500" >
-                                <Image className="img-fluid" src={aboutFirstSectionImg} />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
 
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container">
+                <div className="container-fluid px-5">
                     <div className="row">
                         <h4>Our Process of Testifying</h4>
                         <span>Before we blast off, we need a roadmap.</span>
@@ -210,7 +210,7 @@ function page() {
             </section>
 
             <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container">
+                <div className="container-fluid px-5">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
                             <Image src={QoutesImg} alt='Qoutes' />
@@ -221,9 +221,9 @@ function page() {
                             <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                                 <ul>
                                     <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
-                                    <li><IoCheckmarkSharp /><span>Shield information like Fort Knox (but with better wifi).</span></li>
-                                    <li><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
-                                    <li><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
+                                    <li className='text-start'><IoCheckmarkSharp /><span>Shield information like Fort Knox (but with better wifi).</span></li>
+                                    <li className='text-start'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
+                                    <li className='text-start'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -231,9 +231,9 @@ function page() {
                             <div className={`${styles.startedBox}  ${styles.starteRight}`}>
                                 <ul>
                                     <h5>We’re not just developers, we’re banking superheroes. Our team of design wizards, coding ninjas, and strategic masterminds join forces to create:</h5>
-                                    <li><IoCheckmarkSharp /><span>Apps that are a joy to use, not a chore.</span></li>
-                                    <li><IoCheckmarkSharp /><span>Features that make banking a breeze, not a battlefield.</span></li>
-                                    <li><IoCheckmarkSharp /><span>Solutions that turn customers into raving fans, not frustrated users.</span></li>
+                                    <li className='text-start'><IoCheckmarkSharp /><span>Apps that are a joy to use, not a chore.</span></li>
+                                    <li className='text-start'><IoCheckmarkSharp /><span>Features that make banking a breeze, not a battlefield.</span></li>
+                                    <li className='text-start'><IoCheckmarkSharp /><span>Solutions that turn customers into raving fans, not frustrated users.</span></li>
                                 </ul>
                             </div>
                         </div>

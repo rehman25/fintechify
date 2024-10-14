@@ -2014,4 +2014,100 @@
 
   } */
 
+  /* ================================================= */
+  .bannerSection{
+    background-image: url(../assets/images/banner-ft1-bg.jpg);
+    color: white;
+    margin: 30px 50px;
+    padding: 36px 0 0 0;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: clip !important;
+  }
+  .firstSlide{
+    position: relative;
+  }
 
+  .bannerSection h4{
+    font-size: 4vw;
+    font-weight: 700;
+  }
+
+  .firstSlide .multipleItemsOfBanner{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .firstSlide .multipleItemsOfBanner .ImagesFlex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .firstSlide .multipleItemsOfBanner .ImagesFlex .images{
+    display: flex;
+  }
+  .firstSlide .multipleItemsOfBanner .ImagesFlex .images img:nth-child(2){
+    position: relative;
+    left: -20px;
+    z-index: -1;
+  }
+  .firstSlide .multipleItemsOfBanner .ImagesFlex .images img:nth-child(3){
+    position: relative;
+    left: -41px;
+    z-index: -2;
+  }
+
+  /* =================== */
+  .firstSlide .multipleItemsOfBanner .ImagesFlex h6{
+    position: relative;
+    left: -2vw;
+  }
+  .firstSlide .multipleItemsOfBanner .ImagesFlex h6 span{
+    font-weight: 500;
+  }
+  .firstSlide .multipleItemsOfBanner .ImagesFlex h6 p{
+    font-weight: 500;
+  }
+  .RightBoxOfFirstSlide p{
+    padding-top: 30px;
+  }
+  .multipleItemsOfBanner .RatingBox{
+    display: flex;
+    align-items: center;
+  }
+  .multipleItemsOfBanner .RatingBox div{
+    margin-left: 15px;
+  }
+  .multipleItemsOfBanner .RatingBox span{
+    font-weight: 500;
+  }
+  .multipleItemsOfBanner .RatingBox p{
+    font-weight: 500;
+  }
+  /* =================================== */
+  .BottomBoxOne{
+    display: flex;
+    background-color: red;
+    overflow: hidden;
+    height: 414px;
+    margin-top: 47px;
+  }
+  .BottomBoxOne .one{}
+  .BottomBoxOne .scd{
+    position: relative;
+    left: -22vw;
+    bottom: -6vw;
+  }
+  .BottomBoxOne .one img{
+    height: 260px;
+    object-fit: contain;
+  }
+
+  @media screen and (max-width:992px){
+    .bannerSection{
+      margin: 30px 0px;
+      border-radius: 0px;
+    }
+  }

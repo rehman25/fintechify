@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer'
 import Banner from '../components/Banner/Banner'
 import styles from '../components/assets/css/contact.module.css'
 import { MdOutlineAddIcCall } from "react-icons/md";
-import ContactImg from '../components/assets/images/contact-img.jpg'
+import ContactImg from '../components/assets/images/smiling-arab-businessman-adult-happy-generate-ai-scaled-e1711735176898.jpg'
 import Image from 'next/image'
 import Map from '../components/map/map'
 import { IoLocation } from "react-icons/io5";

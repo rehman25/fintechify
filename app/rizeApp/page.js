@@ -6,6 +6,9 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Image from "next/image";
 import RisImage from "../components/assets/images/riseApp.png";
 import RisMobile from "../components/assets/images/riseMobile.png";
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import aboutFirstSectionImg from "../components/assets/images/pexels-christina-morillo-1181244-1024x684.jpg"
+
 const page = () => {
   return (
     <>
@@ -28,7 +31,7 @@ const page = () => {
       </div>
       <div className={`container  ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 flex_left ${style.collg6 }`} data-aos="fade-right" data-aos-duration="2000">
+          <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
             <Image src={RisImage} />
             <h1>
               TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
@@ -51,10 +54,68 @@ const page = () => {
             <button className={style.btn}>Join Now</button>
           </div>
           <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
-            <Image src={RisMobile} className={style.RisMobile}  />
+            <Image src={RisMobile} className={style.RisMobile} />
           </div>
         </div>
       </div>
+
+      <section className={style.aboutFirst}>
+        <div className="container-fluid px-5">
+          <div className="row text-center mb-5">
+            <h2 style={{fontWeight:"700"}}>Current Features</h2>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div data-aos="fade-up" data-aos-duration="500" >
+                <Image className="img-fluid" src={aboutFirstSectionImg} />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className={style.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
+                {/* <h2>
+                  Why You Should Move <br />for Banking App <br />Development
+                </h2> */}
+                <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>ACCOUNT MANAGEMENT:</h3>
+                    <span>Users can access and manage their bank accounts, check balances, view transaction history, and perform various banking activities directly from their mobile devices.</span>
+                  </div>
+                </div>
+                <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>PAYMENTS AND TRANSFERS:</h3>
+                    <span>The app allows users to make local and international transfers, pay bills, and conduct other financial transactions seamlessly.</span>
+                  </div>
+                </div>
+                <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>BUDGETING AND EXPENSE TRACKING:</h3>
+                    <span>It offers tools to help users track their expenses, set budgets, and manage their finances more effectively.</span>
+                  </div>
+                </div>
+                <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>CUSTOMER SUPPORT:</h3>
+                    <span>This app incorporates customer support features to provide assistance and resolve queries directly through the app.</span>
+                  </div>
+                </div>
+                <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
+                  <div>
+                    <h3>
+                    SECURITY FEATURES:</h3>
+                    <span>Security is a top priority for banking apps. Rize likely implements robust security measures, such as encryption and authentication methods, to ensure the safety of users' financial information.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className={`container ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row ${style.row2}`}>
@@ -160,7 +221,7 @@ const page = () => {
       <div className={`container mt-5 ${style.Essential}`}>
         <div className={`row ${style.row2}`}>
           <h1>
-          Digital Lending
+            Digital Lending
           </h1>
           <div className={`col-lg-6  m-0 ${style.boxleft}`}>
             <h2>Personal Financing (PF)</h2>
@@ -168,7 +229,7 @@ const page = () => {
               <h5>Personal Credit:</h5>
               <ul>
                 <li>
-                Amount approves depending on to customer’s financial profile and may have a fixed limit.
+                  Amount approves depending on to customer’s financial profile and may have a fixed limit.
                 </li>
                 <li>Get funds to achieve your personal financial needs.</li>
               </ul>
@@ -183,13 +244,13 @@ const page = () => {
               <h5>Flexibility and Adaptability:</h5>
               <ul>
                 <li>
-                Financing that comes with an interest rate that is fixed.
+                  Financing that comes with an interest rate that is fixed.
                 </li>
                 <li>
-                Customer repay the loan in installments over a fixed period, with options for short or long-term loans.
+                  Customer repay the loan in installments over a fixed period, with options for short or long-term loans.
                 </li>
                 <li>
-                With minimal documentation, approval for the loan can be obtained.
+                  With minimal documentation, approval for the loan can be obtained.
                 </li>
               </ul>
             </div>
@@ -212,7 +273,7 @@ const page = () => {
                 </h5>
                 <ul>
                   <li>
-                  Specialized financing and credit options for your large-scale projects for business expansion
+                    Specialized financing and credit options for your large-scale projects for business expansion
                   </li>
                   <li>Get funds to achieve your Business goals</li>
                 </ul>
@@ -227,11 +288,11 @@ const page = () => {
                 <h5>Flexibility and Adaptability:</h5>
                 <ul>
                   <li>
-                  Financing that comes with fixed repayment terms.
+                    Financing that comes with fixed repayment terms.
                   </li>
                   <li>Customers repay the loan in installments over a fixed period, for long-term loans.</li>
                   <li>
-                  Offer digital platforms for SMEs to manage their finances, make transactions, and access funding more efficiently.
+                    Offer digital platforms for SMEs to manage their finances, make transactions, and access funding more efficiently.
                   </li>
                 </ul>
               </div>
@@ -239,10 +300,10 @@ const page = () => {
                 <h5>Technology Integration:</h5>
                 <ul>
                   <li>
-                  CF origination is facilitated through Digibank app.
+                    CF origination is facilitated through Digibank app.
                   </li>
                   <li>
-                  Access to generate CF reports via the portal for portfolio management and compliance.
+                    Access to generate CF reports via the portal for portfolio management and compliance.
                   </li>
                 </ul>
               </div>

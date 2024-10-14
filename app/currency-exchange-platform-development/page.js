@@ -19,7 +19,7 @@ function page() {
         Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -52,10 +52,10 @@ function page() {
         </div>
       </section>
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>
-              Key Features of Our Currency Exchange Platform Development
+              Key Features of Our Currency Exchange <br />Platform Development
               Service:
             </h4>
             <div className="col-lg-6 p-lg-0">
@@ -114,7 +114,7 @@ function page() {
         </div>
       </section>
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container text-center">
+        <div className="container-fluid px-5 text-center">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

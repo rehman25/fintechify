@@ -6,7 +6,7 @@
   margin: 0;
   background-image: url("../components/assets/images/risebanner1.png");
   background-repeat: no-repeat;
-  background: linear-gradient(150deg, #16222f, #1b64a3);
+  background-image: linear-gradient(90deg, #082AC9, #1F96FD);
   background-size: contain;
   border-bottom-right-radius: 70px;
   border-bottom-left-radius: 70px;
@@ -37,7 +37,7 @@
   color: white;
 }
 .container2 {
-  padding: 30px;
+  padding: 30px 60px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -157,7 +157,7 @@
 }
 .collg62{
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 @keyframes tilt-in-top-1 {
   0% {

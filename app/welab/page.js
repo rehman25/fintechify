@@ -28,7 +28,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className={`container  ${style.container2}`}>
+      <div className={`container-fluid  ${style.container2}`}>
         <div className={`row ${style.row}`}>
           <div
             className={`col-lg-6 ${style.collg6}`}

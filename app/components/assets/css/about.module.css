@@ -1,10 +1,13 @@
 .aboutFirst {
     margin: 50px 0;
     color: black;
+    
 }
-
+.aboutFirstsection{
+    padding-right: 40px;
+}
 .aboutFirstsection h2 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .aboutFirstsection p {
@@ -44,7 +47,7 @@
 .clientSeciton {
     background-image:
     linear-gradient(90deg, #082ac991, #1f96fd4d),
-        url(../images/h3_bg1.jpg);
+        url(../images/contact-img.jpg);
     background-blend-mode: hard-light;
     background-size: cover;
     background-position: center center;
@@ -85,6 +88,9 @@
     }
     .clientSeciton .counterStyle{
         flex-wrap: wrap;
+    }
+    .aboutFirstsection {
+        padding-right: 0;
     }
 }
 

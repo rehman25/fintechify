@@ -19,7 +19,7 @@ function page() {
                 Des={"Optimize your cloud for maximum performance and minimal spend."}
             />
             <section className='mb-5 mt-5'>
-                <div className="container">
+                <div className="container-fluid px-5">
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
@@ -39,7 +39,7 @@ function page() {
 
 
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container">
+                <div className="container-fluid px-5">
                     <div className="row">
                         <h4>See Where FinOps Service Works:</h4>
 
@@ -161,7 +161,7 @@ function page() {
             </section>
 
             <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container">
+                <div className="container-fluid px-5">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
                             <Image src={QoutesImg} alt='Qoutes' />

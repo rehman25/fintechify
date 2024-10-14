@@ -20,11 +20,11 @@ const page = () => {
         Des="Be a pioneer in the financial revolution."
       />
       <section className='mb-5 mt-5'>
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
               <div className={styles.InnovativeBox}>
-                <h4>Why Digital Wallet <br />Development is <br />Booming.</h4>
+                <h4>Why Digital Wallet Development is Booming.</h4>
                 <p>The world is witnessing a mobile payment revolution, and at the heart of it all lies digital wallet development.  Cash is becoming a relic, replaced by the sleek convenience of digital wallets. But this isn’t just about replacing plastic with pixels. Here’s why digital wallet development is a goldmine::</p>
                 <p>User Explosion: The mobile wallet market is about to explode over 50% growth in just a few years!  Your digital wallet app will be surfing a tidal wave of new customers..</p>
                 <p>Frictionless Payments: Gone are the days of fumbling for cards. Digital wallets make checkouts a breeze one tap is all it takes!.</p>
@@ -44,11 +44,11 @@ const page = () => {
       </section>
      
       <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>Code, Craft, Cash! Unleash Your</h4>
             <h4>Digital Wallet's Potential</h4>
-            <span>That's the power of our Code, Craft, Cash! digital wallet development process.</span>
+            <span className='m-0'>That's the power of our Code, Craft, Cash! digital wallet development process.</span>
             <span>Here's how we turn your vision into reality:</span>
 
             <div className='col-lg-6 p-lg-0'>
@@ -82,7 +82,7 @@ const page = () => {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
-        <div className="container">
+        <div className="container px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt='Qoutes' />
@@ -93,10 +93,10 @@ const page = () => {
             <div className="col-lg-12">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
-                  <li><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the forefront.</span></li>
-                  <li><IoCheckmarkSharp /><span>Security that's sharper than your new suit. Convenience that's smoother than a crypto transaction.</span></li>
-                  <li><IoCheckmarkSharp /><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future.</span></li>
-                  <li><IoCheckmarkSharp /><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the forefront.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Security that's sharper than your new suit. Convenience that's smoother than a crypto transaction.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen.</span></li>
                 </ul>
               </div>
             </div>

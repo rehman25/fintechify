@@ -23,7 +23,7 @@ function page() {
         Des="Stop fitting your business in a payment box. Get a custom solution that fits your flow."
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -63,7 +63,7 @@ function page() {
         </div>
       </section>
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>Key Features</h4>
             <div className="col-lg-6 p-lg-0">
@@ -118,7 +118,7 @@ function page() {
         </div>
       </section>
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
