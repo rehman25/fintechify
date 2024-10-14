@@ -7,6 +7,9 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/cyberimg.jpeg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
+
 
 function page() {
   return (
@@ -57,6 +60,13 @@ function page() {
                   potential threats with cutting-edge cybersecurity solutions.
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -192,10 +202,10 @@ function page() {
           </div>
         </div>
       </section>
-      <section className={styles.servicessection}>
+      <section className={`${styles.servicessection}`}>
         <div className="container">
           <div className="row">
-            <h5>Fortify Your Future: Unbeatable Cybersecurity Services from Fintechy.ae</h5>
+            <h5>Fortify Your Future: Unbeatable <br /> Cybersecurity Services from Fintechy.ae</h5>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 mt-5">

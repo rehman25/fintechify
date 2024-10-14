@@ -24,6 +24,8 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 700;
+    letter-spacing: 3px;
+    font-weight: 800;
 }
 
 .bannerBox span {

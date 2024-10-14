@@ -9,6 +9,8 @@ import img1 from "../components/assets/images/integrationimg.webp";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
   return (
@@ -44,6 +46,13 @@ function page() {
                   weapon for achieving optimal performance.
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div

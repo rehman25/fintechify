@@ -11,6 +11,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import img from "../components/assets/images/resourceimg.jpeg";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
   return (
@@ -49,6 +50,13 @@ function page() {
                   Contact Fintechify today!
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div

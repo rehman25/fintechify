@@ -8,6 +8,8 @@ import styles from '../components/assets/css/services.module.css'
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
 import img1 from '../components/assets/images/LwFhMaSbaBL4xwnIjhjtOh4AJVI2FE1fuQivfjbk.jpg'
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
 
 const page = () => {
   return (
@@ -33,6 +35,13 @@ const page = () => {
                 <p>Beyond Cash: It’s not just payments anymore.  Imagine storing loyalty cards, tickets, and even managing investments – all in one secure app.  The future of finance is here!</p>
                 <p>Ready to join the revolution?  Develop the next game-changing digital wallet app!</p>
                     </div>
+                    <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">

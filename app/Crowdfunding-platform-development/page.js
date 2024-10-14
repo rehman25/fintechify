@@ -11,6 +11,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import aboutFirstSectionImg from "../components/assets/images/crowdimg.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { FaArrowRight } from "react-icons/fa6";
 
 
 function page() {
@@ -38,6 +39,13 @@ function page() {
                                 <p>Built for Success: Our platforms are scalable and adaptable, empowering your client’s platform to grow <br />alongside their ambitions.</p>
                                 <p>More Than Development: We provide ongoing support and maintenance to ensure your client’s platform <br />stays secure, efficient, and at the forefront of the crowdfunding landscape</p>
                             </div>
+                            <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
