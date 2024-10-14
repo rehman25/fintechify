@@ -23,6 +23,7 @@ const Banner = () => {
 
     return () => clearInterval(timer);
   }, []);
+  
 
   return (
     <div className={` ${style.containerFluid}`}>
