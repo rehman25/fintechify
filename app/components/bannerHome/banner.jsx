@@ -42,7 +42,7 @@ const Banner = () => {
                       <h6>Most Active User</h6>
                     </span>
                   </div>
-                  <div className={style.star}>
+                  <div className={style.star} data-aos="fade-up" data-aos-duration="1500">
                     <Image src={head4} alt="Head 4" className={style.head4} />
                     <span>
                       <h6>2024 The World</h6>
@@ -98,7 +98,7 @@ const Banner = () => {
                       <h6>Most Active User</h6>
                     </span>
                   </div>
-                  <div className={style.star}>
+                  <div className={style.star}  data-aos="fade-up" data-aos-duration="1000">
                     <Image src={head4} alt="Head 4" className={style.head4} />
                     <span>
                       <h6>2024 The World</h6>
