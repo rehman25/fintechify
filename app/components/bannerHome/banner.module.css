@@ -10,14 +10,8 @@
   border-radius: 50px;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   padding-top: 0px;
-<<<<<<< HEAD
-  background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
-  /* background: linear-gradient(90deg, #0e0683 51%, #0a096c 0%, #1a2c65) 51% / 200%;
-  background-image: url("../assets/images/ft1-bg.jpg"); */
-=======
   /* background: linear-gradient(90deg, #0e0683 51%, #0a096c 0%, #1a2c65) 51% / 200%; */
   background-image: url("../assets/images/ft1-bg.jpg");
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -749,19 +743,6 @@
     padding: 0px;
     margin-top: 0px;
   }
-<<<<<<< HEAD
- .btmRow3{
-    top: -15%;
-  }
-  .box1,  .box4, .box5, .box6, .box7{
-    height: 32vh;
-  }
-  .box2{
-    height: 56vh;
-  }
-=======
-
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
 
   .box3{
     height: 24vh;
@@ -770,21 +751,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-<<<<<<< HEAD
-  .box2{
-    /* height: 65vh; */
-  }
-  .btmRow3{
-     top: -12%; 
-  }
-  .btmRow4{
-    top: -1%;
-  }
-=======
 
    
 
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   .colleft{
     padding-left: 70px;
   }
@@ -896,37 +865,11 @@
   
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 768px) {
-    .box1, .box3, .box4, .box5, .box6, .box7{
-      height: 20vh;
-    }
-    .box2{
-      height: 38vh;
-    }
-   .btmRow3{
-    top: 5%;
-   }
-   .btmRow4{
-    top: 6%;
-   }
-   .btmRow{
-    top: -3%;
-=======
 @media screen and (max-width:769px) {
   .btmRow{
     top: 30%;
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   }
   .btmRow2{
-<<<<<<< HEAD
-    top: -1%;
-  }
-   .box3{
-    top: 0%;
-   }
- 
-=======
     top: 5%;
   }
   .slider1{
@@ -992,7 +935,6 @@
     height: 22vh;
   }
    
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   .phoner1 {
     left: -50px;
     width: 30%;
@@ -1089,28 +1031,6 @@
 
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 601px) {
-  .box1, .box3, .box4, .box5, .box6, .box7{
-    height: 15vh;
-  }
-  .box2{
-    height: 30vh;
-  }
- .btmRow3{
-  top: -2%;
- }
- .btmRow4{
-  top: 4%;
- }
- .box3{
-  top: 0%;
- }
- .colleft2{
-  height: 28vh;
- }
-=======
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
 
 
 
@@ -1129,79 +1049,6 @@
 }
 
 
-<<<<<<< HEAD
-/* @media screen and (min-width: 600px) and (max-width:768px) {
-   .colleft h1{
-    font-size: 48px;
-    line-height: 40px;
-   }
-  .slider1{
-    height: 100vh;
-    border-radius: 0%;
-  }
-  
-  .box1, .box3, .box4, .box5, .box6, .box7{
-    height: 20vh;
-  }
-  .box2{
-    height: 38vh;
-  }
-  .btmRow3{
-    top: -9%; 
- }
- .btmRow4{
-  top: 1%;
-}
-.btmRow{
-  top: 2%;
-}
-.btmRow2{
-  top: 2%;
-}
-} */
-
-
-
-
-@media screen and (max-width: 600px) {
-  .colleft h1{
-    font-size: 48px;
-    line-height: 40px;
-   }
-   .colleft2 h1{
-    font-size: 48px;
-    line-height: 40px;
-   }
-  .slider1{
-    height: 100vh;
-    border-radius: 0%;
-  }
-
-  /* .box1, .box3, .box4, .box5, .box6, .box7{
-    height: 16vh;
-  }
-  .box2{
-    height: 32vh;
-  }
-  .btmRow3{
-    top: -4%; 
- }
- .btmRow4{
-  top: 1%;
-} */
-.btmRow{
-  top: 13%;
-}
-.btmRow2{
-  top: 7%;
-}
-}
-
-@media screen and (max-width: 568px) {
-  .slider1 {
-    border-radius: 0;
-  }
-=======
 @media screen and (max-width: 568px) {
 
   .box2{
@@ -1228,7 +1075,6 @@
    }
    
 
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   .colleft{
     /* height: 22vh; */
     padding-left: 20px;
@@ -1272,11 +1118,7 @@
   }
     .slider1{
       background-color: #0e0683;
-<<<<<<< HEAD
-      height: 75vh;
-=======
       height: 60vh;
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
     }
     .phoner{
       display: none;
@@ -1346,8 +1188,6 @@
 
 
 @media screen and (max-width: 500px) {
-<<<<<<< HEAD
-=======
   .box2{
     width:28vw;
     height: 26vh;
@@ -1378,7 +1218,6 @@
     right: 24.5%;
   }
 
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   .colleft h1{
     font-size: 30px;
     line-height: 40px;
@@ -1398,9 +1237,6 @@
 }
 
 @media screen and (max-width: 450px) {
-<<<<<<< HEAD
-   
-=======
   .box2 {
     width: 28vw;
     height: 25vh;
@@ -1416,7 +1252,6 @@
  .btmRow4{
   top: -6%;
  }   
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   .colright button{
     width: 50vw;
    }
@@ -1514,19 +1349,6 @@
     font-size: 16px;
    }
    .btmRow{
-<<<<<<< HEAD
-    top: 1%;
-   }
-   .btmRow2{
-    top: 1%;
-   }
-  
-}
-
-@media screen and (max-width:415px){
-  .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    width: 36vw;
-=======
     top: 45%;
   }
   .btmRow2{
@@ -1550,7 +1372,6 @@
 
   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
     /* height: 25vw; */
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   }
 
 .btmRow{
@@ -1642,29 +1463,6 @@
   .colleft2 h1{
     font-size: 22px;
    }
-<<<<<<< HEAD
-  .box1,.box3,.box4,.box5,.box6,.box7{
-    height: 6.5vh;
-  }
-  .btmRow3{
-    top: 10%;
-  }
-  .box2{
-    height: 14.5vh;
-  }
-  .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    width: 40vw;
-  }
-
-.btmRow{
-  top: 8%;
-}
-.btmRow2{ 
-   top: 6%; 
-}
-=======
-
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
 .picture{
   margin: 0px;
 }
@@ -1682,8 +1480,6 @@
 
 
 @media screen and (max-width:376px){
-<<<<<<< HEAD
-=======
   .slider1{
     height: 60vh;
    }
@@ -1692,7 +1488,6 @@
    }
   
 
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   .colleft{
     padding-left: 10px;
   }
@@ -1717,19 +1512,6 @@
   .colleft2 h1{
     font-size: 29px;
    }
-<<<<<<< HEAD
-  .box1,.box3,.box4,.box5,.box6,.box7{
-    height: 6.5vh;
-  }
-  .btmRow3{
-    top: 7%;
-  }
-  .box2{
-    height: 14.5vh;
-  }
-  .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 20vh;
-=======
 
    .btmRow{
     top: 35%;
@@ -1750,7 +1532,6 @@
     border-radius: 10px;
     left: 24.5%;
     top: -25%;
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   }
 
   .btmRow{
@@ -1791,15 +1572,12 @@
 }
 
 @media screen and (max-width:344px){
-<<<<<<< HEAD
-=======
   .slider1{
     height: 40vh;
   }
   .btmRow{
     top: 62%;
   }
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   .colleft{
     padding-left: 10px;
   }
@@ -1820,29 +1598,6 @@
   .colleft2 h1{
     font-size: 22px;
    }
-<<<<<<< HEAD
-  .box1,.box3,.box4,.box5,.box6,.box7{
-    height: 6.5vh;
-  }
-  .btmRow3{
-    top: 9%;
-  }
-  .box2{
-    height: 15.5vh;
-  }
-  .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    width: 40vw;
-  }
-
-.btmRow{
-  top: 8%;
-}
-.btmRow2{
-   top: 5%; 
-}
-=======
-
->>>>>>> 26e773ff5eb6c30f73f111a37a550514bc35a165
   
 }
 

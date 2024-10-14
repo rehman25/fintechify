@@ -15,8 +15,8 @@ const page = () => {
   return(
        <> 
       <Header />
-      <Bannertwo />
-      {/* <Banner /> */}
+      {/* <Bannertwo /> */}
+      <Banner />
       <Fianancial   />
       <Banking />
       <Services />
