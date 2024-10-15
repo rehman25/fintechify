@@ -149,11 +149,10 @@
   font-weight: 600;
 }
 .RisMobile2{
-  box-shadow: 15px 25px 31px 18px rgba(128, 128, 128, 0.1); /* Use rgba instead of hex with alpha */
+  /* box-shadow: 15px 25px 31px 18px rgba(128, 128, 128, 0.1);
   background: linear-gradient(150deg, #16222f, #1b64a3);
   border-radius: 30px;
-  overflow: hidden; /* This ensures child elements like images conform to the border-radius */;
-  
+  overflow: hidden;  */
 }
 .collg62{
   display: flex;

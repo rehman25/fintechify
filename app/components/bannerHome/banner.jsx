@@ -33,7 +33,7 @@ const Banner = () => {
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft}`}>
                 <h1 data-aos="fade-up" data-aos-duration="1000" className="mt-lg-5 mt-md-5">A Trusted source of fast, flexible financing</h1>
-                {/* <div className={style.picture2}>
+                <div className={style.picture2}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
                     <Image src={head1} alt="Head 1" className={style.head1} />
                     <Image src={head2} alt="Head 2" className={style.head2} />
@@ -50,7 +50,7 @@ const Banner = () => {
                       <h6>Best Digital Bank</h6>
                     </span>
                   </div>
-                </div> */}
+                </div>
               </div>
               <div className={`col-lg-4 col-md-4 m-0 p-0 ${style.colright}`}>
                 <Image src={Phone} alt="Phone" className={style.phoner} />
