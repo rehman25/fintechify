@@ -16,8 +16,8 @@ export default function Testimonials() {
     }, []);
     return (
         <>
-            <section>
-                <div className={`${styles.testimonialsBg} container`}>
+            <section className='mt-5'>
+                <div className={`${styles.testimonialsBg} container `}>
                     <div className="row">
                         <div className="col-lg-6" data-aos="fade-up-right" data-aos-duration="1000">
                             <div className={styles.testimonailsLeftPart}>
