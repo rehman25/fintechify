@@ -3,7 +3,6 @@
   margin: 0;
   display: flex;
   justify-content: center;
-  height: 125vh;
 }
 
 .slider1 {
@@ -278,9 +277,7 @@
   vertical-align: top;
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
-  display: block;
-  /* top: 28%; */
-  /* top: -20%; */
+  
   pointer-events: none;
   background: transparent;
 }
@@ -336,7 +333,7 @@
 .card1 {
   overflow: visible;
   padding: 0px;
-  width: 33vw;
+  width: 36vw;
   height: 55vh;
   float: none;
   clear: none;
@@ -382,8 +379,8 @@
   display: block;
   background: url("../assets/images/revslider_card-5.png") left top / contain
     no-repeat transparent;
-  left: 20%;
-  bottom: 8%;
+  left: 18%;
+  bottom: 0%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -405,8 +402,8 @@
   display: block;
   background: url("../assets/images/revslider_card-3.png") left top / contain
     no-repeat transparent;
-    right: 8%;
-    bottom: 1%;
+    right: 9%;
+    bottom: 0%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -427,8 +424,8 @@
   transform: translate(0px, 0px);
   display: block;
   background: url("../assets/images/revslider_card-2.png") left top / contain no-repeat transparent;
-  right: -29%;
-  bottom: 10%;
+  right: -26%;
+  bottom: 0%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -732,8 +729,16 @@
 
   .slider1{
     border-radius: 0px;
-    /* height: 100vh; */
+    height: 100vh;
   }
+  .card1,.card2,.card3,.card4,.card5,.card6,.card7{
+    /* width: 40vw; */
+    height: 40vh;
+  }
+  .card5,.card6,.card7{
+    /* top: 50%; */
+  }
+  
   .containerFluid{
     padding: 0px;
     margin-top: 0px;
@@ -791,6 +796,12 @@
   .colleft2 h1{
     font-size: 55px;
   }
+  .colright button {
+    width: 30vw;
+  }
+  .colright2 button {
+    width: 30vw;
+  }
  
 }
 
@@ -798,6 +809,14 @@
 
 
 @media screen and (max-width: 992px) {
+  .slider1{
+    border-radius: 0px;
+    height: 80vh;
+  }
+  .card1,.card2,.card3,.card4,.card5,.card6,.card7{
+    /* width: 40vw; */
+    height: 30vh;
+  }
   .box2{
     width:30vw;
     height: 50vh;
@@ -808,9 +827,7 @@
     width: 23vw;
     height: 24vh;
   }
-  /* .btmRow{
-    top: 35%;
-  } */
+
   .colright button {
     width: 25vw;
     margin-top: 25px;
@@ -868,14 +885,14 @@
     top: 30%;
   } */
   
-  .btmRow2{
+  .btmRow2{     
     top: 5%;
   }
   .slider1{
-    /* height: 80vh; */
+    height: 70vh;
   }
   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 36vh;
+    height: 24vh;
     /* width: 44vw; */
   }
   .colright2 p {
@@ -1061,13 +1078,10 @@
     top: 55%;
     
    } */
-   .btmRow2{
-    top: 5%;
-    
-   }
+   
 
    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 38vh;
+    height: 16vh;
    }
    
 
@@ -1128,18 +1142,7 @@
 }
 @media screen and (max-width: 540px) {
 
-   /* .btmRow{
-    top: 40%;
-    
-   } */
-   .btmRow2{
-    top: -5%;
-    
-   }
-
-   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 38vh;
-   }
+   
    
    
 
@@ -1193,11 +1196,13 @@
    .colright2 p{
     font-size: 16px;
    }
-  
+   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
+    height: 15vh;
+   }
  
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 451px) {
   .box2 {
     width: 28vw;
     height: 25vh;
@@ -1245,11 +1250,13 @@
     height: 30px;
    }
    .slider1{
-    height: 53vh;
+    height: 55vh;
    }
    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 31vh;
+    height: 11vh;
    }
+   
+  
   
 }
 @media screen and (max-width: 431px) {
@@ -1298,9 +1305,7 @@
    .colright2 p{
     font-size: 16px;
    }
-   .btmRow{
-    top: 45%;
-  }
+
   .btmRow2{
     top: 0%;
   }
@@ -1309,9 +1314,7 @@
 }
 
 @media screen and (max-width:415px) {
-  .btmRow{
-    top: 40%;
-  }
+
   .btmRow2{
     top: -6%;
   }
@@ -1320,17 +1323,6 @@
     height: 23.5vh;
   }
 
-  .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    /* height: 25vw; */
-  }
-
-/* 
-.btmRow2{
-   top: 4%; 
-} */
-  /* .btmRow3{
-    top: 10%;
-  } */
 }
 
 @media screen and (max-width: 400px) {
@@ -1349,9 +1341,7 @@
     font-size: 12px;
    }
    
-   .btmRow{
-    top: 53%;
-   }
+ 
    .btmRow3{
     top: 7%;
    }
@@ -1379,6 +1369,12 @@
 
 
 @media screen and (max-width:391px){
+  .slider1{
+    height: 50vh;
+   }
+   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
+    /* height: 31vh; */
+   }
   .box2{
     width:28vw;
     height: 17vh;
@@ -1386,10 +1382,7 @@
     left: 24.5%;
     top: -20%;
   }
-  .btmRow{
-    top: 40%;
  
-  }
 
   .colleft{
     padding-left: 10px;
@@ -1430,10 +1423,10 @@
 
 @media screen and (max-width:376px){
   .slider1{
-    height: 60vh;
+    height: 65vh;
    }
    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    /* height: 31vh; */
+    height: 14vh;
    }
   
 
@@ -1466,9 +1459,7 @@
     /* top: 35%; */
     /* z-index: 9; */
    }
-   .btmRow2{
-    top: -5%;
-   }
+ 
    .btmRow3{
     top: -10%;
    }
@@ -1522,12 +1513,13 @@
 }
 
 @media screen and (max-width:344px){
+   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
+    height: 12vh;
+  }
   .slider1{
-    height: 40vh;
+    height: 55vh;
   }
-  .btmRow{
-    top: 62%;
-  }
+  
   .colleft{
     padding-left: 10px;
   }

@@ -90,7 +90,7 @@ const Banner = () => {
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft2}`}>
                 <h1 className={style.BannerText} data-aos="fade-up" data-aos-duration="1000">
-                Empowering <br/> Financial<br/> Futures
+                Empowering Financial Futures
                 </h1>
                 <div className={style.picture}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
@@ -126,7 +126,7 @@ const Banner = () => {
             </div>
 
             <div className={`row m-0 ${style.btmRow}`}>
-              <Image src={Phone1} alt="Phone1" className={style.phoner1} />
+              
               <div className={`${style.card1}`}></div>
               <div className={`${style.card2}`}></div>
               <div className={`${style.card3}`}></div>
@@ -136,6 +136,7 @@ const Banner = () => {
               <div className={`${style.card7}`}></div>
             </div>
 
+            <Image src={Phone1} alt="Phone1" className={style.phoner1} />
 
             {/* <div className={`row m-0 ${style.btmRow2}`}>
         
