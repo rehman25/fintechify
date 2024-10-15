@@ -166,6 +166,16 @@
   font-weight: 600;
 }
 
+.RisMobile2{
+  height: 640px;
+  width: 100%;
+  object-fit: contain;
+
+}
+.collg62{
+  display: flex;
+  justify-content: center;
+}
 @keyframes tilt-in-top-1 {
   0% {
     transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
