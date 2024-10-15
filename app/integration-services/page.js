@@ -20,10 +20,11 @@ function page() {
         showCase={false}
         head={"Integration Services"}
         tagLine={false}
-        Des="The Ultimate Connector."
+        tagLine2={"The Ultimate Connector."}
+        Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -166,71 +167,73 @@ function page() {
       </section>
 
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row">
             <h4>Our Expertise in Integration Services</h4>
 
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.blueBg} ${styles.integBlueUpperBox}`}
-              >
-                <ul>
-                  <h5>API Powerhouse</h5>
-                  <p>
-                    Break down data silos and unlock seamless communication
-                    between your applications. Our expert team crafts robust API
-                    integrations, allowing for effortless data exchange and
-                    enhanced functionality across your entire software
-                    ecosystem.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Cloud Ascent</h5>
-                  <p>
-                    Feeling stuck on-premise? We’re your cloud migration
-                    experts. Our seamless integration services connect your
-                    existing systems with leading cloud platforms. This unlocks
-                    the power of scalability, flexibility, and accessibility.
-                    Enjoy optimal performance and access your data from
-                    anywhere, at any time.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>ERP Symphony</h5>
-                  <p>
-                    Unleash the full potential of your ERP. Our integration
-                    experts synchronize it seamlessly with other applications.
-                    This fosters collaboration across departments, breaks down
-                    information silos, and provides a unified view of powerful
-                    business intelligence.
-                  </p>
-                </ul>
+            <div className={styles.flexBoxes}>
+              <div className="col-lg-5 p-lg-0">
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.integBlueUpperBox}`}
+                >
+                  <ul>
+                    <h5>API Powerhouse</h5>
+                    <p>
+                      Break down data silos and unlock seamless communication
+                      between your applications. Our expert team crafts robust API
+                      integrations, allowing for effortless data exchange and
+                      enhanced functionality across your entire software
+                      ecosystem.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>Cloud Ascent</h5>
+                    <p>
+                      Feeling stuck on-premise? We’re your cloud migration
+                      experts. Our seamless integration services connect your
+                      existing systems with leading cloud platforms. This unlocks
+                      the power of scalability, flexibility, and accessibility.
+                      Enjoy optimal performance and access your data from
+                      anywhere, at any time.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>ERP Symphony</h5>
+                    <p>
+                      Unleash the full potential of your ERP. Our integration
+                      experts synchronize it seamlessly with other applications.
+                      This fosters collaboration across departments, breaks down
+                      information silos, and provides a unified view of powerful
+                      business intelligence.
+                    </p>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.whiteBg} ${styles.integWhiteBottomBox}`}
-              >
-                <ul>
-                  <h5>Data Unleashed</h5>
-                  <p>
-                    Drowning in data silos? We set your information free. Our
-                    data integration services create a smooth information
-                    highway across databases, applications, and analytics tools.
-                    This gives you a unified view of your entire business,
-                    empowering you to make data-driven decisions with
-                    confidence.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>E-commerce on Autopilot</h5>
-                  <p>
-                    Stop juggling platforms! We craft seamless integrations
-                    between your e-commerce store, payment gateways, and
-                    inventory systems. This streamlines your online operations,
-                    automates tasks, and frees you up to focus on growth.
-                  </p>
-                </ul>
+              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.integWhiteBottomBox}`}
+                >
+                  <ul>
+                    <h5>Data Unleashed</h5>
+                    <p>
+                      Drowning in data silos? We set your information free. Our
+                      data integration services create a smooth information
+                      highway across databases, applications, and analytics tools.
+                      This gives you a unified view of your entire business,
+                      empowering you to make data-driven decisions with
+                      confidence.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>E-commerce on Autopilot</h5>
+                    <p>
+                      Stop juggling platforms! We craft seamless integrations
+                      between your e-commerce store, payment gateways, and
+                      inventory systems. This streamlines your online operations,
+                      automates tasks, and frees you up to focus on growth.
+                    </p>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -238,7 +241,7 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

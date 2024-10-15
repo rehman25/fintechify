@@ -20,19 +20,36 @@
 }
 
 .bannerBox h2 {
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 700;
     letter-spacing: 3px;
     font-weight: 800;
+    z-index: 9999;
+    position: relative;
+    line-height: normal;
 }
 
-.bannerBox span {
+.bannerBox .aboutTagLine {
     margin-bottom: 20px;
     display: block;
     font-size: 20px;
     color: #e9e1e1;
+    z-index: 9999;
+    position: relative;
+    line-height: normal;
+}
+
+.bannerBox .tagLine2{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 35px;
+    color: #e9e1e1;
+    font-weight: 500;
+    z-index: 9999;
+    position: relative;
+    line-height: normal;
 }
 
 .bannerBox p {
@@ -41,6 +58,9 @@
     margin: 0;
     font-size: 18px;
     color: #e9e1e1;
+    z-index: 9999;
+    position: relative;
+    line-height: normal;
 }
 
 .bannerBox .bannerTag {
@@ -74,5 +94,14 @@
     }
     .bannerBox p {
         padding: 0;
+    }
+}
+
+@media screen and (max-width:480px){
+    .bannerBox h2 {
+        font-size: 40px;
+    }
+    .bannerBox .tagLine2{
+        font-size: 25px;
     }
 }

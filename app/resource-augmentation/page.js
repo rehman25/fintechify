@@ -21,10 +21,11 @@ function page() {
         showCase={false}
         head={"Resource Augmentation"}
         tagLine={false}
-        Des="Stop fitting your business in a payment box. Get a custom solution that fits your flow."
+        tagLine2={"Stop fitting your business in a payment box. Get a custom solution that fits your flow."}
+        Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -70,7 +71,8 @@ function page() {
           </div>
         </div>
       </section>
-      <section className={styles.processSection} data-aos="fade-up">
+
+      {/* <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-5">
           <div className="row">
             <h4>Key Features</h4>
@@ -124,9 +126,68 @@ function page() {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className={styles.processSection} data-aos="fade-up">
+        <div className="container-fluid px-lg-5">
+          <div className="row">
+            <h4>Key Features</h4>
+            <div  className={styles.flexBoxes}>
+              <div className="col-lg-5 p-lg-0">
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.ResourceBlueUpperBox}`}
+                >
+                  <ul>
+                    <h5>Your Fort Knox of Payment Security</h5>
+                    <p>
+                      We don’t just integrate secure gateways, we build them like
+                      fortresses. State-of-the-art encryption, tokenization, and
+                      PCI DSS compliance keep your customers’ data safe. Regular
+                      security audits ensure constant vigilance. Choose Fintechify
+                      for peace of mind.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>Effortless Transactions. Happy Customers.</h5>
+                    <p>
+                      Fintechify crafts intuitive payment apps. Clear visuals,
+                      smooth flow, and helpful prompts make transactions a breeze.
+                      We build for everyone, ensuring accessibility and a
+                      delightful user experience that keeps customers coming back.
+                    </p>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.ResourceWhiteBottomBox}`}
+                >
+                  <ul>
+                    <h5>Go Everywhere Your Customers Do.</h5>
+                    <p>
+                      Fintechify builds payment apps that work seamlessly on any
+                      device, from iPhones to Androids and desktops. Reach your
+                      entire audience, no matter their platform preference.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>Build Your Perfect Payment Flow. </h5>
+                    <p>
+                      Flexibility is our middle name. Fintechify crafts payment
+                      apps that adapt to your vision. Choose the features you
+                      need, personalize the design, and create the perfect payment
+                      experience for your business and customers.
+                    </p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
