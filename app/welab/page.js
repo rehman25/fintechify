@@ -54,7 +54,7 @@ const page = () => {
           <div className={`col-lg-6 ${style.collg62}`}>
             <Image
               src={RisMobile}
-              className={style.RisMobile2}
+              className={`${style.RisMobile2} img-fluid`}
               data-aos="fade-left"
               data-aos-duration="2000"
               
