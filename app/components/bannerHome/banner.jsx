@@ -13,18 +13,18 @@ import head4 from "../assets/images/head4.svg";
 
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(true);
-  const [isTwo, setIsTwo] = useState(false);
+  const [isOne, setIsOne] = useState(false);
+  const [isTwo, setIsTwo] = useState(true);
 
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setIsOne((prev) => !prev);
-  //     setIsTwo((prev) => !prev);
-  //   }, 5000);
+    // useEffect(() => {
+    //   const timer = setInterval(() => {
+    //     setIsOne((prev) => !prev);
+    //     setIsTwo((prev) => !prev);
+    //   }, 5000);
 
-  //   return () => clearInterval(timer);
-  // }, []);
-  
+    //   return () => clearInterval(timer);
+    // }, []);
+    
 
   return (
     <div className={` ${style.containerFluid}`}>
@@ -90,7 +90,7 @@ const Banner = () => {
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft2}`}>
                 <h1 className={style.BannerText} data-aos="fade-up" data-aos-duration="1000">
-                Empowering Financial Futures
+                Empowering <br/> Financial<br/> Futures
                 </h1>
                 <div className={style.picture}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
@@ -126,19 +126,20 @@ const Banner = () => {
             </div>
 
             <div className={`row m-0 ${style.btmRow}`}>
+              <Image src={Phone1} alt="Phone1" className={style.phoner1} />
               <div className={`${style.card1}`}></div>
               <div className={`${style.card2}`}></div>
               <div className={`${style.card3}`}></div>
               <div className={`${style.card4}`}></div>
-            </div>
-
-            <Image src={Phone1} alt="Phone1" className={style.phoner1} />
-
-            <div className={`row m-0 ${style.btmRow2}`}>
               <div className={`${style.card5}`}></div>
               <div className={`${style.card6}`}></div>
               <div className={`${style.card7}`}></div>
             </div>
+
+
+            {/* <div className={`row m-0 ${style.btmRow2}`}>
+        
+            </div> */}
           </div>
         )}
       </div>

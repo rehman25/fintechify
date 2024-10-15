@@ -38,7 +38,7 @@
 }
 .InnovativeBox h4 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
 }
 .InnovativeBox p {
@@ -57,8 +57,9 @@
 }
 .servicessection h5 {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
 }
+
 .servicessection p {
     font-size: 14px;
     margin-bottom: 30px;
@@ -71,6 +72,11 @@
     text-align: center;
     position: relative;
     height: 275px;
+}
+.servicesBoxScd{
+    background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
+    color: white !important;
+    height: 310px !important;
 }
 .servicesBox svg {
     font-size: 50px;
@@ -108,6 +114,43 @@
     font-weight: 800;
     font-size: 20px;
 }
+.LuSend2 {
+    border: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+    border-radius: 30px;
+    color: white;
+    transition: all 0.1s;
+    font-weight: 600;
+  }
+  .LuSend2 svg {
+    transform: rotate(-45deg);
+    transition: all 0.1s;
+  }
+  .LuSend2:hover {
+    background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+  }
+  .LuSend2:hover svg {
+    transform: rotate(0deg);
+    transition: all 0.1s;
+  }
+  
+  .sendIcon {
+    font-size: 24px;
+    color: #065efe;
+  }
+  .LuSend2 button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 500;
+    border: none;
+  }
+  .LuSend2 button:hover {
+    color: white;
+    background: linear-gradient(90deg, #006ff9 0%, #00dcc7 51%, #006ff9 100%) 0 /
+      200%;
+  }
 
 /* BANKING APP DEV CSS ============================================== */
 .aboutFirst {
@@ -293,7 +336,7 @@
 
 /* GET STARTED SECTION CSS ================================== */
 .getStartedSection {
-    background-image: linear-gradient(180deg, #1E96FC 0%, #030304 100%);
+    background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
     color: white;
     padding: 80px 0;
     margin: 50px 0;
@@ -414,6 +457,9 @@
     .servicesBox {
         height: auto;
     }
+    .servicesBoxScd{
+        height: auto !important;
+    }
     .aboutFirstsection .iconFlexBox span {
         padding-right: 0;
     }
@@ -432,13 +478,16 @@
     .everyoneSection h4 {
         font-size: 30px;
     }
+    .InnovativeBox img {
+        border-radius: 10px;
+    }
     .InnovativeBox h4 {
         font-size: 30px;
-        text-align: center;
+        text-align: left;
     }
     .InnovativeBox p {
         padding-right: 0px;
-        text-align: center;
+        text-align: left;
     }
 }
 

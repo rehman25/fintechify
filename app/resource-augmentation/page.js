@@ -11,6 +11,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import img from "../components/assets/images/resourceimg.jpeg";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
   return (
@@ -23,7 +24,7 @@ function page() {
         Des="Stop fitting your business in a payment box. Get a custom solution that fits your flow."
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -49,6 +50,13 @@ function page() {
                   Contact Fintechify today!
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -63,7 +71,7 @@ function page() {
         </div>
       </section>
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>Key Features</h4>
             <div className="col-lg-6 p-lg-0">
@@ -118,7 +126,7 @@ function page() {
         </div>
       </section>
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

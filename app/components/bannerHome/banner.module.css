@@ -3,16 +3,15 @@
   margin: 0;
   display: flex;
   justify-content: center;
-  /* min-height: 100vh; */
+  height: 125vh;
 }
 
 .slider1 {
   border-radius: 50px;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   padding-top: 0px;
-  /* background: linear-gradient(90deg, #1a2c65 51%, #072AC8 0%,  #1E96FC) 51% / 200%; */
-  background-image: linear-gradient(115deg, #072AC8 25%,  #1E96FC 15%, #072AC8 25%) ;
-  /* background-image: url("../assets/images/ft1-bg.jpg"); */
+  /* background: linear-gradient(90deg, #0e0683 51%, #0a096c 0%, #1a2c65) 51% / 200%; */
+  background-image: url("../assets/images/ft1-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +279,7 @@
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
-  top: 28%;
+  /* top: 28%; */
   /* top: -20%; */
   pointer-events: none;
   background: transparent;
@@ -337,8 +336,8 @@
 .card1 {
   overflow: visible;
   padding: 0px;
-  width: 36vw;
-  height: 59vh;
+  width: 33vw;
+  height: 55vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -349,7 +348,7 @@
   background: url("../assets/images/revslider_card-6.png") left top / contain
     no-repeat transparent;
     left: -16%;
-    bottom: -20%;
+    bottom: -8%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -373,7 +372,7 @@
   overflow: visible;
   padding: 0px;
   width: 36vw;
-  height: 59vh;
+  height: 55vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -383,8 +382,8 @@
   display: block;
   background: url("../assets/images/revslider_card-5.png") left top / contain
     no-repeat transparent;
-  left: 21%;
-  bottom: 0;
+  left: 20%;
+  bottom: 8%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -396,8 +395,7 @@
   overflow: visible;
   padding: 0px;
   width: 36vw;
-
-  height: 59vh;
+  height: 55vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -407,8 +405,8 @@
   display: block;
   background: url("../assets/images/revslider_card-3.png") left top / contain
     no-repeat transparent;
-    right: 7%;
-    bottom: 0;
+    right: 8%;
+    bottom: 1%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -420,8 +418,7 @@
   overflow: visible;
   padding: 0px;
   width: 36vw;
-
-  height: 59vh;
+  height: 55vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -430,8 +427,8 @@
   transform: translate(0px, 0px);
   display: block;
   background: url("../assets/images/revslider_card-2.png") left top / contain no-repeat transparent;
-  right: -26%;
-  bottom: 0;
+  right: -29%;
+  bottom: 10%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -443,8 +440,7 @@
   overflow: visible;
   padding: 0px;
   width: 36vw;
-
-  height: 59vh;
+  height: 55vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -454,9 +450,8 @@
   display: block;
   background: url("../assets/images/revslider_card-1.png") left top / contain no-repeat transparent;
   /* left: -150px; */
-  left: -3%;
-    top: 0;
-  /* top: 250px; */
+  left: -5%;
+    top: 35%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -468,8 +463,7 @@
   overflow: visible;
   padding: 0px;
   width: 36vw;
-
-  height: 59vh;
+  height: 55vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -481,7 +475,7 @@
     no-repeat transparent;
   right: 32%;
   /* top: 250px; */
-  top: 0;
+  top: 35%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -494,7 +488,7 @@
   padding: 0px;
   width: 36vw;
 
-  height: 59vh;
+  height: 55vh;
   float: none;
   clear: none;
   z-index: 13;
@@ -504,8 +498,8 @@
   display: block;
   background: url("../assets/images/revslider_card-2.png") left top / contain
     no-repeat transparent;
-  right: -1%;
-  top: 0;
+  right: -3%;
+  top: 35%;
   visibility: inherit;
   opacity: 1;
   pointer-events: auto;
@@ -676,9 +670,9 @@
 
 @media screen and (max-width: 1500px) {
 
-  .btmRow{
+  /* .btmRow{
     top: 25%;
-   }
+   } */
    .btmRow4{
     /* top: 4%; */
    }
@@ -814,9 +808,9 @@
     width: 23vw;
     height: 24vh;
   }
-  .btmRow{
+  /* .btmRow{
     top: 35%;
-  }
+  } */
   .colright button {
     width: 25vw;
     margin-top: 25px;
@@ -870,18 +864,18 @@
 }
 
 @media screen and (max-width:769px) {
-  .btmRow{
+  /* .btmRow{
     top: 30%;
-  }
+  } */
   
   .btmRow2{
     top: 5%;
   }
   .slider1{
-    height: 80vh;
+    /* height: 80vh; */
   }
   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 31vh;
+    height: 36vh;
     /* width: 44vw; */
   }
   .colright2 p {
@@ -1063,10 +1057,10 @@
     width: 20vw;
     height: 15vh;
   }
-   .btmRow{
+   /* .btmRow{
     top: 55%;
     
-   }
+   } */
    .btmRow2{
     top: 5%;
     
@@ -1134,10 +1128,10 @@
 }
 @media screen and (max-width: 540px) {
 
-   .btmRow{
+   /* .btmRow{
     top: 40%;
     
-   }
+   } */
    .btmRow2{
     top: -5%;
     
@@ -1469,7 +1463,7 @@
    }
 
    .btmRow{
-    top: 35%;
+    /* top: 35%; */
     /* z-index: 9; */
    }
    .btmRow2{
@@ -1557,5 +1551,3 @@
 
   
 }
-
-

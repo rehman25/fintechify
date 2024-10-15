@@ -19,9 +19,11 @@ export default function page() {
       <Header />
       <Banner
         showCase={false}
-        head="About FinTechify"
+        head="About Us"
         tagLine="Our Journey to Reach the Best Solution for You"
-        Des="Embark on a collaborative journey with us as we navigate through possibilities, challenges, and innovations to craft the optimal solution tailored specifically for your unique needs. our commitment is to guide you through this journey, ensuring that the path we tread together leads to the best financial outcomes for you."
+        Des={
+          `Embark on a collaborative journey with us as we navigate through possibilities, challenges, and innovations to craft the  optimal solution tailored specifically for your unique needs. our commitment is to guide you through this journey, ensuring that the path we tread together leads to the best financial outcomes for you.`
+        }
       />
       <section className={styles.aboutFirst}>
         <div className="container">
@@ -72,7 +74,7 @@ export default function page() {
                 <h5 data-aos="fade-up" data-aos-duration="500">The Reason That You Must <br /> Be Choose Us for Your Financial Advisor</h5>
                 <p data-aos="fade-up"
                   data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">We are defined by our core values—integrity, loyalty, and commitment. Our mission is to provide financial services that go beyond transactions, focusing on building trusted relationships. Upholding the highest ethical standards, we prioritize your financial well-being.</p>
-                <div className={styles.counterStyle}>
+                {/* <div className={styles.counterStyle}>
                   <div className={styles.innerCounter}>
                     <h4><CountUp delay={1} style={{ color: "white", fontSize: "50px" }} start={0} end={100}></CountUp>K</h4>
                     <span>Active User</span>
@@ -89,7 +91,7 @@ export default function page() {
                     <h4><CountUp delay={1} style={{ color: "white", fontSize: "50px" }} start={0} end={200}></CountUp>+</h4>
                     <span>Partner Joined</span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

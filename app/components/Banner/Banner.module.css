@@ -1,5 +1,5 @@
 .BannerBg {
-    background: linear-gradient(150deg, #16222F, #1B64A3);
+    background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     color: white;
     padding: 130px 50px;
     text-align: center;
@@ -20,9 +20,12 @@
 }
 
 .bannerBox h2 {
-    font-size: 30px;
+    font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-weight: 800;
 }
 
 .bannerBox span {
@@ -33,6 +36,7 @@
 }
 
 .bannerBox p {
+    font-weight: 500;
     padding: 0 20px;
     margin: 0;
     font-size: 18px;
@@ -59,6 +63,11 @@
     margin: 0;
 }
 
+@media screen and (max-width:568px){
+    .BannerBg {
+        border-radius: 0;
+    }
+}
 @media screen and (max-width:565px) {
     .BannerBg{
         padding: 100px 0;

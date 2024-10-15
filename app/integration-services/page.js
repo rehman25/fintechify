@@ -9,6 +9,8 @@ import img1 from "../components/assets/images/integrationimg.webp";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/integration.jpg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
   return (
@@ -21,7 +23,7 @@ function page() {
         Des="The Ultimate Connector."
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -44,6 +46,13 @@ function page() {
                   weapon for achieving optimal performance.
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -59,7 +68,7 @@ function page() {
       </section>
 
       <section className={styles.aboutFirst}>
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-duration="2000">
@@ -157,7 +166,7 @@ function page() {
       </section>
 
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>Our Expertise in Integration Services</h4>
 
@@ -229,7 +238,7 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

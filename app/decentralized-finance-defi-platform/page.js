@@ -7,6 +7,9 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/financeimg.jpg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
+
 
 const page = () => {
   return (
@@ -19,7 +22,7 @@ const page = () => {
         Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -28,55 +31,60 @@ const page = () => {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Revolutionize Your <br /> Finances: Explore Our <br />{" "}
-                  Powerful DeFi <br /> Platform
+                  Revolutionize Your Finances: <br />Explore Our
+                  Powerful DeFi <br />Platform
                 </h4>
                 <p>
                   Fintechify is shaking things up with our revolutionary
-                  Decentralized <br /> Finance (DeFi) platform, built for YOU.
+                  Decentralized Finance (DeFi) platform, built for YOU.
                 </p>
                 <p>
                   Break free from traditional limitations: Eliminate
-                  intermediaries and <br /> gain control over your investments,
+                  intermediaries and gain control over your investments, <br />
                   borrowing, and lending activities.
                 </p>
                 <p>
                   Unleash a world of possibilities: Explore a diverse range of
-                  DeFi <br /> products and services, including:
+                  DeFi products and services, including:
                 </p>
                 <p>
                   Decentralized Exchanges (DEXs): Trade cryptocurrencies
-                  directly <br /> peer-to-peer without relying on centralized
+                  directly peer-to-peer without relying on <br />centralized
                   platforms.
                 </p>{" "}
                 <p>
                   Beyond Cash: It’s not just payments anymore. Imagine storing
-                  loyalty cards, tickets, and even managing investments – all in
+                  loyalty cards, tickets, and even <br />managing investments – all in
                   one secure app. The future of finance is here!
                 </p>
                 <p>
                   DeFi Lending & Borrowing: Earn interest on your crypto
-                  holdings or <br />
-                  borrow funds at competitive rates, all facilitated by smart
+                  holdings or 
+                  borrow funds at competitive rates, <br />all facilitated by smart
                   contracts.
                 </p>
                 <p>
                   Yield Farming: Optimize your returns by strategically lending
-                  your <br /> crypto assets across various DeFi protocols.
+                  your crypto assets across <br />various DeFi protocols.
                 </p>
                 <p>
                   Security & Transparency: Our platform prioritizes the safety
-                  of your <br /> funds with robust security protocols and
-                  transparent on-chain <br />
-                  transactions.
+                  of your funds with robust security <br /> protocols and
+                  transparent on-chain transactions.
                 </p>
                 <p>
-                  Seamless User Experience: We offer an intuitive interface and{" "}
-                  <br />
-                  educational resources to help you navigate the DeFi landscape
-                  with <br /> confidence, regardless of your experience level.
+                  Seamless User Experience: We offer an intuitive interface and
+                  educational resources to help you<br /> navigate the DeFi landscape
+                  with confidence, regardless of your experience level.
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6 ">
               <div
@@ -84,7 +92,7 @@ const page = () => {
                 data-aos="fade-up"
                 data-aos-duration="2000"
               >
-                <div className={styles.imgBox}>
+                <div>
                   <Image className="img-fluid" src={img} />
                 </div>
               </div>
@@ -93,11 +101,11 @@ const page = () => {
         </div>
       </section>
 
-      <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+      <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>Our Services Of DeFi Platform Development</h4>
-            <h4>Tired of worrying about security and limited options?</h4>
+            <h4 className="mb-5">Tired of worrying about security and limited options?</h4>
             <div className="col-lg-6 p-lg-0">
               <div
                 className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}
@@ -176,7 +184,7 @@ const page = () => {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
@@ -212,7 +220,7 @@ const page = () => {
                 Don't wait! Sign up for your FREE Fintechify account TODAY and
                 unlock a world of financial possibilities.
               </h5>
-              <h1>Limited Spots Available! JOIN THE REVOLUTION NOW!</h1>
+              <h3 style={{fontWeight:"600"}}>Limited Spots Available! JOIN THE REVOLUTION NOW!</h3>
             </div>
           </div>
         </div>

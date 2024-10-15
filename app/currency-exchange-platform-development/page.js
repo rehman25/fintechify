@@ -7,6 +7,8 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/currencyexchangeimg.jpg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
   return (
@@ -19,7 +21,7 @@ function page() {
         Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -38,6 +40,13 @@ function page() {
                   solutions that go above and beyond.
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -52,10 +61,10 @@ function page() {
         </div>
       </section>
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>
-              Key Features of Our Currency Exchange Platform Development
+              Key Features of Our Currency Exchange <br />Platform Development
               Service:
             </h4>
             <div className="col-lg-6 p-lg-0">
@@ -114,7 +123,7 @@ function page() {
         </div>
       </section>
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container text-center">
+        <div className="container-fluid px-5 text-center">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

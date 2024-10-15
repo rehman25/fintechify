@@ -7,6 +7,8 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img2 from "../components/assets/images/Graphic-Option-1.jpg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
   return (
@@ -19,7 +21,7 @@ function page() {
         Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -28,39 +30,45 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Customized Insurance <br /> Software Development <br />{" "}
-                  Solutions
+                  Customized Insurance Software <br />Development Solutions
                 </h4>
                 <h5>Insure Your Advantage</h5>
                 <p>
                   Fintechify understands the unique challenges you face in
-                  today’s <br /> dynamic insurance market. We’re not here to
-                  sell you a generic <b></b> solution – we build custom-crafted
+                  today’s dynamic insurance market. <br /> We’re not here to
+                  sell you a generic solution – we build custom-crafted
                   software that empowers you to:
                 </p>
                 <p>
                   Outmaneuver complexity: Streamline workflows, automate tasks,{" "}
-                  <br /> and say goodbye to data silos with intelligent,
-                  scalable solutions. <br />
+                  and say goodbye to data silos with <br /> intelligent,
+                  scalable solutions. 
                   Become a fortress of security: Protect sensitive data and
                   ensure <br /> compliance with unwavering security protocols.
                 </p>
                 <p>
                   Deliver lightning-fast quotes: Impress customers with
-                  real-time <br /> responsiveness and a streamlined quoting
+                  real-time responsiveness and a streamlined <br /> quoting
                   process.
                 </p>
                 <p>
                   Embrace the data revolution: Gain game-changing insights with{" "}
-                  <br /> robust analytics that help you make smarter
+                   robust analytics that help you make <br />smarter
                   decisions.Fintechify isn’t just software, it’s your strategic
-                  partner. We work <br /> closely with you to understand your
-                  specific needs and develop <br /> solutions that fuel your
-                  growth and optimize your operations. <br />
+                  partner. We work  closely with you to <br /> understand your
+                  specific needs and develop  solutions that fuel your
+                  growth and optimize your operations <br />
                   Ready to unlock the full potential of your insurance business?
-                  Let’s <br /> talk!
+                  Let’s talk!
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -76,7 +84,7 @@ function page() {
       </section>
 
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <h4>
               Key Features of Fintechify Insurance Software <br /> Development
@@ -194,7 +202,7 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />

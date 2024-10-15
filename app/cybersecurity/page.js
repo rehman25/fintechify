@@ -7,6 +7,9 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/cyberimg.jpeg";
+import Link from 'next/link'
+import { FaArrowRight } from "react-icons/fa6";
+
 
 function page() {
   return (
@@ -19,7 +22,7 @@ function page() {
         Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container">
+        <div className="container-fluid px-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -27,7 +30,7 @@ function page() {
               data-aos-offset="300"
             >
               <div className={styles.InnovativeBox}>
-                <h4>Why Your Business Deserves Cybersecurity Excellence</h4>
+                <h4>Why Your Business Deserves <br /> Cybersecurity Excellence</h4>
 
                 <p>
                   User Explosion: Prevent data breaches and protect confidential
@@ -57,6 +60,13 @@ function page() {
                   potential threats with cutting-edge cybersecurity solutions.
                 </p>
               </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -71,13 +81,13 @@ function page() {
         </div>
       </section>
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container ">
+        <div className="container-fluid px-5 ">
           <div className="row">
             <div className="text-center mb-5">
               <h4>
                 Key Points for Implementing <br /> Cybersecurity in Business
               </h4>
-              <span>
+              <span style={{ fontWeight: "600" }}>
                 Implementing cybersecurity is not just a protective measure but
                 it's a <br /> strategic advantage that sets your business apart
                 in an increasingly digital world.
@@ -153,7 +163,7 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container">
+        <div className="container px-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
@@ -187,6 +197,69 @@ function page() {
                     </p>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.servicessection}`}>
+        <div className="container">
+          <div className="row">
+            <h5>Fortify Your Future: Unbeatable <br /> Cybersecurity Services from Fintechy.ae</h5>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-4 mt-5">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">Threat Detection and Response</h4>
+                <span className="text-start">
+                  Stay one step ahead of cybercriminals with our real-time threat detection and response service. At Fintechy.ae, we monitor your systems 24/7, identifying potential risks before they become a problem. Protect your business from breaches, ensuring your data stays secure and your operations uninterrupted.</span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-5">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">Network Security</h4>
+                <span className="text-start">
+                  Your network is the backbone of your business. Our advanced network security solutions provide multi-layered protection, safeguarding against malware, ransomware, and unauthorized access. With Fintechy.ae, your network will be fortified, ensuring every connection is safe and secure.</span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-5">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">Cloud Security</h4>
+                <span className="text-start">
+                  As businesses transition to the cloud, so do cyber threats. Fintechy.ae ensures your cloud-based data and services are protected with cutting-edge encryption, access controls, and continuous monitoring, allowing you to enjoy the flexibility of the cloud without compromising security.
+                </span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-5">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">Data Encryption Services</h4>
+                <span className="text-start">
+                  Your data is your most valuable asset—protect it with our state-of-the-art encryption solutions. Fintechy.ae secures sensitive information in transit and at rest, making it virtually impossible for hackers to intercept or misuse your data, whether it’s on your network or stored in the cloud.
+                </span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-5">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">Vulnerability Assessment and Penetration Testing</h4>
+                <span className="text-start">
+                  Don’t wait for a cyberattack to expose weaknesses in your security. Fintechy.ae offers thorough vulnerability assessments and penetration testing, identifying potential threats before they strike. We pinpoint your system’s vulnerabilities and provide actionable solutions to strengthen your defenses.
+                </span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-5">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">Cybersecurity Compliance Consulting</h4>
+                <span className="text-start">
+                  Compliance is key to maintaining a secure and legally sound business. Fintechy.ae helps you navigate complex regulations such as GDPR, CCPA, and more, ensuring your business meets all security standards while avoiding costly fines. We keep you compliant, so you can focus on growth.
+                </span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-5">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">Incident Response and Recovery</h4>
+                <span className="text-start">
+                  In the event of a breach, Fintechy.ae’s rapid incident response team is here to minimize damage and get your business back on track. Our experts handle everything from containment to recovery, ensuring your data is restored and your operations resume with minimal downtime.
+                </span>
               </div>
             </div>
           </div>
