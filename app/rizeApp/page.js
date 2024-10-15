@@ -13,6 +13,7 @@ const page = () => {
   return (
     <>
       <Header />
+
       <div className={`container-fluid ${style.containerFluid}`}>
         <div className={`container-fluid ${style.container}`}>
           <div className={`row ${style.row}`}>
@@ -29,6 +30,7 @@ const page = () => {
           </div>
         </div>
       </div>
+
       <div className={`container  ${style.container2}`}>
         <div className={`row ${style.row}`}>
           <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
@@ -117,200 +119,206 @@ const page = () => {
         </div>
       </section>
 
-      <div className={`container ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
+      <div className={`container-fluid ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row ${style.row2}`}>
           <h1>
             Essential Banking Services
           </h1>
-          <div className={`col-lg-6  m-0 ${style.boxleft}`}>
-            <h2>READY CASHLINE (RCL)</h2>
-            <div className={style.section}>
-              <h5>Credit Line:</h5>
-              <ul>
-                <li>
-                  The bank assigns a maximum credit limit to its customers which
-                  they can use for various financial needs.
-                </li>
-                <li>Monitoring of utilized limits.</li>
-              </ul>
-            </div>
-            <div className={style.section}>
-              <h5>Encouraging Financial Behavior:</h5>
-              <ul>
-                <li>Introducing Cashback incentive</li>
-              </ul>
-            </div>
-            <div className={style.section}>
-              <h5>Flexibility and Adaptability:</h5>
-              <ul>
-                <li>
-                  Interest is only charged on the outstanding balance, and it’s
-                  typically based on the amount of credit utilized.
-                </li>
-                <li>
-                  The customer can make regular payments to repay the borrowed
-                  amount.
-                </li>
-                <li>
-                  As the customer repays the borrowed amount, the credit limit
-                  becomes available again.
-                </li>
-              </ul>
-            </div>
-            <div className={style.section}>
-              <h5>Technology Integration:</h5>
-              <ul>
-                <li>RCL origination facilitated via Digibank app.</li>
-                <li>
-                  Access to generated RCL reports via portal for compliance and
-                  management.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className={`col-lg-6  m-0 ${style.boxright}`}>
-            <div className={style.tdSection}>
-              <h2>TERM DEPOSIT (TD)</h2>
+          <div className={style.flexBoxes}>
+            <div className={`col-lg-5 ${style.boxleft}`}>
+              <h2>READY CASHLINE (RCL)</h2>
               <div className={style.section}>
-                <h5>Investment:</h5>
+                <h5>Credit Line:</h5>
                 <ul>
                   <li>
-                    Term Deposit is a lump sum savings account with a fixed
-                    deposit period.
+                    The bank assigns a maximum credit limit to its customers which
+                    they can use for various financial needs.
                   </li>
-                  <li>Seamless digital investment.</li>
+                  <li>Monitoring of utilized limits.</li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Encouraging Digital Investment:</h5>
+                <h5>Encouraging Financial Behavior:</h5>
                 <ul>
-                  <li>Introducing Digital Term Deposit placements via App.</li>
+                  <li>Introducing Cashback incentive</li>
                 </ul>
               </div>
               <div className={style.section}>
                 <h5>Flexibility and Adaptability:</h5>
                 <ul>
                   <li>
-                    Predetermined interest rate which remains constant
-                    throughout the deposit period.
+                    Interest is only charged on the outstanding balance, and it’s
+                    typically based on the amount of credit utilized.
                   </li>
-                  <li>Aims to improve digital banking experience.</li>
                   <li>
-                    Prioritize capital preservation and a predictable income
-                    stream.
+                    The customer can make regular payments to repay the borrowed
+                    amount.
                   </li>
-                  <li>Earn interest at the end of the deposit term.</li>
+                  <li>
+                    As the customer repays the borrowed amount, the credit limit
+                    becomes available again.
+                  </li>
                 </ul>
               </div>
               <div className={style.section}>
                 <h5>Technology Integration:</h5>
                 <ul>
+                  <li>RCL origination facilitated via Digibank app.</li>
                   <li>
-                    TD origination is facilitated through the Digibank app.
-                  </li>
-                  <li>
-                    Access to generated TD reports via the portal for portfolio
-                    management and compliance.
+                    Access to generated RCL reports via portal for compliance and
+                    management.
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div className={`col-lg-5 ${style.boxright} ${style.marginTop}`}>
+              <div className={style.tdSection}>
+                <h2>TERM DEPOSIT (TD)</h2>
+                <div className={style.section}>
+                  <h5>Investment:</h5>
+                  <ul>
+                    <li>
+                      Term Deposit is a lump sum savings account with a fixed
+                      deposit period.
+                    </li>
+                    <li>Seamless digital investment.</li>
+                  </ul>
+                </div>
+                <div className={style.section}>
+                  <h5>Encouraging Digital Investment:</h5>
+                  <ul>
+                    <li>Introducing Digital Term Deposit placements via App.</li>
+                  </ul>
+                </div>
+                <div className={style.section}>
+                  <h5>Flexibility and Adaptability:</h5>
+                  <ul>
+                    <li>
+                      Predetermined interest rate which remains constant
+                      throughout the deposit period.
+                    </li>
+                    <li>Aims to improve digital banking experience.</li>
+                    <li>
+                      Prioritize capital preservation and a predictable income
+                      stream.
+                    </li>
+                    <li>Earn interest at the end of the deposit term.</li>
+                  </ul>
+                </div>
+                <div className={style.section}>
+                  <h5>Technology Integration:</h5>
+                  <ul>
+                    <li>
+                      TD origination is facilitated through the Digibank app.
+                    </li>
+                    <li>
+                      Access to generated TD reports via the portal for portfolio
+                      management and compliance.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={`container mt-5 ${style.Essential}`}>
+
+      <div className={`container-fluid mt-5 ${style.Essential}`}>
         <div className={`row ${style.row2}`}>
           <h1>
             Digital Lending
           </h1>
-          <div className={`col-lg-6  m-0 ${style.boxleft}`}>
-            <h2>Personal Financing (PF)</h2>
-            <div className={style.section}>
-              <h5>Personal Credit:</h5>
-              <ul>
-                <li>
-                  Amount approves depending on to customer’s financial profile and may have a fixed limit.
-                </li>
-                <li>Get funds to achieve your personal financial needs.</li>
-              </ul>
-            </div>
-            <div className={style.section}>
-              <h5>Encouraging Digital Lending:</h5>
-              <ul>
-                <li>Introducing fixed term financing</li>
-              </ul>
-            </div>
-            <div className={style.section}>
-              <h5>Flexibility and Adaptability:</h5>
-              <ul>
-                <li>
-                  Financing that comes with an interest rate that is fixed.
-                </li>
-                <li>
-                  Customer repay the loan in installments over a fixed period, with options for short or long-term loans.
-                </li>
-                <li>
-                  With minimal documentation, approval for the loan can be obtained.
-                </li>
-              </ul>
-            </div>
-            <div className={style.section}>
-              <h5>Technology Integration:</h5>
-              <ul>
-                <li>PF origination facilitated via Digibank app.</li>
-                <li>
-                  Access to generated PF reports via portal for compliance and
-                  management.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className={`col-lg-6  m-0 ${style.boxright}`}>
-            <div className={style.tdSection}>
-              <h2>Corporate Financing (CF)</h2>
+          <div className={style.flexBoxes}>
+            <div className={`col-lg-5 ${style.boxleft}`}>
+              <h2>Personal Financing (PF)</h2>
               <div className={style.section}>
-                <h5>SME Financing:
-                </h5>
+                <h5>Personal Credit:</h5>
                 <ul>
                   <li>
-                    Specialized financing and credit options for your large-scale projects for business expansion
+                    Amount approves depending on to customer’s financial profile and may have a fixed limit.
                   </li>
-                  <li>Get funds to achieve your Business goals</li>
+                  <li>Get funds to achieve your personal financial needs.</li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Encouraging Digital Financing:</h5>
+                <h5>Encouraging Digital Lending:</h5>
                 <ul>
-                  <li>Introducing Digital SME Financing</li>
+                  <li>Introducing fixed term financing</li>
                 </ul>
               </div>
               <div className={style.section}>
                 <h5>Flexibility and Adaptability:</h5>
                 <ul>
                   <li>
-                    Financing that comes with fixed repayment terms.
+                    Financing that comes with an interest rate that is fixed.
                   </li>
-                  <li>Customers repay the loan in installments over a fixed period, for long-term loans.</li>
                   <li>
-                    Offer digital platforms for SMEs to manage their finances, make transactions, and access funding more efficiently.
+                    Customer repay the loan in installments over a fixed period, with options for short or long-term loans.
+                  </li>
+                  <li>
+                    With minimal documentation, approval for the loan can be obtained.
                   </li>
                 </ul>
               </div>
               <div className={style.section}>
                 <h5>Technology Integration:</h5>
                 <ul>
+                  <li>PF origination facilitated via Digibank app.</li>
                   <li>
-                    CF origination is facilitated through Digibank app.
-                  </li>
-                  <li>
-                    Access to generate CF reports via the portal for portfolio management and compliance.
+                    Access to generated PF reports via portal for compliance and
+                    management.
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div className={`col-lg-5 ${style.boxright} ${style.marginTop}`}>
+              <div className={style.tdSection}>
+                <h2>Corporate Financing (CF)</h2>
+                <div className={style.section}>
+                  <h5>SME Financing:
+                  </h5>
+                  <ul>
+                    <li>
+                      Specialized financing and credit options for your large-scale projects for business expansion
+                    </li>
+                    <li>Get funds to achieve your Business goals</li>
+                  </ul>
+                </div>
+                <div className={style.section}>
+                  <h5>Encouraging Digital Financing:</h5>
+                  <ul>
+                    <li>Introducing Digital SME Financing</li>
+                  </ul>
+                </div>
+                <div className={style.section}>
+                  <h5>Flexibility and Adaptability:</h5>
+                  <ul>
+                    <li>
+                      Financing that comes with fixed repayment terms.
+                    </li>
+                    <li>Customers repay the loan in installments over a fixed period, for long-term loans.</li>
+                    <li>
+                      Offer digital platforms for SMEs to manage their finances, make transactions, and access funding more efficiently.
+                    </li>
+                  </ul>
+                </div>
+                <div className={style.section}>
+                  <h5>Technology Integration:</h5>
+                  <ul>
+                    <li>
+                      CF origination is facilitated through Digibank app.
+                    </li>
+                    <li>
+                      Access to generate CF reports via the portal for portfolio management and compliance.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <Testimonials />
       <Footer />
     </>

@@ -31,9 +31,9 @@ function page() {
             <Header />
             <Banner
                 showCase={false}
-                head="Services FinTechify"
-                tagLine=""
-                Des=""
+                head="Services"
+                tagLine={false}
+                Des={false}
             />
             <section className={styles.everyoneSection}>
                 <div className="container">

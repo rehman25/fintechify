@@ -89,22 +89,28 @@
 
 .boxleft {
   background-color: #1d96fd;
-  background-image: url('../components/assets/images/risebanner1.png');
+  /* background-image: url('../components/assets/images/risebanner1.png'); */
   background-repeat: no-repeat;
   background-size: contain;
-  border-bottom-left-radius: 30px;
-  border-top-left-radius: 30px;
+  border-radius: 20px;
   padding: 50px;
   color: white;
+  height: 600px;
 }
 
+.flexBoxes{
+  display: flex;
+  justify-content: space-around;
+}
+.marginTop{
+  margin-top: 100px;
+}
 .boxright {
-  background-color: #f5f5f5;
-  color: black;
-  padding: 20px;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
+  background-color: #1d96fd;
+  color: white;
+  border-radius: 20px;
   padding: 50px;
+  height: 600px;
 }
 
 .row2 {
@@ -114,7 +120,7 @@
 
 .rclSection {
   background-color: 2271af;
-  color: black;
+  color: white;
 }
 
 .boxleft h5 {
@@ -134,7 +140,7 @@
 }
 
 .boxright h5 {
-  color: black !important;
+  color: white;
   font-size: 14px;
   font-weight: bold;
 }
@@ -145,7 +151,7 @@
 }
 
 .boxright ul li {
-  color: black !important;
+  color: white;
   font-size: 13px;
 }
 
@@ -232,6 +238,18 @@
   .aboutFirstsection .iconFlexBox span {
     padding-right: 0;
   }
+  .boxleft,.boxright {
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  .flexBoxes{
+    flex-direction: column;
+    justify-content: unset !important;
+  }
+  .marginTop{
+    margin-top: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -259,13 +277,6 @@
     padding: 15px 20px;
     font-size: 12px;
   }
-
-  .boxleft,
-  .boxright {
-    border-radius: 20px;
-    padding: 15px;
-  }
-
   .row2 h1 {
     font-size: 7vw;
   }
@@ -290,23 +301,7 @@
     padding: 10px 16px;
     font-size: 10px;
   }
-
-  .boxleft,
-  .boxright {
-    padding: 10px;
-  }
-
   .row2 h1 {
     font-size: 9vw;
-  }
-}
-
-@media screen and (max-width: 992px) {
-
-  .boxleft,
-  .boxright {
-    border-radius: 50px;
-    padding: 15px;
-    margin: 10px 0px !important;
   }
 }

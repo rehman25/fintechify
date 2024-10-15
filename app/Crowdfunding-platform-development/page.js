@@ -21,11 +21,12 @@ function page() {
             <Banner
                 showCase={false}
                 head={"Crowdfunding Platform Development"}
-                tagLine={"We Create Your Platform of Success."}
+                tagLine={false}
+                tagLine2={"We Create Your Platform of Success."}
                 Des={false}
             />
             <section className='mb-5 mt-5'>
-                <div className="container-fluid px-5">
+                <div className="container-fluid px-lg-5">
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
@@ -40,24 +41,25 @@ function page() {
                                 <p>More Than Development: We provide ongoing support and maintenance to ensure your client’s platform <br />stays secure, efficient, and at the forefront of the crowdfunding landscape</p>
                             </div>
                             <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                                <Link href="/contact-us" passHref>
+                                    <span style={{ textDecoration: "none", color: "white" }}>
+                                        JOIN NOW <FaArrowRight />
+                                    </span>
+                                </Link>
+                            </button>
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                            <Image className="img-fluid" src={aboutFirstSectionImg} />                        </div>
-                    </div>
+                                <Image className="img-fluid" src={aboutFirstSectionImg} />                        </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
+
+            {/* <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container-fluid px-5">
                     <div className="row">
-                        <h4>Our Process</h4> 
+                        <h4>Our Process</h4>
                         <div className='col-lg-6 p-lg-0'>
                             <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>
                                 <ul>
@@ -66,20 +68,20 @@ function page() {
                                 </ul>
                                 <ul>
                                     <h5>Campaign Management</h5>
-                                    <p>Support with planning, launching, and managing your crowdfunding <br /> campaign.</p>                   
+                                    <p>Support with planning, launching, and managing your crowdfunding <br /> campaign.</p>
                                 </ul>
                                 <ul><h5>Marketing and Promotion</h5>
-                                <p>Develop strategies to reach your target audience and attract <br /> investors.</p>
+                                    <p>Develop strategies to reach your target audience and attract <br /> investors.</p>
                                 </ul>
                                 <ul>
                                     <h5>Payment Processing</h5>
                                     <p>Integrate secure payment gateways to facilitate seamless <br />
-                                         transactions.</p>
+                                        transactions.</p>
                                 </ul>
                                 <ul>
                                     <h5>Regulatory Compliance</h5>
                                     <p>Ensure your platform adheres to all relevant crowdfunding <br /> regulations.
-</p>
+                                    </p>
                                 </ul>
                                 <ul>
                                     <h5>Entrepreneurship</h5>
@@ -95,7 +97,7 @@ function page() {
                                     </h5>
                                     <p>Support social good initiatives, charities, and community  <br />development projects.
 
-</p>
+                                    </p>
                                 </ul>
                                 <ul>
                                     <h5>Real Estate</h5>
@@ -137,21 +139,114 @@ function page() {
                                 <ul>
                                     <h5>Fintechify: Where crowdfunding dreams take flight.</h5>
                                 </ul>
-                              
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> */}
+
+            <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
+                <div className="container-fluid px-lg-5">
+                    <div className="row">
+                        <h4>Our Process</h4>
+                        <div className={styles.flexBoxes}>
+                            <div className='col-lg-5 p-lg-0'>
+                                <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>
+                                    <ul>
+                                        <h5>Platform Development</h5>
+                                        <p>Build a custom crowdfunding platform tailored to your specific <br /> needs.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Campaign Management</h5>
+                                        <p>Support with planning, launching, and managing your crowdfunding <br /> campaign.</p>
+                                    </ul>
+                                    <ul><h5>Marketing and Promotion</h5>
+                                        <p>Develop strategies to reach your target audience and attract <br /> investors.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Payment Processing</h5>
+                                        <p>Integrate secure payment gateways to facilitate seamless <br />
+                                            transactions.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Regulatory Compliance</h5>
+                                        <p>Ensure your platform adheres to all relevant crowdfunding <br /> regulations.
+                                        </p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Entrepreneurship</h5>
+                                        <p>Raise capital for startups, product launches, and innovative  <br />ventures.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Creative Industries
+                                        </h5>
+                                        <p>Fund films, music projects, art installations, and other creative <br /> endeavors.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Social Causes
+                                        </h5>
+                                        <p>Support social good initiatives, charities, and community  <br />development projects.
+
+                                        </p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Real Estate</h5>
+                                        <p>Finance real estate development projects and <br /> property investments.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Renewable Energy
+                                        </h5>
+                                        <p>Raise capital for renewable energy projects and sustainability  <br />initiatives.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Local Businesses </h5>
+                                        <p>Empower local businesses to raise funds for expansion, equipment, <br /> and marketing.</p>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div className='col-lg-5 p-lg-0' id={styles.marginBoxTop}>
+                                <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdWhiteBottomBox}`}>
+                                    <ul>
+                                        <h5>Craft Your Crowdfunding Dream: Fintechify Delivers
+                                        </h5>
+                                        <h5>Bespoke Platforms</h5>
+                                        <p>We build custom crowdfunding solutions that perfectly match your <br /> vision – from concept to launch.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Effortless User Experience</h5>
+                                        <p>Beautiful, intuitive interfaces keep donors engaged and donations <br /> flowing.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Powerhouse Features</h5>
+                                        <p>Maximize fundraising with built-in tools for tracking, payments, <br /> social outreach, and insightful analytics.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Grow with Confidence
+                                        </h5>
+                                        <p>Scalable platforms handle growth seamlessly, while robust security <br />     keeps all transactions safe.</p>
+                                    </ul>
+                                    <ul>
+                                        <h5>Fintechify: Where crowdfunding dreams take flight.</h5>
+                                    </ul>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
             <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container-fluid px-5">
+                <div className="container-fluid px-lg-5">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
                             <Image src={QoutesImg} alt='Qoutes' />
                             <h4>Get Started Today</h4>
                             <p>Unleash the potential of your idea. Contact Fintechify today! We'll craft your custom crowdfunding <br /> platform and empower you to reach your funding goals. Together, let's make a difference..</p>
                         </div>
-                       
+
                     </div>
                 </div>
             </section>

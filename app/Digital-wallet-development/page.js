@@ -19,10 +19,11 @@ const page = () => {
         showCase={false}
         head={"Digital Wallet Development"}
         tagLine={false}
-        Des="Be a pioneer in the financial revolution."
+        tagLine2={"Be a pioneer in the financial revolution."}
+        Des={false}
       />
       <section className='mb-5 mt-5'>
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
               <div className={styles.InnovativeBox}>
@@ -53,45 +54,48 @@ const page = () => {
       </section>
      
       <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row">
             <h4>Code, Craft, Cash! Unleash Your</h4>
             <h4>Digital Wallet's Potential</h4>
             <span className='m-0'>That's the power of our Code, Craft, Cash! digital wallet development process.</span>
             <span>Here's how we turn your vision into reality:</span>
 
-            <div className='col-lg-6 p-lg-0'>
-              <div className={`${styles.processBox}  ${styles.blueBg} ${styles.DigiBlueUpperBox}`}>
-                <ul>
-                  <h5>1. Cracking the Code: Deep Dive Discovery</h5>
-                  <p>We don’t just write code; we write the future of finance. We partner with you to understand your business goals, target audience, and the tech that makes it tick.</p>
-                  <p>Think of us as financial detectives, uncovering the perfect formula for your digital wallet’s success.</p>
-                </ul>
-                <ul>
-                  <h5>2. Crafting the Magic: Design & Prototyping</h5>
-                  <p>Our design wizards craft an interface that’s not just intuitive, it’s irresistible.  We create sleek prototypes that bring your app’s flow and functionality to life.</p>
-                </ul>
+            <div className={styles.flexBoxes}>
+              <div className='col-lg-5 p-lg-0'>
+                <div className={`${styles.processBox}  ${styles.blueBg} ${styles.DigiBlueUpperBox}`}>
+                  <ul>
+                    <h5>1. Cracking the Code: Deep Dive Discovery</h5>
+                    <p>We don’t just write code; we write the future of finance. We partner with you to understand your business goals, target audience, and the tech that makes it tick.</p>
+                    <p>Think of us as financial detectives, uncovering the perfect formula for your digital wallet’s success.</p>
+                  </ul>
+                  <ul>
+                    <h5>2. Crafting the Magic: Design & Prototyping</h5>
+                    <p>Our design wizards craft an interface that’s not just intuitive, it’s irresistible.  We create sleek prototypes that bring your app’s flow and functionality to life.</p>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div className='col-lg-6 p-lg-0'>
-              <div className={`${styles.processBox}  ${styles.whiteBg} ${styles.DigiWhiteBottomBox}`}>
-                <ul>
-                  <h5>3. Cashing in on Innovation: Development</h5>
-                  <p>Our developers are coding ninjas, wielding cutting-edge tech to build a digital wallet that’s scalable, secure, and lightning-fast.  We use industry best practices to make sure your app is built to last.</p>
-                </ul>
-                <ul>
-                  <h5>4. Testing & Cashing Out:</h5>
-                  <p>Before you launch, we put your app through rigorous testing. We identify and eliminate any bugs or glitches, ensuring a seamless experience across all devices.
-                    Consider it a final polish before you unveil your masterpiece to the world.</p>
-                </ul> 
+              <div className='col-lg-5 p-lg-0' id={styles.marginBoxTop}>
+                <div className={`${styles.processBox}  ${styles.blueBg} ${styles.DigiWhiteBottomBox}`}>
+                  <ul>
+                    <h5>3. Cashing in on Innovation: Development</h5>
+                    <p>Our developers are coding ninjas, wielding cutting-edge tech to build a digital wallet that’s scalable, secure, and lightning-fast.  We use industry best practices to make sure your app is built to last.</p>
+                  </ul>
+                  <ul>
+                    <h5>4. Testing & Cashing Out:</h5>
+                    <p>Before you launch, we put your app through rigorous testing. We identify and eliminate any bugs or glitches, ensuring a seamless experience across all devices.
+                      Consider it a final polish before you unveil your masterpiece to the world.</p>
+                  </ul> 
+                </div>
               </div>
             </div>
           </div>
+          
         </div>
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
-        <div className="container px-5">
+        <div className="container px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt='Qoutes' />

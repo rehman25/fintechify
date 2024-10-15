@@ -228,6 +228,7 @@
 .blueBg {
     background: #1E96FC;
     color: white;
+    border-radius: 20px;
 }
 .whiteBg {
     background: #F5F5F5;
@@ -328,6 +329,14 @@
 }
 .cybersecurityWhiteBottomBox {
     height: 450px;
+}
+
+.flexBoxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+#marginBoxTop{
+    margin-top: 100px;
 }
 
 /* ================================================================================================= */
@@ -462,6 +471,14 @@
     }
     .aboutFirstsection .iconFlexBox span {
         padding-right: 0;
+    }
+    .flexBoxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: unset !important;
+    }
+    #marginBoxTop{
+        margin-top: 0;
     }
 }
 

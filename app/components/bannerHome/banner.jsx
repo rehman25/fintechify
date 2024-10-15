@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 import { useEffect, useState } from "react";
 import style from "./banner.module.css";
 import Image from "next/image";
@@ -13,18 +13,18 @@ import head4 from "../assets/images/head4.svg";
 
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(false);
-  const [isTwo, setIsTwo] = useState(true);
+  const [isOne, setIsOne] = useState(true);
+  const [isTwo, setIsTwo] = useState(false);
 
-    // useEffect(() => {
-    //   const timer = setInterval(() => {
-    //     setIsOne((prev) => !prev);
-    //     setIsTwo((prev) => !prev);
-    //   }, 5000);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIsOne((prev) => !prev);
+      setIsTwo((prev) => !prev);
+    }, 5000);
 
-    //   return () => clearInterval(timer);
-    // }, []);
-    
+    return () => clearInterval(timer);
+  }, []);
+
 
   return (
     <div className={` ${style.containerFluid}`}>
@@ -56,7 +56,7 @@ const Banner = () => {
               <div className={`col-lg-4 col-md-4 m-0 p-0 ${style.colright}`}>
                 <Image src={Phone} alt="Phone" className={style.phoner} />
                 <p data-aos="fade-up" data-aos-duration="1000">
-                Welcome to Fintechify, your gateway to cutting-edge financial solutions in the heart of the UAE. We revolutionize the way you bank, offering a seamless blend of technology and financial solutions to meet the unique needs of our customers.
+                  Welcome to Fintechify, your gateway to cutting-edge financial solutions in the heart of the UAE. We revolutionize the way you bank, offering a seamless blend of technology and financial solutions to meet the unique needs of our customers.
                 </p>
                 <button data-aos="fade-up" data-aos-duration="1500">
                   Learn More
@@ -67,21 +67,24 @@ const Banner = () => {
               </div>
             </div>
             <div className={`row m-0 ${style.btmRow3}`}>
-              <div className={`${style.box1}`}>
-                 
+              <div className={style.row3Child}>
+                <div className={`${style.box1}`}></div>
+                <div className={`${style.box2}`}></div>
+                <div className={`${style.box3}`}></div>
+                <div className={`${style.box4}`}></div>
               </div>
-              <div className={`${style.box2}`}></div>
-              <div className={`${style.box3}`}></div>
-              <div className={`${style.box4}`}></div>
+              <div className={style.row3Child2}>
+                <div className={`${style.box5}`}></div>
+                <div className={`${style.box6}`}></div>
+                <div className={`${style.box7}`}></div>
+              </div>
             </div>
 
             <Image src={Phone1} alt="Phone1" className={style.phoner1} />
 
-            <div className={`row m-0 ${style.btmRow4}`}>
-              <div className={`${style.box5}`}></div>
-              <div className={`${style.box6}`}></div>
-              <div className={`${style.box7}`}></div>
-            </div>
+            {/* <div className={`row m-0 ${style.btmRow4}`}>
+              
+            </div> */}
           </div>
         )}
 
@@ -90,7 +93,7 @@ const Banner = () => {
             <div className={style.rowContent}>
               <div className={`col-lg-6 col-md-6 m-0 p-0 ${style.colleft2}`}>
                 <h1 className={style.BannerText} data-aos="fade-up" data-aos-duration="1000">
-                Empowering Financial Futures
+                  Empowering Financial Futures
                 </h1>
                 <div className={style.picture}>
                   <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
@@ -102,7 +105,7 @@ const Banner = () => {
                       <h6>Most Active User</h6>
                     </span>
                   </div>
-                  <div className={style.star}  data-aos="fade-up" data-aos-duration="1000">
+                  <div className={style.star} data-aos="fade-up" data-aos-duration="1000">
                     <Image src={head4} alt="Head 4" className={style.head4} />
                     <span>
                       <h6>2024 The World</h6>
@@ -114,7 +117,7 @@ const Banner = () => {
               <div className={`col-lg-4 col-md-4 m-0 p-0 ${style.colright2}`}>
                 <Image src={Phone} alt="Phone" className={style.phoner} />
                 <p data-aos="fade-up" data-aos-duration="1500">
-                Welcome to Fintechify, your gateway to cutting-edge financial solutions in the heart of the UAE. We revolutionize the way you bank, offering a seamless blend of technology and financial solutions to meet the unique needs of our customers.
+                  Welcome to Fintechify, your gateway to cutting-edge financial solutions in the heart of the UAE. We revolutionize the way you bank, offering a seamless blend of technology and financial solutions to meet the unique needs of our customers.
                 </p>
                 <button data-aos="fade-up" data-aos-duration="1500">
                   Learn More
@@ -126,7 +129,7 @@ const Banner = () => {
             </div>
 
             <div className={`row m-0 ${style.btmRow}`}>
-              
+
               <div className={`${style.card1}`}></div>
               <div className={`${style.card2}`}></div>
               <div className={`${style.card3}`}></div>

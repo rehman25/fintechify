@@ -18,11 +18,12 @@ function page() {
       <Banner
         showCase={false}
         head={"Shield Your Business with Unbreakable Cybersecurity"}
-        tagLine={"Defend, Protect, And Prevail!"}
+        tagLine={false}
+        tagLine2={"Defend, Protect, And Prevail!"}
         Des={false}
       />
       <section className="mb-5 mt-5">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -80,7 +81,9 @@ function page() {
           </div>
         </div>
       </section>
-      <section className={styles.processSection} data-aos="fade-up">
+
+      
+      {/* <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-5 ">
           <div className="row">
             <div className="text-center mb-5">
@@ -160,10 +163,94 @@ function page() {
             </div>
           </div>
         </div>
+      </section> */}
+
+     <section className={styles.processSection} data-aos="fade-up">
+        <div className="container-fluid px-lg-5 ">
+          <div className="row">
+            <div className="text-center mb-5">
+              <h4>
+                Key Points for Implementing <br /> Cybersecurity in Business
+              </h4>
+              <span style={{ fontWeight: "600" }}>
+                Implementing cybersecurity is not just a protective measure but
+                it's a <br /> strategic advantage that sets your business apart
+                in an increasingly digital world.
+              </span>
+            </div>
+
+            <div className={styles.flexBoxes}>
+              <div className="col-lg-5 p-lg-0">
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.cybersecurityBlueUpperBox}`}
+                >
+                  <ul>
+                    <h5>1. Prevent Financial Loss</h5>
+                    <p>
+                      Cyberattacks can result in significant financial damage
+                      through stolen data, ransomware, and downtime. Proactive
+                      cybersecurity measures help you avoid these costly
+                      disruptions.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>2. Maintain Customer Confidence</h5>
+                    <p>
+                      Customers are increasingly concerned about the safety of
+                      their personal information. By securing your business, you
+                      maintain their trust and loyalty, driving long-term success.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>3. Regulatory Compliance</h5>
+                    <p>
+                      Compliance with data protection regulations (like GDPR,
+                      CCPA, or HIPAA) is essential for avoiding fines and legal
+                      consequences. Cybersecurity helps your business stay
+                      compliant with the latest requirements.
+                    </p>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.cybersecurityWhiteBottomBox}`}
+                >
+                  <ul>
+                    <h5>4. Defend Against Emerging Threats</h5>
+                    <p>
+                      Cyber threats are constantly evolving. A strong
+                      cybersecurity strategy helps your business stay ahead of
+                      hackers and malicious actors, minimizing vulnerabilities.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>5 .Secure Intellectual Property</h5>
+                    <p>
+                      Your business’s proprietary data and innovations are
+                      valuable. Cybersecurity ensures that your intellectual
+                      property stays in your hands, not in those of
+                      cybercriminals.
+                    </p>
+                  </ul>
+                  <ul>
+                    <h5>6 .Boost Business Continuity</h5>
+                    <p>
+                      A solid cybersecurity plan minimizes disruptions by
+                      preventing attacks that could lead to downtime or
+                      operational failures. This ensures your business runs
+                      smoothly, even in the face of cyber risks.
+                    </p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container px-5">
+        <div className="container px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
@@ -202,6 +289,7 @@ function page() {
           </div>
         </div>
       </section>
+      
       <section className={`${styles.servicessection}`}>
         <div className="container">
           <div className="row">
