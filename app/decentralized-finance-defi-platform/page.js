@@ -18,11 +18,13 @@ const page = () => {
       <Banner
         showCase={false}
         head={"Decentralized Finance (DeFi) Platform"}
-        tagLine={"Financial freedom for everyone."}
+        tagLine={false}
+        tagLine2={"Financial freedom for everyone."}
         Des={false}
       />
+      
       <section className="mb-5 mt-5">
-        <div className="container-fluid px-5">
+        <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -101,7 +103,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
+      {/* <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
         <div className="container-fluid px-5">
           <div className="row">
             <h4>Our Services Of DeFi Platform Development</h4>
@@ -181,10 +183,95 @@ const page = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
+        <div className="container-fluid px-lg-5">
+          <div className="row">
+            <h4>Our Services Of DeFi Platform Development</h4>
+            <h4 className="mb-5">Tired of worrying about security and limited options?</h4>
+
+            <div className={styles.flexBoxes}>
+              <div className="col-lg-5 p-lg-0">
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}
+                >
+                  <h5>Tired of worrying about security and limited options?</h5>
+                  <p>
+                    Fintechify’s DeFi platform delivers a powerful combination of{" "}
+                    <br /> cutting-edge security and a diverse range of financial
+                    instruments, <br /> all accessible 24/7.
+                  </p>
+                  <h5>Built with rock-solid security:</h5>
+                  <ul>
+                    <li>
+                      Blockchain Powered: We leverage the latest blockchain <br />{" "}
+                      technology to ensure every transaction is:
+                    </li>{" "}
+                    <li>
+                      Secure: Encrypted and tamper-proof, protecting your funds.{" "}
+                    </li>
+                    <li>
+                      Transparent: Every step is visible and verifiable on the
+                      blockchain.
+                    </li>
+                    <li>
+                      {" "}
+                      Immutable: Once completed, transactions cannot be reversed,
+                      fostering trust.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
+                <div
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedWhiteBottomBox}`}
+                >
+                  
+                    <h5>Unleash a world of financial possibilities:</h5>
+                    <ul>
+                    <li>
+                      Beyond Traditional Finance: Our platform offers a wider
+                      range <br /> of tools than ever before:{" "}
+                    </li>
+                    <li>
+                      Decentralized Exchanges (DEXs): Trade directly with other{" "}
+                      <br /> users, bypassing centralized platforms.
+                    </li>
+                    <li>
+                      Lending & Borrowing Protocols: Earn interest on your <br />{" "}
+                      holdings or borrow funds at competitive rates.
+                    </li>
+                    <li>
+                      Yield Farming Opportunities: Maximize your returns with{" "}
+                      <br /> strategic crypto lending across DeFi protocols.
+                    </li>
+                  </ul>
+                  
+                    <h5>Seamless Integration and Accessibility:</h5>
+                    <ul>
+                    <li>
+                      The DeFi Ecosystem at Your Fingertips: Our platform is{" "}
+                      <br />
+                      interoperable with other DeFi applications (DApps) and{" "}
+                      <br /> blockchain networks, allowing you to explore the
+                      entire DeFi <br /> landscape.
+                    </li>
+                    <li>
+                      Financial Freedom, 24/7: No matter your location or <br />{" "}
+                      experience level, our intuitive interface makes DeFi
+                      accessible <br /> and easy to use, anytime, anywhere.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container px-5">
+        <div className="container px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
