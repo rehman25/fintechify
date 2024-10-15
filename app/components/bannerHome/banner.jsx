@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import style from "./banner.module.css";
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
-
 import Phone from "../assets/images/bgPhone.png";
 import Phone1 from "../assets/images/bgPhone.png";
 import head1 from "../assets/images/head1.png";
@@ -11,18 +10,20 @@ import head2 from "../assets/images/head2.png";
 import head3 from "../assets/images/head3.png";
 import head4 from "../assets/images/head4.svg";
 
+
+
 const Banner = () => {
   const [isOne, setIsOne] = useState(true);
   const [isTwo, setIsTwo] = useState(false);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIsOne((prev) => !prev);
-      setIsTwo((prev) => !prev);
-    }, 5000);
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setIsOne((prev) => !prev);
+  //     setIsTwo((prev) => !prev);
+  //   }, 5000);
 
-    return () => clearInterval(timer);
-  }, []);
+  //   return () => clearInterval(timer);
+  // }, []);
   
 
   return (
@@ -66,7 +67,9 @@ const Banner = () => {
               </div>
             </div>
             <div className={`row m-0 ${style.btmRow3}`}>
-              <div className={`${style.box1}`}></div>
+              <div className={`${style.box1}`}>
+                 
+              </div>
               <div className={`${style.box2}`}></div>
               <div className={`${style.box3}`}></div>
               <div className={`${style.box4}`}></div>

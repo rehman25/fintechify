@@ -3,22 +3,21 @@
   margin: 0;
   display: flex;
   justify-content: center;
-  /* height: 125vh; */
+  /* min-height: 100vh; */
 }
 
 .slider1 {
   border-radius: 50px;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   padding-top: 0px;
-  /* background: linear-gradient(90deg, #0e0683 51%, #0a096c 0%, #1a2c65) 51% / 200%; */
-  background-image: url("../assets/images/ft1-bg.jpg");
+  /* background: linear-gradient(90deg, #1a2c65 51%, #072AC8 0%,  #1E96FC) 51% / 200%; */
+  background-image: linear-gradient(115deg, #072AC8 25%,  #1E96FC 15%, #072AC8 25%) ;
+  /* background-image: url("../assets/images/ft1-bg.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 100%; */
   opacity: 1;
   position: relative;
-
   overflow: hidden;
   width: 100%;
   height: 125vh;
@@ -540,11 +539,13 @@
   overflow: visible;
   padding: 0px;
   width: 23vw;
+
+  max-width: 100vw; 
+  max-height: 100vh; 
   height: 59vh;
   border-radius: 20px;
   position: absolute;
-  background: url("../assets/images/revslider_1_img-3.jpg") left top / cover
-    no-repeat transparent;
+  background: url("../assets/images/revslider_1_img-3.jpg") left top / cover no-repeat transparent;
   left: 26.5%;
   top: -20px;
   bottom: 0;
