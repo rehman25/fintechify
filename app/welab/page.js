@@ -65,42 +65,43 @@ const page = () => {
       <div className={`container  ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row  ${style.row2}`}>
           <h1>Benefits for All Stakeholders</h1>
-
-          <div className={`col-lg-6  ${style.boxleft}`}>
-            <h5>Discovery Phase</h5>
-            <div className={style.section}>
-              <ul>
-                <li>
-                  For licensed healthcare professionals, Welab offers greater
-                  flexibility and autonomy over their work schedules, allowing
-                  them to earn more by working independently.
-                </li>
-                <li>
-                  This model also simplifies the process for laboratories by
-                  eliminating the need for collection centers, allowing them to
-                  receive specimens directly from licensed professionals.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className={`col-lg-6  m-0 ${style.boxright}`}>
-            <div className={style.tdSection}>
+          <div className={style.flexBoxes}>
+            <div className={`col-lg-5 ${style.boxleft}`}>
+              <h5>Discovery Phase</h5>
               <div className={style.section}>
-                <h5>Investment:</h5>
                 <ul>
                   <li>
-                    Welab’s innovative healthcare delivery system extends far
-                    beyond blood specimen collection and delivery. By connecting
-                    patients with licensed healthcare professionals through a
-                    mobile platform, Welab can offer a wide range of in-home
-                    medical services such as IV hydration, ECGs, and vaccines.
+                    For licensed healthcare professionals, Welab offers greater
+                    flexibility and autonomy over their work schedules, allowing
+                    them to earn more by working independently.
                   </li>
                   <li>
-                    Welab is revolutionizing the healthcare industry, making
-                    quality healthcare services accessible, efficient, and
-                    convenient. Embrace the future of healthcare with Welab.
+                    This model also simplifies the process for laboratories by
+                    eliminating the need for collection centers, allowing them to
+                    receive specimens directly from licensed professionals.
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div className={`col-lg-5 ${style.boxright} ${style.marginTop}`}>
+              <div className={style.tdSection}>
+                <div className={style.section}>
+                  <h5>Investment:</h5>
+                  <ul>
+                    <li>
+                      Welab’s innovative healthcare delivery system extends far
+                      beyond blood specimen collection and delivery. By connecting
+                      patients with licensed healthcare professionals through a
+                      mobile platform, Welab can offer a wide range of in-home
+                      medical services such as IV hydration, ECGs, and vaccines.
+                    </li>
+                    <li>
+                      Welab is revolutionizing the healthcare industry, making
+                      quality healthcare services accessible, efficient, and
+                      convenient. Embrace the future of healthcare with Welab.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
