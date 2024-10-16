@@ -155,7 +155,7 @@ const page = () => {
             Essential Banking Services
           </h1>
           <div className={style.flexBoxes}>
-            <div className={`col-lg-5 ${style.boxleft} p-3`}>
+            <div className={`col-lg-5 ${style.boxleft}`}>
               <h2>READY CASHLINE (RCL)</h2>
               <div className={style.section}>
                 <h5>Credit Line:</h5>
@@ -201,7 +201,7 @@ const page = () => {
                 </ul>
               </div>
             </div>
-            <div className={`col-lg-5 p-3 ${style.boxright} ${style.marginTop}`}>
+            <div className={`col-lg-5  ${style.boxright} ${style.marginTop}`}>
               <div className={style.tdSection}>
                 <h2>TERM DEPOSIT (TD)</h2>
                 <div className={style.section}>
