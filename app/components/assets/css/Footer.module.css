@@ -80,7 +80,7 @@
 }
 
 .emailInput::placeholder {
-  color: lightgray;
+  color: white;
   letter-spacing: 1px;
 }
 
@@ -236,20 +236,24 @@
   }
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 480px) {
   .subscription {
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
   }
 
   .emailInput {
-    border-radius: 0;
+    border-radius: 10px;
     padding-left: 20px;
-    width: auto;
+    width: 100%;
   }
 
   .subscribeButton {
-    border-radius: 0;
+    border-radius: 10px;
     position: unset;
+    margin-top: 10px;
   }
 }
 
