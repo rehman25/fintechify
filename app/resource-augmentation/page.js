@@ -24,7 +24,7 @@ function page() {
         tagLine2={"Stop fitting your business in a payment box. Get a custom solution that fits your flow."}
         Des={false}
       />
-      <section className="mb-5 mt-5">
+      <section className="d-lg-block d-none mb-5 mt-5">
         <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
@@ -67,6 +67,53 @@ function page() {
               >
                 <Image className="img-fluid" src={img} />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="d-lg-none d-block mb-5 mt-5">
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <Image className="img-fluid" src={img} />
+              </div>
+            </div>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-offset="300"
+            >
+              <div className={styles.InnovativeBox}>
+                <h4>
+                  Ditch the One-Size-Fits-All! Craft Your Dream Payment App with
+                  Fintechify’s Resource Augmentation Service.
+                </h4>
+                <p>
+                  Tired of payment solutions that cramp your business style? At
+                  Fintechify, we believe your payment process should be as
+                  unique as you are. That’s why we offer custom-built payment
+                  app development. Our all-star team of developers, designers,
+                  and strategists will collaborate with you to craft the perfect
+                  payment app, seamlessly integrated with your business goals.
+                </p>
+                <p>
+                  {" "}
+                  Ready to ditch the generic and embrace the perfect fit?
+                  Contact Fintechify today!
+                </p>
+              </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
           </div>
         </div>

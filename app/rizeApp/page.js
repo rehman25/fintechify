@@ -31,7 +31,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className={`container  ${style.container2}`}>
+      <div className={`container  d-lg-block d-none ${style.container2}`}>
         <div className={`row ${style.row}`}>
           <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
             <Image src={RisImage} />
@@ -53,10 +53,40 @@ const page = () => {
               of digital banking with Rize and unlock a world of possibilities
               for effortless and efficient financial management.
             </p>
-            <button className={style.btn}>Join Now</button>
+            <button className={`${style.btn} mt-3`}>Join Now</button>
           </div>
           <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
             <Image src={RisMobile} className={style.RisMobile} />
+          </div>
+        </div>
+      </div>
+
+      <div className={`container  d-lg-none d-block ${style.container2}`}>
+        <div className={`row ${style.row}`}>
+          <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+            <Image src={RisMobile} className={style.RisMobile} />
+          </div>
+          <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
+            <Image src={RisImage} />
+            <h1>
+              TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
+              CORPORATION (MALAYSIA)
+            </h1>
+            <p>
+              Experience a new era in banking with Rize. Open a savings account
+              anytime, anywhere, apply for personal financing with funds
+              deposited in your account within 15 minutes. Rize provides 24/7
+              access to your financial information and a comprehensive suite of
+              banking services. Whether you want to check your balance, transfer
+              funds, pay bills, or deposit checks, it’s all convenient and
+              secure from the comfort of your home or on the go using Rize. Rize
+              is revolutionizing the banking experience, combining anytime,
+              anywhere access, robust security measures, personalized financial
+              insights, and a wide range of banking services. Embrace the power
+              of digital banking with Rize and unlock a world of possibilities
+              for effortless and efficient financial management.
+            </p>
+            <button className={`${style.btn} mt-3`}>Join Now</button>
           </div>
         </div>
       </div>
@@ -67,12 +97,12 @@ const page = () => {
             <h2 style={{fontWeight:"700"}}>Current Features</h2>
           </div>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 p-0">
               <div data-aos="fade-up" data-aos-duration="500" >
                 <Image className="img-fluid" src={aboutFirstSectionImg} />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 p-0">
               <div className={style.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
                 {/* <h2>
                   Why You Should Move <br />for Banking App <br />Development
@@ -125,7 +155,7 @@ const page = () => {
             Essential Banking Services
           </h1>
           <div className={style.flexBoxes}>
-            <div className={`col-lg-5 ${style.boxleft}`}>
+            <div className={`col-lg-5 ${style.boxleft} p-3`}>
               <h2>READY CASHLINE (RCL)</h2>
               <div className={style.section}>
                 <h5>Credit Line:</h5>
@@ -171,7 +201,7 @@ const page = () => {
                 </ul>
               </div>
             </div>
-            <div className={`col-lg-5 ${style.boxright} ${style.marginTop}`}>
+            <div className={`col-lg-5 p-3 ${style.boxright} ${style.marginTop}`}>
               <div className={style.tdSection}>
                 <h2>TERM DEPOSIT (TD)</h2>
                 <div className={style.section}>

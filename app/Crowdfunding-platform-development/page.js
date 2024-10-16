@@ -25,7 +25,7 @@ function page() {
                 tagLine2={"We Create Your Platform of Success."}
                 Des={false}
             />
-            <section className='mb-5 mt-5'>
+            <section className='d-lg-block d-none mb-5 mt-5'>
                 <div className="container-fluid px-lg-5">
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
@@ -56,6 +56,36 @@ function page() {
                 </div>
             </section>
 
+            <section className='d-lg-none d-block mb-5 mt-5'>
+                <div className="container px-lg-5">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image className="img-fluid" src={aboutFirstSectionImg} />                        </div>
+                        </div>
+                        <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
+                            <div className={styles.InnovativeBox}>
+                                <h4>Transforming Ideas into Funded <br /> Realities with Crowdfunding <br />Platform Development</h4>
+                                <p>Crowdfund with confidence at Fintechify. Our expert team crafts secure, custom platforms to launch your <br /> vision and empower your fundraising goals. Let’s turn ideas into reality, together.</p>
+                                <p>Fuel Your Fintech Vision: Is your client looking to revolutionize fundraising? Our team of experts builds <br /> feature-rich crowdfunding platforms tailored to their specific needs.</p>
+                                <p>Reach the Perfect Audience: We design user-friendly interfaces that attract both creators and backers,<br /> fostering a thriving crowdfunding  ecosystem.</p>
+                                <p>
+                                    Seamless Funding Solutions: Integrate secure payment gateways <br /> and transparent fund management tools to ensure a smooth and <br /> trustworthy experience.
+                                </p>
+                                <p>Built for Success: Our platforms are scalable and adaptable, empowering your client’s platform to grow <br />alongside their ambitions.</p>
+                                <p>More Than Development: We provide ongoing support and maintenance to ensure your client’s platform <br />stays secure, efficient, and at the forefront of the crowdfunding landscape</p>
+                            </div>
+                            <button className={styles.LuSend2}>
+                                <Link href="/contact-us" passHref>
+                                    <span style={{ textDecoration: "none", color: "white" }}>
+                                        JOIN NOW <FaArrowRight />
+                                    </span>
+                                </Link>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {/* <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container-fluid px-5">
                     <div className="row">

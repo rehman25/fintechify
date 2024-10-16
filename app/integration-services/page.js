@@ -23,8 +23,8 @@ function page() {
         tagLine2={"The Ultimate Connector."}
         Des={false}
       />
-      <section className="mb-5 mt-5">
-        <div className="container-fluid px-lg-5">
+      <section className="d-lg-block d-none mb-5 mt-5">
+        <div className="container px-lg-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -67,9 +67,54 @@ function page() {
           </div>
         </div>
       </section>
+      
+      <section className="d-lg-none d-block mb-5 mt-5">
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <Image src={img1} className="img-fluid" />
+              </div>
+            </div>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-offset="300"
+            >
+              <div className={styles.InnovativeBox}>
+                <h4>
+                  Experience Uninterrupted Operations for Optimal Performance
+                  with Fintechify Integration Services.
+                </h4>
+                <p>
+                  Fintechify knows in today’s digital world, seamless
+                  connections are the key to success. That’s why we offer
+                  Integration Services designed to demolish data silos and
+                  turbocharge your workflows. Imagine your systems working
+                  together in perfect harmony, unlocking a new level of
+                  efficiency for your business. Stop wrestling with outdated
+                  tech. Let Fintechify’s Integration Services be your secret
+                  weapon for achieving optimal performance.
+                </p>
+              </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className={styles.aboutFirst}>
-        <div className="container-fluid px-5">
+        <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-duration="2000">

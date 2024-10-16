@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/currencyexchangeimg.jpg";
-import Link from 'next/link'
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
 function page() {
@@ -21,7 +21,7 @@ function page() {
         tagLine2={"The future of currency exchange is here."}
         Des={false}
       />
-      <section className="mb-5 mt-5">
+      <section className="d-lg-block d-none mb-5 mt-5">
         <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
@@ -42,12 +42,12 @@ function page() {
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -57,6 +57,46 @@ function page() {
               >
                 <Image className="img-fluid" src={img} />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="d-lg-none d-block mb-5 mt-5">
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <Image className="img-fluid" src={img} />
+              </div>
+            </div>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-offset="300"
+            >
+              <div className={styles.InnovativeBox}>
+                <h4>Optimize Your Currency Exchange Strategies</h4>
+
+                <p>
+                  At Fintechify, we’re passionate about building currency
+                  exchange platforms that are easy to use, grow with your
+                  business, and offer powerful features for a smooth exchange
+                  experience. With years in fintech development, we know the ins
+                  and outs of currency exchange and are dedicated to creating
+                  solutions that go above and beyond.
+                </p>
+              </div>
+              <button className={styles.LuSend2}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -129,8 +169,8 @@ function page() {
         <div className="container-fluid px-lg-5">
           <div className="row">
             <h4>
-              Key Features of Our Currency Exchange <br />Platform Development
-              Service:
+              Key Features of Our Currency Exchange <br />
+              Platform Development Service:
             </h4>
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
@@ -155,8 +195,8 @@ function page() {
                     <p>
                       We understand finance is all about trust. That’s why our
                       platforms are fortresses, built with top-notch encryption,
-                      two-factor authentication, and industry-leading compliance.
-                      Your users’ funds and data are safe and sound.
+                      two-factor authentication, and industry-leading
+                      compliance. Your users’ funds and data are safe and sound.
                     </p>
                   </ul>
                 </div>
@@ -170,17 +210,18 @@ function page() {
                     <p>
                       No more juggling systems! Our platforms integrate smoothly
                       with all your financial partners, from APIs to banks and
-                      payment gateways. This means you can offer a wider range of
-                      currencies and payment options without the headache.
+                      payment gateways. This means you can offer a wider range
+                      of currencies and payment options without the headache.
                     </p>
                   </ul>
                   <ul>
                     <h5>Grow Fearlessly</h5>
                     <p>
                       Don’t let your platform hold you back. We build with
-                      scalability in mind, so your currency exchange platform can
-                      expand as your business booms. More users, more services, no
-                      problem. You’ll keep the same smooth performance you love.
+                      scalability in mind, so your currency exchange platform
+                      can expand as your business booms. More users, more
+                      services, no problem. You’ll keep the same smooth
+                      performance you love.
                     </p>
                   </ul>
                 </div>

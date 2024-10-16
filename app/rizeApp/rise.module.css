@@ -1,6 +1,5 @@
 .containerFluid {
-  padding: 0px 5px;
-  margin-bottom: 50px;
+  padding: 0;
 }
 
 .container {
@@ -42,11 +41,10 @@
 }
 
 .container2 {
-  padding: 30px;
+  /* padding: 30px; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* Allows wrapping of content on smaller screens */
 }
 
 .RisMobile {
@@ -227,14 +225,12 @@
 
 /* Responsive breakpoints */
 @media screen and (max-width:992px) {
-  .collg62>img {
-    display: none;
+  .container2{
+    margin-top: 80px !important;
   }
-
   .aboutFirstsection h2 {
     font-size: 30px;
   }
-
   .aboutFirstsection .iconFlexBox span {
     padding-right: 0;
   }
@@ -250,29 +246,29 @@
   .marginTop{
     margin-top: auto;
   }
+  .RisMobile{
+    height: 500px;
+    background: #FDFEFF;
+  }
+  .aboutFirst img {
+    border-radius: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+   border-radius: 0;
+  }
   .col12 {
     height: auto;
     padding: 20px;
   }
-
   .col12 h1 {
     font-size: 8vw;
-    /* Smaller font size for mobile */
   }
-
   .col12 p {
     width: 90vw;
-    /* Full width on mobile screens */
   }
-
-  .RisMobile {
-    width: 90vw;
-    height: auto;
-  }
-
   .btn {
     padding: 15px 20px;
     font-size: 12px;
@@ -284,24 +280,23 @@
 
 @media screen and (max-width: 480px) {
   .aboutFirstsection .iconFlexBox h3 {
-    font-size: 20px;
+    font-size: 14px;
   }
-
+  .aboutFirstsection .iconFlexBox div span{
+    font-size: 12px;
+    padding-right: 15px;
+  }
   .col12 h1 {
     font-size: 10vw;
-    /* Further reduce font size for smaller screens */
   }
-
   .col12 p {
     width: 95vw;
-    /* Adjust width to fit smaller screens */
   }
-
   .btn {
     padding: 10px 16px;
     font-size: 10px;
   }
   .row2 h1 {
-    font-size: 9vw;
+    font-size: 6vw;
   }
 }

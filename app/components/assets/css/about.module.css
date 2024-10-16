@@ -114,6 +114,10 @@
   .clientSeciton p {
     padding: 0 10px;
   }
+  .aboutFirstsection h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
   .aboutFirstsection .iconFlexBox h3 {
     font-size: 20px;
   }

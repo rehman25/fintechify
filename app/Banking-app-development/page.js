@@ -25,7 +25,7 @@ function page() {
                 tagLine2={"Banking that fits in Your Pocket"}
                 Des={false}
             />
-            <section className='mb-5 mt-5'>
+            <section className='mb-5 mt-5 d-lg-block d-none'>
                 <div className="container-fluid px-lg-5">
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
@@ -42,17 +42,49 @@ function page() {
                                 </p>
                             </div>
                             <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                                <Link href="/contact-us"passHref>
+                                    <span style={{ textDecoration: "none", color: "white" }}>
+                                    JOIN NOW <FaArrowRight />
+                                    </span>
+                                </Link>
+                            </button>
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
                                 <Image src={img1} className='img-fluid' />
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='mb-5 mt-5 d-lg-none d-block'>
+                <div className="container-fluid px-lg-5">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image src={img1} className='img-fluid' />
+                            </div>
+                        </div>
+                        <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
+                            <div className={styles.InnovativeBox}>
+                                <h4 className="">With Banking App Your finances, <br /> finallyon autopilot.</h4>
+                                <h5>Get Tired of Traditional Banking Trends?</h5>
+                                <p>Imagine a world where:</p>
+                                <p>You don’t need to rush to the bank before closing.
+                                    Checking your balance, transferring funds, or paying bills feels effortless.</p>
+                                <p>You have a smart assistant in your pocket, helping you manage your money with ease.</p>
+                                <p>
+                                    This is now Possible in Real World with our Banking App Development.
+                                    Fintechify crafts sleek, secure mobile banking that blasts past the     competition.  Our team of designers, developers, and strategists build  features that empower users and fuel growth.
+                                </p>
+                            </div>
+                            <button className={styles.LuSend2}>
+                                <Link href="/contact-us"passHref>
+                                    <span style={{ textDecoration: "none", color: "white" }}>
+                                    JOIN NOW <FaArrowRight />
+                                    </span>
+                                </Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -68,8 +100,8 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
-                                <h2>
-                                    Why You Should Move <br />for Banking App <br />Development
+                                <h2 className=''>
+                                    Why You Should Move for <br /> Banking App Development
                                 </h2>
                                 <div className={styles.iconFlexBox}>
                                     <IoMdCheckmarkCircleOutline />
@@ -81,7 +113,7 @@ function page() {
                                 <div className={styles.iconFlexBox}>
                                     <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Lower operational expenses by encouraging the use of mobile banking over physical branches.</h3>
+                                        <h3>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</h3>
                                         <span>Offer a more personalized and interactive banking experience.</span>
                                     </div>
                                 </div>

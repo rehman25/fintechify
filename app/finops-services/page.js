@@ -21,8 +21,8 @@ function page() {
         tagLine2={"Optimize your cloud for maximum performance and minimal spend."}
         Des={false}
       />
-      <section className="mb-5 mt-5">
-        <div className="container-fluid px-lg-5">
+      <section className="mb-5 mt-5 d-lg-block d-none">
+        <div className="container px-lg-5">
           <div className="row align-items-center">
             <div
               className="col-lg-6"
@@ -58,6 +58,47 @@ function page() {
               >
                 <Image className="img-fluid" src={img1} />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mb-5 mt-5 d-lg-none d-block">
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <Image className="img-fluid" src={img1} />
+              </div>
+            </div>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-duration="500"
+            >
+              <div className={styles.InnovativeBox}>
+                <h4>
+                  Your one-stop shop <br /> for FinOps Services.
+                </h4>
+                <p>
+                  Struggling with financial chaos? Ditch the spreadsheets!
+                  Fintechify is your financial SWAT team, blasting complexity
+                  and optimizing your business health. Startups or enterprises,
+                  we craft a plan unique to you. Join the revolution and unlock
+                  streamlined operations, soaring business health, and freedom
+                  from financial busywork. Enlist today!
+                </p>
+              </div>
+              <button className={styles.LuSend2}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import img1 from "../assets/images/sheikh2.jpg";
 function page() {
   return (
     <>
-      <section className="mb-5 mt-5">
+      <section className="mb-5" style={{marginTop: "100px"}}>
         <div className="container">
           <div className="row align-items-center">
             <div

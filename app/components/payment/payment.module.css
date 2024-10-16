@@ -1,5 +1,5 @@
 .containerFluid {
-    margin: 100px 0px;
+    margin: 100px 0px 0 0;
 }
 .about {
     padding: 8px 20px;
@@ -65,28 +65,29 @@
 .numberHover {
     background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     border: none;
-    width: 98px;
-    height: 50px;
-    margin: 0;
-    padding: 10px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
     font-size: 18px;
+    border-radius: 50%;
 }
 .number {
-    color: #065EFE;
-    border: 1px solid #ccc;
-    width: 98px;
-    height: 50px;
-    margin: 0;
-    padding: 10px;
+    font-size: 18px;
     border-radius: 50%;
+    border: 1px solid #ccc;
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    padding: 0 20px;
     font-size: 18px;
 }
 .divbg {
@@ -127,11 +128,10 @@
         padding: 10px;
     }
     .number, .numberHover {
-        width: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50px;
+        margin-left: 12px;
     }
     .about h4 {
         font-size: 14px;
@@ -141,11 +141,6 @@
     .card, .cardHover {
         flex-direction: column;
         padding: 5px;
-    }
-    .number, .numberHover {
-        width: 42px;
-        height: 40px;
-        margin: 17px 13px;
     }
     .about h4 {
         font-size: 12px;

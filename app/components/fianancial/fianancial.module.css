@@ -1,3 +1,5 @@
+
+.container{background: #FDFEFF;}
 .financialText {
   text-align: left;
 }
@@ -153,7 +155,6 @@
   padding: 15px;
   border-radius: 30px;
   position: absolute;
-  /* top: 15px; */
   bottom: 200px;
   left: 0;
 }
@@ -181,9 +182,6 @@
   color: aliceblue;
 }
 
-
-
-
 .res {
   display: flex;
 }
@@ -191,19 +189,14 @@
 @media screen and (max-width:992px) {
   .financialText h2 {
     font-size: 30px;
-  }
-
-  .rightPhone {
+  } 
+  .section{
     display: none;
   }
 }
-
 @media screen and (max-width:565px) {
   .financialText h2 {
     font-size: 30px;
-  }
-  .rightPhone {
-    display: none;
   }
   .percent1 {
     padding-right: 0px;
@@ -217,10 +210,10 @@
 }
 @media screen and (max-width:480px) {
   .percent{
-    margin: 0 !important;
+    margin-left: 10px !important;
   }
   .percentFlex{
-   flex-direction: column;
+    justify-content: space-between;
   }
   .percent1 {
     flex-direction: column;
@@ -229,8 +222,5 @@
   }
   .percent p{
     text-align: center;
-  }
-  .section{
-    display: none;
   }
 }

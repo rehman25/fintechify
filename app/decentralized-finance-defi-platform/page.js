@@ -23,7 +23,7 @@ const page = () => {
         Des={false}
       />
       
-      <section className="mb-5 mt-5">
+      <section className="d-lg-block d-none mb-5 mt-5">
         <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
@@ -98,6 +98,86 @@ const page = () => {
                   <Image className="img-fluid" src={img} />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="d-lg-none d-block mb-5 mt-5">
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6 ">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <div>
+                  <Image className="img-fluid" src={img} />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-offset="300"
+            >
+              <div className={styles.InnovativeBox}>
+                <h4>
+                  Revolutionize Your Finances: <br />Explore Our
+                  Powerful DeFi <br />Platform
+                </h4>
+                <p>
+                  Fintechify is shaking things up with our revolutionary
+                  Decentralized Finance (DeFi) platform, built for YOU.
+                </p>
+                <p>
+                  Break free from traditional limitations: Eliminate
+                  intermediaries and gain control over your investments, <br />
+                  borrowing, and lending activities.
+                </p>
+                <p>
+                  Unleash a world of possibilities: Explore a diverse range of
+                  DeFi products and services, including:
+                </p>
+                <p>
+                  Decentralized Exchanges (DEXs): Trade cryptocurrencies
+                  directly peer-to-peer without relying on <br />centralized
+                  platforms.
+                </p>{" "}
+                <p>
+                  Beyond Cash: It’s not just payments anymore. Imagine storing
+                  loyalty cards, tickets, and even <br />managing investments – all in
+                  one secure app. The future of finance is here!
+                </p>
+                <p>
+                  DeFi Lending & Borrowing: Earn interest on your crypto
+                  holdings or 
+                  borrow funds at competitive rates, <br />all facilitated by smart
+                  contracts.
+                </p>
+                <p>
+                  Yield Farming: Optimize your returns by strategically lending
+                  your crypto assets across <br />various DeFi protocols.
+                </p>
+                <p>
+                  Security & Transparency: Our platform prioritizes the safety
+                  of your funds with robust security <br /> protocols and
+                  transparent on-chain transactions.
+                </p>
+                <p>
+                  Seamless User Experience: We offer an intuitive interface and
+                  educational resources to help you<br /> navigate the DeFi landscape
+                  with confidence, regardless of your experience level.
+                </p>
+              </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
           </div>
         </div>

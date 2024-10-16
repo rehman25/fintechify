@@ -21,7 +21,7 @@ function page() {
         tagLine2={"Level Up Your Insurance Game with Fintechify"}
         Des={false}
       />
-      <section className="mb-5 mt-5">
+      <section className="d-lg-block d-none mb-5 mt-5">
         <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
@@ -79,6 +79,68 @@ function page() {
               >
                 <Image src={img2} className="img-fluid" />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="d-lg-none d-block mb-5 mt-5">
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <Image src={img2} className="img-fluid" />
+              </div>
+            </div>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-offset="300"
+            >
+              <div className={styles.InnovativeBox}>
+                <h4>
+                  Customized Insurance Software <br />Development Solutions
+                </h4>
+                <h5>Insure Your Advantage</h5>
+                <p>
+                  Fintechify understands the unique challenges you face in
+                  today’s dynamic insurance market. <br /> We’re not here to
+                  sell you a generic solution – we build custom-crafted
+                  software that empowers you to:
+                </p>
+                <p>
+                  Outmaneuver complexity: Streamline workflows, automate tasks,{" "}
+                  and say goodbye to data silos with <br /> intelligent,
+                  scalable solutions. 
+                  Become a fortress of security: Protect sensitive data and
+                  ensure <br /> compliance with unwavering security protocols.
+                </p>
+                <p>
+                  Deliver lightning-fast quotes: Impress customers with
+                  real-time responsiveness and a streamlined <br /> quoting
+                  process.
+                </p>
+                <p>
+                  Embrace the data revolution: Gain game-changing insights with{" "}
+                   robust analytics that help you make <br />smarter
+                  decisions.Fintechify isn’t just software, it’s your strategic
+                  partner. We work  closely with you to <br /> understand your
+                  specific needs and develop  solutions that fuel your
+                  growth and optimize your operations <br />
+                  Ready to unlock the full potential of your insurance business?
+                  Let’s talk!
+                </p>
+              </div>
+              <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
           </div>
         </div>

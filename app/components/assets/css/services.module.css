@@ -158,7 +158,8 @@
     color: black;
 }
 .aboutFirstsection h2 {
-    font-size: 48px;
+    font-size: 40px;
+    font-weight: 500;
 }
 .aboutFirstsection p {
     color: #e9e1e1;
@@ -189,7 +190,6 @@
 }
 .aboutFirst img {
     border-radius: 50px;
-    box-shadow: 3px 4px 0px #3f3739;
 }
 
 /* ================================================== */
@@ -440,6 +440,12 @@
 
 /* ========================================================================= */
 
+@media screen and (max-width:1024px){
+    .aboutFirstsection h2 {
+        font-size: 35px;
+    }
+}
+
 @media screen and (max-width:992px) {
     .aboutFirstsection h2 {
         font-size: 30px;
@@ -480,6 +486,13 @@
     #marginBoxTop{
         margin-top: 0;
     }
+    .InnovativeBox h4 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .aboutFirstsection h2 {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -489,18 +502,17 @@
     .processSection span {
         font-size: 15px;
     }
+    .InnovativeBox img {
+        border-radius: 10px;
+    }
+    .aboutFirst img {
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width:565px) {
     .everyoneSection h4 {
         font-size: 30px;
-    }
-    .InnovativeBox img {
-        border-radius: 10px;
-    }
-    .InnovativeBox h4 {
-        font-size: 30px;
-        text-align: left;
     }
     .InnovativeBox p {
         padding-right: 0px;
@@ -510,10 +522,10 @@
 
 @media screen and (max-width:480px) {
     .aboutFirstsection .iconFlexBox h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .processSection h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .getStartedSection .startedUpperBox h4 {
         font-size: 25px;
@@ -523,5 +535,23 @@
     }
     .startedBottomSection p {
         font-size: 16px;
+    }
+    .InnovativeBox h4 {
+        font-size: 20px;
+    }
+    .InnovativeBox p {
+        font-size: 12px;
+    }
+    .aboutFirstsection h2 {
+        font-size: 20px;
+    }
+    .iconFlexBox svg{
+        display: none;
+    }
+    .aboutFirstsection p{
+        font-size: 13px;
+    }
+    .servicessection .keyBox{
+        font-size: 20px;
     }
 }

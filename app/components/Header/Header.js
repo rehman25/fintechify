@@ -52,7 +52,9 @@ export default function Header() {
     return (
         <>
             <header className={styles.header}>
-                <Image className={styles.logo} src={logo} alt="Logo" />
+                <Link href="/">
+                    <Image className={styles.logo} src={logo} alt="Logo" />
+                </Link>
                 <nav className={`${styles.nav}`}>
                     <ul>
                         <li><Link href="/">HOME</Link></li>
@@ -76,7 +78,8 @@ export default function Header() {
                     </ul>
                 </nav>
                 <div className={styles.actions}>
-                    <button className={styles.btnStart}>GET STARTED <FaArrowRight />
+                    <button className={styles.btnStart}>
+                        <Link href="/contact-us" style={{color:"white"}}> GET STARTED <FaArrowRight /></Link>
                     </button>
                     <button className={styles.menuButton} onClick={toggleSidebar}>
                         {isOpen ? <MdClose /> : <FaBars />}

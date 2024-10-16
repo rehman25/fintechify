@@ -7,9 +7,8 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
 import img from "../components/assets/images/cyberimg.jpeg";
-import Link from 'next/link'
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
-
 
 function page() {
   return (
@@ -22,7 +21,7 @@ function page() {
         tagLine2={"Defend, Protect, And Prevail!"}
         Des={false}
       />
-      <section className="mb-5 mt-5">
+      <section className="d-lg-block d-none mb-5 mt-5">
         <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
             <div
@@ -31,7 +30,9 @@ function page() {
               data-aos-offset="300"
             >
               <div className={styles.InnovativeBox}>
-                <h4>Why Your Business Deserves <br /> Cybersecurity Excellence</h4>
+                <h4>
+                  Why Your Business Deserves <br /> Cybersecurity Excellence
+                </h4>
 
                 <p>
                   User Explosion: Prevent data breaches and protect confidential
@@ -62,12 +63,12 @@ function page() {
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
             <div className="col-lg-6">
               <div
@@ -81,8 +82,68 @@ function page() {
           </div>
         </div>
       </section>
+      <section className="d-lg-none d-block mb-5 mt-5">
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <Image className="img-fluid" src={img} />
+              </div>
+            </div>
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-offset="300"
+            >
+              <div className={styles.InnovativeBox}>
+                <h4>
+                  Why Your Business Deserves <br /> Cybersecurity Excellence
+                </h4>
 
-      
+                <p>
+                  User Explosion: Prevent data breaches and protect confidential
+                  information from cybercriminals who are constantly evolving
+                  their tactics.
+                </p>
+                <p>
+                  Build Customer Trust: A secure business fosters loyalty. By
+                  investing in strong cybersecurity measures, you reassure your
+                  clients that their data is in safe hands.
+                </p>
+                <p>
+                  Ensure Business Continuity: Cyberattacks can lead to costly
+                  downtime and disrupt your operations. Protect your business
+                  with proactive defense to keep running smoothly, no matter
+                  what.
+                </p>
+                <p>
+                  Stay Compliant with Industry Standards: Many industries
+                  require stringent data security regulations. With robust
+                  cybersecurity, your business remains compliant and avoids
+                  hefty fines.
+                </p>
+                <p>
+                  Protect Your Reputation: One security breach can tarnish years
+                  of brand-building. Defend your reputation by staying ahead of
+                  potential threats with cutting-edge cybersecurity solutions.
+                </p>
+              </div>
+              <button className={styles.LuSend2}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    JOIN NOW <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-5 ">
           <div className="row">
@@ -165,7 +226,7 @@ function page() {
         </div>
       </section> */}
 
-     <section className={styles.processSection} data-aos="fade-up">
+      <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5 ">
           <div className="row">
             <div className="text-center mb-5">
@@ -198,7 +259,8 @@ function page() {
                     <p>
                       Customers are increasingly concerned about the safety of
                       their personal information. By securing your business, you
-                      maintain their trust and loyalty, driving long-term success.
+                      maintain their trust and loyalty, driving long-term
+                      success.
                     </p>
                   </ul>
                   <ul>
@@ -289,28 +351,31 @@ function page() {
           </div>
         </div>
       </section>
-      
+
       <section className={`${styles.servicessection}`}>
         <div className="container">
           <div className="row">
-            <h5>Fortify Your Future: Unbeatable <br /> Cybersecurity Services from Fintechy.ae</h5>
+            <h5 className={styles.keyBox}>
+              Fortify Your Future: Unbeatable <br /> Cybersecurity Services from
+              Fintechy.ae
+            </h5>
           </div>
           <div className="row justify-content-center">
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Threat Detection and Response</h4>
                 <span className="text-start pt-3">
                   Stay one step ahead of cybercriminals with our real-time threat detection and response service. At Fintechy.ae, we monitor your systems 24/7, identifying potential risks before they become a problem. Protect your business from breaches, ensuring your data stays secure and your operations uninterrupted.</span>
               </div>
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Network Security</h4>
                 <span className="text-start pt-3">
                   Your network is the backbone of your business. Our advanced network security solutions provide multi-layered protection, safeguarding against malware, ransomware, and unauthorized access. With Fintechy.ae, your network will be fortified, ensuring every connection is safe and secure.</span>
               </div>
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Cloud Security</h4>
                 <span className="text-start pt-3">
@@ -318,7 +383,7 @@ function page() {
                 </span>
               </div>
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Data Encryption Services</h4>
                 <span className="text-start pt-3">
@@ -326,7 +391,7 @@ function page() {
                 </span>
               </div>
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Vulnerability Assessment and Penetration Testing</h4>
                 <span className="text-start pt-3">
@@ -334,7 +399,7 @@ function page() {
                 </span>
               </div>
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Cybersecurity Compliance Consulting</h4>
                 <span className="text-start pt-3">
@@ -342,7 +407,7 @@ function page() {
                 </span>
               </div>
             </div>
-            <div className="col-lg-4 mt-5">
+            <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Incident Response and Recovery</h4>
                 <span className="text-start pt-3">

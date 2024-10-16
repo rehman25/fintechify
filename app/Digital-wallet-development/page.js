@@ -22,8 +22,8 @@ const page = () => {
         tagLine2={"Be a pioneer in the financial revolution."}
         Des={false}
       />
-      <section className='mb-5 mt-5'>
-        <div className="container-fluid px-lg-5">
+      <section className='d-lg-block d-none mb-5 mt-5'>
+        <div className="container px-lg-5">
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
               <div className={styles.InnovativeBox}>
@@ -48,6 +48,37 @@ const page = () => {
               <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
                 <Image src={img1} className='img-fluid' />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='d-lg-none d-block mb-5 mt-5'>
+        <div className="container px-lg-5">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                <Image src={img1} className='img-fluid' />
+              </div>
+            </div>
+            <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
+              <div className={styles.InnovativeBox}>
+                <h4>Why Digital Wallet Development is Booming.</h4>
+                <p>The world is witnessing a mobile payment revolution, and at the heart of it all lies digital wallet development.  Cash is becoming a relic, replaced by the sleek convenience of digital wallets. But this isn’t just about replacing plastic with pixels. Here’s why digital wallet development is a goldmine::</p>
+                <p>User Explosion: The mobile wallet market is about to explode over 50% growth in just a few years!  Your digital wallet app will be surfing a tidal wave of new customers..</p>
+                <p>Frictionless Payments: Gone are the days of fumbling for cards. Digital wallets make checkouts a breeze one tap is all it takes!.</p>
+                <p>
+                  Fort Knox Security: Worried about safety? Digital wallets are security champions, using cutting-edge tech to keep your finances safe.                </p>
+                <p>Beyond Cash: It’s not just payments anymore.  Imagine storing loyalty cards, tickets, and even managing investments – all in one secure app.  The future of finance is here!</p>
+                <p>Ready to join the revolution?  Develop the next game-changing digital wallet app!</p>
+                    </div>
+                    <button className={styles.LuSend2}>
+                  <Link href="/contact-us"passHref>
+                    <span style={{ textDecoration: "none", color: "white" }}>
+                      JOIN NOW <FaArrowRight />
+                    </span>
+                  </Link>
+                </button>
             </div>
           </div>
         </div>
