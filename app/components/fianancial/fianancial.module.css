@@ -216,6 +216,12 @@
   }
 }
 @media screen and (max-width:480px) {
+  .percent{
+    margin: 0 !important;
+  }
+  .percentFlex{
+   flex-direction: column;
+  }
   .percent1 {
     flex-direction: column;
     justify-content: center;
@@ -224,5 +230,7 @@
   .percent p{
     text-align: center;
   }
-  
+  .section{
+    display: none;
+  }
 }

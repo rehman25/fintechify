@@ -22,7 +22,6 @@ function Page() {
                   <br />
                   with Fintechify
                 </h4>
-
                 <p>
                   Fintech is changing the way we manage our money, making it
                   faster, easier, and more accessible for everyone. For example,
@@ -39,7 +38,7 @@ function Page() {
                   solutions, seamlessly integrating expertise to fuel your
                   growth. Let’s transform together towards shared success!
                 </p>
-                <button className={styles.LuSend2}>
+                <button className={`${styles.LuSend2} mt-3 d-lg-block d-none`}>
                   <Link href="/contact-us"passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
                       GET STARTED <FaArrowRight />
@@ -56,6 +55,13 @@ function Page() {
               >
                 <Image src={img1} alt="Fintech Image" className="img-fluid" />
               </div>
+              <button className={`${styles.LuSend2} mt-3 d-lg-none d-block`}>
+                <Link href="/contact-us"passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    GET STARTED <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
           </div>
         </div>

@@ -12,7 +12,6 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: center;
   }
   .about svg{
     margin-right: 5px;
@@ -40,6 +39,7 @@
     font-size: 13px;
     padding-right: 50px;
   }
+ 
   .LuSend {
     display: flex;
     align-items: flex-start;
@@ -104,10 +104,9 @@
   /* SERVICES CARDS ============================================================================================== */
   .card {
     border: 1px solid #d3d3d361;
-    padding: 50px 30px;
-    width: 23vw;
+    padding: 50px 20px;
     border-radius: 30px;
-    margin: 10px 0;
+    margin: 10px 20px;
     cursor: pointer;
   }
   .card:hover {
@@ -142,7 +141,7 @@
     color: white;
     background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
   }
-  .rightBoxes {
+  /* .rightBoxes {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -150,14 +149,8 @@
     padding: 10px 0;
     flex-wrap: wrap;
     flex-direction: row;
-  }
+  } */
   /* ============================================================================ */
-  @media (min-width: 2408px) and (max-width: 3000px){
-    .card {
-      width: 12vw;
-      padding: 70px 40px;
-    }
-  }
   @media (min-width: 1673px) and (max-width: 2407px) {
     .about {
       padding: 10px 25px;
@@ -165,10 +158,6 @@
     }
     .about h4 {
       font-size: 20px;
-    }
-    .card {
-      width: 17vw;
-      padding: 60px 35px;
     }
     .card h2 {
       font-size: 30px;
@@ -219,23 +208,25 @@
     .LuSend2 button {
       padding: 15px 20px;
     }
-  } 
-  @media (max-width: 1024px) {
-    .about {
-      width: 15vw;
+  }
+  @media screen and (max-width:992px){
+    .flexBoxNew{
+      display: flex;
+      flex-wrap: wrap;
     }
+    .flexBoxNew .LuSend:nth-child(2){
+      margin-left: 60px;
+    }
+    .rightBoxes > #flexRow{
+      justify-content: start !important;
+    }
+  }
+  @media (max-width: 1024px) {
     .about h4 {
       font-size: 16px;
     }
-    .card {
-      width: 35vw;
-      padding: 20px;
-    }
   }
   @media (max-width: 768px) {
-    .about {
-      width: 20vw;
-    }
     .about h4 {
       font-size: 14px;
     }
@@ -248,16 +239,17 @@
       font-size: 14px;
     }
   }
-  @media (max-width: 480px) {
-    .about {
-      width: 40vw;
+  @media screen and (max-width:568px){
+    .flexBoxNew{
+      flex-direction: column;
     }
+    .flexBoxNew .LuSend:nth-child(2){
+      margin-left: 0 !important;
+    }
+  }
+  @media (max-width: 480px) {
     .about h4 {
       font-size: 12px;
-    }
-    .card {
-      width: 90vw;
-      padding: 15px;
     }
     .arrow {
       width: 35px;
@@ -277,4 +269,5 @@
       width: 100%;
       text-align: center;
     }
+    
   }
