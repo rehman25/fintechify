@@ -195,8 +195,9 @@
 }
 
 .linksSection a:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #1f96fd;
   transition: all 1s;
+  color: #1f96fd !important;
 }
 
 .footerBottom {
