@@ -79,12 +79,7 @@ const Banner = () => {
                 <div className={`${style.box7}`}></div>
               </div>
             </div>
-
             <Image src={Phone1} alt="Phone1" className={style.phoner1} />
-
-            {/* <div className={`row m-0 ${style.btmRow4}`}>
-              
-            </div> */}
           </div>
         )}
 

@@ -297,21 +297,7 @@
   background: transparent;
 }
 
-.btmRow3 {
-  line-height: 0px;
-  overflow: visible;
-  padding: 0px;
-  display: flex;
-  z-index: 6;
-  position: relative;
-  height: 40vh;
-  top: 20%;
-  vertical-align: top;
-  transform-origin: 50% 50%;
-  transform: translate(0px, 0px);
-  pointer-events: none;
-  background: transparent;
-}
+
 .btmRow4 {
   line-height: 0px;
   overflow: visible;
@@ -522,12 +508,12 @@
 
 .row3Child{
   position: relative;
-  top:-22%;
+  top:-30%;
 }
 
 .row3Child2{
   position: relative;
-  top: 20%;
+  top: 2%;
 }
 .box1 {
   overflow: visible;
@@ -538,7 +524,7 @@
   clear: none;
   border-radius: 20px;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   transform-origin: 50% 50%;
   transform: translate(0px, 0px);
   display: block;
@@ -687,15 +673,189 @@
 
 
 
-@media screen and (max-width: 1500px) {
 
 
+@media screen and (max-width: 1380px) {
+  .btmRow3 {
+    line-height: 0px;
+    overflow: visible;
+    padding: 0px;
+    display: flex;
+    z-index: 6;
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+  
+    vertical-align: top;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    pointer-events: none;
+    background: transparent;
+  }
+  
+  .row3Child{
+    position: relative;
+    top: -80%;
+  }
+  
+  .row3Child2{
+    position: relative;
+    top: -20%;
+  }
+  .box1 {
+    overflow: visible;
+    padding: 0px;
+    width: 23vw;
+    height: 30vh;
 
-
-}
-
-@media screen and (max-width: 1400px) {
-
+    float: none;
+    clear: none;
+    border-radius: 20px;
+    position: absolute;
+    /* bottom: 0; */
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    display: block;
+    background: url("../assets/images/revslider_1_img-1.jpg") right top / cover
+      no-repeat transparent;
+    left: -5%;
+    /* top: -10%; */
+    /* top: -40%; */
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scale-up-center 1s linear 0s 1 normal none;
+  }
+  
+  .box2 {
+    overflow: visible;
+    padding: 0px;
+    width: 24vw;
+    height: 65vh;
+    border-radius: 20px;
+    position: absolute;
+    background: url("../assets/images/revslider_1_img-3.jpg") left top / cover no-repeat transparent;
+    left: 23%;
+    top: -1%;
+  
+    /* bottom: 0; */
+    opacity: 1;
+    z-index: 9999;
+    animation: scale-up-center 1s linear 0s 1 normal none;
+  }
+  
+  .box3 {
+    overflow: visible;
+    padding: 0px;
+    width: 23vw;
+    height: 27vh;
+    background-size: contain;
+    float: none;
+    clear: none;
+    border-radius: 20px;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    display: block;
+    background: url("../assets/images/revslider_1_img-4.jpg") center / cover
+      no-repeat transparent;
+    right: 24%;
+     top: 10%;
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scale-up-center 1s linear 0.2s 1 normal none;
+  }
+  
+  .box4 {
+    overflow: visible;
+    padding: 0px;
+    width: 22vw;
+    height: 30vh;
+    float: none;
+    clear: none;
+    border-radius: 20px;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    display: block;
+    background: url("../assets/images/revslider_1_img-6.jpg") left top / cover no-repeat transparent;
+    right: -4%;
+    /* top: -45%; */
+  
+  
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scale-up-center 1s linear 0.3s 1 normal none;
+  }
+  
+  .box5 {
+    overflow: visible;
+    padding: 0px;
+    width: 23vw;
+    height: 31vh;
+    background-size: contain;
+    float: none;
+    clear: none;
+    border-radius: 20px;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    background: url("../assets/images/revslider_1_img-2.jpg") left top / cover
+      no-repeat transparent;
+      left: -5%;
+      /* top: 20%; */
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scale-up-center 1s linear 0.4s 1 normal none;
+  }
+  
+  .box6 {
+    overflow: visible;
+    padding: 0px;
+    width: 23vw;
+    height: 33vh;
+    background-size: contain;
+    float: none;
+    clear: none;
+    border-radius: 20px;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    display: block;
+    background: url("../assets/images/revslider_1_img-5.jpg") left top / cover no-repeat transparent;
+    right: 24%;
+    /* bottom: 0%; */
+    /* top: 40%; */
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scale-up-center 1s linear 0.5s 1 normal none;
+  }
+  
+  .box7 {
+    overflow: visible;
+    padding: 0px;
+    width: 23vw;
+    height: 33vh;
+    background-size: contain;
+    float: none;
+    clear: none;
+    border-radius: 20px;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    display: block;
+    background: url("../assets/images/revslider_1_img-7.jpg") left top / cover no-repeat transparent;
+    right: -4%;
+    /* top: 40%; */
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: none;
+    animation: scale-up-center 1s linear 0.6s 1 normal none;
+  }
 } 
 @media screen and (max-width:1280px) {
   
@@ -728,10 +888,10 @@
 
   }
  .row3Child{
-   top: 15%;
+   top: -25%;
  } 
  .row3Child2{
-  top: 18%;
+  top: 10%;
 } 
 
 
@@ -772,6 +932,22 @@
   
 }
 @media screen and (max-width: 1024px) {
+  .box1,.box3,.box4,.box5,.box6,.box7{
+    width: 23vw;
+    height: 20vh;
+   }
+   .box3{
+    top: 0%;
+   }
+   .box2{
+     width: 26vw;
+     height: 40vh;
+     left: 22%;
+  
+    }
+  .row3Child{
+    top: -60%;
+  }
   .colleft {
     padding-left: 70px;
   }
@@ -807,20 +983,20 @@
   }
   .box2{
     width:25vw;
-    height: 40vh;
+    height: 35vh;
     left: 22%;
     /* top: -30%; */
   }
   .box1, .box3 , .box4 , .box5, .box6 , .box7{
-    width: 20vw;
-    height: 18vh;
+    width: 23vw;
+    height: 15vh;
   }
 
  .row3Child{
-  top: -45%;
+  /* top: -45%; */
 } 
 .row3Child2{
- top: -35%;
+ /* top: -35%; */
 } 
   .colright button {
     width: 25vw;
@@ -883,7 +1059,7 @@
   }
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:768px) {
   /* .btmRow{
     top: 30%;
   } */
@@ -942,10 +1118,10 @@
         height: 10vh;
   }
   .row3Child{
-    top: 21%;
+    top: -100%;
   } 
   .row3Child2{
-    top: 3%;
+    /* top: 3%; */
   } 
 
 
@@ -1077,7 +1253,7 @@
   .box2{
     border-radius: 10px;
     width: 23vw;
-    height: 15vh;
+    height: 20vh;
     left: 24.5%;
     top: -1%;
   }
@@ -1087,14 +1263,14 @@
   .box5,
   .box6,
   .box7 {
-    width: 20vw;
+    width: 23vw;
         height: 8vh;
   }
   .row3Child{
-    top: 53%;
+    top: -10%;
   } 
   .row3Child2{
-    top: 25%;
+    top: -0%;
   } 
 
 
@@ -1225,6 +1401,75 @@
  
 }
 
+@media screen and (max-width: 480px) {
+
+  .box2{
+    border-radius: 10px;
+    height: 19vh;
+  }
+  .box1,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    width: 23vw;
+        height: 8vh;
+  }
+  .row3Child{
+    top: -13%;
+  } 
+  .row3Child2{
+    /* top: -0%; */
+  } 
+
+  .btmRow3{
+   top: -10%;
+  }  
+  .btmRow4{
+   top: -6%;
+  }   
+   .colright button{
+     width: 50vw;
+    }
+   .colleft h1{
+     font-size: 28px;
+     line-height: 40px;
+    }
+    .colright p{
+     font-size: 16px;
+    }
+    .colright2 button{
+     width: 50vw;
+    }
+   .colleft2 h1{
+     font-size: 28px;
+     line-height: 40px;
+    }
+    .colright2 p{
+     font-size: 16px;
+    }
+    .head1, .head2 , .head3{
+     width: 30px;
+     height: 30px;
+    }
+    .head2{
+     left: 14px;
+    }
+    .head4{
+     width:30px;
+     height: 30px;
+    }
+    .slider1{
+     height: 55vh;
+    }
+    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
+     height: 11vh;
+    }
+    
+   
+   
+ }
 @media screen and (max-width: 451px) {
 
  .btmRow3{
@@ -1284,7 +1529,7 @@
     padding-left: 10px;
   }
   .btmRow3 {
-    top: -10%;
+    /* top: -10%; */
   }
   .colleft h1{
     font-size: 22px;
@@ -1323,24 +1568,36 @@
    }
 
   .btmRow2{
-    top: 0%;
+    /* top: 0%; */
+  }
+  .btmRow3{
+    top:1%;
   }
   .row3Child{
-    top: 35%;
+    top: -10%;
   }
   .row3Child2{
     top: 10%;
+  }
+  .box2{
+    height: 16.5vh;
   }
   
 }
 
 @media screen and (max-width:415px) {
+  .box2{
+    border-radius: 10px;
+    width: 25vw;
+    height: 16.5vh;
+    left: 23%;
+  }
 
 .row3Child{
-  top: 35%;
+  top: -20%;
 }
 .row3Child2{
-  top: 10%;
+  /* top: -5%; */
 }
  
 
@@ -1383,10 +1640,10 @@
         height: 8vh;
   }
   .row3Child{
-    top: 23%;
+    /* top: -20%; */
   } 
   .row3Child2{
-    top: -5%;
+    top: 15%;
   } 
   .slider1{
     height: 50vh;
@@ -1475,6 +1732,9 @@
     /* left: 24.5%; */
     /* top: -25%; */
   }
+  .btmRow3{
+    top:1%;
+  }
   .box1, .box3 , .box4 , .box5, .box6 , .box7{
     width: 23vw;
     height: 8vh;
@@ -1482,7 +1742,7 @@
   
   }
   .row3Child{
-    top: 35%;
+    top: -27%;
   }
   .row3Child2{
     top: 10%;

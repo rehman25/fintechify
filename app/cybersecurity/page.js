@@ -299,21 +299,21 @@ function page() {
             <div className="col-lg-4 mt-5">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Threat Detection and Response</h4>
-                <span className="text-start">
+                <span className="text-start pt-3">
                   Stay one step ahead of cybercriminals with our real-time threat detection and response service. At Fintechy.ae, we monitor your systems 24/7, identifying potential risks before they become a problem. Protect your business from breaches, ensuring your data stays secure and your operations uninterrupted.</span>
               </div>
             </div>
             <div className="col-lg-4 mt-5">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Network Security</h4>
-                <span className="text-start">
+                <span className="text-start pt-3">
                   Your network is the backbone of your business. Our advanced network security solutions provide multi-layered protection, safeguarding against malware, ransomware, and unauthorized access. With Fintechy.ae, your network will be fortified, ensuring every connection is safe and secure.</span>
               </div>
             </div>
             <div className="col-lg-4 mt-5">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Cloud Security</h4>
-                <span className="text-start">
+                <span className="text-start pt-3">
                   As businesses transition to the cloud, so do cyber threats. Fintechy.ae ensures your cloud-based data and services are protected with cutting-edge encryption, access controls, and continuous monitoring, allowing you to enjoy the flexibility of the cloud without compromising security.
                 </span>
               </div>
@@ -321,7 +321,7 @@ function page() {
             <div className="col-lg-4 mt-5">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Data Encryption Services</h4>
-                <span className="text-start">
+                <span className="text-start pt-3">
                   Your data is your most valuable asset—protect it with our state-of-the-art encryption solutions. Fintechy.ae secures sensitive information in transit and at rest, making it virtually impossible for hackers to intercept or misuse your data, whether it’s on your network or stored in the cloud.
                 </span>
               </div>
@@ -329,7 +329,7 @@ function page() {
             <div className="col-lg-4 mt-5">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Vulnerability Assessment and Penetration Testing</h4>
-                <span className="text-start">
+                <span className="text-start pt-3">
                   Don’t wait for a cyberattack to expose weaknesses in your security. Fintechy.ae offers thorough vulnerability assessments and penetration testing, identifying potential threats before they strike. We pinpoint your system’s vulnerabilities and provide actionable solutions to strengthen your defenses.
                 </span>
               </div>
@@ -337,7 +337,7 @@ function page() {
             <div className="col-lg-4 mt-5">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Cybersecurity Compliance Consulting</h4>
-                <span className="text-start">
+                <span className="text-start pt-3">
                   Compliance is key to maintaining a secure and legally sound business. Fintechy.ae helps you navigate complex regulations such as GDPR, CCPA, and more, ensuring your business meets all security standards while avoiding costly fines. We keep you compliant, so you can focus on growth.
                 </span>
               </div>
@@ -345,7 +345,7 @@ function page() {
             <div className="col-lg-4 mt-5">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
                 <h4 className="text-start">Incident Response and Recovery</h4>
-                <span className="text-start">
+                <span className="text-start pt-3">
                   In the event of a breach, Fintechy.ae’s rapid incident response team is here to minimize damage and get your business back on track. Our experts handle everything from containment to recovery, ensuring your data is restored and your operations resume with minimal downtime.
                 </span>
               </div>
