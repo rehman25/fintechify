@@ -11,6 +11,7 @@
   .check{
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     flex-direction: column;
   }
   .about svg{
@@ -269,5 +270,6 @@
       width: 100%;
       text-align: center;
     }
+   
     
   }
