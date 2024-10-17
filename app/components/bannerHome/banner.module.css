@@ -1563,6 +1563,7 @@
 
    
   .colright button{
+    padding: 10px 25px;
     width: 50vw;
    }
   .colleft h1{
@@ -1573,6 +1574,7 @@
     font-size: 16px;
    }
    .colright2 button{
+    padding: 10px 25px;
     width: 50vw;
    }
   .colleft2 h1{
