@@ -145,7 +145,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.footerBottom}>
-          <p>&copy; 2024 FinTechify. All rights reserved.</p>
+          <p className="text-center">&copy; 2024 FinTechify. All rights reserved.</p>
         </div>
       </footer>
     </>
