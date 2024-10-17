@@ -64,19 +64,19 @@ export default function Footer() {
                 <h4>Services</h4>
                 <ul>
                   <li>
-                    <Link href="#">Banking App Development</Link>
+                    <Link href="/Banking-app-development">Banking App Development</Link>
                   </li>
                   <li>
-                    <Link href="#">Digital Wallet Development</Link>
+                    <Link href="/Digital-wallet-development">Digital Wallet Development</Link>
                   </li>
                   <li>
-                    <Link href="#">Insurance Software Development</Link>
+                    <Link href="/Insurance-software-development">Insurance Software Development</Link>
                   </li>
                   <li>
-                    <Link href="#">FinOps Services</Link>
+                    <Link href="/finops-services">FinOps Services</Link>
                   </li>
                   <li>
-                    <Link href="#">Crowdfunding Platform Development</Link>
+                    <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development</Link>
                   </li>
                 </ul>
               </div>
@@ -84,25 +84,25 @@ export default function Footer() {
                 <ul>
                   <h4></h4>
                   <li>
-                    <Link href="#">
+                    <Link href="/decentralized-finance-defi-platform">
                       Decentralized Finance <br />
                       (DeFi) Platform
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">Integration Services</Link>
+                    <Link href="/integration-services">Integration Services</Link>
                   </li>
                   <li>
-                    <Link href="#">Resource Augmentation</Link>
+                    <Link href="/resource-augmentation">Resource Augmentation</Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/currency-exchange-platform-development">
                       Currency Exchange <br />
                       Platform Development
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">Cybersecurity</Link>
+                    <Link href="/cybersecurity">Cybersecurity</Link>
                   </li>
                 </ul>
               </div>
