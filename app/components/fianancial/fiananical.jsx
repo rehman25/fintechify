@@ -73,6 +73,7 @@ const FinancialComponent = () => {
               <div className={styles.marqueeContent}>
                 <Image src={Brand1} alt="Brand 1" className={styles.brand} />
                 <Image src={Brand2} alt="Brand 2" className={styles.brand} />
+                <Image src={Brand2} alt="Brand 2" className={styles.brand} />
                 {/* <Image src={Brand3} alt="Brand 3" className={styles.brand} />
                 <Image src={Brand4} alt="Brand 4" className={styles.brand} />
                 <Image src={Brand5} alt="Brand 5" className={styles.brand} />

@@ -96,6 +96,7 @@
 .bg1 {
     border-radius: 30px;
     animation: focus-in-contract 1s ease 0s 1 normal none;
+    height: auto;
 }
 @keyframes focus-in-contract {
     0% {
