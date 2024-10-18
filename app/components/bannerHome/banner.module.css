@@ -97,9 +97,10 @@
 }
 
 .phoner {
-  right: 0px;
-  top: 0;
+  right: -150px;
+  top: -120px;
   position: absolute;
+  opacity: 0.3;
 }
 
 .phoner1 {
@@ -1564,7 +1565,7 @@
    
   .colright button{
     padding: 10px 25px;
-    width: 50vw;
+    width: 40vw;
    }
   .colleft h1{
     font-size: 28px;
@@ -1575,7 +1576,7 @@
    }
    .colright2 button{
     padding: 10px 25px;
-    width: 50vw;
+    width: 40vw;
    }
   .colleft2 h1{
     font-size: 28px;

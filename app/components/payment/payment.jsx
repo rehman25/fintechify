@@ -4,8 +4,10 @@ import style from "./payment.module.css";
 import { RiSettings2Line } from "react-icons/ri";
 import Image from "next/image";
 import bg1 from "../assets/images/h1_showcase1.jpg";
-import bg2 from "../assets/images/h1_showcase2.jpg";
-import bg3 from "../assets/images/h1_showcase3.jpg";
+import bg2 from "../assets/images/h1_showcase2.png";
+import bg3 from "../assets/images/h1_showcase3.png";
+import bg4 from "../assets/images/h1_showcase4.png";
+import bg5 from "../assets/images/h1_showcase5.png";
 import { MdOutlinePayment } from "react-icons/md";
 
 const payment = () => {
@@ -180,12 +182,12 @@ const payment = () => {
             )}
             {isHover3 && (
               <div className={style.divbg}>
-                <Image src={bg3} className={`${style.bg1} img-fluid`} />
+                <Image src={bg4} className={`${style.bg1} img-fluid`} />
               </div>
             )}
             {isHover4 && (
               <div className={style.divbg}>
-                <Image src={bg3} className={`${style.bg1} img-fluid`} />
+                <Image src={bg5} className={`${style.bg1} img-fluid`} />
               </div>
             )}
           </div>

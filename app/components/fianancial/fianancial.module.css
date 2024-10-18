@@ -86,7 +86,8 @@
 
 /* Section background */
 .section {
-  background-color: #00dcc766;
+  background-color: #1f96fc;
+
   padding: 0px 0;
 }
 
@@ -96,6 +97,8 @@
   transform: rotateZ(2deg);
   overflow-x: hidden;
   padding: 30px 0;
+  display: flex;
+  align-items: center;
 }
 
 .containerFluid h4 {
@@ -106,7 +109,7 @@
 
 .marqueeWrapper {
   overflow: clip;
-  margin-top: 35px;
+  /* margin-top: 35px; */
 }
 
 .marquee {
@@ -146,7 +149,9 @@
 
 .brand {
   margin: 0px 25px;
-  height: 27px;
+  height: 19vh;
+  width: 50vw;
+  /* filter: invert(1); */
 }
 
 .OneApp {
