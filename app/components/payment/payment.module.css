@@ -97,6 +97,8 @@
     border-radius: 30px;
     animation: focus-in-contract 1s ease 0s 1 normal none;
     height: auto;
+    height: 87vh;
+
 }
 @keyframes focus-in-contract {
     0% {
@@ -107,6 +109,24 @@
     100% {
         filter: blur(0);
         opacity: 1;
+    }
+}
+
+@media screen and (max-width:1880px) {
+    .bg1{
+        height: 90vh;
+    }
+
+}
+@media screen and (max-width:1380px) {
+    .bg1{
+        height: 96vh;
+    }
+
+}
+@media screen and (max-width:1280px) {
+    .bg1{
+        height: 94vh;
     }
 }
 @media (max-width: 1200px) {
@@ -150,3 +170,5 @@
         margin-top: 15px;
     }
 }
+
+
