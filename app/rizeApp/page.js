@@ -31,7 +31,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className={`container  d-lg-block d-none ${style.container2}`}>
+      <div className={`container d-lg-block d-none ${style.container2}`}>
         <div className={`row ${style.row}`}>
           <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
             <Image src={RisImage} />

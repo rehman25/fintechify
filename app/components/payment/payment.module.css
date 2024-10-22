@@ -97,7 +97,7 @@
     border-radius: 30px;
     animation: focus-in-contract 1s ease 0s 1 normal none;
     height: auto;
-    height: 87vh;
+    object-fit: cover;
 
 }
 @keyframes focus-in-contract {
@@ -112,23 +112,7 @@
     }
 }
 
-@media screen and (max-width:1880px) {
-    .bg1{
-        height: 90vh;
-    }
 
-}
-@media screen and (max-width:1380px) {
-    .bg1{
-        height: 96vh;
-    }
-
-}
-@media screen and (max-width:1280px) {
-    .bg1{
-        height: 94vh;
-    }
-}
 @media (max-width: 1200px) {
     .card, .cardHover {
         padding: 20px;

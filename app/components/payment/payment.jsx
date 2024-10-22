@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import style from "./payment.module.css";
 import { RiSettings2Line } from "react-icons/ri";
 import Image from "next/image";
-import bg1 from "../assets/images/h1_showcase1.jpg";
-import bg2 from "../assets/images/h1_showcase2.png";
-import bg3 from "../assets/images/h1_showcase3.png";
-import bg4 from "../assets/images/h1_showcase4.png";
-import bg5 from "../assets/images/h1_showcase5.png";
+import bg1 from "../assets/images/h1.jpg";
+import bg2 from "../assets/images/h2.png";
+import bg3 from "../assets/images/h3.png";
+import bg4 from "../assets/images/h4.png";
+import bg5 from "../assets/images/h5.png";
 import { MdOutlinePayment } from "react-icons/md";
 
 const payment = () => {
