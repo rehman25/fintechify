@@ -96,26 +96,26 @@ export default function Header() {
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <AiFillAppstore />
+                                        <AiFillAppstore color="#1e8bf6" />
                                         <div>
                                             <Link href="/Banking-app-development">Banking App Development <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <CiWallet />
+                                        <CiWallet color="#1e8bf6" />
                                         <div>
                                             <Link href="/Digital-wallet-development">Digital Wallet Development <WiDirectionUpRight /></Link>
                                             {/* <span>The power of seamless banking</span> */}
                                         </div>
                                     </li>
                                     <li>
-                                        <SiBmcsoftware />
+                                        <SiBmcsoftware color="#1e8bf6" />
                                         <div>
                                             <Link href="/Insurance-software-development">Insurance Software Development <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <CiLock />
+                                        <CiLock color="#1e8bf6" />
                                         <div>
                                             <Link href="/cybersecurity">Cybersecurity <WiDirectionUpRight /></Link>
                                         </div>
@@ -125,19 +125,19 @@ export default function Header() {
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <MdOutlineDesignServices />
+                                        <MdOutlineDesignServices color="#1e8bf6" />
                                         <div>
                                             <Link href="/finops-services">FinOps Services <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <GiFlatPlatform />
+                                        <GiFlatPlatform color="#1e8bf6" />
                                         <div>
                                             <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <GiPlatform />
+                                        <GiPlatform  color="#1e8bf6"/>
                                         <div>
                                             <Link href="/decentralized-finance-defi-platform">Decentralized Finance Platform <WiDirectionUpRight /></Link>
                                         </div>
@@ -147,19 +147,19 @@ export default function Header() {
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <GrIntegration />
+                                        <GrIntegration color="#1e8bf6" />
                                         <div>
                                             <Link href="/integration-services">Integration Services <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <GrResources />
+                                        <GrResources color="#1e8bf6" />
                                         <div>
                                             <Link href="/resource-augmentation">Resource Augmentation <WiDirectionUpRight /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <FaExchangeAlt />
+                                        <FaExchangeAlt color="#1e8bf6" />
                                         <div>
                                             <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
                                         </div>

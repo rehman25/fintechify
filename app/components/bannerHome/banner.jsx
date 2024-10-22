@@ -91,7 +91,7 @@ const Banner = () => {
                   Empowering Financial Futures
                 </h1>
                 <div className={style.picture}>
-                  <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
+                  {/* <div className={style.people} data-aos="fade-up" data-aos-duration="1500">
                     <Image src={head1} alt="Head 1" className={style.head1} />
                     <Image src={head2} alt="Head 2" className={style.head2} />
                     <Image src={head3} alt="Head 3" className={style.head3} />
@@ -99,7 +99,7 @@ const Banner = () => {
                       <h4>29.5M</h4>
                       <h6>Most Active User</h6>
                     </span>
-                  </div>
+                  </div> */}
                   <div className={style.star} data-aos="fade-up" data-aos-duration="1000">
                     <Image src={head4} alt="Head 4" className={style.head4} />
                     <span>
