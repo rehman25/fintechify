@@ -1,7 +1,7 @@
 
 .container{background: #FDFEFF;}
 .financialText {
-  text-align: left;
+  text-align: right;
 }
 
 /* Right column background and phone image styling */
@@ -38,9 +38,9 @@
 
 .financialText p {
   line-height: normal;
-  font-weight: 400;
+  font-weight: 500;
   color: gray;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .percent1 {
@@ -48,7 +48,7 @@
   align-items: center;
   border-bottom: 1px solid #E2E4EF;
   padding-bottom: 10px;
-  padding-right: 100px;
+  padding-left: 70px;
 }
 
 .percent1 h3 {
@@ -86,8 +86,7 @@
 
 /* Section background */
 .section {
-  background-color: #1f96fc;
-
+  background: linear-gradient(90deg, #082AC9 , #1F96FD);
   padding: 0px 0;
 }
 
@@ -97,8 +96,6 @@
   transform: rotateZ(2deg);
   overflow-x: hidden;
   padding: 30px 0;
-  display: flex;
-  align-items: center;
 }
 
 .containerFluid h4 {
@@ -109,30 +106,34 @@
 
 .marqueeWrapper {
   overflow: clip;
-  /* margin-top: 35px; */
+  margin-top: 35px;
 }
 
 .marquee {
   display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   animation-name: infiniteScroll;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  animation-play-state: running;
   cursor: pointer;
 }
-.marquee:hover{
+/* .marquee:hover{
   animation-play-state: paused;
-}
+} */
 
 /* Animation for scrolling marquee */
 @keyframes infiniteScroll {
   from {
-    transform: translateX(0)
+    transform: translate(100%);
   }
 
   to {
-    transform: translateX(-50%)
+    transform: translateX(-100%)
   }
 }
 
@@ -149,9 +150,8 @@
 
 .brand {
   margin: 0px 25px;
-  height: 19vh;
-  width: 50vw;
-  /* filter: invert(1); */
+  height: 67px;
+  width: 47%;
 }
 
 .OneApp {

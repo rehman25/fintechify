@@ -4,10 +4,8 @@ import Phone1 from "../assets/images/finPhone.png";
 import { BsLightningCharge } from "react-icons/bs";
 import { RiBuilding3Fill } from "react-icons/ri";
 import Brand1 from "../assets/images/FINTECHIFY_1-3.png";
-import Brand2 from "../assets/images/FINTECHIFY_1-3.png";
-import Brand3 from "../assets/images/FINTECHIFY_1-3.png";
-import Brand4 from "../assets/images/FINTECHIFY_1-3.png";
-import Brand5 from "../assets/images/FINTECHIFY_1-3.png";
+import { RiSecurePaymentLine } from "react-icons/ri";
+
 
 const FinancialComponent = () => {
   return (
@@ -42,7 +40,7 @@ const FinancialComponent = () => {
                 </div>
                 <div className={`me-5 text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
-                    <BsLightningCharge className={styles.eletric} />
+                    <RiSecurePaymentLine className={styles.eletric} />
                     <h3>100%</h3>
                   </span>
                   <p>
@@ -67,21 +65,133 @@ const FinancialComponent = () => {
 
       <section className={`mt-5 ${styles.section}`}>
         <div className={`container-fluid ${styles.containerFluid}`}>
-          {/* <h4>Trusted by industry-leading companies around the globe</h4> */}
+          {/* <h4 className="text-center">Trusted by industry-leading companies around the globe</h4> */}
           <div className={styles.marqueeWrapper}>
             <div className={styles.marquee}>
               <div className={styles.marqueeContent}>
                 <Image src={Brand1} alt="Brand 1" className={styles.brand} />
-                <Image src={Brand2} alt="Brand 2" className={styles.brand} />
-                <Image src={Brand2} alt="Brand 2" className={styles.brand} />
-
-                
-                {/* <Image src={Brand3} alt="Brand 3" className={styles.brand} />
-                <Image src={Brand4} alt="Brand 4" className={styles.brand} />
-                <Image src={Brand5} alt="Brand 5" className={styles.brand} />
                 <Image src={Brand1} alt="Brand 1" className={styles.brand} />
-                <Image src={Brand2} alt="Brand 2" className={styles.brand} />
-                <Image src={Brand3} alt="Brand 3" className={styles.brand} /> */}
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
               </div>
             </div>
           </div>
