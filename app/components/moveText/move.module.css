@@ -1,0 +1,119 @@
+.left {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  transform: rotateZ(-7deg);
+  overflow: hidden;
+}
+
+.container {
+  overflow-x: clip;
+  cursor: pointer;
+}
+
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+.left span {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1em;
+  background: linear-gradient(90deg, #082ac9 0%, #1F96FC 51%, #082ac9 100%) 0 / 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  overflow-x: clip;
+  box-shadow: none;
+  text-decoration: none;
+  animation-name: LeftScrolling;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes LeftScrolling {
+  from {
+    transform: translateX(-50%)
+  }
+
+  to {
+    transform: translateX(0)
+  }
+}
+
+.right {
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  transform: rotateZ(-7deg);
+  overflow: hidden;
+}
+
+
+/* Animation for scrolling marquee */
+.right span {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1em;
+  background: linear-gradient(90deg, #082ac9 0%, #1F96FC 51%, #082ac9 100%) 0 / 200%;
+
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  color: #ffffff;
+  overflow-x: clip;
+  animation-name: rigntScrolling;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rigntScrolling {
+  from {
+    transform: translateX(0)
+  }
+
+  to {
+    transform: translateX(-50%)
+  }
+}
+
+/* .right span:hover {
+  animation-play-state: paused;
+}
+
+.left span:hover {
+  animation-play-state: paused;
+} */
+
+@media screen and (max-width:480px) {
+  .right{
+    margin: 0;
+  }
+  .left span {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: unset !important;
+    animation-duration: 7s;
+    transform: rotate(-3deg);
+  }
+  .right span {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5 !important;
+    animation-duration: 7s;
+    transform: rotate(-3deg);
+  }
+}
